@@ -19,10 +19,19 @@
     <item>
       <title>Archives</title>
       <link>https://eka2499.github.io/archives/</link>
-      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 25 Jan 2022 00:00:00 +0000</pubDate>
       
       <guid>https://eka2499.github.io/archives/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Documents</title>
+      <link>https://eka2499.github.io/documents/</link>
+      <pubDate>Tue, 25 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://eka2499.github.io/documents/</guid>
+      <description>TEST! Now updated again! There will be text</description>
     </item>
     
     <item>
@@ -31,9 +40,11 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://eka2499.github.io/links/</guid>
-      <description>To use this feature, add links section to frontmatter.
+      <description>[THIS PAGE IS UNDER CONSTRUCTION]
+There will be links and documents here. Mostly documents, but also nice links if needed &amp;lt;3
+To use this feature, add links section to frontmatter.
 This page&amp;rsquo;s frontmatter:
-links:- title:GitHubdescription:GitHub is the world&amp;#39;s largest software development platform.website:https://github.comimage:https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png- title:TypeScriptdescription:TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.website:https://www.typescriptlang.orgimage:ts-logo-128.jpgimage field accepts both local and external images.</description>
+links:- title:GitHubdescription:GitHub is the world&amp;#39;s largest software development platform.website:https://github.comimage:https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png- title:TypeScriptdescription:TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.website:https://www.typescriptlang.orgimage:ts-logo-128.jpg`</description>
     </item>
     
     <item>

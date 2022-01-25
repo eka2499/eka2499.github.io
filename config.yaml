@@ -40,7 +40,7 @@ params:
 
     sidebar:
         emoji: 🍥
-        subtitle: Elias Klakken Angelsen - Algebraic topologist and sailor in Trondheim
+        subtitle: Elias Klakken Angelsen
         avatar:
             enabled: true
             local: true
@@ -187,15 +187,21 @@ menu:
     social:
         - identifier: github
           name: GitHub
-          url: https://github.com/CaiJimmy/hugo-theme-stack
+          url: https://github.com/eka2499
           params:
             icon: brand-github
             
-        - identifier: twitter
-          name: Twitter
-          url: https://twitter.com
+        - identifier: linkedin
+          name: Linkedin
+          url: https://www.linkedin.com/in/elias-klakken-angelsen-196675152/
           params:
-            icon: brand-twitter
+            icon: linkedin
+
+        - identifier: researchgate
+          name: Researchgate
+          url: https://www.researchgate.net/profile/Elias-Angelsen-2
+          params:
+            icon: flask2
 
 related:
     includeNewer: true
