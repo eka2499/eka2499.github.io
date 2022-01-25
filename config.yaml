@@ -40,12 +40,11 @@ params:
 
     sidebar:
         emoji: 🍥
-        subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        subtitle: Elias Klakken Angelsen - Algebraic topologist and sailor in Trondheim
         avatar:
             enabled: true
             local: true
-            src: img/avatar.png
-
+            src: img/elias.jpg
     article:
         math: false
         toc: true
@@ -55,7 +54,7 @@ params:
             default: Licensed under CC BY-NC-SA 4.0
 
     comments:
-        enabled: true
+        enabled: false
         provider: disqus
 
         disqusjs:
