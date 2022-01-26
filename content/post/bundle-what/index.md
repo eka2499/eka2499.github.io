@@ -14,9 +14,10 @@ categories = [
     "Math",
 ]
 series = ["Bundle series"]
-aliases = ["migrate-from-jekyl"]
+aliases = ["splasher"]
 image = "splasher.jpg"
 math = true
+draft = true
 +++
 
 ## Return of the calculus
