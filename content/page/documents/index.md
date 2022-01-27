@@ -18,14 +18,14 @@ math: true
 
 [This page is under construction]
 
-## Writing:
 
-### Write-ups and lecture notes
+
+## Write-ups and lecture notes
 | Title  | Remarks  | Link  |
 |--|--|--|
-| Equivariant $K$-theory and representation rings | Unfinished - Scribbles connecting different concepts to a [talk](https://drive.google.com/file/d/1BeTJZbsee2I8fXUUh9Ugm0tAZRrONPTW/view?usp=sharing) | [Link](https://drive.google.com/file/d/117cQV8MW43susCcki_1LBLCA7MGWWeUd/view?usp=sharing)|
+| Equivariant $K$-theory and representation rings | Unfinished notes expanding on topics from the Bergen 2021 [talk](https://drive.google.com/file/d/1BeTJZbsee2I8fXUUh9Ugm0tAZRrONPTW/view?usp=sharing) | [Link](https://drive.google.com/file/d/117cQV8MW43susCcki_1LBLCA7MGWWeUd/view?usp=sharing)|
 
-### $\Delta t$ articles
+## $\Delta t$ articles
 $\Delta t$ is the newspaper of the student association Delta, which is the association for students in mathematics and/or physics at NTNU. We mostly write in quite unformal articles in Norwegian, and hence most of the articles below are in Norwegian.
 
 | Title | Remarks | Link |
@@ -37,18 +37,21 @@ $\Delta t$ is the newspaper of the student association Delta, which is the assoc
 |Hva vil det si å studere?|Fadderspesialen/Buddy Week Special 2021 - Joint with Mathias (updated from 2020) | [Link](https://drive.google.com/file/d/1g1PdVtbzmFsNe4weuIi1Fc55Hv0cGm28/view?usp=sharing)|
 |Tensor som tensor|Edition 34|[Link](https://drive.google.com/file/d/147jefQdaTde6OR2OocHDFHyCOGcdcVpu/view?usp=sharing)|
 
-### Other writing
+## Other writing
 
 | Title | Remarks | Link |
 |--|--|--|
-| The K-theory and Morita equivalence classes of noncommutative tori | Bachelor thesis | [Link](https://fagkom.github.io/posts/angelsen-elias/)|
+| The $K$-theory and Morita equivalence classes of noncommutative tori | Bachelor thesis | [Link](https://fagkom.github.io/posts/angelsen-elias/)|
 
 
-## Speaking:
-
-### Talks about mathematics
+## Talks about mathematics
 | Where | Description | When  | Extra |
 |--|--|--|--|
-|x|x|x|x|
+|[Student seminar 2021](https://folk.ntnu.no/torgeaam/speaking/student-seminar-2021/)|Presentatation of my unfinished bachelor thesis at the end of a master thesis presentation seminar|21.04.2021|[Link (slides may be shitty)](https://drive.google.com/file/d/1SvGab_Dnc_XDoFzaRTwB11z08MUjgzja/view?usp=sharing)|
+|NTNU|Presentation of bachelor thesis|04.06.2021|[Link to slides](https://drive.google.com/file/d/13SZ47KYI06hO3U1xckEreqX1eAlwZbvj/view?usp=sharing)|
+|[Master/PhD-seminar on tensor-triangulated geometry](https://wiki.math.ntnu.no/ma3001/2021h/ttg/start)|On the classification of tensor-triangulated ideals|24.09.2021|[Link to shitty handwritten notes](https://drive.google.com/file/d/1gW7770jIVcdsUgZJRkAFFs4srygaiHig/view?usp=sharing)|
+|[Master seminar on topological data analysis](https://wiki.math.ntnu.no/ma3001/2021h/tda/start)|Persistent cohomology and circular parameterisation|20.10.2021|[Link to shitty handwritten notes](https://drive.google.com/file/d/1D3kZb1VEz3ceih1cBODSmlEl2EU_COa5/view?usp=sharing)|
+|Uni. of Bergen through a rep theory course at Uni. of Tromsø|Equivariant $K$-theory and representation rings - Joint with Anders, Erlend, Olai and Thomas|24.11.2021|[Link to slides](https://drive.google.com/file/d/1BeTJZbsee2I8fXUUh9Ugm0tAZRrONPTW/view?usp=sharing)|
 
-
+## Other talks
+I have also held a number of different non-mathematical talks, but I do not have a complete list. The list of the coolest talks the last years would include motivational talks about studying mathematics at my local high school in 2019, hosting a webinar on studying mathematics in 2020 and giving a "experience based" course on how to study mathematics at the 2021 entry week for new students.
