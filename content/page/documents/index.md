@@ -54,4 +54,4 @@ $\Delta t$ is the newspaper of the student association Delta, which is the assoc
 |Uni. of Bergen through a rep theory course at Uni. of Tromsø|Equivariant $K$-theory and representation rings - Joint with Anders, Erlend, Olai and Thomas|24.11.2021|[Link to slides](https://drive.google.com/file/d/1BeTJZbsee2I8fXUUh9Ugm0tAZRrONPTW/view?usp=sharing)|
 
 ## Other talks
-I have also held a number of different non-mathematical talks, but I do not have a complete list. The list of the coolest talks the last years would include motivational talks about studying mathematics at my local high school in 2019, hosting a webinar on studying mathematics in 2020 and giving a "experience based" course on how to study mathematics at the 2021 entry week for new students.
+I have also held a number of different non-mathematical talks, but I do not have a complete list. The list of the coolest talks the last years would include motivational talks about studying mathematics at my local high school in 2019, hosting webinars on studying mathematics for high schoolers in 2020 and giving an "experience based" course on how to study mathematics at the 2021 entry week for new students.
