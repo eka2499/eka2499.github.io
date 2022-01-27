@@ -1,6 +1,6 @@
 ---
 title: Documents
-description: Documents [Page not finished]
+description: Documents
 date: '2022-01-25'
 aliases:
   - about-us
@@ -15,4 +15,6 @@ menu:
             icon: notebook
 ---
 
-TEST! Now updated again! There will be text
+[This page is under construction]
+
+Here I post things I have written, notes or slides from presentations I have held and other documents.
