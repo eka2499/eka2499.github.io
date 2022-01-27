@@ -33,12 +33,12 @@ Apart from studying mathematics, I have been working a lot at the university, bo
 If I am not doing anything "productive", I am usually bouldering, acting or sailing the best sailboat in the Trondheim area, which is a 34 foot Sweden Yatch C34 called "SY MARLEN" that I bought with a friend.
 
 
-### What is this blog? 
+### What is this blog for? 
 This website/blog was set up by a friend of mine, Torgeir Aambø, who is doing a PhD in tensor-triangulated geometry and also runs a blog on mathematics. I recommend you to check it out. A link can be found on the [links]({{< ref "/page/links" >}} "Links") page.
 
 The aim of the blog is to explore mathematics. For more information on what you can expect from the posts and the mathematical content, please see the initial post on the [home page]({{< ref "/" >}} "Home").
 
 
-### A small "curriculum vitae"
+## A small "curriculum vitae"
 
 [To be updated]

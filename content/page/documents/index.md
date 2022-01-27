@@ -13,8 +13,31 @@ menu:
         weight: -90
         params:
             icon: notebook
+math: true
 ---
 
 [This page is under construction]
 
-Here I post things I have written, notes or slides from presentations I have held and other documents.
+## Writing:
+
+### Write-ups and lecture notes
+| Title                       | Remarks              | Link        |
+|-----------------------------|----------------------|-------------|
+| Equivariant $K$-theory and representation rings | Unfinished - Scribbles connecting different concepts to a talk | [here](https://drive.google.com/file/d/117cQV8MW43susCcki_1LBLCA7MGWWeUd/view?usp=sharing)|
+
+Title - Remarks - Link
+
+### Other writing
+Title - Remarks - Link
+
+### Delta t articles
+What is Deltat? Note: Norwegian, unformal, lol
+
+Title - Remarks - Link
+
+
+## Speaking:
+
+### Talks about mathematics
+Where/Descr/When/Extras
+
