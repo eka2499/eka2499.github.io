@@ -38,7 +38,7 @@ His blog, which I recommend to everyone interested in mathematics, or more parti
 ## Who am I then?
 
 As you may have guessed, I am a mathematician. More precisely, I am a Norwegian student in mathematics at NTNU, and at the time of writing this blog post (Jan 2022), I am in the middle of my fourth year. That is, I started my bachelor's degree in 2018, finished it in 2021 and started my master's degree, which I expect to finish in 2023.
-My name is Elias Klakken Angelsen and I (mainly) do algebraic topology. When I am not messing around (e.g. working, reading, writing, acting) at NTNU, I enjoy a lot of different activities (e.g. bouldering and climbing).
+My name is Elias Klakken Angelsen and I (mainly) do algebraic topology. When I am not messing around (e.g. working, reading, writing, acting) at NTNU, I enjoy a lot of different activities (e.g. bouldering and sailing).
 You can read more [about me here]({{< ref "/page/about-me" >}} "About me").
 
 ## What will I be writing about here?
