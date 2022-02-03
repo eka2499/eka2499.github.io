@@ -6,7 +6,25 @@
     <description>Recent content in Categories on Exploring mathematics</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 27 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://eka2499.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 02 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://eka2499.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Math</title>
+      <link>https://eka2499.github.io/categories/math/</link>
+      <pubDate>Wed, 02 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://eka2499.github.io/categories/math/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spectral sequences</title>
+      <link>https://eka2499.github.io/categories/spectral-sequences/</link>
+      <pubDate>Wed, 02 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://eka2499.github.io/categories/spectral-sequences/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Non-mathematical posts</title>
       <link>https://eka2499.github.io/categories/non-mathematical-posts/</link>

@@ -6,14 +6,14 @@
     <description>Recent content in Math on Exploring mathematics</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 25 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://eka2499.github.io/categories/math/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 02 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://eka2499.github.io/categories/math/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Some introduction to bundles</title>
-      <link>https://eka2499.github.io/p/some-introduction-to-bundles/</link>
-      <pubDate>Tue, 25 Jan 2022 00:00:00 +0000</pubDate>
+      <title>Spectral sequences and multicomplexes - Part I</title>
+      <link>https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-i/</link>
+      <pubDate>Wed, 02 Feb 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://eka2499.github.io/p/some-introduction-to-bundles/</guid>
-      <description>Return of the calculus Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc mattis enim ut tellus elementum sagittis vitae. Euismod lacinia at quis risus. Vitae auctor eu augue ut lectus arcu bibendum at varius. Venenatis urna cursus eget nunc scelerisque viverra. A scelerisque purus semper eget duis at. Tristique sollicitudin nibh sit amet commodo nulla. Arcu cursus vitae congue mauris rhoncus aenean vel.</description>
+      <guid>https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-i/</guid>
+      <description>A year ago, I took a course on algebraic topology at NTNU where we covered some homotopy theory, spectral sequences, bundle theory and characteristic classes. Most of the topics stuck with me, and I have been exploring them a bit after the course. The part on spectral sequences grew on me, and at the end of the course, that part fascinated me the most, as they give a puzzle-style way of computing homology and cohomology.</description>
     </item>
     
   </channel>

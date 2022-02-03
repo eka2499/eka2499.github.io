@@ -6,7 +6,16 @@
     <description>Recent content in Posts on Exploring mathematics</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 27 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://eka2499.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 02 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://eka2499.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spectral sequences and multicomplexes - Part I</title>
+      <link>https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-i/</link>
+      <pubDate>Wed, 02 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-i/</guid>
+      <description>A year ago, I took a course on algebraic topology at NTNU where we covered some homotopy theory, spectral sequences, bundle theory and characteristic classes. Most of the topics stuck with me, and I have been exploring them a bit after the course. The part on spectral sequences grew on me, and at the end of the course, that part fascinated me the most, as they give a puzzle-style way of computing homology and cohomology.</description>
+    </item>
+    
     <item>
       <title>Hello Blog!</title>
       <link>https://eka2499.github.io/p/hello-blog/</link>
