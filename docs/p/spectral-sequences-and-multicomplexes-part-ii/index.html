@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='We continue our exposition of spectral sequences with proving the convergence of the Leray-Serre spectral sequence and computing an example.'><title>Spectral sequences and multicomplexes - Part II</title>
+
+<link rel='canonical' href='https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-ii/'>
+
+<link rel="stylesheet" href="/scss/style.min.1b3ac667198cb83edcc9c45e606a6f4dd6910b8ada6b74d7fd988f1b2dfd0c7c.css"><meta property='og:title' content='Spectral sequences and multicomplexes - Part II'>
+<meta property='og:description' content='We continue our exposition of spectral sequences with proving the convergence of the Leray-Serre spectral sequence and computing an example.'>
+<meta property='og:url' content='https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-ii/'>
+<meta property='og:site_name' content='Exploring mathematics'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Algebraic Topology' /><meta property='article:tag' content='Spectral sequences' /><meta property='article:tag' content='Fibrations' /><meta property='article:tag' content='Multicomplexes' /><meta property='article:tag' content='Reading a master thesis' /><meta property='article:tag' content='Mathematics' /><meta property='article:published_time' content='2022-02-03T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2022-02-03T00:00:00&#43;00:00'/><meta property='og:image' content='https://eka2499.github.io/images/SpecSeqds2.png' />
+<meta name="twitter:title" content="Spectral sequences and multicomplexes - Part II">
+<meta name="twitter:description" content="We continue our exposition of spectral sequences with proving the convergence of the Leray-Serre spectral sequence and computing an example."><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://eka2499.github.io/images/SpecSeqds2.png' />
+    </head>
+    <body class="
+    article-page has-toc
+">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex 
+    
+        extended
+    
+">
+    
+        <div id="article-toolbar">
+            <a href="/" class="back-home">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="15 6 9 12 15 18" />
+</svg>
+
+
+
+                <span>Back</span>
+            </a>
+        </div>
+    
+<main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/p/spectral-sequences-and-multicomplexes-part-ii/">
+                
+                    <img src="/images/SpecSeqds2.png" loading="lazy" alt="Featured image of post Spectral sequences and multicomplexes - Part II" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/spectral-sequences/" >
+                Spectral sequences
+            </a>
+        
+            <a href="/categories/math/" >
+                Math
+            </a>
+        
+    </header>
+    
+
+    <h2 class="article-title">
+        <a href="/p/spectral-sequences-and-multicomplexes-part-ii/">Spectral sequences and multicomplexes - Part II</a>
+    </h2>
+
+    
+    <h3 class="article-subtitle">
+        We continue our exposition of spectral sequences with proving the convergence of the Leray-Serre spectral sequence and computing an example.
+    </h3>
+    
+
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Feb 03, 2022</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    7 minute read
+                </time>
+            </div>
+        
+    </footer>
+    
+</div>
+</header>
+
+    <section class="article-content">
+    
+    
+    <p><strong>Fix the title, tags, cats, front image, reading through, etc..</strong></p>
+<p>Welcome back! In the previous post, we took a brief look at spectral sequences and how we could get them from filtered complexes.
+In this post, we will prove the convergence of the Leray-Serre (LS) spectral sequence using techiques from homotopy theory, explore the more general approach of finding spectral sequences through derived couples and last, but not least, we will compute a quite illustrative example.
+We have not yet gone outside the curriculum from the <a class="link" href="https://wiki.math.ntnu.no/ma3408/2021v/start"  target="_blank" rel="noopener"
+    >course</a> I took last year, as we both proved the LS-sequence converged and we mentioned (although briefly) exact couples a bit. Nevertheless, I want to explore these topics, to really understand them.
+If you just want to see the computation, feel free to skip to the last chapter.</p>
+<h2 id="proving-the-convergence-of-the-leray-serre-spectral-sequence-using-homotopy-theory">Proving the convergence of the Leray-Serre spectral sequence using homotopy theory</h2>
+<p>We start by proving the theorem we stated in the previous post using the method of constructing a spectral sequence from a filtered complex.</p>
+<p><strong>Theorem: (The Leray-Serre Spectral Sequence)</strong></p>
+<p>Assume $F \hookrightarrow E \to B$ is a fibration where $\pi_0(E) = 0$ and $\pi_1(B)=0$ (even better, assume that $\pi_1(B)$ acts trivially on $H_*(F)$ and the result still holds).</p>
+<p>Then there is a convergent first quadrant spectral sequence with $E^2$-page given by
+$$ E^2_{p,q} = H_p(B;H_q(F)) \Rightarrow H_{p+q}(E).$$</p>
+<p><em><strong>Proof:</strong> (Following <a class="link" href="https://r0hilp.github.io/assets/docs/serre_spectral_sequence.pdf"  target="_blank" rel="noopener"
+    >this</a> article)</em></p>
+<p>We are given a fibration $p: E \to B$ with fiber $F$. For simplicity&rsquo;s sake, assume $B$ is a CW-complex. Strictly speaking, this <a class="link" href="https://pi.math.cornell.edu/~hatcher/AT/AT-CWapprox.pdf"  target="_blank" rel="noopener"
+    >can be done</a> as every space we are interested in at the moment can be considered to be weakly equivalent to a CW-complex.
+Let $B^p$ denote the $p$-skeleton. Take the singular chain complex of $E$, $C_* (E)$ and define a filtration on this complex.</p>
+<p>How? Well, we want to understand how it changes <em>levelwise</em>, that is, how it changes when going from $B^{p-1}$ to $B^{p}$.
+We could take the relative chains $C_* (B^p,B^{p-1})$ to be some sort of graded, but as $B^p$ and $B^{p-1}$ does not really live in $E$, and hence, we are not working with $C_* (E)$. If we remember that we have the fibration $p: E \to B$, we can just pull these skeleta back through $p$.
+Then, define $G_pC_* (E) = C_* (p^{-1}(B^p),p^{-1}(B^{p-1}))$ to be the associated graded complex. Indeed, if we just took the simple route and started with the filtration $F_pC_* (E) = C_* (p^{-1}(B^p))$, we will retrieve the same associated graded complex!</p>
+<p>By computing homology, we achieve the entries in the $E^1$-page as</p>
+<p>$$E_{p, q}^{1}=H_{p+q}\left(p^{-1}\left(B^p\right), p^{-1}\left(B^{p-1}\right)\right).$$</p>
+<p>The differential is achieved the same way as last time, where we composed two maps coming from different long exact sequences in homology. That is, $d_1$ is the composition</p>
+<p>$$H_{p+q}\left(p^{-1}\left(B^{p}\right), p^{-1}\left(B^{p-1}\right)\right) \rightarrow H_{p+q-1}\left(p^{-1}\left(B^{p-1}\right)\right)$$
+$$ \rightarrow H_{p+q-1}\left(p^{-1}\left(B^{p-1}\right), p^{-1}\left(B^{p-2}\right)\right).$$</p>
+<p>We can of course just continue finding the rest of the pages and their differentials, as this will converge to $H_{p+q}(C_* (E)) = H_{p+q}(E)$ due to the fact that we built our filtration on $p^{-1}(B^p)$, which will increase to $E$ as $p$ increases,
+but this does not reference the explicit construction of the $E^2$-page that should be quite easy to compute.
+Hence, we are going to show that the $E^2$-page can be written quite explicitely as $E^2_{p,q} = H_p(B;H_q(F))$.</p>
+<p>This is defintitely the <a class="link" href="https://en.wikipedia.org/wiki/Crux_%28climbing%29"  target="_blank" rel="noopener"
+    >crux</a> of the proof (for us), as we would need to show that the $E^1$-page consists of the cellular chain group $C_{p}^{C W}\left(B ; H_{q}(F)\right)$, as this would yield the wanted $E^2$-page.
+This in turn follows from the fact that cellular homology coincides with singular homology.</p>
+<p>Note that we have</p>
+<p>$$C_p^{CW}(B;H_q(F)) \cong H_p(B^p, B^{p-1}) \otimes H_q(F) $$</p>
+<p>by the <a class="link" href="https://topospaces.subwiki.org/wiki/Cellular_chain_complex"  target="_blank" rel="noopener"
+    >definition</a> of the cellular chains with coefficients.</p>
+<p>It is known to the barely <a class="link" href="https://www.dictionary.com/browse/cognoscenti"  target="_blank" rel="noopener"
+    >cognoscenti</a> that $H_p(B^p, B^{p-1})$ is freely generated by the $p$-cells of $B$, it is isomorphic to copies of a direct sum of $\mathbb{Z}$, indexed over some $\alpha$&rsquo;s.
+Therefore, we have $C_p^{CW}(B;H_q(F)) \cong \oplus_{\alpha}H_q(F)$.</p>
+<p>Now, to analyse this further, consider the characteristic map $\phi_{\alpha}$ of $D_{\alpha}$, that is, the map indicating how to glue on the $p$-cell $D_{\alpha}$ to $B^{p-1}$.</p>
+<p>We can use this, along with the fibration, to consider the following pullback diagram.</p>
+<p><figure 
+	
+		class="gallery-image" 
+		style="
+			flex-grow: 255; 
+			flex-basis: 613px"
+	>
+	<a href="/p/spectral-sequences-and-multicomplexes-part-ii/images/pb-diag.png" data-size="391x153">
+		<img src="/p/spectral-sequences-and-multicomplexes-part-ii/images/pb-diag.png"
+			width="391"
+			height="153"
+			srcset="/p/spectral-sequences-and-multicomplexes-part-ii/images/pb-diag_hu47bff0af36e733b9c8382cdd3179c987_6932_480x0_resize_box_3.png 480w, /p/spectral-sequences-and-multicomplexes-part-ii/images/pb-diag_hu47bff0af36e733b9c8382cdd3179c987_6932_1024x0_resize_box_3.png 1024w"
+			loading="lazy"
+			alt="Pullback diagram along the fibration and the characteristic map of the $p$-cell in question.">
+	</a>
+	
+	<figcaption>Pullback diagram along the fibration and the characteristic map of the $p$-cell in question.</figcaption>
+	
+</figure></p>
+<p>Why is this fun to do? Well, we want to connect the $p$-cells generating the cellular chain groups with $(p^{-1}(B^p), p^{-1}(B^{p-1}))$, and pullbacking may yield some &ldquo;middle ground&rdquo; that we can utilise towards this purpose.
+To keep notation consistent and remember <em>how</em> we glued on $D_{\alpha}$, the preimage $\xi_{\alpha}(S_{\alpha}) = \xi_{\alpha}(\partial D_{\alpha})$ is denoted by $\tilde{S_{\alpha}}$.</p>
+<p>If we consider all the pairs $(\tilde{D_{\alpha}}, \tilde{S_{\alpha}})$, we can map them over to $(p^{-1}(B^p), p^{-1}(B^{p-1}))$ using the $\phi_{\alpha}$&rsquo;s.
+That is, we combine them to one map</p>
+<p>$$\phi^* : \coprod_{\alpha}(\tilde{D_{\alpha}}, \tilde{S_{\alpha}}) \to (p^{-1}(B^p), p^{-1}(B^{p-1})).$$</p>
+<p>In fact, this map of pairs of spaces is actually an isomorphism when passed through $H_{p+q}$.
+This is because we can do a ninja-trick or two, showing that we can apply excision to the right hand side, yielding the same homology groups. We won&rsquo;t go into the details, as the crux (of what we actually show) is behind us.</p>
+<p>The last step involves showing</p>
+<p>$$\oplus_{\alpha}  H_{p+q}(\tilde{D_{\alpha}}, \tilde{S_{\alpha}}) \cong \oplus_{\alpha} H_{q}(F).$$</p>
+<p>To briefly explain why this is true, one can do some tricks making an upper and lower hemisphere of the $\tilde{D_{\alpha}}$&rsquo;s by using the $\xi_{\alpha}$&rsquo;s, denoted by $\tilde{D_{\alpha,-}}$.
+We get the following picture, stolen from <a class="link" href="https://pi.math.cornell.edu/~hatcher/AT/ATch5.pdf"  target="_blank" rel="noopener"
+    >Hatchers chapter on spectral sequences</a>, showing a zig-zag tracing down a simpler version of the homology groups we are after.
+We omit the index $\alpha$, but include a superscript to log which cells we work with.</p>
+<p><figure 
+	
+		class="gallery-image" 
+		style="
+			flex-grow: 831; 
+			flex-basis: 1996px"
+	>
+	<a href="/p/spectral-sequences-and-multicomplexes-part-ii/images/ZigZagHatcher.png" data-size="1206x145">
+		<img src="/p/spectral-sequences-and-multicomplexes-part-ii/images/ZigZagHatcher.png"
+			width="1206"
+			height="145"
+			srcset="/p/spectral-sequences-and-multicomplexes-part-ii/images/ZigZagHatcher_hub6fa9008148993e30a5e58506bbe797a_32778_480x0_resize_box_3.png 480w, /p/spectral-sequences-and-multicomplexes-part-ii/images/ZigZagHatcher_hub6fa9008148993e30a5e58506bbe797a_32778_1024x0_resize_box_3.png 1024w"
+			loading="lazy"
+			alt="The boundary maps yield isomorphisms as $H_{t}(\tilde{D}, \tilde{D_-}) = 0$ for all $t$. The $i_* $&rsquo;s are isomorphisms by excision.">
+	</a>
+	
+	<figcaption>The boundary maps yield isomorphisms as $H_{t}(\tilde{D}, \tilde{D_-}) = 0$ for all $t$. The $i_* $’s are isomorphisms by excision.</figcaption>
+	
+</figure></p>
+<p>The space $H_q(\tilde{D_+^0})$ can be shown to be exactly $H_q(F)$ by utilising the maps $\phi_{\alpha}$, as well as the assumption that $\pi_1(B)$ is trivial, or at least acts trivially on the homology $H_* (F)$.
+We won&rsquo;t delve into it any more, but we refer to <a class="link" href="https://pi.math.cornell.edu/~hatcher/AT/ATch5.pdf"  target="_blank" rel="noopener"
+    >Hatcher</a> for the details.</p>
+<p>Combining the isomorphisms, we get</p>
+<p>$$C_p^{CW}(B;H_q(F)) \cong H_p(B^p, B^{p-1}) \otimes H_q(F) \cong \oplus_{\alpha}H_q(F)$$
+$$\cong \oplus_{\alpha} H_{q}(F) \cong \oplus_{\alpha}  H_{p+q}(\tilde{D_{\alpha}}, \tilde{S_{\alpha}}) \cong  H_{p+q}(\coprod_{\alpha}(\tilde{D_{\alpha}}, \tilde{S_{\alpha}}))$$
+$$ \cong H_{p+q}(p^{-1}(B^p), p^{-1}(B^{p-1})) \cong E_{p,q}^1.$$</p>
+<p>The differential $d_1$ coincides with the cellular boundary map $\partial$ as well, yielding the same homology, hence giving the wanted $E^2$-page!
+We won&rsquo;t show this, as it is quite technical, but it can be found in <a class="link" href="https://pi.math.cornell.edu/~hatcher/AT/ATch5.pdf"  target="_blank" rel="noopener"
+    >Hatchers chapter</a>.
+The same can be said about showing this construction is well-defined with respect to choosing a different CW-approximations to $B$.</p>
+<h2 id="spectral-sequences-from-exact-couples---a-more-general-approach">Spectral sequences from exact couples - A more general approach</h2>
+<p>As we just saw, the previous method of finding the Leray-Serre spectral sequence involved some technical homotopy theory, and that is after we referenced most parts to Hatcher!
+Are there other ways to find such spectral sequences? Yes, indeed, there is an alternative way through <em>exact couples</em>.
+It turns out that we can derive all interesting spectral sequences this way.</p>
+<p>The method is based on the following staircase diagram, which we borrow from <a class="link" href="https://pi.math.cornell.edu/~hatcher/AT/ATch5.pdf"  target="_blank" rel="noopener"
+    >Hatcher</a>.</p>
+<p><figure 
+	
+		class="gallery-image" 
+		style="
+			flex-grow: 422; 
+			flex-basis: 1013px"
+	>
+	<a href="/p/spectral-sequences-and-multicomplexes-part-ii/images/StaircaseHatcher.png" data-size="1204x285">
+		<img src="/p/spectral-sequences-and-multicomplexes-part-ii/images/StaircaseHatcher.png"
+			width="1204"
+			height="285"
+			srcset="/p/spectral-sequences-and-multicomplexes-part-ii/images/StaircaseHatcher_hu3dc15627659668697a845075969662f5_52207_480x0_resize_box_3.png 480w, /p/spectral-sequences-and-multicomplexes-part-ii/images/StaircaseHatcher_hu3dc15627659668697a845075969662f5_52207_1024x0_resize_box_3.png 1024w"
+			loading="lazy"
+			alt="Stapling together long exact sequences yield a staircase diagram with three main players.">
+	</a>
+	
+	<figcaption>Stapling together long exact sequences yield a staircase diagram with three main players.</figcaption>
+	
+</figure></p>
+<p>If we denote $A = \oplus_{n,p} H_n(X_p)$ and $E = \oplus_{n,p} H_n(X_p,X_{p-1})$, we can put this staircase together into one diagram, where the arrows are the ones coming from the staircase drawing.
+Since there are only two objects involved and the diagram is exact in every object, this is called an exact couple.</p>
+<p><figure 
+	
+		class="gallery-image" 
+		style="
+			flex-grow: 388; 
+			flex-basis: 933px"
+	>
+	<a href="/p/spectral-sequences-and-multicomplexes-part-ii/images/ExactCouple.png" data-size="735x189">
+		<img src="/p/spectral-sequences-and-multicomplexes-part-ii/images/ExactCouple.png"
+			width="735"
+			height="189"
+			srcset="/p/spectral-sequences-and-multicomplexes-part-ii/images/ExactCouple_hu1de208ccc46f4c5700c8cf84fef325d9_5661_480x0_resize_box_3.png 480w, /p/spectral-sequences-and-multicomplexes-part-ii/images/ExactCouple_hu1de208ccc46f4c5700c8cf84fef325d9_5661_1024x0_resize_box_3.png 1024w"
+			loading="lazy"
+			alt="An exact couple.">
+	</a>
+	
+	<figcaption>An exact couple.</figcaption>
+	
+</figure></p>
+<p>Something $d=jk$ is exactly the cellular boundary map..</p>
+<h2 id="computing-the-homology-of-omega-sn">Computing the homology of $\Omega S^n$.</h2>
+<p>Perhaps for later articles:
+Spectral sequences from chain complexe
+Spectral sequences from double complexes</p>
+<p>What about multicomplexes?</p>
+<ul>
+<li>Spectral sequences for multicomplexes</li>
+<li>Why may the differentials be wonky? Ref. toy examples in Odins thesis</li>
+<li>Can we do a ninja trick?</li>
+<li>HTTT (Homotopy transfer theorem)</li>
+<li>Shifted seq to understand $d_2$(?)</li>
+<li>Iterated shifts TLDR and higher differentials</li>
+<li>Category SpSeq?</li>
+</ul>
+<p>Also, why would a topologist care?</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/algebraic-topology/">Algebraic Topology</a>
+        
+            <a href="/tags/spectral-sequences/">Spectral sequences</a>
+        
+            <a href="/tags/fibrations/">Fibrations</a>
+        
+            <a href="/tags/multicomplexes/">Multicomplexes</a>
+        
+            <a href="/tags/reading-a-master-thesis/">Reading a master thesis</a>
+        
+            <a href="/tags/mathematics/">Mathematics</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+        <link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.css"integrity="sha384-RZU/ijkSsFbcmivfdRBQDtwuwVqK7GMOw6IMvKyeWL2K5UAlyp6WonmB8m7Jd0Hn"crossorigin="anonymous"
+            ><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.js"integrity="sha384-pK1WpvzWVBQiP0/GjnvRxV4mOb0oxFuyRxJlk6vVw146n3egcN5C925NCP7a7BY8"crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/contrib/auto-render.min.js"integrity="sha384-vZTG03m&#43;2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl"crossorigin="anonymous"
+                defer
+                >
+            </script><script>
+    window.addEventListener("DOMContentLoaded", () => {
+        renderMathInElement(document.querySelector(`.article-content`), {
+            delimiters: [
+                { left: "$$", right: "$$", display: true },
+                { left: "$", right: "$", display: false },
+                { left: "\\(", right: "\\)", display: false },
+                { left: "\\[", right: "\\]", display: true }
+            ]
+        });})
+</script>
+    
+</article>
+
+    
+
+    <aside class="related-contents--wrapper">
+    
+    
+        <h2 class="section-title">Related contents</h2>
+        <div class="related-contents">
+            <div class="flex article-list--tile">
+                
+                    
+<article class="has-image">
+    <a href="/p/spectral-sequences-and-multicomplexes-part-i/">
+        
+        
+            <div class="article-image">
+                <img src="/p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqds2.db73e2d226bb1bc51e88a9454a030e32_hue1e88880d5dd7b5523c442f095bb6ed2_263012_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post Spectral sequences and multicomplexes - Part I"
+                        
+                        data-hash="md5-23Pi0ia7G8UeiKlFSgMOMg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Spectral sequences and multicomplexes - Part I</h2>
+        </div>
+    </a>
+</article>
+                
+            </div>
+        </div>
+    
+</aside>
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2020 - 
+        
+        2022 Exploring mathematics
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.7.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css"integrity="sha256-c0uckgykQ9v5k&#43;IqViZOZKc47Jn7KQil4/MP3ySA3F8="crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css"integrity="sha256-SBLU4vv6CA6lHsZ1XyTdhyjJxCjPif/TRkjnsyGAGnE="crossorigin="anonymous"
+            >
+
+            </main>
+    
+        <aside class="sidebar right-sidebar sticky">
+            <section class="widget archives">
+                <div class="widget-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+                </div>
+                <h2 class="widget-title section-title">Table of contents</h2>
+                
+                <div class="widget--toc">
+                    <nav id="TableOfContents">
+  <ol>
+    <li><a href="#proving-the-convergence-of-the-leray-serre-spectral-sequence-using-homotopy-theory">Proving the convergence of the Leray-Serre spectral sequence using homotopy theory</a></li>
+    <li><a href="#spectral-sequences-from-exact-couples---a-more-general-approach">Spectral sequences from exact couples - A more general approach</a></li>
+    <li><a href="#computing-the-homology-of-omega-sn">Computing the homology of $\Omega S^n$.</a></li>
+  </ol>
+</nav>
+                </div>
+            </section>
+        </aside>
+    
+
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js"integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
