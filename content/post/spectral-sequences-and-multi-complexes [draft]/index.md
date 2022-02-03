@@ -1,7 +1,7 @@
 +++
 author = "Elias Klakken Angelsen"
 title = "Spectral sequences and multicomplexes - Part I"
-date = "2022-02-02"
+date = "2022-02-03"
 description = "We start the blog by diving into a mini-series on spectral sequences, aiming to understand a master thesis on the topic."
 tags = [
     "Algebraic Topology",
@@ -266,7 +266,7 @@ We will not prove this, as the post is already long enough, but we will try to u
 
 
 
-### The main ideas we are after
+### The main idea
 
 
 

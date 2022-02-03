@@ -6,10 +6,10 @@
         <description>Recent content on Exploring mathematics</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Wed, 02 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://eka2499.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 03 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://eka2499.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Spectral sequences and multicomplexes - Part I</title>
         <link>https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-i/</link>
-        <pubDate>Wed, 02 Feb 2022 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 03 Feb 2022 00:00:00 +0000</pubDate>
         
         <guid>https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-i/</guid>
         <description>&lt;img src="https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqds2.png" alt="Featured image of post Spectral sequences and multicomplexes - Part I" /&gt;&lt;p&gt;A year ago, I took a course on algebraic topology at NTNU where we covered some homotopy theory, spectral sequences, bundle theory and characteristic classes.
@@ -247,7 +247,7 @@ We are close to the answer.&lt;/p&gt;
 &lt;p&gt;Wow! On the final page, we can actually find all the steps in the filtration of the homology of $C_ * $!&lt;/p&gt;
 &lt;p&gt;In this situation, we say that $E$ &lt;em&gt;abuts&lt;/em&gt; or &lt;em&gt;converges&lt;/em&gt; to $H_{p+q}(C_ * )$, as in the case of the Leray-Serre spectral sequence.&lt;/p&gt;
 &lt;p&gt;We will not prove this, as the post is already long enough, but we will try to understand a bit where this comes from.&lt;/p&gt;
-&lt;h3 id=&#34;the-main-ideas-we-are-after&#34;&gt;The main ideas we are after&lt;/h3&gt;
+&lt;h3 id=&#34;the-main-idea&#34;&gt;The main idea&lt;/h3&gt;
 &lt;p&gt;It is (almost) natural to take $E_{p,q}^0$ to be $G_pC_{p+q}$. The most natural choice would be to consider $G_pC_q$, but it turns out that everything gets hard if we do that.
 The differential $d_0$ can only be chosen to be the boundary map $E_{p,q}^0 = G_pC_{p+q} \to G_pC_{p+q-1} = E_{p,q-1}^0$.
 Just to see what this would look like, let&amp;rsquo;s bring up the grid again.&lt;/p&gt;
