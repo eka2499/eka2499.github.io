@@ -2,7 +2,7 @@
 author = "Elias Klakken Angelsen"
 title = "Spectral sequences and multicomplexes - Part II"
 date = "2022-02-04"
-description = "We continue our exposition of spectral sequences with proving the convergence of the Leray-Serre spectral sequence and computing an example."
+description = "Something-something exact couples and spectral sequences in different cohomology theories?"
 tags = [
     "Algebraic Topology",
     "Spectral sequences",
@@ -25,7 +25,8 @@ draft = true
 **Fix the title, tags, cats, front image, reading through, etc..**
 
 Welcome back! In the previous post, we took a brief look at spectral sequences and how we could get them from filtered complexes.
-In this post, we will sketch the main ideas in a proof of the convergence of the Leray-Serre (LS) spectral sequence using techiques from homotopy theory, and compute a quite illustrative example.
+In this post, we will prove the convergence of the Leray-Serre (LS) spectral sequence using techiques from homotopy theory, explore the more general approach of finding spectral sequences through derived couples and last, but not least, we will compute a quite illustrative example.
+We have not yet gone outside the curriculum from the [course](https://wiki.math.ntnu.no/ma3408/2021v/start) I took last year, as we both proved the LS-sequence converged and we mentioned (although briefly) exact couples a bit. Nevertheless, I want to explore these topics, to really understand them.
 If you just want to see the computation, feel free to skip to the last chapter.
 
 
@@ -124,9 +125,127 @@ The same can be said about showing this construction is well-defined with respec
 
 
 
+
+
+
+
+
+
+
+
+
+
+## Spectral sequences from exact couples - A more general approach
+As we just saw, the previous method of finding the Leray-Serre spectral sequence involved some technical homotopy theory, and that is after we referenced most parts to Hatcher!
+Are there other ways to find such spectral sequences? Yes, indeed, there is an alternative way through *exact couples*. 
+It turns out that we can derive all interesting spectral sequences this way.
+
+The method is based on the following staircase diagram, which we borrow from [Hatcher](https://pi.math.cornell.edu/~hatcher/AT/ATch5.pdf).
+For this section, let $X$ be a finite dimensional CW-complex.
+
+![The long exact sequences of the pair $(X_p, X_{p-1})$ is visualised as a set of staircase diagrams.](images/StaircaseHatcher.png)
+
+If we denote $M = \oplus_{p,q} H_p+q(X_p)$ and $N = \oplus_{p,q} H_p+q(X_p,X_{p-1})$, we can put these staircases together into one diagram, where the arrows are the ones coming from the staircase drawing. 
+Since there are only two objects involved and the diagram is exact in every object, this is called an exact couple.
+
+![An exact couple.](images/ExactCouple.png)
+
+One can actually note that the vertical maps in the drawing of the staircase diagrams, correspond to the cellular differentials.
+Hence, studying $d=jk$ in the exact couple, could be quite interesting. Indeed, since $kj=0$, we obtain $d^2=jkjk=j0k=0$, meaning we can form the homology group.
+This yields a sequence $\cdots \to N \to N \to N \to \cdots$, where each map is the differential $d=jk$. 
+
+Forming the homology groups, we obtain what we call a *derived couple*.
+
+![The derived couple obtained through homology of the exact couple with differential $d=jk$.](images/DerivedExactCouple.png)
+
+In the derived couple, we try to define things in the "only way" we can, namely as, 
+
+$N' = \frac{Ker d_0}{Im d_0}, \quad M' = Im(i)=Ker(j), \quad i' = i |_{M'}, \quad j'=ji^{-1}, \quad k' = \bar{k},$
+
+where $\bar{k}$ is $k$, but just on homology classes and $i^{-1}$ means picking an element in the preimage.
+These constructions turns out to be well-defined with respect to choosing representatives for the homology classes and preimages, 
+simply by writing out what they should mean and applying exactness. 
+
+By some diagram chasing, it turns out that the derived couple is exact! Hence, homology takes in an exact couple and spits out an exact couple!
+Doing the same procedure with $d'=j'k'$, we can make a new derived couple with entries $M'', N''$ and maps $i'', j'', k''$, yielding an exact sequence!
+
+**Why tf does the diff turn?**
+
+To me, there are a few questions that need to be answered. Does this spectral sequence converge to anything, and why does the differential shift, as we know it should.
+
+
+
+
+### A detour to more general cohomology theories.
+
+**Take one more look at this, understand it pls**
+To explain some of the power of this construction, we have really only used that $H_* $ has a long exact sequence for pairs. 
+Hence, we can actually take any cohomology theory $\mathcal{E}_ * $ and do a similar thing. Strictly speaking, this would give us a *cohomological* spectral sequence looking like
+
+$$E_2^{p, q}=H^p\left(X ; \pi_{-q} \mathcal{E}\right) \Rightarrow \mathcal{E}^{p+q}(X),$$
+
+where $\mathcal{E}$ is the spectra representing the cohomology theory, and the coefficients are given by the homotopy groups of spectra, where we have defined 
+
+$$\pi_k(\mathcal{E})=\operatorname{colim}_{n \rightarrow \infty} \pi _ {n+k} (\mathcal{E}_n)$$
+
+for all $k \in \mathbb{Z}$.
+
+We won't jump into the homotopy theory going on here, but the idea still holds if we ignore working with the coefficients and the convergence.
+
+By defining 
+
+$$M = \oplus_{p, q}\mathcal{E}^ {p+q}(X_ p ), \quad N = \oplus_{p, q}\mathcal{E}^{p+q}(X_p,X _ {p-1} ),$$
+
+and letting the maps come from the setup of a cohomological staircase diagrams. 
+
+In fact, letting $E_{p,q}^1 = \mathcal{E}_ {p+q} (X_p,X _ {p-1}) $ be the first page of the spectral sequence, we can just iterate the construction as mentioned earlier to retrieve a spectral sequence
+in the cohomology theory $ \mathcal{E}_ * $!
+
+
+
+### Leray-Serre through exact couples.
+
+We keep it brief.
+ 
+
+
+
 ## Computing the homology of $\Omega S^n$.
 
 
 
 
-ould a topologist care?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Perhaps for later articles:
+Spectral sequences from chain complexe
+Spectral sequences from double complexes
+
+What about multicomplexes?
+
+
+* Spectral sequences for multicomplexes
+* Why may the differentials be wonky? Ref. toy examples in Odins thesis
+* Can we do a ninja trick?
+* HTTT (Homotopy transfer theorem)
+* Shifted seq to understand $d_2$(?)
+* Iterated shifts TLDR and higher differentials
+* Category SpSeq?
+
+Also, why would a topologist care?
