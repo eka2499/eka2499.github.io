@@ -126,7 +126,30 @@ The same can be said about showing this construction is well-defined with respec
 
 ## Computing the homology of $\Omega S^n$.
 
+To use the Leray-Serre sequence to compute the homology of $\Omega S^n$, we need a fibration where we can put this space.
+The fibration we will use is the path space fibration, namely $\Omega X \to PX \to X$, for a based space $X$.
+The path space $PX$ is given by continuous maps from $[0,1]$ to $X$ sending $0$ to the base point of $X$. The last map in the fibration is then given by evaluating the path in $1$.
+This space is contractible, which is going to be important for our computation. The loop space is the fiber of this map at the basepoint, and is therefore defined as continuous (based) maps $S^1 \to X$.
+
+If we choose $X$ to be an arbitrary sphere $S^n$, we want to try to compute its homology.
+
+Ok, what do we need to do? Well, if we want to use the Leray-Serre spectral sequence, we know that it is given by
+$$ E^2_{p,q} = H_p(B;H_q(F)) \Rightarrow H_{p+q}(E).$$
+
+For this fibration, this would look like
+
+$$ E^2_{p,q} = H_p(S^n;H_q(\Omega S^n)) \Rightarrow H_{p+q}(PS^n) = H_{p+q}( * ).$$
+
+We certainly know the homology of the sphere and the path space, as the path space has the same homology as the point, so we would need to utilise the differentials
+in order to say anything about the homology of $\Omega S^n$.
+
+Now, what does the second page look like? By the universal coefficient theorem, we can find the $E^2$-page.
+The entries on the page is given by $H_q(\Omega S^n)$ if $p=0, n$ and $q \geq 0$, and $0$ elsewhere.
+
+**INSERT E^2-PAGE**
+
+Since this is the $E^2$-page, some magic would need to happen before arriving at the $E^{\infty}$-page.
 
 
 
-ould a topologist care?
+
