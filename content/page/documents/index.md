@@ -52,6 +52,7 @@ $\Delta t$ is the newspaper of the student association Delta, which is the assoc
 |[Master/PhD-seminar on tensor-triangulated geometry](https://wiki.math.ntnu.no/ma3001/2021h/ttg/start)|On the classification of tensor-triangulated ideals|24.09.2021|[Link to shitty handwritten notes](https://drive.google.com/file/d/1gW7770jIVcdsUgZJRkAFFs4srygaiHig/view?usp=sharing)|
 |[Master seminar on topological data analysis](https://wiki.math.ntnu.no/ma3001/2021h/tda/start)|Persistent cohomology and circular parameterisation|20.10.2021|[Link to shitty handwritten notes](https://drive.google.com/file/d/1D3kZb1VEz3ceih1cBODSmlEl2EU_COa5/view?usp=sharing)|
 |Uni. of Bergen through a rep theory course at Uni. of Tromsø|Equivariant $K$-theory and representation rings - Joint with Anders, Erlend, Olai and Thomas|24.11.2021|[Link to slides](https://drive.google.com/file/d/1BeTJZbsee2I8fXUUh9Ugm0tAZRrONPTW/view?usp=sharing)|
+|[Master/PhD-seminar on $\infty$-categories](https://folk.ntnu.no/runegha/seminar.html)|Joyals lifting theorem, consequences and model structures on sSet |18.02.2022| |
 
 ## Other talks
 I have also held a number of different non-mathematical talks, but I do not have a complete list. The list of the coolest talks the last years would include motivational talks about studying mathematics at my local high school in 2019, hosting webinars on studying mathematics for high schoolers in 2020 and giving an "experience based" course on how to study mathematics at the 2021 entry week for new students.

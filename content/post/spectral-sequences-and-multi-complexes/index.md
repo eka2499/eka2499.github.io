@@ -282,7 +282,7 @@ Just to see what this would look like, let's bring up the grid again.
 
 Now, if we take homology with respect to $d_0$, what happens? We define the $E^1$-page!
 
-The $E^1$-page becomes $E^1_{p,q} = H_{p+q}(G_pC_ * )$. If we want to find the differential $d_1$, we couldn't base it on $d_0$, as we already killed of every single image of $d_0$ when taking homology. Nevertheless, there is a way!
+The $E^1$-page becomes $E^1_{p,q} = H_{p+q}(G_pC_ * )$. If we want to find the differential $d_1$, we couldn't base it on $d_0$, as we already killed off every single image of $d_0$ when taking homology. Nevertheless, there is a way!
 Recall that we want to have a map from one of the $E^1_{p,q} = H_{p+q}(G_pC_ * )$ to a $E^1_{p',q'} = H_{p'+q'}(G_{p'}C_ * )$.
 
 If we consider the filtrations we have worked with earlier, we may find something interesting. For example, we can consider the short exact sequences 
