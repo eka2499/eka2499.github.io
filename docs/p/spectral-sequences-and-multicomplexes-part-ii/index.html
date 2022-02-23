@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en-us">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='We continue our exposition of spectral sequences with proving the convergence of the Leray-Serre spectral sequence and computing an example.'><title>Spectral sequences and multicomplexes - Part II</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='We continue our exposition of spectral sequences by proving the convergence of the Leray-Serre spectral sequence, exploring exact couples and computing an example.'><title>Spectral sequences and multicomplexes - Part II</title>
 
 <link rel='canonical' href='https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-ii/'>
 
 <link rel="stylesheet" href="/scss/style.min.1b3ac667198cb83edcc9c45e606a6f4dd6910b8ada6b74d7fd988f1b2dfd0c7c.css"><meta property='og:title' content='Spectral sequences and multicomplexes - Part II'>
-<meta property='og:description' content='We continue our exposition of spectral sequences with proving the convergence of the Leray-Serre spectral sequence and computing an example.'>
+<meta property='og:description' content='We continue our exposition of spectral sequences by proving the convergence of the Leray-Serre spectral sequence, exploring exact couples and computing an example.'>
 <meta property='og:url' content='https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-ii/'>
 <meta property='og:site_name' content='Exploring mathematics'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Algebraic Topology' /><meta property='article:tag' content='Spectral sequences' /><meta property='article:tag' content='Fibrations' /><meta property='article:tag' content='Multicomplexes' /><meta property='article:tag' content='Reading a master thesis' /><meta property='article:tag' content='Mathematics' /><meta property='article:published_time' content='2022-02-03T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2022-02-03T00:00:00&#43;00:00'/><meta property='og:image' content='https://eka2499.github.io/images/SpecSeqds2.png' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Algebraic Topology' /><meta property='article:tag' content='Spectral sequences' /><meta property='article:tag' content='Fibrations' /><meta property='article:tag' content='Multicomplexes' /><meta property='article:tag' content='Reading a master thesis' /><meta property='article:tag' content='Mathematics' /><meta property='article:published_time' content='2022-02-23T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2022-02-23T00:00:00&#43;00:00'/><meta property='og:image' content='https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-ii/images/Front_2.png' />
 <meta name="twitter:title" content="Spectral sequences and multicomplexes - Part II">
-<meta name="twitter:description" content="We continue our exposition of spectral sequences with proving the convergence of the Leray-Serre spectral sequence and computing an example."><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='https://eka2499.github.io/images/SpecSeqds2.png' />
+<meta name="twitter:description" content="We continue our exposition of spectral sequences by proving the convergence of the Leray-Serre spectral sequence, exploring exact couples and computing an example."><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-ii/images/Front_2.png' />
     </head>
     <body class="
     article-page has-toc
@@ -63,8 +63,12 @@
     <header class="article-header">
         <div class="article-image">
             <a href="/p/spectral-sequences-and-multicomplexes-part-ii/">
-                
-                    <img src="/images/SpecSeqds2.png" loading="lazy" alt="Featured image of post Spectral sequences and multicomplexes - Part II" />
+                <img src="/p/spectral-sequences-and-multicomplexes-part-ii/images/Front_2_hud147fe321169f5a988bfa760efd4dec0_61727_800x0_resize_box_3.png"
+                        srcset="/p/spectral-sequences-and-multicomplexes-part-ii/images/Front_2_hud147fe321169f5a988bfa760efd4dec0_61727_800x0_resize_box_3.png 800w, /p/spectral-sequences-and-multicomplexes-part-ii/images/Front_2_hud147fe321169f5a988bfa760efd4dec0_61727_1600x0_resize_box_3.png 1600w"
+                        width="800" 
+                        height="1028" 
+                        loading="lazy"
+                        alt="Featured image of post Spectral sequences and multicomplexes - Part II" />
                 
             </a>
         </div>
@@ -91,7 +95,7 @@
 
     
     <h3 class="article-subtitle">
-        We continue our exposition of spectral sequences with proving the convergence of the Leray-Serre spectral sequence and computing an example.
+        We continue our exposition of spectral sequences by proving the convergence of the Leray-Serre spectral sequence, exploring exact couples and computing an example.
     </h3>
     
 
@@ -108,7 +112,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">Feb 03, 2022</time>
+                <time class="article-time--published">Feb 23, 2022</time>
             </div>
         
 
@@ -123,7 +127,7 @@
 
 
                 <time class="article-time--reading">
-                    7 minute read
+                    15 minute read
                 </time>
             </div>
         
@@ -135,45 +139,50 @@
     <section class="article-content">
     
     
-    <p><strong>Fix the title, tags, cats, front image, reading through, etc..</strong></p>
-<p>Welcome back! In the previous post, we took a brief look at spectral sequences and how we could get them from filtered complexes.
-In this post, we will prove the convergence of the Leray-Serre (LS) spectral sequence using techiques from homotopy theory, explore the more general approach of finding spectral sequences through derived couples and last, but not least, we will compute a quite illustrative example.
-We have not yet gone outside the curriculum from the <a class="link" href="https://wiki.math.ntnu.no/ma3408/2021v/start"  target="_blank" rel="noopener"
-    >course</a> I took last year, as we both proved the LS-sequence converged and we mentioned (although briefly) exact couples a bit. Nevertheless, I want to explore these topics, to really understand them.
-If you just want to see the computation, feel free to skip to the last chapter.</p>
+    <p>Welcome back! In the previous post, we took a brief look at spectral sequences and how we could get them from filtered complexes.
+In this post, we will sketch the main ideas in a proof of the convergence of the Leray-Serre (LS) spectral sequence using techiques from homotopy theory, explore spectral sequences through exact couples and compute an example.</p>
+<p>Originally, I planned to spend more time understanding exact couples and head towards the Adams spectral sequence, but as my friend Torgeir recently wrote <a class="link" href="https://torgeiraamboe.github.io/posts/2022/the-adams-spectral-sequence/"  target="_blank" rel="noopener"
+    >a great post</a>
+on this for his dive into (stable) homotopy theory, we&rsquo;ll just briefly touch on the topic. If you just want to see the computation, feel free to skip to the last chapter.</p>
 <h2 id="proving-the-convergence-of-the-leray-serre-spectral-sequence-using-homotopy-theory">Proving the convergence of the Leray-Serre spectral sequence using homotopy theory</h2>
-<p>We start by proving the theorem we stated in the previous post using the method of constructing a spectral sequence from a filtered complex.</p>
+<p>The statement of the Leray-Serre spectral sequence is quite daunting. How would we go about proving such a thing? It may seem hard.
+We start the post by proving the theorem that we stated in the <a class="link" href="http://localhost:1313/p/spectral-sequences-and-multicomplexes-part-i/"  target="_blank" rel="noopener"
+    >previous post</a> using the method of constructing a spectral sequence from a filtered complex.</p>
 <p><strong>Theorem: (The Leray-Serre Spectral Sequence)</strong></p>
-<p>Assume $F \hookrightarrow E \to B$ is a fibration where $\pi_0(E) = 0$ and $\pi_1(B)=0$ (even better, assume that $\pi_1(B)$ acts trivially on $H_*(F)$ and the result still holds).</p>
+<p>Assume $F \hookrightarrow E \to B$ is a fibration where $\pi_0(E) = 0$ and $\pi_1(B)=0$ (even better, just assume that $\pi_1(B)$ acts trivially on $H_*(F)$ and the result still holds).</p>
 <p>Then there is a convergent first quadrant spectral sequence with $E^2$-page given by
 $$ E^2_{p,q} = H_p(B;H_q(F)) \Rightarrow H_{p+q}(E).$$</p>
-<p><em><strong>Proof:</strong> (Following <a class="link" href="https://r0hilp.github.io/assets/docs/serre_spectral_sequence.pdf"  target="_blank" rel="noopener"
+<p><em><strong>Sketch of proof:</strong> (Following <a class="link" href="https://r0hilp.github.io/assets/docs/serre_spectral_sequence.pdf"  target="_blank" rel="noopener"
     >this</a> article)</em></p>
 <p>We are given a fibration $p: E \to B$ with fiber $F$. For simplicity&rsquo;s sake, assume $B$ is a CW-complex. Strictly speaking, this <a class="link" href="https://pi.math.cornell.edu/~hatcher/AT/AT-CWapprox.pdf"  target="_blank" rel="noopener"
     >can be done</a> as every space we are interested in at the moment can be considered to be weakly equivalent to a CW-complex.
-Let $B^p$ denote the $p$-skeleton. Take the singular chain complex of $E$, $C_* (E)$ and define a filtration on this complex.</p>
-<p>How? Well, we want to understand how it changes <em>levelwise</em>, that is, how it changes when going from $B^{p-1}$ to $B^{p}$.
-We could take the relative chains $C_* (B^p,B^{p-1})$ to be some sort of graded, but as $B^p$ and $B^{p-1}$ does not really live in $E$, and hence, we are not working with $C_* (E)$. If we remember that we have the fibration $p: E \to B$, we can just pull these skeleta back through $p$.
-Then, define $G_pC_* (E) = C_* (p^{-1}(B^p),p^{-1}(B^{p-1}))$ to be the associated graded complex. Indeed, if we just took the simple route and started with the filtration $F_pC_* (E) = C_* (p^{-1}(B^p))$, we will retrieve the same associated graded complex!</p>
+Let $B^p$ denote the $p$-skeleton of $B$. Then we take the singular chain complex, $C_* (E)$, of $E$ and define a filtration on this complex.</p>
+<p>How? Well, we want to understand how it changes <em>levelwise</em>, that is, how it changes when going between the cells.
+Now, the only cells we are explicitly moving between are including the $B^{p-1}$&rsquo;s  into the $B^{p}&rsquo;s$.
+Intuitively, we could have taken the chains $F_pC_* (E) = C_* (B^p)$ to yield the filtration, but $B^p$ does not live in $E$, so this doesn&rsquo;t make sense.
+We would not be working with $C_* (E)$.</p>
+<p>If we remember that we have the fibration $p: E \to B$, we can just pull these skeleta back through $p$.
+This leads us to defining $F_pC_* (E) = C_* (p^{-1}(B^p))$ as our filtration on $C_* (E)$.
+Finding the associated graded, we obtain $G_pC_* (E) = C_* (p^{-1}(B^p),p^{-1}(B^{p-1}))$.</p>
 <p>By computing homology, we achieve the entries in the $E^1$-page as</p>
 <p>$$E_{p, q}^{1}=H_{p+q}\left(p^{-1}\left(B^p\right), p^{-1}\left(B^{p-1}\right)\right).$$</p>
 <p>The differential is achieved the same way as last time, where we composed two maps coming from different long exact sequences in homology. That is, $d_1$ is the composition</p>
 <p>$$H_{p+q}\left(p^{-1}\left(B^{p}\right), p^{-1}\left(B^{p-1}\right)\right) \rightarrow H_{p+q-1}\left(p^{-1}\left(B^{p-1}\right)\right)$$
 $$ \rightarrow H_{p+q-1}\left(p^{-1}\left(B^{p-1}\right), p^{-1}\left(B^{p-2}\right)\right).$$</p>
-<p>We can of course just continue finding the rest of the pages and their differentials, as this will converge to $H_{p+q}(C_* (E)) = H_{p+q}(E)$ due to the fact that we built our filtration on $p^{-1}(B^p)$, which will increase to $E$ as $p$ increases,
-but this does not reference the explicit construction of the $E^2$-page that should be quite easy to compute.
+<p>We can of course just continue finding the rest of the pages and their differentials, as this will converge to $H_{p+q}(C_* (E)) =: H_{p+q}(E)$ due to the fact that we built our filtration on $p^{-1}(B^p)$, which will increase to $E$ as $p$ increases.
+The problem is that this does not reference the explicit construction of the $E^2$-page that should be quite easy to compute.
 Hence, we are going to show that the $E^2$-page can be written quite explicitely as $E^2_{p,q} = H_p(B;H_q(F))$.</p>
 <p>This is defintitely the <a class="link" href="https://en.wikipedia.org/wiki/Crux_%28climbing%29"  target="_blank" rel="noopener"
-    >crux</a> of the proof (for us), as we would need to show that the $E^1$-page consists of the cellular chain group $C_{p}^{C W}\left(B ; H_{q}(F)\right)$, as this would yield the wanted $E^2$-page.
-This in turn follows from the fact that cellular homology coincides with singular homology.</p>
+    >crux</a> of the proof (for us), as we would need to show that the $E^1$-page consists of the cellular chain group $C_{p}^{C W}\left(B ; H_{q}(F)\right)$.
+If this is the case, we would have the wanted $E^2$-page by taking homology and the fact that cellular homology coincides with singular homology.</p>
 <p>Note that we have</p>
 <p>$$C_p^{CW}(B;H_q(F)) \cong H_p(B^p, B^{p-1}) \otimes H_q(F) $$</p>
 <p>by the <a class="link" href="https://topospaces.subwiki.org/wiki/Cellular_chain_complex"  target="_blank" rel="noopener"
     >definition</a> of the cellular chains with coefficients.</p>
 <p>It is known to the barely <a class="link" href="https://www.dictionary.com/browse/cognoscenti"  target="_blank" rel="noopener"
-    >cognoscenti</a> that $H_p(B^p, B^{p-1})$ is freely generated by the $p$-cells of $B$, it is isomorphic to copies of a direct sum of $\mathbb{Z}$, indexed over some $\alpha$&rsquo;s.
+    >cognoscenti</a> that $H_p(B^p, B^{p-1})$ is freely generated by the $p$-cells of $B$, meaning it is isomorphic to copies of a direct sum of $\mathbb{Z}$, indexed over some $\alpha$&rsquo;s.
 Therefore, we have $C_p^{CW}(B;H_q(F)) \cong \oplus_{\alpha}H_q(F)$.</p>
-<p>Now, to analyse this further, consider the characteristic map $\phi_{\alpha}$ of $D_{\alpha}$, that is, the map indicating how to glue on the $p$-cell $D_{\alpha}$ to $B^{p-1}$.</p>
+<p>Now, to analyse this further, consider the characteristic map $\phi_{\alpha}$ of $D_{\alpha}$, that is, the map indicating how to glue the $p$-disk $D_{\alpha}$ to $B^{p-1}$.</p>
 <p>We can use this, along with the fibration, to consider the following pullback diagram.</p>
 <p><figure 
 	
@@ -195,18 +204,22 @@ Therefore, we have $C_p^{CW}(B;H_q(F)) \cong \oplus_{\alpha}H_q(F)$.</p>
 	
 </figure></p>
 <p>Why is this fun to do? Well, we want to connect the $p$-cells generating the cellular chain groups with $(p^{-1}(B^p), p^{-1}(B^{p-1}))$, and pullbacking may yield some &ldquo;middle ground&rdquo; that we can utilise towards this purpose.
-To keep notation consistent and remember <em>how</em> we glued on $D_{\alpha}$, the preimage $\xi_{\alpha}(S_{\alpha}) = \xi_{\alpha}(\partial D_{\alpha})$ is denoted by $\tilde{S_{\alpha}}$.</p>
+To keep notation consistent and remember <em>how</em> we glued on $D_{\alpha}$, the preimage $\xi_{\alpha}^{-1}(S_{\alpha}) = \xi_{\alpha}^{-1}(\partial D_{\alpha})$ is denoted by $\tilde{S_{\alpha}}$.</p>
 <p>If we consider all the pairs $(\tilde{D_{\alpha}}, \tilde{S_{\alpha}})$, we can map them over to $(p^{-1}(B^p), p^{-1}(B^{p-1}))$ using the $\phi_{\alpha}$&rsquo;s.
 That is, we combine them to one map</p>
 <p>$$\phi^* : \coprod_{\alpha}(\tilde{D_{\alpha}}, \tilde{S_{\alpha}}) \to (p^{-1}(B^p), p^{-1}(B^{p-1})).$$</p>
-<p>In fact, this map of pairs of spaces is actually an isomorphism when passed through $H_{p+q}$.
-This is because we can do a ninja-trick or two, showing that we can apply excision to the right hand side, yielding the same homology groups. We won&rsquo;t go into the details, as the crux (of what we actually show) is behind us.</p>
+<p>In fact, this map of pairs of spaces is actually an isomorphism when passed through $H_{p+q}$. To me, this is not clear from what we have done so far.
+Trying to study the cells we are gluing and pullbacking to obtain middle ground seems fair, but the fact that this works out, is kind of magical to me.</p>
+<p>The &ldquo;reason&rdquo; this is true is because we can do some ninja-tricks and apply excision to the right hand side.
+This would not change the homology groups, but it could certainly yield a different way of viewing this map.
+We won&rsquo;t go into the details as it is a messy procedure, which means that the crux (of what we actually show) is behind us.</p>
 <p>The last step involves showing</p>
 <p>$$\oplus_{\alpha}  H_{p+q}(\tilde{D_{\alpha}}, \tilde{S_{\alpha}}) \cong \oplus_{\alpha} H_{q}(F).$$</p>
-<p>To briefly explain why this is true, one can do some tricks making an upper and lower hemisphere of the $\tilde{D_{\alpha}}$&rsquo;s by using the $\xi_{\alpha}$&rsquo;s, denoted by $\tilde{D_{\alpha,-}}$.
-We get the following picture, stolen from <a class="link" href="https://pi.math.cornell.edu/~hatcher/AT/ATch5.pdf"  target="_blank" rel="noopener"
-    >Hatchers chapter on spectral sequences</a>, showing a zig-zag tracing down a simpler version of the homology groups we are after.
-We omit the index $\alpha$, but include a superscript to log which cells we work with.</p>
+<p>To briefly explain why this is true, one can do some tricks making an upper and lower hemisphere of the $\tilde{D_{\alpha}}$&rsquo;s by using the $\xi_{\alpha}$&rsquo;s. They are denoted by subscripted signs, such as $\tilde{D_{\alpha,-}}$ for the lower hemisphere.
+Playing with the boundary maps and induced inclusions, we get the following picture, stolen from <a class="link" href="https://pi.math.cornell.edu/~hatcher/AT/ATch5.pdf"  target="_blank" rel="noopener"
+    >Hatchers chapter on spectral sequences</a>.
+It shows a zig-zag tracing down simpler versions of the homology groups we are after.
+We omit the index $\alpha$, but to log which dimension we are working with, we include superscripts.</p>
 <p><figure 
 	
 		class="gallery-image" 
@@ -229,7 +242,7 @@ We omit the index $\alpha$, but include a superscript to log which cells we work
 <p>The space $H_q(\tilde{D_+^0})$ can be shown to be exactly $H_q(F)$ by utilising the maps $\phi_{\alpha}$, as well as the assumption that $\pi_1(B)$ is trivial, or at least acts trivially on the homology $H_* (F)$.
 We won&rsquo;t delve into it any more, but we refer to <a class="link" href="https://pi.math.cornell.edu/~hatcher/AT/ATch5.pdf"  target="_blank" rel="noopener"
     >Hatcher</a> for the details.</p>
-<p>Combining the isomorphisms, we get</p>
+<p>With all of these technical parts behind us (which we did/did not prove to some extent), we can combine the isomorphisms to get</p>
 <p>$$C_p^{CW}(B;H_q(F)) \cong H_p(B^p, B^{p-1}) \otimes H_q(F) \cong \oplus_{\alpha}H_q(F)$$
 $$\cong \oplus_{\alpha} H_{q}(F) \cong \oplus_{\alpha}  H_{p+q}(\tilde{D_{\alpha}}, \tilde{S_{\alpha}}) \cong  H_{p+q}(\coprod_{\alpha}(\tilde{D_{\alpha}}, \tilde{S_{\alpha}}))$$
 $$ \cong H_{p+q}(p^{-1}(B^p), p^{-1}(B^{p-1})) \cong E_{p,q}^1.$$</p>
@@ -237,12 +250,19 @@ $$ \cong H_{p+q}(p^{-1}(B^p), p^{-1}(B^{p-1})) \cong E_{p,q}^1.$$</p>
 We won&rsquo;t show this, as it is quite technical, but it can be found in <a class="link" href="https://pi.math.cornell.edu/~hatcher/AT/ATch5.pdf"  target="_blank" rel="noopener"
     >Hatchers chapter</a>.
 The same can be said about showing this construction is well-defined with respect to choosing a different CW-approximations to $B$.</p>
+<p>Recall that we got the $E^1$-page from a filtration of $C_ * (E)$ specifying the $E^0$-page.
+As mentioned, this means that we will certainly have a spectral sequence converging to the homology of $E$.
+Luckily for us, we were able to show that the $E^2$-page took such a computable form, which we will use later to compute a toy example.</p>
 <h2 id="spectral-sequences-from-exact-couples---a-more-general-approach">Spectral sequences from exact couples - A more general approach</h2>
 <p>As we just saw, the previous method of finding the Leray-Serre spectral sequence involved some technical homotopy theory, and that is after we referenced most parts to Hatcher!
-Are there other ways to find such spectral sequences? Yes, indeed, there is an alternative way through <em>exact couples</em>.
+There are a vast spectrum (pun intended) of (co)homology theories out there, and the technical homotopy theory can be difficult to do in general scenarios. If we want something easily computable, we would probably need to do such technical work.
+For other theories, we may need to be happy with the mere existence of the spectral sequence before we find explicit formulae.
+It is interesting to know if we can find these sequences at all!
+Are there other ways to find spectral sequences? Yes, indeed, there is an alternative way through <em>exact couples</em>.
 It turns out that we can derive all interesting spectral sequences this way.</p>
 <p>The method is based on the following staircase diagram, which we borrow from <a class="link" href="https://pi.math.cornell.edu/~hatcher/AT/ATch5.pdf"  target="_blank" rel="noopener"
-    >Hatcher</a>.</p>
+    >Hatcher</a>.
+For this section, let $X$ be a finite dimensional CW-complex.</p>
 <p><figure 
 	
 		class="gallery-image" 
@@ -256,26 +276,26 @@ It turns out that we can derive all interesting spectral sequences this way.</p>
 			height="285"
 			srcset="/p/spectral-sequences-and-multicomplexes-part-ii/images/StaircaseHatcher_hu3dc15627659668697a845075969662f5_52207_480x0_resize_box_3.png 480w, /p/spectral-sequences-and-multicomplexes-part-ii/images/StaircaseHatcher_hu3dc15627659668697a845075969662f5_52207_1024x0_resize_box_3.png 1024w"
 			loading="lazy"
-			alt="Stapling together long exact sequences yield a staircase diagram with three main players.">
+			alt="The long exact sequences of the pair $(X_p, X_{p-1})$ is visualised as a set of staircase diagrams.">
 	</a>
 	
-	<figcaption>Stapling together long exact sequences yield a staircase diagram with three main players.</figcaption>
+	<figcaption>The long exact sequences of the pair $(X_p, X_{p-1})$ is visualised as a set of staircase diagrams.</figcaption>
 	
 </figure></p>
-<p>If we denote $A = \oplus_{n,p} H_n(X_p)$ and $E = \oplus_{n,p} H_n(X_p,X_{p-1})$, we can put this staircase together into one diagram, where the arrows are the ones coming from the staircase drawing.
+<p>If we denote $M = \oplus_{p,q} H_{p+q}(X_p)$ and $N = \oplus_{p,q} H_{p+q}(X_p,X_{p-1})$, we can put these staircases together into one diagram, where the arrows are the ones coming from the staircase drawing.
 Since there are only two objects involved and the diagram is exact in every object, this is called an exact couple.</p>
 <p><figure 
 	
 		class="gallery-image" 
 		style="
-			flex-grow: 388; 
-			flex-basis: 933px"
+			flex-grow: 311; 
+			flex-basis: 748px"
 	>
-	<a href="/p/spectral-sequences-and-multicomplexes-part-ii/images/ExactCouple.png" data-size="735x189">
+	<a href="/p/spectral-sequences-and-multicomplexes-part-ii/images/ExactCouple.png" data-size="496x159">
 		<img src="/p/spectral-sequences-and-multicomplexes-part-ii/images/ExactCouple.png"
-			width="735"
-			height="189"
-			srcset="/p/spectral-sequences-and-multicomplexes-part-ii/images/ExactCouple_hu1de208ccc46f4c5700c8cf84fef325d9_5661_480x0_resize_box_3.png 480w, /p/spectral-sequences-and-multicomplexes-part-ii/images/ExactCouple_hu1de208ccc46f4c5700c8cf84fef325d9_5661_1024x0_resize_box_3.png 1024w"
+			width="496"
+			height="159"
+			srcset="/p/spectral-sequences-and-multicomplexes-part-ii/images/ExactCouple_hu1cec9706de0e9da67d242169c627a5db_6258_480x0_resize_box_3.png 480w, /p/spectral-sequences-and-multicomplexes-part-ii/images/ExactCouple_hu1cec9706de0e9da67d242169c627a5db_6258_1024x0_resize_box_3.png 1024w"
 			loading="lazy"
 			alt="An exact couple.">
 	</a>
@@ -283,22 +303,192 @@ Since there are only two objects involved and the diagram is exact in every obje
 	<figcaption>An exact couple.</figcaption>
 	
 </figure></p>
-<p>Something $d=jk$ is exactly the cellular boundary map..</p>
+<p>Note that the vertical composition of maps in the drawing of the staircase diagram correspond to the cellular differentials for $p=n$, that is, the boundary maps $H_{n+1}\left(X_{n+1}, X_{n}\right) \to H_{n}\left(X_{n}, X_{n-1}\right)$.
+Hence, studying $d=jk$ in the exact couple, could be quite interesting, as this encapsulates all &ldquo;levels&rdquo; of these cellular groups.
+Indeed, since $kj=0$, we obtain $d^2=jkjk=j0k=0$. We have a differential, meaning we can form the homology group.
+This yields a sequence $\cdots \to N \to N \to N \to \cdots$, where each map is the differential $d=jk$.</p>
+<p>Forming the homology groups, we obtain what we call a <em>derived couple</em>.</p>
+<p><figure 
+	
+		class="gallery-image" 
+		style="
+			flex-grow: 294; 
+			flex-basis: 707px"
+	>
+	<a href="/p/spectral-sequences-and-multicomplexes-part-ii/images/DerivedExactCouple.png" data-size="454x154">
+		<img src="/p/spectral-sequences-and-multicomplexes-part-ii/images/DerivedExactCouple.png"
+			width="454"
+			height="154"
+			srcset="/p/spectral-sequences-and-multicomplexes-part-ii/images/DerivedExactCouple_hu2896ec7e9391c84b83d8f7a932e9fa45_6865_480x0_resize_box_3.png 480w, /p/spectral-sequences-and-multicomplexes-part-ii/images/DerivedExactCouple_hu2896ec7e9391c84b83d8f7a932e9fa45_6865_1024x0_resize_box_3.png 1024w"
+			loading="lazy"
+			alt="The derived couple obtained through homology of the exact couple with differential $d=jk$.">
+	</a>
+	
+	<figcaption>The derived couple obtained through homology of the exact couple with differential $d=jk$.</figcaption>
+	
+</figure></p>
+<p>In the derived couple, we try to define things in the &ldquo;only way&rdquo; we can, namely as,</p>
+<p>$N' = \frac{Ker d_0}{Im d_0}, \quad M' = Im(i)=Ker(j), \quad i' = i |_{M'}, \quad j'=ji^{-1}, \quad k' = \bar{k},$</p>
+<p>where $\bar{k}$ is $k$, but just on homology classes and $i^{-1}$ means picking an element in the preimage.
+These constructions turns out to be well-defined with respect to choosing representatives for the homology classes and preimages,
+simply by writing out what they should mean and applying exactness.</p>
+<p>By some diagram chasing, it turns out that the derived couple is exact! Hence, homology takes in an exact couple and spits out an exact couple!
+Doing the same procedure with $d'=j&rsquo;k'$, we can make a new derived couple with entries $M'', N''$ and maps $i'', j'', k''$, yielding an exact sequence!</p>
+<p>By taking the $r$&lsquo;th iteration of this process as the layout for the $E^r$-page, we get a spectral sequence with differentials as above.
+The only reasonable choice we can make, is to take $E_{n, p}^{1}=H_{n}\left(X_{p}, X_{p-1}\right)$.
+By doing the &ldquo;same procedure&rdquo; as before, we get a spectral sequence when iterating through these exact- and derived couples.
+Indeed, it can be shown that this converges to $H_ * (X)$.</p>
+<p>This approach is extremely powerful, as Torgeir explains in his <a class="link" href="https://torgeiraamboe.github.io/posts/2022/the-adams-spectral-sequence/"  target="_blank" rel="noopener"
+    >recent post</a>.</p>
+<h3 id="a-detour-to-more-general-cohomology-theories">A detour to more general cohomology theories.</h3>
+<p>To explain some of the power of this construction, we have really only used that $H^* $ has a long exact sequence for pairs.
+Hence, we can actually take any cohomology theory $\mathcal{E}^ * $ and do a similar thing. Strictly speaking, this would give us a <em>cohomological</em> spectral sequence looking like</p>
+<p>$$E_2^{p, q}=H^p\left(X ; \pi_{-q} \mathcal{E}\right) \Rightarrow \mathcal{E}^{p+q}(X),$$</p>
+<p>where $\mathcal{E}$ is the spectra representing the cohomology theory, and the coefficients are given by the homotopy groups of spectra, where we have defined</p>
+<p>$$\pi_k(\mathcal{E})=\operatorname{colim}_{n \rightarrow \infty} \pi _ {n+k} (\mathcal{E}_n)$$</p>
+<p>for all $k \in \mathbb{Z}$.</p>
+<p>We won&rsquo;t jump into the homotopy theory going on here, but the idea still holds if we ignore working with the coefficients and the convergence.</p>
+<p>By defining</p>
+<p>$$M = \oplus_{p, q}\mathcal{E}^ {p+q}(X_ p ), \quad N = \oplus_{p, q}\mathcal{E}^{p+q}(X_p,X _ {p-1} ),$$</p>
+<p>and letting the maps come from the setup of a cohomological staircase diagrams.</p>
+<p>In fact, letting $E^{p,q}_1 = \mathcal{E}^ {p+q} (X_p,X _ {p-1}) $ be the first page of the spectral sequence, we can just iterate the construction as mentioned earlier to retrieve a spectral sequence
+in the cohomology theory $ \mathcal{E}^* $!</p>
 <h2 id="computing-the-homology-of-omega-sn">Computing the homology of $\Omega S^n$.</h2>
-<p>Perhaps for later articles:
-Spectral sequences from chain complexe
-Spectral sequences from double complexes</p>
-<p>What about multicomplexes?</p>
-<ul>
-<li>Spectral sequences for multicomplexes</li>
-<li>Why may the differentials be wonky? Ref. toy examples in Odins thesis</li>
-<li>Can we do a ninja trick?</li>
-<li>HTTT (Homotopy transfer theorem)</li>
-<li>Shifted seq to understand $d_2$(?)</li>
-<li>Iterated shifts TLDR and higher differentials</li>
-<li>Category SpSeq?</li>
-</ul>
-<p>Also, why would a topologist care?</p>
+<p>To use the Leray-Serre sequence to compute the homology of $\Omega S^n$, we need a fibration where this space is one of the main players.
+The fibration we will use is the path space fibration, namely $\Omega X \to PX \to X$, for a based space $X$.
+$PX$ is given by continuous maps from $[0,1]$ to $X$ sending $0$ to the base point of $X$. This space is contractible, which is going to be important for our computation.</p>
+<p><figure 
+	
+		class="gallery-image" 
+		style="
+			flex-grow: 166; 
+			flex-basis: 399px"
+	>
+	<a href="/p/spectral-sequences-and-multicomplexes-part-ii/images/PX.jpg" data-size="1031x620">
+		<img src="/p/spectral-sequences-and-multicomplexes-part-ii/images/PX.jpg"
+			width="1031"
+			height="620"
+			srcset="/p/spectral-sequences-and-multicomplexes-part-ii/images/PX_hu74c53bc188a1cfe82fe01cd8e4b5950d_291584_480x0_resize_q75_box.jpg 480w, /p/spectral-sequences-and-multicomplexes-part-ii/images/PX_hu74c53bc188a1cfe82fe01cd8e4b5950d_291584_1024x0_resize_q75_box.jpg 1024w"
+			loading="lazy"
+			alt="The path space considers all paths starting in the basepoint $x_0$. It is contractible by following each path back to $x_0$.">
+	</a>
+	
+	<figcaption>The path space considers all paths starting in the basepoint $x_0$. It is contractible by following each path back to $x_0$.</figcaption>
+	
+</figure></p>
+<p>The last map in the fibration is then given by evaluating the path in $1$. The fibers can be shown to be homotopy equivlent. We can therefore just pick the preimage at the basepoint to be the fiber, which is what we do!
+The loop space is exactly the fiber of this map at the basepoint, and is therefore defined as continuous (based) maps $S^1 \to X$.</p>
+<p>If we choose $X$ to be an arbitrary sphere $S^n$, we want to try to compute the homology of $\Omega S^n$.</p>
+<p>Ok, what do we need to do? Well, if we want to use the Leray-Serre spectral sequence, we know that it is given by
+$$ E^2_{p,q} = H_p(B;H_q(F)) \Rightarrow H_{p+q}(E).$$</p>
+<p>For this fibration, this would look like</p>
+<p>$$ E^2_{p,q} = H_p(S^n;H_q(\Omega S^n)) \Rightarrow H_{p+q}(PS^n) = H_{p+q}( * ).$$</p>
+<p>We certainly know the homology of the sphere and the path space, as the path space has the same homology as the point, so we would need to utilise the differentials
+in order to say anything about the homology of $\Omega S^n$.</p>
+<p>Now, what does the second page look like? By the universal coefficient theorem, we can find the $E^2$-page.
+The entries on the page is given by $H_q(\Omega S^n)$ if $p=0$ or $p = n$ and $q \geq 0$, and $0$ elsewhere.</p>
+<p><figure 
+	
+		class="gallery-image" 
+		style="
+			flex-grow: 173; 
+			flex-basis: 416px"
+	>
+	<a href="/p/spectral-sequences-and-multicomplexes-part-ii/images/E2.jpg" data-size="1230x708">
+		<img src="/p/spectral-sequences-and-multicomplexes-part-ii/images/E2.jpg"
+			width="1230"
+			height="708"
+			srcset="/p/spectral-sequences-and-multicomplexes-part-ii/images/E2_hu686d6f750603af7e3b402185a30127a8_87021_480x0_resize_q75_box.jpg 480w, /p/spectral-sequences-and-multicomplexes-part-ii/images/E2_hu686d6f750603af7e3b402185a30127a8_87021_1024x0_resize_q75_box.jpg 1024w"
+			loading="lazy"
+			alt="A bad drawing showing the structure of the $E^2$-page. No differentials hit anything (unless $n=2$).">
+	</a>
+	
+	<figcaption>A bad drawing showing the structure of the $E^2$-page. No differentials hit anything (unless $n=2$).</figcaption>
+	
+</figure></p>
+<p>Since this is the $E^2$-page, some magic would need to happen before arriving at the $E^{\infty}$-page.
+The magic that should happen, would need to &ldquo;remove&rdquo; or &ldquo;kill off&rdquo; all the entries outside of $(p,q) = (0,0)$, as the only nontrivial homology of $PX$ is for $n = p+q = 0$.</p>
+<p><figure 
+	
+		class="gallery-image" 
+		style="
+			flex-grow: 191; 
+			flex-basis: 458px"
+	>
+	<a href="/p/spectral-sequences-and-multicomplexes-part-ii/images/E_infty.jpg" data-size="1176x615">
+		<img src="/p/spectral-sequences-and-multicomplexes-part-ii/images/E_infty.jpg"
+			width="1176"
+			height="615"
+			srcset="/p/spectral-sequences-and-multicomplexes-part-ii/images/E_infty_hu85e1cb93f5224675f83e94df2459a5d4_38243_480x0_resize_q75_box.jpg 480w, /p/spectral-sequences-and-multicomplexes-part-ii/images/E_infty_hu85e1cb93f5224675f83e94df2459a5d4_38243_1024x0_resize_q75_box.jpg 1024w"
+			loading="lazy"
+			alt="The final page should look like this, as the diagonals $n=p&#43;q$ give the homologies $H_n(PX)$ up to extension.">
+	</a>
+	
+	<figcaption>The final page should look like this, as the diagonals $n=p+q$ give the homologies $H_n(PX)$ up to extension.</figcaption>
+	
+</figure></p>
+<p>To end at the page above, we would need to change the entries a bit.
+The way the entries on a page change is that they are hit by, or send out, a nontrivial differential, as this would change the entries when moving to the next page through homology.
+Observe that due to the structure of the $E^2$-page, no differentials will hit anything, unless $n=2$.
+Hence, the $E^2$-page will be similar to the $E^3$-page, and so on.
+We get these results up to the $E^n$-page, i.e. $E^2 \cong E^3 \cong \ldots \cong E^n$.
+On the $E^n$-page, something (finally) happens. We know the differentials would need to go from an entry where $p=n$ and $n$ steps to the left to be able to hit anything.</p>
+<p>Since the entries at $(n,t)$ for $t &lt; 0$ are all $0$, we know that the differentials on the $n$&lsquo;th page will go from $E^n_{n,t}$ for $-(n-1)&lt;t&lt;0$ and hit the corresponding entries $E^n_{0,s}$ for $0&lt;s&lt;n-1$.</p>
+<p><figure 
+	
+		class="gallery-image" 
+		style="
+			flex-grow: 207; 
+			flex-basis: 498px"
+	>
+	<a href="/p/spectral-sequences-and-multicomplexes-part-ii/images/E_n.jpg" data-size="1214x585">
+		<img src="/p/spectral-sequences-and-multicomplexes-part-ii/images/E_n.jpg"
+			width="1214"
+			height="585"
+			srcset="/p/spectral-sequences-and-multicomplexes-part-ii/images/E_n_hu499b27b8499758e897b95df4c2bb7c75_84552_480x0_resize_q75_box.jpg 480w, /p/spectral-sequences-and-multicomplexes-part-ii/images/E_n_hu499b27b8499758e897b95df4c2bb7c75_84552_1024x0_resize_q75_box.jpg 1024w"
+			loading="lazy"
+			alt="The first page which allows nonzero differentials is the $E^n$-page.">
+	</a>
+	
+	<figcaption>The first page which allows nonzero differentials is the $E^n$-page.</figcaption>
+	
+</figure></p>
+<p>Since the latter collection of entries all need to disappear before reaching the final page, these differentials must be isomorphisms $0 \to E^n_{0,s}$.
+The reason is that the $E^n$-page is the final page where we can have nonzero differentials, due to degree reasons.
+Hence, we get that $E^{n+1}$ is the final page, so $E^{n+1} \cong \ldots \cong E^{\infty}$, and at that page we must have only the coefficient ring for $p+q=0$, as it is the homology of $PX$.</p>
+<p>The mentioned isomorphism yields that the entries $E^n_{0,s}$ are $0$, and since they are the same entries as $E^n_{n,s}$, we get columns of zeros both for $p=0$ and for $p=n$.
+Doing this again with the maps going from an $E^n_{n,s}$ for $0&lt;s&lt;n-1$ to the corresponding $E^n_{0,k}$ for $n-1&lt;k&lt;2(n-1)$, we also get zeros.
+This can be iterated to see that we get zeros in these columns, only interrupted by the coefficient ring when $q = m(n-1)$ for $m = 0,1,\ldots$.</p>
+<p><figure 
+	
+		class="gallery-image" 
+		style="
+			flex-grow: 250; 
+			flex-basis: 602px"
+	>
+	<a href="/p/spectral-sequences-and-multicomplexes-part-ii/images/E_n_2.jpg" data-size="1212x483">
+		<img src="/p/spectral-sequences-and-multicomplexes-part-ii/images/E_n_2.jpg"
+			width="1212"
+			height="483"
+			srcset="/p/spectral-sequences-and-multicomplexes-part-ii/images/E_n_2_hu835945a24407440df2e5482dc5205843_71751_480x0_resize_q75_box.jpg 480w, /p/spectral-sequences-and-multicomplexes-part-ii/images/E_n_2_hu835945a24407440df2e5482dc5205843_71751_1024x0_resize_q75_box.jpg 1024w"
+			loading="lazy"
+			alt="$E^n$-page with zeros inserted yielding all $H_k(\Omega S^n)$ when $k \neq m(n-1)$ and differentials yielding isomorphisms $H_{m(n-1)}(\Omega S^n) \cong H_0(\Omega S^n)$.">
+	</a>
+	
+	<figcaption>$E^n$-page with zeros inserted yielding all $H_k(\Omega S^n)$ when $k \neq m(n-1)$ and differentials yielding isomorphisms $H_{m(n-1)}(\Omega S^n) \cong H_0(\Omega S^n)$.</figcaption>
+	
+</figure></p>
+<p>Since we know the homology of the point, we must have that all entries that have survived so far must also be killed, except for the entry in $(0,0)$.
+This entry can&rsquo;t be killed, and as the homology of the point is the coefficent ring at $p+q=0$, we can fill in that this must be $\mathbb{Z}$ for $(0,0)$.
+Since this entry is the same at the entry $(n,0)$, we can place a $\mathbb{Z}$ there as well..
+The differential that will kill off the $\mathbb{Z}$ in $(n,0)$ must be an isomorphism, as it can leave only $0$ when taking homology.
+This yields two new $\mathbb{Z}$&rsquo;s, which can then be used to argue that all the remaining entries must be $\mathbb{Z}$ by observing that the remaining differentials must be isomorphisms.</p>
+<p>We now know the homology of $\Omega S^n$!
+Take a look at what the entries were, and you&rsquo;ll find that we have</p>
+<p>$$H_k( \Omega S^n) = \mathbb{Z} \quad \text{for} \quad k = m(n-1), \quad m=0,1,\ldots \quad \text{and} \quad 0 \quad \text{elsewhere}.$$</p>
+<p>With this (hopefully) illustrative example, we finish up the post. For the next post, I expect us to dive into spectral sequences from multicomplexes, which is what my friend Odin wrote his master thesis about.
+I can&rsquo;t guarantee that, as I recently held a talk on Joyals lifting theorem and $\infty$-categories. I&rsquo;d like to dedicate a post to that, or maybe some homotopy theory, spatial statistics or differential cohomology.
+Time will tell!</p>
 
 </section>
 
@@ -521,7 +711,11 @@ Spectral sequences from double complexes</p>
                     <nav id="TableOfContents">
   <ol>
     <li><a href="#proving-the-convergence-of-the-leray-serre-spectral-sequence-using-homotopy-theory">Proving the convergence of the Leray-Serre spectral sequence using homotopy theory</a></li>
-    <li><a href="#spectral-sequences-from-exact-couples---a-more-general-approach">Spectral sequences from exact couples - A more general approach</a></li>
+    <li><a href="#spectral-sequences-from-exact-couples---a-more-general-approach">Spectral sequences from exact couples - A more general approach</a>
+      <ol>
+        <li><a href="#a-detour-to-more-general-cohomology-theories">A detour to more general cohomology theories.</a></li>
+      </ol>
+    </li>
     <li><a href="#computing-the-homology-of-omega-sn">Computing the homology of $\Omega S^n$.</a></li>
   </ol>
 </nav>

@@ -6,7 +6,17 @@
     <description>Recent content in Spectral sequences on Exploring mathematics</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 03 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://eka2499.github.io/categories/spectral-sequences/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 23 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://eka2499.github.io/categories/spectral-sequences/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spectral sequences and multicomplexes - Part II</title>
+      <link>https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-ii/</link>
+      <pubDate>Wed, 23 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-ii/</guid>
+      <description>Welcome back! In the previous post, we took a brief look at spectral sequences and how we could get them from filtered complexes. In this post, we will sketch the main ideas in a proof of the convergence of the Leray-Serre (LS) spectral sequence using techiques from homotopy theory, explore spectral sequences through exact couples and compute an example.
+Originally, I planned to spend more time understanding exact couples and head towards the Adams spectral sequence, but as my friend Torgeir recently wrote a great post on this for his dive into (stable) homotopy theory, we&amp;rsquo;ll just briefly touch on the topic.</description>
+    </item>
+    
     <item>
       <title>Spectral sequences and multicomplexes - Part I</title>
       <link>https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-i/</link>
