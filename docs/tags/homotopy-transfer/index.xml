@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homotopy Transfer on Exploring mathematics</title>
+    <link>https://eka2499.github.io/tags/homotopy-transfer/</link>
+    <description>Recent content in Homotopy Transfer on Exploring mathematics</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 05 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://eka2499.github.io/tags/homotopy-transfer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spectral sequences and multicomplexes - Part III</title>
+      <link>https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-iii/</link>
+      <pubDate>Tue, 05 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-iii/</guid>
+      <description>As promised when we started the series on spectral sequences and multicomplexes, we aimed at understanding the main results of a master thesis. Finally, I&amp;rsquo;ve had the time to finish this post. I enjoyed writing it quite a lot, but I have been busy with other things, such as acting for Realfagsrevyen and doing project work for other courses. Now that these things are more-or-less out of the way (for now), I finally managed to finish this post.</description>
+    </item>
+    
+  </channel>
+</rss>
