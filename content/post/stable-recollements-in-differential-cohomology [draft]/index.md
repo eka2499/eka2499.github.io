@@ -1,25 +1,26 @@
 +++
 author = "Elias Klakken Angelsen"
-title = "Spectral sequences and multicomplexes - Part I"
-date = "2022-02-03"
-description = "We start the blog by diving into a mini-series on spectral sequences, aiming to understand a master thesis on the topic."
+title = "Stable recollements in differential cohomology"
+date = "2022-11-10"
+description = "We revive the blog by understanding a beautiful concept closely related to my master thesis on differential cohomology."
 tags = [
     "Algebraic Topology",
-    "Spectral sequences",
-    "Fibrations",
-    "Filtered complexes",
-    "Homology and cohomology",
+    "Stable recollements",
+    "Differential cohomology",
+    "Adjoints",
+    "Infinity categories",
     "Mathematics",
 ]
 categories = [
-    "Spectral sequences",
+    "Differential cohomology",
+    "Infinity categories",
     "Math",
 ]
-series = ["Short series - Spectral sequences and multicomplexes"]
-aliases = ["Spectral sequences"]
+series = ["Differential Cohomology"]
+aliases = ["Differential Cohomology"]
 image = "images/SpecSeqds2.png"
 math = true
-draft = true
+draft = false
 +++
 
 
