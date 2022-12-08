@@ -15,10 +15,7 @@ menu:
             icon: notebook
 math: true
 ---
-
-[This page is under construction]
-
-
+Here I include (some) stuff I have been writing. The probability is high that many things are forgotten!
 
 ## Write-ups and lecture notes
 | Title  | Remarks  | Link  |
