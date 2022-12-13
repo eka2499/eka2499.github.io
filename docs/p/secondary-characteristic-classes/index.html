@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='We revive the blog by delving down below characteristic classes, to the more geometric realm of secondary invariants and Chern-Simons forms.'><title>Secondary characteristic classes</title>
+
+<link rel='canonical' href='https://eka2499.github.io/p/secondary-characteristic-classes/'>
+
+<link rel="stylesheet" href="/scss/style.min.1b3ac667198cb83edcc9c45e606a6f4dd6910b8ada6b74d7fd988f1b2dfd0c7c.css"><meta property='og:title' content='Secondary characteristic classes'>
+<meta property='og:description' content='We revive the blog by delving down below characteristic classes, to the more geometric realm of secondary invariants and Chern-Simons forms.'>
+<meta property='og:url' content='https://eka2499.github.io/p/secondary-characteristic-classes/'>
+<meta property='og:site_name' content='Exploring mathematics'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Algebraic Topology' /><meta property='article:tag' content='Characteristic classes' /><meta property='article:tag' content='Differential cohomology' /><meta property='article:tag' content='Geometric invariants' /><meta property='article:tag' content='Mathematics' /><meta property='article:published_time' content='2022-12-13T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2022-12-13T00:00:00&#43;00:00'/><meta property='og:image' content='https://eka2499.github.io/p/secondary-characteristic-classes/images/charforms.png' />
+<meta name="twitter:title" content="Secondary characteristic classes">
+<meta name="twitter:description" content="We revive the blog by delving down below characteristic classes, to the more geometric realm of secondary invariants and Chern-Simons forms."><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://eka2499.github.io/p/secondary-characteristic-classes/images/charforms.png' />
+    </head>
+    <body class="
+    article-page has-toc
+">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex 
+    
+        extended
+    
+">
+    
+        <div id="article-toolbar">
+            <a href="/" class="back-home">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="15 6 9 12 15 18" />
+</svg>
+
+
+
+                <span>Back</span>
+            </a>
+        </div>
+    
+<main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/p/secondary-characteristic-classes/">
+                <img src="/p/secondary-characteristic-classes/images/charforms_hu38b9b51e48b1191b37474c6957d0d89a_107088_800x0_resize_box_3.png"
+                        srcset="/p/secondary-characteristic-classes/images/charforms_hu38b9b51e48b1191b37474c6957d0d89a_107088_800x0_resize_box_3.png 800w, /p/secondary-characteristic-classes/images/charforms_hu38b9b51e48b1191b37474c6957d0d89a_107088_1600x0_resize_box_3.png 1600w"
+                        width="800" 
+                        height="794" 
+                        loading="lazy"
+                        alt="Featured image of post Secondary characteristic classes" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/differential-cohomology/" >
+                Differential cohomology
+            </a>
+        
+            <a href="/categories/characteristic-classes/" >
+                Characteristic classes
+            </a>
+        
+            <a href="/categories/math/" >
+                Math
+            </a>
+        
+    </header>
+    
+
+    <h2 class="article-title">
+        <a href="/p/secondary-characteristic-classes/">Secondary characteristic classes</a>
+    </h2>
+
+    
+    <h3 class="article-subtitle">
+        We revive the blog by delving down below characteristic classes, to the more geometric realm of secondary invariants and Chern-Simons forms.
+    </h3>
+    
+
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Dec 13, 2022</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    21 minute read
+                </time>
+            </div>
+        
+    </footer>
+    
+</div>
+</header>
+
+    <section class="article-content">
+    
+    
+    <p>The last semester I have been thinking very little about this blog. The reason is that I had not developed any &ldquo;writing habits&rdquo;, and as I started on my master thesis this semester, there have been plenty of topics to learn about. Of course, I made this blog as a tool of learning, as explaining difficult topics forces me to learn them myself, but as the learning has been more about getting an overview, I have not prioritized writing a lot. Now I have some articles I want to understand, and as I miss explaining things a bit unformally, I am reviving the blog (at least for one post)!</p>
+<p>This post we will meet an interesting topic, namely secondary geometric invariants, which explain some of the geometric information lost in the topological invariants called characteristic classes.
+We will loosely base this blog post on the article <a class="link" href="https://math.mit.edu/juvitop/pastseminars/notes_2019_Fall/Chern-Simons.pdf"  target="_blank" rel="noopener"
+    >characteristic forms and geometric invariants</a> by Chern and Simons.
+The cover image is generated by the AI Midjourney, using the prompt &ldquo;geometric invariants, characteristic forms, - - chaos 60&rdquo;. In some sense, the picture represents the philosophy of characteristic classes quite well. If there is more fog, we won&rsquo;t be able to see the mountains raging in the back, which is analogue to ignoring some of the secondary geometry lying behind the first mountains of topolgoy when putting on our foggy topology glasses.</p>
+<p><figure 
+	
+		class="gallery-image" 
+		style="
+			flex-grow: 100; 
+			flex-basis: 241px"
+	>
+	<a href="/p/secondary-characteristic-classes/images/charforms.png" data-size="252x250">
+		<img src="/p/secondary-characteristic-classes/images/charforms.png"
+			width="252"
+			height="250"
+			srcset="/p/secondary-characteristic-classes/images/charforms_hu38b9b51e48b1191b37474c6957d0d89a_107088_480x0_resize_box_3.png 480w, /p/secondary-characteristic-classes/images/charforms_hu38b9b51e48b1191b37474c6957d0d89a_107088_1024x0_resize_box_3.png 1024w"
+			loading="lazy"
+			alt="Secondary geometric invariants are raging above the characteristic classes, but are ignored by foggy topology.">
+	</a>
+	
+	<figcaption>Secondary geometric invariants are raging above the characteristic classes, but are ignored by foggy topology.</figcaption>
+	
+</figure></p>
+<p>We will first meet the Chern-Weil homomorphism, eating an &ldquo;invariant&rdquo; polynomial and geometric information in form of the curvature a connection, but spitting out a cohomology class independent of the connectiong.</p>
+<p>After we have set the stage for refining this story, we will study the &ldquo;lifted&rdquo; secondary geometric invariants, or more specifically, the Chern-Simons forms.</p>
+<p>Lastly, we will meet two applications of the constructed forms, first as obstructions to more refined immersion questions, and later we will see that the nature of Chern-Simons forms lets us integrate these forms to obtain a surprisingly intuitive topological quantum field theory.</p>
+<h2 id="preliminaries-on-connection-theory">Preliminaries on connection theory</h2>
+<p>If we want to understand secondary characteristic classes, we establish the preliminaries in differential geometry that we need to understand Chern-Weil theory.
+The vital piece is connection theory.</p>
+<p>Now, there are many ways of viewing connections. I think of them as &ldquo;the geometric data you need in order to make directional derivatives, and hence curvature and other interesting things&rdquo;. This is indeed a valid way of thinking about it, but if one reads about connection theory, it is easy to get lost, as there are many equivalent definitions.</p>
+<p>Following the philosopy of smooth manifolds, at least in the real case, we define things locally, use the local definitions as a motivation for the global definitions. We let $M$ be a smooth manifold throughout.</p>
+<p>In $\mathbb{R}^n$, one has a canonical basis for the tangent space, but on an arbitrary manifold, this is not the case.
+Therefore, there is no longer a canonical way of defining a directional derivative, even locally.
+Nevertheless, any definition we have of a connection, should indeed satisfy the same properties as &ldquo;the classical one&rdquo;.
+It should eat two vector fields, one to determine &ldquo;the direction of differentiation&rdquo; and one to &ldquo;be differentiated&rdquo;, and it should spit out a new vector field.</p>
+<p>We thus make the following definition.</p>
+<p><strong>Definition: (An affine connection)</strong></p>
+<p>An affine connection on a manifold is an $\mathbb{R}$-bilinear map
+$$
+\nabla : \mathfrak{X}(M) \times \mathfrak{X}(M) \to \mathfrak{X}(M)
+$$
+denoted $\nabla_X Y$ for $\nabla(X,Y)$.
+This should be $C^{\infty}(M)$-linear in $X$ and satisfy the Leibniz-rule in $Y$ under the action of $C^{\infty}(M)$.</p>
+<p>This indeed generalizes the known notion of an Euclidean directional derivative.</p>
+<p>To define the curvature, remember that composition of vector fields (since they are derivations) induces a Lie-bracket on $\mathfrak{X}(M)$.
+This can be used to define the curvature, which measures &ldquo;how much the manifold causes the non-commutation of directional derivatives&rdquo;.</p>
+<p><strong>Definition: (Curvature of an affine connection)</strong></p>
+<p>If $X, Y \in \mathfrak{X}(M)$, we define the curvature as
+$$
+R(X, Y) =\left[\nabla_X, \nabla_Y\right]-\nabla_{[X, Y]} =\nabla_X \nabla_Y-\nabla_Y \nabla_X-\nabla_{[X, Y]} \in \operatorname{End}(\mathfrak{X}(M)) .
+$$</p>
+<p>Locally on a manifold, the curvature can be written out using curvature forms, which we denote $\Omega$.
+Notation might be a bit ambiguous in this post, but we ignore it as there are a lot pain-like technicialities in differential geometry.</p>
+<p>Since we can locally choose an Euclidean connection, we can patch together these local connections to a connection on any smooth manifold, using a partition of unity. The same argument can be made about a Riemannian structure.
+If one is interested in complex geometry, one will indeed cry a bit about this, as the identity theorem for analytic functions ensures that &ldquo;any functions that agree locally, must agree globally&rdquo;. This kills much of the power obtained by partitions of unity in complex geometry.</p>
+<p>If one has tried to read papers or texts about differential geometry, one often meets the term &ldquo;Levi-Cevita connection&rdquo;.
+This is just a (unique) connection that is torsion-free and compatible with the Riemannian metric given on a manifold.</p>
+<p>Now, we have a definition, and indeed, this turns out to be the correct definition of a connection.
+There are other, maybe more intuitive, definitions that give equivalent results.</p>
+<p>For example, if we work on a surface $M$ in $\mathbb{R}^3$ and consider a vector field on $\mathbb{R}^3$ restricted to the surface, the directional derivative $D_X Y$ may not be horizontal, i.e. it may not actually be a tangent vector.
+Luckily, one may consider at each point $p \in M$ the normal vector $v_p$, which gives a decomposition
+$$
+T_p \mathbb{R}^3 \simeq T_p M \oplus v_p.
+$$
+This lets us project the vector field down to $M$, by defining a connection $\nabla$ by
+$$
+\nabla_X Y=\operatorname{pr}\left(D_X Y\right).
+$$</p>
+<p>The idea of &ldquo;horizontal decomposition&rdquo; is quite important. In fact, the data of a connection (at every level we meet in this post) can be shown to be equivalent to a type of horizontal decomposition with suitable structure. This is particularily useful when defining connections on principal $G$-bundles.</p>
+<p>If we want to generalize the definition of a connection to vector bundles, it is important to note that a vector field on $M$ is a section of its tangent bundle.</p>
+<p>The intuition where a connection eats two vector fields is kinda faulty. It needs a vector field indicating the direction of differentiation, and after that it eats a section of the bundle, which is indeed the notion of a function we want to take the directional derivative of. It should also spit out a section of the bundle, as this is the differentiated section in the direction of the vector field. This subtle change leads to the following definition. We let $\pi: E \to M$ be a smooth vector bundle.</p>
+<p><strong>Definition: (A connection on a vector bundle)</strong></p>
+<p>A connection on $E$ is a map
+$$
+\nabla: \mathfrak{X}(M) \times \Gamma(E) \to \Gamma(E)
+$$
+such that $\nabla_X s$ is $C^{\infty}(M)$-linear and $\mathbb{R}$-linear in $s$, and it satisfies the Leibniz-rule
+$$
+\nabla_X(f s)=(X f) s+f \nabla_X s
+$$
+when $f$ is a smooth function.</p>
+<p>We say a section is flat if $\nabla_Xs = 0$ for all $X \in \mathfrak{X}(M)$.</p>
+<p>As mentioned before, connections exist as we can patch them together from local components using partitions of unity.
+Indeed, we define the curvature as expected.</p>
+<p><strong>Definition: (Curvature of a connection)</strong></p>
+<p>We define the curvature as
+$$
+R(X, Y) s=\nabla_X \nabla_Y s-\nabla_Y \nabla_X s-\nabla_{[X, Y]} s \in \Gamma(E).
+$$</p>
+<p>Again, we will misuse notation and denote the curvature by $\Omega$, even though this denotes the vector curvature forms in a given basis. The ideas in the post still holds, even though the notation might be confusing.</p>
+<p>By adjunction, one may note that the connection is an $\operatorname{End}(\Gamma(E))$-valued $1$-form on $M$. The same can be said about the curvature, but this is a $2$-form. A natural question arises: How is the exterior derivative of the connection (which then becomes a $2$-form) related to the curvature?</p>
+<p>The answer is beautiful, and is usually called the second structural equation. The first structural equation exists, as the name suggests, and answers a similar question, just with torsion instead of curvature. Here, $\omega$ will denote the connection forms, which again is the ambiguous notation for &ldquo;the coefficient forms exhibiting the connection in a given basis&rdquo;.</p>
+<p><strong>Theorem: (Second structural equation)</strong></p>
+<p>We have the relation
+$$
+\Omega=d \omega+\omega \wedge \omega.
+$$</p>
+<p>This is a vital relation, and it can indeed be used to express the curvature just from the connection.
+As we will see, we can therefore use this to define the curvature of a connection in principal $G$-bundles.</p>
+<p>Okok, great. We kind of understand what a connection is. Indeed, as mentioned earlier, we can rephrase the data of a connection on the bundle with the equivalent data of a decomposition of the tangent bundle of the total space, i.e.
+$$TE \simeq HE \oplus VE,$$
+where $HE$ denotes the horizontal part of $TE$ (which can be given by $\operatorname{ker}(\pi_* $) and $VE$ denotes the vertical part. A choice of such a splitting can be shown to be equivalent to a connection, as long as we assume the horizontal distribution (as it is called) is linear in some suitable sense.</p>
+<p>The &ldquo;last&rdquo; layer we need to understand is how to define a connection on principal $G$-bundles.
+We let $\pi : P \to M$ be a principal $G$-bundle, and we take the &ldquo;horizontal decomposition&rdquo;-approach to the topic.</p>
+<p>If we have a decomposition $TP \simeq HE \oplus VE$, we can cosinder the map $j_p: G \to P$ that sends $g \mapsto p \cdot g$ for $p \in P$.
+Differentiating this map yields a map $(j_p)_ * : \mathfrak{g} \to VE_p$, and in fact, it turns out that this is an isomorphism.
+By letting $v : TE \to VE$ be the projection onto the vertical distribution, we can form
+$$
+\omega_p := ((j_p)_* )^{-1} \circ v : T_pE \to VE_p \to \mathfrak{g}.
+$$</p>
+<p>The ensemble of these maps amount to a $\mathfrak{g}$-valued $1$-form $\omega$, and this $\omega$ can be shown to satisfy some properties telling us how it interacts with the fundamental concepts in principal $G$-bundles.
+These properties is exactly what we take as the definition of a connection, as we want any other choice of connection (or equivalently horizontal decomposition) to satisfy the same properties.</p>
+<p><strong>Definition: (Connection on a principal $G$-bundle)</strong></p>
+<p>A connection on a principal $G$-bundle, often called an Ehresmann-connection, is a smooth $\mathfrak{g}$-valued $1$-form on the total space $P$ that maps fundamental vector fields to the underlying vector fields, and satisfies the following relation, called $G$-equivariance:
+$$
+r_g^* \omega=\left(\operatorname{Ad} g^{-1}\right) \omega.
+$$</p>
+<p>It is fair to acknowledge that this definition may seem a bit strange, and it is. A thorough motiviaton would take a bit more writing than we have room for here. We took the &ldquo;connections as directional derivatives&rdquo;-approach, and that comes back to us now, even though the less intuitive &ldquo;connection as a horizontal splitting&rdquo;-approach is more powerful.
+OH well, we move on.</p>
+<p>What can we say about the curvature of such a connection?
+As hinted before, the second structural equation can be taken as a definition, and this is exactly what we do, as the explicit definition using the connection is funky to work out when the definition of a connection is more abstract.</p>
+<p><strong>Definition: (Curvature of an Ehresmann connection)</strong></p>
+<p>We define the curvature as the $\mathfrak{g}$-valued $2$-form
+$$
+\Omega=d \omega+\frac{1}{2}[\omega, \omega].
+$$</p>
+<p>We could have spent more time on properties and other identities, but we don&rsquo;t want to do that.
+Instead, we move on to Chern-Weil-theory, which is the last piece of preliminaries we need to study secondary characteristic classes.</p>
+<h2 id="preliminaries-on-chern-weil-theory">Preliminaries on Chern-Weil theory</h2>
+<p>If we want to make a topological invariant from a geometric invariants, we should first try to make it independent of which local choice of basis we can have. Let&rsquo;s see how we can do that.</p>
+<p>What happens if we consider a local basis $(e_i)$ where we define $\Omega$ to be the curvature form, and then use a matrix $A$ to change basis to $(e_i')$?
+We can show that the curvature form in the new basis is expressed as $$\Omega' = A^{-1}\Omega A.$$
+The proof consists of figuring out what happens for the connection by using the Leibniz rule, and then putting the result into the structural equation.</p>
+<p>To eliminate the choice of basis, assume we can put the curvature form into some $G$-invariant thingy, where $G$ is the matrix Lie-group in which $A$ lives, such as $\operatorname{GL}(r, \mathbb{C})$.
+We show how to do this for an arbitrary principal $G$-bundle.</p>
+<p>We say a polynomial $f: \mathfrak{g} \to \mathbb{R}$ is $G$-invariant if
+$$
+f((\operatorname{Ad} g ) X) = f(X).
+$$</p>
+<p>If we can make sense of this when we plug in our curvature forms, we will obtain something independent of choice of basis.</p>
+<p><strong>Construction: (Chern-Weil form)</strong></p>
+<p>Assume that we have an $\operatorname{Ad}(G)$-invariant polynomial $f$ of degree $k$ given by
+$$
+\sum a_I \alpha^{i_1} \cdots \alpha^{i_k}
+$$
+and that the curvature form $\Omega$ coming from the connection $\omega$ is given in a basis by
+$$\Omega = \sum \Omega^ie_i.$$</p>
+<p>We then define the form of degree $2k$ by
+$$
+f(\Omega)=\sum a_I \Omega^{i_1} \wedge \cdots \wedge \Omega^{i_k}.
+$$</p>
+<p>Now, it is not clear that we have made a topological invariant, but in fact, we have!</p>
+<p><strong>Theorem: (Properties of the Chern-Weil-form)</strong></p>
+<p>If we assume the setup as above, where $\pi: P \to M$ still is a principal $G$-bundle, the following holds:</p>
+<ul>
+<li>$f(\Omega)$ is a basic form on $P$, which means that there exists a $2k$-form $\Lambda$ on $M$ such that $f(\Omega) = \pi^* \Lambda$.</li>
+<li>The associated form $\Lambda$ is closed.</li>
+<li>The cohomology class of $\Lambda$ is independent on the starting choice of connection.</li>
+</ul>
+<p>Wow! Ok, we set out to make a topological invariant based on geometric info, and in a creative attempt at getting rid of choosing a basis, we constructed a cohomology class.</p>
+<p>The magic in this is that we can assign a cohomology class to an arbitrary principal $G$-bundle without even working a lot with the geometry lying behind it.</p>
+<p><strong>Definition: (Chern-Weil Homomorphism)</strong></p>
+<p>Fix a principal $G$-bundle $P \to M$ and a connection. Let $\Omega$ denote the curvature.
+Let $\operatorname{Inv}(\mathfrak{g})$ denote the $\operatorname{Ad}(G)$-invariant polynomials on $\mathfrak{g}$.
+Then define the map $\varphi: \operatorname{Inv}(\mathfrak{g}) \to H^* (M)$ by
+$$
+\varphi: f \mapsto [\Lambda], \qquad \text{such that } \quad f(\Omega) = \pi^* \Lambda.
+$$</p>
+<p>This map is called the Chern-Weil Homomorphism, and yes, it is well-defined and a homomorphism since we can map products of polynomials to the class of the wedge of their associated forms.</p>
+<p>What we obtain by this construction is a cohomology class $[\Lambda]$ that came from geometry, but where the topology washed away the geometrical aspects in the process. These classes are called <em>characteristic classes</em>, as some may know.</p>
+<p>Now, the &ldquo;washing away&rdquo;-procedure where the geometry disappeared is interesting. What would have happened if I chose a path of connections to begin with? Well, we would obtain the same class, that is kinda the jist here, but there may be a way, as we&rsquo;ll see!
+The idea of &ldquo;finding back to the geometry&rdquo; is essential motivation in differential cohomology.</p>
+<h2 id="the-chern-simons-forms">The Chern-Simons forms</h2>
+<p>The forms we just made from geometry, gave rise to a class $[\Lambda]$ that works independently of the choice of connection.
+If we want to study some underlying phenomenon, it would have been interesting to study forms $\lambda$ such that $d\lambda  = \Lambda$, but this would imply that $[\Lambda] = 0$.</p>
+<p>A solution is to utilize the $2k$-form $f(\Omega)$ and pull back the form $\Lambda$, which lives on $M$, to $P$, through the map $\pi: P \to M$.
+The induced form is then by definition $f(\Omega)$.
+As we pull back along $\pi$, we obtain a principal $G$-bundle $\pi^* P \to P$, which is the bundle $P \times P \to P$.
+It does indeed have a canonical global section given by the diagonal, and is thus trivial, which implies that its classifying map is trivial, which again yields trivial characteristic classes, and hence exact characteristic forms.</p>
+<p>The form is indeed $f(\Omega)$, and we hence have $f(\Omega) = dTf(\theta)$.
+Here, $\theta$ is a pre-made choice of connection that yield $\Omega$ as its curvature.
+In $dTf(\theta)$, we should read $Tf(\theta)$ as a &ldquo;trivialization&rdquo; functor $T$ applied to the $f$ in $f(\Omega)$, and we use $\theta$ instead of $\Omega$ to hope that the underlying connection matters.
+Of course, there are choices of trivializations, but we ignore that for now.</p>
+<p><strong>Proposition: (Explicit form of $Tf(\theta)$)</strong></p>
+<p>If we set $\varphi_t = t\Omega + 1/2(t^2-t)[\theta, \theta]$, where $\theta$ is a pre-made choice of connection yielding curvature $\Omega$, and we set
+$$
+Tf(\theta) = k\int_0^1f(\theta \wedge \varphi_t^{k-1}),
+$$
+then we obtain that $dTf(\theta) = f(\Omega)$.</p>
+<p>Ask Chern and Simons (and not me!) how they motivate this, apart from choosing the thing that work, letting $\varphi_t$ look like an integrated version of the structural equation and simply compute that it works.</p>
+<p>Ok, we did indeed find a form that trivializes the Chern-Weil form, but is this the only one?
+Well, we continue to ignore the question about the choice of connection for a bit, and we ask &ldquo;what if we had another functor S that picks out another trivialization?&rdquo;. We obtain the following answer.</p>
+<p><strong>Proposition: (The choice of trivialization is unique up to an exact term)</strong></p>
+<p>Assume $S$ is another functor that assigns to a $f \in \operatorname{Inv}(G)$ and a principal $G$-bundle $P \to M$ with connection $\theta$ a $(2k-1)$-form $Sf(\theta)$ such that $dSf(\theta) = f(\Omega)$. Then
+$$
+Tf(\theta) - Sf(\theta) = exact.
+$$</p>
+<p>This should mean that we obtain some information in cohomology.
+What Chern and Simons spends some time showing in their article, is the following:</p>
+<p><strong>Theorem: (Dependence on the choice of connection)</strong></p>
+<p>Assume the dimension of the base space is $\operatorname{dim}M = n$.
+Then the $(2k-1)$-form $Tf(\theta)$ is closed for $2k-1 \geq n$, meaning it determines a cohomology class in the total space.
+The cohomology class depends on the connection when $2k-1 = n$ and is independent of the connection if $2k-1 &gt; n$.</p>
+<p>The reason is a bit technical, but for the latter case, it is mostly computations. They pick a $1$-parameter family of connections $\theta(s)$ for $s \in [0,1]$ and show in a lemma that
+$$
+\frac{d}{ds}(Tf(\theta(s)))\Big|_{s=0} = k f(\frac{d}{ds}(\theta(s))\Big| _{s=0}  \wedge \Omega^{k-1})) + exact.
+$$
+If $2k-1 &gt; n$, we are only left with an exact term, yielding a cohomology class independent of choice of connection.
+Even better, the cohomology classes are in the image of integral cohomology, which makes the theory even nicer.</p>
+<p>In the next bit of the article, they spend some time connecting these Chern-Simons forms to the theory of differential characters on the base space, which is a technical, although interesting theory. Differential characters is one of the original models for differential cohomology, and the secondary classes of Chern-Simons ends up living here, after doing some proper technicalities.</p>
+<p>They finish up the article with some applications of these forms. We&rsquo;ll briefly explain an example.</p>
+<h2 id="an-application-of-chern-simons-forms-conformal-invariants">An application of Chern-Simons forms: Conformal invariants</h2>
+<p>Just as ordinary characteristic classes can be used to construct obstrictions to embeddings, e.g. by using Stiefel-Whitney classes to show that $\mathbb{R}P^9$ can&rsquo;t be embedded into $\mathbb{R}^{14}$, we can use Chern-Simons classes to say something with more geometric structure.</p>
+<p>Assume we have Riemannian metrics $h$ and $g$ on $M$. We say $h$ and $g$ are equivalent if there exists a real-valued function $\lambda$ on $M$ such that $h = \lambda^2 g$.
+The intuition is that conformally equivalent metrics are the same metrics up to scale.
+A conformal manifold is a manifold with a choice of equivalence class of conformally equivalent Riemannian metrics.
+It is said to be conformally flat if the equivalence class can be represented by a flat metric (in the regular sense).</p>
+<p><strong>Theorem: (Chern-Simons forms for conformally related Riemannian metrics)</strong></p>
+<p>Assume we have two conformally related Riemannian metrics on $M$ with corresponding Levi-Cevita connections and curvature forms.
+Then</p>
+<ul>
+<li>Their Chern-Simons forms only differ by an exact term.</li>
+<li>Their Chern-Weil forms are equal.</li>
+</ul>
+<p>The magic can be made explicit for $3$-manifolds, although the next definition may not make a lot of sense without developing the above theory (and differential characters, which motivates the mod $\mathbb{Z}$-reduction) properly.</p>
+<p>We let $\Phi(M)$ be the integral
+$$
+\Phi(M) = \int_X \frac{1}{2}Tf_1(\theta) \operatorname{mod} \mathbb{Z},
+$$
+where we integrate (fiber integrate, really) over some section $X : M \to F(M)$, where $F(M)$ is the frame bundle of $M$. This is well-defined.
+The index $i = 1$ on $f_i$ is just there to ensure that we chose the cohomology class in degree $4i - 1$, which is $3$.
+We can ignore the index really, as we only consider $3$-manifolds at this point, but it acts as a pointer towards the fact that there is a more general theory.</p>
+<p>We obtain the following theorems, highlighting the power of Chern-Simons forms to include geometric information, compared to the primary characteristic classes.</p>
+<p><strong>Theorem: (Conformal invariance)</strong></p>
+<p>$\Phi(M)$ is a conformal invariant of $M$.</p>
+<p><strong>Theorem: (Obstructions to conformal immersions)</strong></p>
+<p>Let $g$ and $h$ be Riemannian metrics on $M$ and $\mathbb{R}^4$, respectively.
+If $M$ admits a conformal immersion in $\mathbb{R}^4$, i.e. a smooth immersion $\iota: (M,g) \to (\mathbb{R}^4,h)$ such that $\iota^* (h)$ is conformally equivalent to $g$, we must have $\Phi(M) = 0$.</p>
+<p>We&rsquo;ll briefly take an example, but for that, we&rsquo;ll need a computational formula for $Tf(\theta)$.
+Chern and Simons showed the following:</p>
+<p><strong>Lemma: (Computational formula for $Tf(\theta)$)</strong></p>
+<p>If we set
+$$
+A_i = (-1)^i\frac{k!(k-1)!}{2^i(k+i)!(k-1-i)!},
+$$
+we can compute $Tf(\theta)$ as
+$$
+Tf(\theta) = \sum_{i=0}^{k-1}A_if(\theta \wedge [\theta,\theta]^i \wedge \Omega^{k-i-1}).
+$$
+Please do not ask me where this formula is coming from, as I can&rsquo;t even comprehend the computational stubbornness of the old-school topologists.</p>
+<p>The key take-away is that we <em>can</em> compute $Tf(\theta)$, and we do that by including a variating number of connections and curvature forms, keeping the total degree fixed.
+I think of this as &ldquo;we want to hit all dimensions with connection-info and curvature-info to obtain geometric info&rdquo;.</p>
+<p><strong>Example: (Non-existence of a global conformal immersion $SO(3) \to \mathbb{R}^4$)</strong></p>
+<p>We must black-box some things here, as there are too much geometry uncovered to understand whats going on.
+If we set $M = SO(3)$, which is a compact, oriented Riemannian $3$-manifold diffeomorphic to $\mathbb{R}P^3$, then we can consider its frame bundle $F(M) \to M$.
+Due to some explicit formulas for the connections and the computational formula above,
+they show that
+$$
+X^* (\frac{1}{2}Tf_1(\theta)) = \frac{-1}{2\pi^2}\omega,
+$$
+where $\omega$ is the volume form on $SO(3)$.
+This yields
+$$
+\Phi(SO(3)) = \frac{1}{2\pi^2}\operatorname{Vol}(SO(3)) \operatorname{mod} \mathbb{Z}= \frac{1}{2\pi^2}\operatorname{Vol}(SO(3)) \operatorname{mod} \mathbb{Z}.$$
+Since $SO(3)$ is diffeomorphic to $\mathbb{R}P^3$ and $\mathbb{R}P^3$ is &ldquo;a collapsed half of $S^3$&rdquo;, we obtain
+$$
+\Phi(SO(3))= \frac{1}{2\pi^2}\frac{1}{2}\operatorname{Vol}(S^3) \operatorname{mod} \mathbb{Z} = 1/2 \in \mathbb{R}/\mathbb{Z}.
+$$</p>
+<p>This shows that $SO(3)$ cannot be conformally immersed into $\mathbb{R^4}$, which is quite weird, since $\mathbb{R}P^3$ admits a smooth immersion into $\mathbb{R}^4$ and can locally even be isometrically embedded into $\mathbb{R}^4$.</p>
+<p>This certainly tells us that the secondary characteristic forms have an interesting amount of specialized geometric information, which is quite amazing!
+It is indeed beautiful in theory, even though the explicit computations and formulas may be ugly.</p>
+<p>Before we end the post, we detour to explain the beautiful connections to theoretical physics and topological quantum field theory.</p>
+<h2 id="what-does-this-have-to-do-with-theoretical-physics">What does this have to do with theoretical physics?</h2>
+<p><strong>Warning:</strong> We will blackbox things here, as there are details and computations to be written out that we won&rsquo;t bother working with. The post is already long enough, so we focus on explaining the overarching ideas.</p>
+<p>Geometry is fundamental in theoretical physics, although it may not be evident why every formula we meet include forms, curvature, Christoffel symbols and whatnot.
+The idea is simple, and can be illustrated by answering a few simple questions.</p>
+<ul>
+<li>What is the main property of a force?
+<ul>
+<li>It changes how stuff moves.</li>
+</ul>
+</li>
+<li>What happens if no force acts on an object?
+<ul>
+<li>It moves in a straight line at constant speed (which differential geometers call geodesics).</li>
+</ul>
+</li>
+<li>If this is a concept from geometry, how do geodesics change in differential geometry?
+<ul>
+<li>Their equations <strong>only</strong> depend on curvature!</li>
+</ul>
+</li>
+</ul>
+<p>This means that the notion of a force, which is the thing that changes movements along straight lines at constant speeds, corresponds to the notion of curvature, which changes how geodesics (the diff.geom. straight lines) act!</p>
+<p>What does this have to do with the Chern-Simons forms, you may ask? Patience!</p>
+<p>Well, in classical dynamics, one often defines an action functional $S$ as the integral of something.
+My intuition for this is that &ldquo;this is a functional measuring the landscape of potentials for forces that may disturbe our movement&rdquo;, and what we want as our classical equations of motion is of course the &ldquo;path of least resistance&rdquo;, which is then given by minimizing $S$, or more generally, by the extrema of $S$.</p>
+<p>In physics, one often uses $F$ for force, or the curvature $2$-form of interest, and $A$ for the underlying potential, which must satisfy $dA = F$. In our case, $A$ is just the connection $\theta$, and $F$ is the curvature $\Omega$.
+In Chern-Simons theory, the $3$-dimensional topological quantum field theory of interest, they exploit the computational formula menioned earlier.</p>
+<p>They set
+$$
+S = \frac{k}{4\pi}\int_M tr(A \wedge dA + \frac{2}{3}A \wedge A \wedge A) = \int_M CS-\text{$3$-form},
+$$
+where they call $k$ the &ldquo;level of the theory&rdquo;, whatever that means.</p>
+<p>The field equations are then given by
+$$
+0 = \frac{dS}{dA} = \frac{k}{2\pi}F,
+$$
+due to the curvature-trivializing nature of the Chern-Simons forms.</p>
+<p>This is intuitive, as the only thing required for moving around in a chill way, is the vanishing of forces/curvature.
+We have not explained anything in depth here, but due to the nature of Chern-Simons forms as conformal invariants, Chern-Simons theory is a quite fundamental model when working with conformal quantum field theories.</p>
+<p>That&rsquo;s it for this post!
+Hopefully I won&rsquo;t wait half a year before posting again. Tentatively, the plan is to meet Karoubi $K$-theory (also called multiplicative $K$-theory), which was created by Karoubi as a general framework for secondary characteristic classes.</p>
+<p>As a final statement, remember that below the topological invariants (or perhaps above, in the total space), there are secondary classes containing more geometric information!</p>
+<p>Given the right setup, we obtain the simple formula
+$$
+dTf(\theta) = f(\Omega).
+$$</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/algebraic-topology/">Algebraic Topology</a>
+        
+            <a href="/tags/characteristic-classes/">Characteristic classes</a>
+        
+            <a href="/tags/differential-cohomology/">Differential cohomology</a>
+        
+            <a href="/tags/geometric-invariants/">Geometric invariants</a>
+        
+            <a href="/tags/mathematics/">Mathematics</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+        <link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.css"integrity="sha384-RZU/ijkSsFbcmivfdRBQDtwuwVqK7GMOw6IMvKyeWL2K5UAlyp6WonmB8m7Jd0Hn"crossorigin="anonymous"
+            ><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.js"integrity="sha384-pK1WpvzWVBQiP0/GjnvRxV4mOb0oxFuyRxJlk6vVw146n3egcN5C925NCP7a7BY8"crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/contrib/auto-render.min.js"integrity="sha384-vZTG03m&#43;2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl"crossorigin="anonymous"
+                defer
+                >
+            </script><script>
+    window.addEventListener("DOMContentLoaded", () => {
+        renderMathInElement(document.querySelector(`.article-content`), {
+            delimiters: [
+                { left: "$$", right: "$$", display: true },
+                { left: "$", right: "$", display: false },
+                { left: "\\(", right: "\\)", display: false },
+                { left: "\\[", right: "\\]", display: true }
+            ]
+        });})
+</script>
+    
+</article>
+
+    
+
+    <aside class="related-contents--wrapper">
+    
+    
+        <h2 class="section-title">Related contents</h2>
+        <div class="related-contents">
+            <div class="flex article-list--tile">
+                
+                    
+<article class="has-image">
+    <a href="/p/spectral-sequences-and-multicomplexes-part-iii/">
+        
+        
+            <div class="article-image">
+                <img src="/p/spectral-sequences-and-multicomplexes-part-iii/images/3rdfront.6cc9413b292959880535bc3461df1c42_hue1a36dd821dc897a813d246233c6aea3_148869_250x150_fill_q75_box_smart1.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post Spectral sequences and multicomplexes - Part III"
+                        
+                        data-hash="md5-bMlBOykpWYgFNbw0Yd8cQg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Spectral sequences and multicomplexes - Part III</h2>
+        </div>
+    </a>
+</article>
+                
+                    
+<article class="has-image">
+    <a href="/p/spectral-sequences-and-multicomplexes-part-ii/">
+        
+        
+            <div class="article-image">
+                <img src="/p/spectral-sequences-and-multicomplexes-part-ii/images/Front_2.fc51d6db4ddeb55b3a66979e31950cdb_hud147fe321169f5a988bfa760efd4dec0_61727_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post Spectral sequences and multicomplexes - Part II"
+                        
+                        data-hash="md5-/FHW203etVs6ZpeeMZUM2w==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Spectral sequences and multicomplexes - Part II</h2>
+        </div>
+    </a>
+</article>
+                
+                    
+<article class="has-image">
+    <a href="/p/spectral-sequences-and-multicomplexes-part-i/">
+        
+        
+            <div class="article-image">
+                <img src="/p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqds2.db73e2d226bb1bc51e88a9454a030e32_hue1e88880d5dd7b5523c442f095bb6ed2_263012_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post Spectral sequences and multicomplexes - Part I"
+                        
+                        data-hash="md5-23Pi0ia7G8UeiKlFSgMOMg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Spectral sequences and multicomplexes - Part I</h2>
+        </div>
+    </a>
+</article>
+                
+            </div>
+        </div>
+    
+</aside>
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2020 - 
+        
+        2022 Exploring mathematics
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.7.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css"integrity="sha256-c0uckgykQ9v5k&#43;IqViZOZKc47Jn7KQil4/MP3ySA3F8="crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css"integrity="sha256-SBLU4vv6CA6lHsZ1XyTdhyjJxCjPif/TRkjnsyGAGnE="crossorigin="anonymous"
+            >
+
+            </main>
+    
+        <aside class="sidebar right-sidebar sticky">
+            <section class="widget archives">
+                <div class="widget-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+                </div>
+                <h2 class="widget-title section-title">Table of contents</h2>
+                
+                <div class="widget--toc">
+                    <nav id="TableOfContents">
+  <ol>
+    <li><a href="#preliminaries-on-connection-theory">Preliminaries on connection theory</a></li>
+    <li><a href="#preliminaries-on-chern-weil-theory">Preliminaries on Chern-Weil theory</a></li>
+    <li><a href="#the-chern-simons-forms">The Chern-Simons forms</a></li>
+    <li><a href="#an-application-of-chern-simons-forms-conformal-invariants">An application of Chern-Simons forms: Conformal invariants</a></li>
+    <li><a href="#what-does-this-have-to-do-with-theoretical-physics">What does this have to do with theoretical physics?</a></li>
+  </ol>
+</nav>
+                </div>
+            </section>
+        </aside>
+    
+
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js"integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
