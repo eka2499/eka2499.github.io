@@ -34,11 +34,13 @@ $\Delta t$ is the newspaper of the student association Delta, which is the assoc
 |Hva vil det si å studere?|Fadderspesialen/Buddy Week Special 2021 - Joint with Mathias (updated from 2020) | [Link](https://drive.google.com/file/d/1g1PdVtbzmFsNe4weuIi1Fc55Hv0cGm28/view?usp=sharing)|
 |Tensor som tensor|Edition 34|[Link](https://drive.google.com/file/d/147jefQdaTde6OR2OocHDFHyCOGcdcVpu/view?usp=sharing)|
 
-## Other writing
+## Academic theses
 
 | Title | Remarks | Link |
 |--|--|--|
 | The $K$-theory and Morita equivalence classes of noncommutative tori | Bachelor thesis | [Link](https://fagkom.github.io/posts/angelsen-elias/)|
+| On Differential Cohomology and Geometric Hodge-filtered $K$-theory | Masters thesis | [Link](https://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/3093937)|
+
 
 
 ## Talks about mathematics
@@ -54,3 +56,8 @@ $\Delta t$ is the newspaper of the student association Delta, which is the assoc
 
 ## Other talks
 I have also held a number of different non-mathematical talks, but I do not have a complete list. The list of the coolest talks the last years would include motivational talks about studying mathematics at my local high school in 2019, hosting webinars on studying mathematics for high schoolers in 2020 and giving an "experience based" course on how to study mathematics at the 2021 entry week for new students.
+
+These include mathematical talks given to a non-mathematical audience, such as: 
+- A talk on topology given for Fagerlia/Ålesund Vgs in 2023.
+- A talk on topological data analysis given at PwC Oslo in 2023. 
+
