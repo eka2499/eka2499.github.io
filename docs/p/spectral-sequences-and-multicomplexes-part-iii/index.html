@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en-us" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='We dive into Odins master thesis to learn about the spectral sequences of multicomplexes and how transferring homotopy saves the day.'><title>Spectral sequences and multicomplexes - Part III</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='We dive into Odins master thesis to learn about the spectral sequences of multicomplexes and how transferring homotopy saves the day.'>
+<title>Spectral sequences and multicomplexes - Part III</title>
 
 <link rel='canonical' href='https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-iii/'>
 
-<link rel="stylesheet" href="/scss/style.min.1b3ac667198cb83edcc9c45e606a6f4dd6910b8ada6b74d7fd988f1b2dfd0c7c.css"><meta property='og:title' content='Spectral sequences and multicomplexes - Part III'>
+<link rel="stylesheet" href="/scss/style.min.abbd69b2908fdfcd5179898beaafd374514a86538d81639ddd2c58c06ae54e40.css"><meta property='og:title' content='Spectral sequences and multicomplexes - Part III'>
 <meta property='og:description' content='We dive into Odins master thesis to learn about the spectral sequences of multicomplexes and how transferring homotopy saves the day.'>
 <meta property='og:url' content='https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-iii/'>
 <meta property='og:site_name' content='Exploring mathematics'>
@@ -15,8 +16,8 @@
     <meta name="twitter:image" content='https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-iii/images/3rdfront.jpg' />
     </head>
     <body class="
-    article-page has-toc
-">
+    article-page
+    ">
     <script>
         (function() {
             const colorSchemeKey = 'StackColorScheme';
@@ -39,26 +40,258 @@
         }
     })();
 </script>
-<div class="container main-container flex 
-    
-        extended
-    
-">
-    
-        <div id="article-toolbar">
-            <a href="/" class="back-home">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <polyline points="15 6 9 12 15 18" />
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/elias_hub0d9435e8577a337feea68e993245839_12081_300x0_resize_q75_box.jpg" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">🍥</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Exploring mathematics</a></h1>
+            <h2 class="site-description">Elias Klakken Angelsen</h2>
+        </div>
+    </header><ol class="social-menu">
+            
+                <li>
+                    <a 
+                        href='https://github.com/eka2499'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
 </svg>
 
 
 
-                <span>Back</span>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://www.linkedin.com/in/elias-klakken-angelsen-196675152/'
+                        target="_blank"
+                        title="Linkedin"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <rect x="4" y="4" width="16" height="16" rx="2" />
+  <line x1="8" y1="11" x2="8" y2="16" />
+  <line x1="8" y1="8" x2="8" y2="8.01" />
+  <line x1="12" y1="16" x2="12" y2="11" />
+  <path d="M16 16v-3a2 2 0 0 0 -4 0" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://www.researchgate.net/profile/Elias-Angelsen-2'
+                        target="_blank"
+                        title="Researchgate"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-flask-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M6.1 15h11.8" />
+  <path d="M14 3v7.342a6.002 6.002 0 0 1 1.318 10.658h-6.635a6.002 6.002 0 0 1 1.317 -10.66v-7.34h4z" />
+  <path d="M9 3h6" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' target="_blank">
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
             </a>
+        </li>
+        
+        
+        <li >
+            <a href='/about-me/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About me</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/documents/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-notebook" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M6 4h11a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-11a1 1 0 0 1 -1 -1v-14a1 1 0 0 1 1 -1m3 0v18" />
+  <line x1="13" y1="8" x2="15" y2="8" />
+  <line x1="13" y1="12" x2="15" y2="12" />
+</svg>
+
+
+
+                
+                <span>Documents</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/links/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>Links</span>
+            </a>
+        </li>
+        
+
+        <div class="menu-bottom-section">
+            
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>Dark Mode</span>
+                </li>
+            
         </div>
+    </ol>
+</aside>
+
     
-<main class="main full-width">
+
+            <main class="main full-width">
     <article class="has-image main-article">
     <header class="article-header">
         <div class="article-image">
@@ -89,16 +322,21 @@
     </header>
     
 
-    <h2 class="article-title">
-        <a href="/p/spectral-sequences-and-multicomplexes-part-iii/">Spectral sequences and multicomplexes - Part III</a>
-    </h2>
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/spectral-sequences-and-multicomplexes-part-iii/">Spectral sequences and multicomplexes - Part III</a>
+        </h2>
+    
+        
+        <h3 class="article-subtitle">
+            We dive into Odins master thesis to learn about the spectral sequences of multicomplexes and how transferring homotopy saves the day.
+        </h3>
+        
+    </div>
 
     
-    <h3 class="article-subtitle">
-        We dive into Odins master thesis to learn about the spectral sequences of multicomplexes and how transferring homotopy saves the day.
-    </h3>
     
-
+    
     
     <footer class="article-time">
         
@@ -133,7 +371,10 @@
         
     </footer>
     
+
+    
 </div>
+
 </header>
 
     <section class="article-content">
@@ -174,25 +415,20 @@ These maps shifts similarly to the differentials in a spectral sequence, as they
 <p>for all $n \geq 0$.</p>
 <p>Before visualising what this looks like, we remark that we do not need the $D_r$&rsquo;s to square to zero. If we use the name &ldquo;differentials&rdquo; for these maps, that will certainly be an abuse of terminology.
 Nevertheless, we can always find an underlying cochain complex of graded vector spaces by considering $(M, D_0)$.</p>
-<p><figure 
+<p><img src="/p/spectral-sequences-and-multicomplexes-part-iii/images/Multicomplex.png"
+	width="778"
+	height="327"
+	srcset="/p/spectral-sequences-and-multicomplexes-part-iii/images/Multicomplex_hub430ca0a160d49bc9be4961ef9a36b55_32450_480x0_resize_box_3.png 480w, /p/spectral-sequences-and-multicomplexes-part-iii/images/Multicomplex_hub430ca0a160d49bc9be4961ef9a36b55_32450_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+		alt="A multicomplex with vertical maps, $D_0$, horisontal maps, $D_1$, and dotted diagonal maps, $D_2$. We omit the name of the $D_2$-maps in the diagram and the higher differentials $D_r$ for simplicity."
+	
 	
 		class="gallery-image" 
-		style="
-			flex-grow: 237; 
-			flex-basis: 571px"
-	>
-	<a href="/p/spectral-sequences-and-multicomplexes-part-iii/images/Multicomplex.png" data-size="778x327">
-		<img src="/p/spectral-sequences-and-multicomplexes-part-iii/images/Multicomplex.png"
-			width="778"
-			height="327"
-			srcset="/p/spectral-sequences-and-multicomplexes-part-iii/images/Multicomplex_hub430ca0a160d49bc9be4961ef9a36b55_32450_480x0_resize_box_3.png 480w, /p/spectral-sequences-and-multicomplexes-part-iii/images/Multicomplex_hub430ca0a160d49bc9be4961ef9a36b55_32450_1024x0_resize_box_3.png 1024w"
-			loading="lazy"
-			alt="A multicomplex with vertical maps, $D_0$, horisontal maps, $D_1$, and dotted diagonal maps, $D_2$. We omit the name of the $D_2$-maps in the diagram and the higher differentials $D_r$ for simplicity.">
-	</a>
+		data-flex-grow="237"
+		data-flex-basis="571px"
 	
-	<figcaption>A multicomplex with vertical maps, $D_0$, horisontal maps, $D_1$, and dotted diagonal maps, $D_2$. We omit the name of the $D_2$-maps in the diagram and the higher differentials $D_r$ for simplicity.</figcaption>
-	
-</figure></p>
+></p>
 <p>When we have an object, such as a multicomplex, we should always try to figure out how to map between them.</p>
 <p><strong>Definition: (Morphisms of multicomplexes)</strong></p>
 <p>If $(M,D_{\bullet})$ and $(N,\tilde{D}_{\bullet})$ are multicomplexes, a morphism</p>
@@ -234,46 +470,36 @@ For this page, the differential is just $\delta_0 = D_0$. The zeroth page does t
 By considering the first page $E_1^{p,q} = H^q(M^{p, \bullet}, D_0)$, we can show that the differential on this page, $\delta_1$, is induced from $D_1$ in cohomology.
 As Odin (and Hurbubise) explains in the following example, this is not the case in general.</p>
 <p>Consider the following multicomplex, where the nonzero entries are $kx$, the one-dimensional vector spaces over $k$ with generator $x$.</p>
-<p><figure 
+<p><img src="/p/spectral-sequences-and-multicomplexes-part-iii/images/beware-diffs-cplx.png"
+	width="511"
+	height="210"
+	srcset="/p/spectral-sequences-and-multicomplexes-part-iii/images/beware-diffs-cplx_hu209e9fcdfe4d30a049378672c8436e55_8173_480x0_resize_box_3.png 480w, /p/spectral-sequences-and-multicomplexes-part-iii/images/beware-diffs-cplx_hu209e9fcdfe4d30a049378672c8436e55_8173_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+		alt="A multicomplex where the labeled maps are isomorphisms and $D_r = 0$ for all $r\geq 2$. "
+	
 	
 		class="gallery-image" 
-		style="
-			flex-grow: 243; 
-			flex-basis: 584px"
-	>
-	<a href="/p/spectral-sequences-and-multicomplexes-part-iii/images/beware-diffs-cplx.png" data-size="511x210">
-		<img src="/p/spectral-sequences-and-multicomplexes-part-iii/images/beware-diffs-cplx.png"
-			width="511"
-			height="210"
-			srcset="/p/spectral-sequences-and-multicomplexes-part-iii/images/beware-diffs-cplx_hu209e9fcdfe4d30a049378672c8436e55_8173_480x0_resize_box_3.png 480w, /p/spectral-sequences-and-multicomplexes-part-iii/images/beware-diffs-cplx_hu209e9fcdfe4d30a049378672c8436e55_8173_1024x0_resize_box_3.png 1024w"
-			loading="lazy"
-			alt="A multicomplex where the labeled maps are isomorphisms and $D_r = 0$ for all $r\geq 2$. ">
-	</a>
+		data-flex-grow="243"
+		data-flex-basis="584px"
 	
-	<figcaption>A multicomplex where the labeled maps are isomorphisms and $D_r = 0$ for all $r\geq 2$.</figcaption>
-	
-</figure></p>
+></p>
 <p>One would not think that such a cute little multicomplex would create problems, but indeed it does.
 It turns out that all entries on the final page are $0$ by considering the total complex. If we consider the homology $H^q(M^{p, \bullet}, D_0)$ giving the $E_1$-page, we get the following.</p>
-<p><figure 
+<p><img src="/p/spectral-sequences-and-multicomplexes-part-iii/images/beware-diffs-cplx-2.png"
+	width="460"
+	height="211"
+	srcset="/p/spectral-sequences-and-multicomplexes-part-iii/images/beware-diffs-cplx-2_hu9b673c3fcb4f1b44527d8513b645c16b_7416_480x0_resize_box_3.png 480w, /p/spectral-sequences-and-multicomplexes-part-iii/images/beware-diffs-cplx-2_hu9b673c3fcb4f1b44527d8513b645c16b_7416_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+		alt="The $E_1$-page given by considering $E_1^{p,q} = H^q(M^{p, \bullet}, D_0)$. $\delta_1$ is induced from $D_1$."
+	
 	
 		class="gallery-image" 
-		style="
-			flex-grow: 218; 
-			flex-basis: 523px"
-	>
-	<a href="/p/spectral-sequences-and-multicomplexes-part-iii/images/beware-diffs-cplx-2.png" data-size="460x211">
-		<img src="/p/spectral-sequences-and-multicomplexes-part-iii/images/beware-diffs-cplx-2.png"
-			width="460"
-			height="211"
-			srcset="/p/spectral-sequences-and-multicomplexes-part-iii/images/beware-diffs-cplx-2_hu9b673c3fcb4f1b44527d8513b645c16b_7416_480x0_resize_box_3.png 480w, /p/spectral-sequences-and-multicomplexes-part-iii/images/beware-diffs-cplx-2_hu9b673c3fcb4f1b44527d8513b645c16b_7416_1024x0_resize_box_3.png 1024w"
-			loading="lazy"
-			alt="The $E_1$-page given by considering $E_1^{p,q} = H^q(M^{p, \bullet}, D_0)$. $\delta_1$ is induced from $D_1$.">
-	</a>
+		data-flex-grow="218"
+		data-flex-basis="523px"
 	
-	<figcaption>The $E_1$-page given by considering $E_1^{p,q} = H^q(M^{p, \bullet}, D_0)$. $\delta_1$ is induced from $D_1$.</figcaption>
-	
-</figure></p>
+></p>
 <p>Since the $E_3$-page must be the final page (by considering the degrees of the potential differentials), we know that all entries must be killed off before we arrive at this page.
 The only differentials that may influence the nonzero entries, are the differentials on the $E_2 = E_1$-page.
 This means that there must be a nonzero $\delta_2: ka \to kd$, but this cannot be induced from $D_2$, as $D_2 = 0$.</p>
@@ -289,33 +515,28 @@ Indeed, a deformation retract extends to a homotopy equivalence.</p>
 <p><strong>Theorem: (Deformation retract to cohomology)</strong></p>
 <p>If $(M,D)$ is a cochain complex over $k$, then this cochain complex admits a deformation retract $(\pi, i, h)$ to its cohomology, which can be pictured like this, which is stolen directly from <a class="link" href="https://fagkom.github.io/posts/gardaa-odin-hoff-2/"  target="_blank" rel="noopener"
     >Odins thesis</a>.</p>
-<p><figure 
+<p><img src="/p/spectral-sequences-and-multicomplexes-part-iii/images/def-retract-cohomology.png"
+	width="517"
+	height="142"
+	srcset="/p/spectral-sequences-and-multicomplexes-part-iii/images/def-retract-cohomology_hueff73f3c05928fea1b9f0b84d983780c_11424_480x0_resize_box_3.png 480w, /p/spectral-sequences-and-multicomplexes-part-iii/images/def-retract-cohomology_hueff73f3c05928fea1b9f0b84d983780c_11424_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+		alt="All cochain complexes admits a deformation retract to its homology."
+	
 	
 		class="gallery-image" 
-		style="
-			flex-grow: 364; 
-			flex-basis: 873px"
-	>
-	<a href="/p/spectral-sequences-and-multicomplexes-part-iii/images/def-retract-cohomology.png" data-size="517x142">
-		<img src="/p/spectral-sequences-and-multicomplexes-part-iii/images/def-retract-cohomology.png"
-			width="517"
-			height="142"
-			srcset="/p/spectral-sequences-and-multicomplexes-part-iii/images/def-retract-cohomology_hueff73f3c05928fea1b9f0b84d983780c_11424_480x0_resize_box_3.png 480w, /p/spectral-sequences-and-multicomplexes-part-iii/images/def-retract-cohomology_hueff73f3c05928fea1b9f0b84d983780c_11424_1024x0_resize_box_3.png 1024w"
-			loading="lazy"
-			alt="All cochain complexes admits a deformation retract to its homology.">
-	</a>
+		data-flex-grow="364"
+		data-flex-basis="873px"
 	
-	<figcaption>All cochain complexes admits a deformation retract to its homology.</figcaption>
-	
-</figure></p>
+></p>
 <h3 id="transferring-multicomplex-structures">Transferring multicomplex structures</h3>
 <p>The idea from here on is that we can use the previous theorem to &ldquo;skip a page&rdquo; in the spectral sequence. The problems we encountered with the differetials first came on the $E_2$-page (at least in our example), so maybe it is possible to iterate this deformation retract to the homology-idea to skip pages from $E_i$ to $E_{i+1}$ and &ldquo;only induce $D_1$&rsquo;s&rdquo;.</p>
 <p>To try to apply this idea, we need higher differentials on the cohomology.
 The way we are going to induce the higher differentials from our multicomplex over to the cohomology, is through the Homotopy Transfer Theorem (also called HTT).</p>
 <p>The theorem is a mouthful, but the idea is that by throwing differentials back and forth through the homotopy of an underlying homotopy retract, we can induce higher differentials.</p>
 <p><strong>Theorem: (Homotopy Transfer Theorem)</strong>
-If we have a multicomplex $(M, D_{\bullet})$ and a cochain complex $(N,D_0')$ with a homotopy retract $(\pi, i, h)$ from the underlying cochain complex $(M, D_0)$ to $(N, D_0')$, we can define maps $D_n' : N \to N$ for $n \geq 1$ as
-$$D_n' = \sum_{|J| = n}\pi D_{j_1 }hD_{j_2 }h\ldots hD_{j_k}i.$$
+If we have a multicomplex $(M, D_{\bullet})$ and a cochain complex $(N,D_0&rsquo;)$ with a homotopy retract $(\pi, i, h)$ from the underlying cochain complex $(M, D_0)$ to $(N, D_0&rsquo;)$, we can define maps $D_n&rsquo; : N \to N$ for $n \geq 1$ as
+$$D_n&rsquo; = \sum_{|J| = n}\pi D_{j_1 }hD_{j_2 }h\ldots hD_{j_k}i.$$
 These maps does in fact induce a multicomplex structure on $N$, and the maps $i$ and $\pi$ can be made into morphisms of multicomplexes by defining $i_n = \sum_{|J| = n}hD_{j_1}hD_{j_2}h\ldots hD_{j_k}i$ and $\pi_n = \sum_{|J| = n}\pi D_{j_1}hD_{j_2}h\ldots hD_{j_k}h,$ respectively.</p>
 <p>One can in fact show that this is well-defined with respect to different choices of homotopy retracts.</p>
 <p>Idea: Use htpy retracts (HTT) to move multicomplex structure from M to H(M) (with fckdup indeces) to fly through the pages.</p>
@@ -333,34 +554,34 @@ It is for example known that formal dg-algebras have vanishing <a class="link" h
 Maybe, if we are lucky, we&rsquo;ll meet Massey products in a later post on this blog.</p>
 <h2 id="does-htt-help">Does HTT help?</h2>
 <p>Ok, we now have the Homotopy Transfer Theorem, and we know we can find a deformation retract from $M$ to the cohomology of $M$.
-If we now consider the higher differentials given by the Homotopy Transfer Theorem induced on the cohomology of $M$ through the deformation retract from $M$ to the cohomology, we can in fact show that $$D_2' = \pi(D_1hD_1 + D_2)i$$ actually induces the second differential on the $E_2$-page in the associated spectral sequence.
+If we now consider the higher differentials given by the Homotopy Transfer Theorem induced on the cohomology of $M$ through the deformation retract from $M$ to the cohomology, we can in fact show that $$D_2&rsquo; = \pi(D_1hD_1 + D_2)i$$ actually induces the second differential on the $E_2$-page in the associated spectral sequence.
 Unfortunately, the pattern stops here in general, but Odin studies the differentials further in the later chapters.
 We will soon state the main results, but first, let&rsquo;s specialize to double complexes and see if the HTT can help.</p>
 <h3 id="the-case-for-double-complexes">The case for double complexes</h3>
-<p>Assume that we have a double complex $(M,D_0,D_1)$, let $(\pi, i, h)$ be a deformation retract of $M$ to $H(M,D_0)$ and let $D_{\bullet}'$ be the transferred differentials on $H(M)$.
+<p>Assume that we have a double complex $(M,D_0,D_1)$, let $(\pi, i, h)$ be a deformation retract of $M$ to $H(M,D_0)$ and let $D_{\bullet}&rsquo;$ be the transferred differentials on $H(M)$.
 Since we have $D_r = 0$ for $r \geq 2$, the transferred differentials look like
-$$D_1' = \pi D_1 i, \qquad  D_2' = \pi D_1hD_1 i, \quad \ldots \quad D_r' = \pi D_1hD_1h\ldots hD_1 i.$$</p>
+$$D_1&rsquo; = \pi D_1 i, \qquad  D_2&rsquo; = \pi D_1hD_1 i, \quad \ldots \quad D_r&rsquo; = \pi D_1hD_1h\ldots hD_1 i.$$</p>
 <p>We won&rsquo;t show it, as this post is going to be long enough, but we get the following result.</p>
 <p><strong>Theorem: (Induced differentials)</strong></p>
-<p>The maps induced by $D_r'$ on the $E_r$-page is exactly $d_r$.</p>
-<p>Wow! It worked! The general case is more complicated, but this tells us that we can study the differentials in spectral sequences associated to bicomplexes by studying the transferred differentials from $M$ to the cohomology of $M$, e.g. by concluding that $d_r$ vanishes if $D_r'$ vanishes.</p>
+<p>The maps induced by $D_r&rsquo;$ on the $E_r$-page is exactly $d_r$.</p>
+<p>Wow! It worked! The general case is more complicated, but this tells us that we can study the differentials in spectral sequences associated to bicomplexes by studying the transferred differentials from $M$ to the cohomology of $M$, e.g. by concluding that $d_r$ vanishes if $D_r&rsquo;$ vanishes.</p>
 <h3 id="shifting-the-sequences-to-obtain-the-main-results-the-general-case">Shifting the sequences to obtain the main results (the general case)</h3>
 <p>Even though the case for special complexes is &ldquo;simple&rdquo;, the general case may be messy.
 First page differentials are not that different from the bicomplex case, as seen by the following theorem.
 To avoid repeating ourselves, we $M$ is still a multicomplex and <em>the associated spectral sequence</em> refers to the spectral sequence associated to $M$, unless otherwise specified.</p>
 <p><strong>Theorem: (First page degeneration)</strong></p>
-<p>The associated spectral sequence degenerates at the $E_1$-page if and only if all transferred differentials $D_r'$ vanish.</p>
+<p>The associated spectral sequence degenerates at the $E_1$-page if and only if all transferred differentials $D_r&rsquo;$ vanish.</p>
 <p>For the higher pages, on the other hand, the differentials may be more complicated.</p>
-<p>As we saw earlier, the differentials on the $E_2$-page are induced by $D_2'$.
-The problem therefore lies with inducing the differentials from $D_r'$ where $r \geq 3$.</p>
-<p>Odin illustrates an example similar to the one we had earlier, showing the problems with using $D_2$ instead of $D_2'$.
+<p>As we saw earlier, the differentials on the $E_2$-page are induced by $D_2&rsquo;$.
+The problem therefore lies with inducing the differentials from $D_r&rsquo;$ where $r \geq 3$.</p>
+<p>Odin illustrates an example similar to the one we had earlier, showing the problems with using $D_2$ instead of $D_2&rsquo;$.
 The differential on the $E_2$-page could be nonzero even though the $D_2$-differential vanished.
 The same problem can be shown to happen for the $D_3$-differential by jazzing up the example for $D_2$.</p>
 <p>Even though it seems complicated, the following construction actually solves our problems.
 The idea is pushing the differentials a page to obtain new (shifted) differentials, giving a multicomplex in which the new $2$-differentials were the old $3$-differentials.
 This allows us to find transferred differentials that induce the differentials on the $E_3$-page and iterate to do this for the $E_r$-page. We are getting ahead of ourselves.</p>
 <p><strong>Construction: (Shifted multicomplex)</strong></p>
-<p>Given $(M, D_{\bullet})$, define $(^1M, ^1D_{\bullet})$ by setting $$^1D_r := D_{r+1}' \quad \text{and} \quad ^1M^{p,q} := H^{2p+q, -p}(M).$$
+<p>Given $(M, D_{\bullet})$, define $(^1M, ^1D_{\bullet})$ by setting $$^1D_r := D_{r+1}&rsquo; \quad \text{and} \quad ^1M^{p,q} := H^{2p+q, -p}(M).$$
 This is a new multicomplex, and indeed, we can iterate this construction to obtain a collection of multicomplexes, $(^sM, ^sD_{\bullet})$.
 Define $$^sD_{r} := ^{s-1}D_{r+1} \quad \text{and} \quad ^sM :=  H^{2p+q, -p}(M, ^{s-1}D_0).$$</p>
 <p>Indeed, this construction actually works!</p>
@@ -429,13 +650,13 @@ This may result in more frequent posting here on the blog, as I crave to write a
     
         <link 
                 rel="stylesheet" 
-                href="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.css"integrity="sha384-RZU/ijkSsFbcmivfdRBQDtwuwVqK7GMOw6IMvKyeWL2K5UAlyp6WonmB8m7Jd0Hn"crossorigin="anonymous"
+                href="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/katex.min.css"integrity="sha256-J&#43;iAE0sgH8QSz9hpcDxXIftnj65JEZgNhGcgReTTK9s="crossorigin="anonymous"
             ><script 
-                src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.js"integrity="sha384-pK1WpvzWVBQiP0/GjnvRxV4mOb0oxFuyRxJlk6vVw146n3egcN5C925NCP7a7BY8"crossorigin="anonymous"
+                src="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/katex.min.js"integrity="sha256-InsNdER1b2xUewP&#43;pKCUJpkhiqwHgqiPXDlIk7GzBu4="crossorigin="anonymous"
                 defer
                 >
             </script><script 
-                src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/contrib/auto-render.min.js"integrity="sha384-vZTG03m&#43;2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl"crossorigin="anonymous"
+                src="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/contrib/auto-render.min.js"integrity="sha256-y39Mpg7V3D4lhBX4x6O0bUqTV4pSrfgwEfGKfxkOdgI="crossorigin="anonymous"
                 defer
                 >
             </script><script>
@@ -446,7 +667,8 @@ This may result in more frequent posting here on the blog, as I crave to write a
                 { left: "$", right: "$", display: false },
                 { left: "\\(", right: "\\)", display: false },
                 { left: "\\[", right: "\\]", display: true }
-            ]
+            ],
+            ignoredClasses: ["gist"]
         });})
 </script>
     
@@ -454,14 +676,14 @@ This may result in more frequent posting here on the blog, as I crave to write a
 
     
 
-    <aside class="related-contents--wrapper">
     
-    
-        <h2 class="section-title">Related contents</h2>
-        <div class="related-contents">
-            <div class="flex article-list--tile">
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">Related content</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
                 
-                    
 <article class="has-image">
     <a href="/p/spectral-sequences-and-multicomplexes-part-ii/">
         
@@ -483,8 +705,9 @@ This may result in more frequent posting here on the blog, as I crave to write a
         </div>
     </a>
 </article>
+
+            
                 
-                    
 <article class="has-image">
     <a href="/p/spectral-sequences-and-multicomplexes-part-i/">
         
@@ -506,8 +729,9 @@ This may result in more frequent posting here on the blog, as I crave to write a
         </div>
     </a>
 </article>
+
+            
                 
-                    
 <article class="has-image">
     <a href="/p/galois-theory-of-commutative-ring-spectra/">
         
@@ -529,8 +753,9 @@ This may result in more frequent posting here on the blog, as I crave to write a
         </div>
     </a>
 </article>
+
+            
                 
-                    
 <article class="has-image">
     <a href="/p/secondary-characteristic-classes/">
         
@@ -552,10 +777,10 @@ This may result in more frequent posting here on the blog, as I crave to write a
         </div>
     </a>
 </article>
-                
-            </div>
+
+            
         </div>
-    
+    </div>
 </aside>
 
      
@@ -574,7 +799,7 @@ This may result in more frequent posting here on the blog, as I crave to write a
     
     <section class="powerby">
         Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
-        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.7.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.21.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
     </section>
 </footer>
 
@@ -651,65 +876,16 @@ This may result in more frequent posting here on the blog, as I crave to write a
                 >
             </script><link 
                 rel="stylesheet" 
-                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css"integrity="sha256-c0uckgykQ9v5k&#43;IqViZOZKc47Jn7KQil4/MP3ySA3F8="crossorigin="anonymous"
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
             ><link 
                 rel="stylesheet" 
-                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css"integrity="sha256-SBLU4vv6CA6lHsZ1XyTdhyjJxCjPif/TRkjnsyGAGnE="crossorigin="anonymous"
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
             >
 
             </main>
-    
-        <aside class="sidebar right-sidebar sticky">
-            <section class="widget archives">
-                <div class="widget-icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <line x1="5" y1="9" x2="19" y2="9" />
-  <line x1="5" y1="15" x2="19" y2="15" />
-  <line x1="11" y1="4" x2="7" y2="20" />
-  <line x1="17" y1="4" x2="13" y2="20" />
-</svg>
-
-
-
-                </div>
-                <h2 class="widget-title section-title">Table of contents</h2>
-                
-                <div class="widget--toc">
-                    <nav id="TableOfContents">
-  <ol>
-    <li><a href="#multicomplexes-and-their-associated-spectral-sequences">Multicomplexes and their associated spectral sequences</a>
-      <ol>
-        <li><a href="#what-is-a-multicomplex">What is a multicomplex?</a></li>
-        <li><a href="#where-do-we-meet-them-in-the-wild">Where do we meet them in the wild?</a></li>
-        <li><a href="#how-do-we-construct-spectral-sequences-for-multicomplexes">How do we construct spectral sequences for multicomplexes?</a></li>
-        <li><a href="#beware-the-differentials">Beware the differentials</a></li>
-      </ol>
-    </li>
-    <li><a href="#transferring-homotopy">Transferring homotopy</a>
-      <ol>
-        <li><a href="#preliminary-definitions-on-homotopy-of-cochain-complexes">Preliminary definitions on homotopy of cochain complexes</a></li>
-        <li><a href="#transferring-multicomplex-structures">Transferring multicomplex structures</a></li>
-        <li><a href="#a-small-detour">A small detour</a></li>
-      </ol>
-    </li>
-    <li><a href="#does-htt-help">Does HTT help?</a>
-      <ol>
-        <li><a href="#the-case-for-double-complexes">The case for double complexes</a></li>
-        <li><a href="#shifting-the-sequences-to-obtain-the-main-results-the-general-case">Shifting the sequences to obtain the main results (the general case)</a></li>
-      </ol>
-    </li>
-    <li><a href="#closing-remarks">Closing remarks</a></li>
-  </ol>
-</nav>
-                </div>
-            </section>
-        </aside>
-    
-
         </div>
         <script 
-                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js"integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g="crossorigin="anonymous"
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
             </script><script type="text/javascript" src="/ts/main.js" defer></script>

@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en-us" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='We start the blog by diving into a mini-series on spectral sequences, aiming to understand a master thesis on the topic.'><title>Spectral sequences and multicomplexes - Part I</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='We start the blog by diving into a mini-series on spectral sequences, aiming to understand a master thesis on the topic.'>
+<title>Spectral sequences and multicomplexes - Part I</title>
 
 <link rel='canonical' href='https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-i/'>
 
-<link rel="stylesheet" href="/scss/style.min.1b3ac667198cb83edcc9c45e606a6f4dd6910b8ada6b74d7fd988f1b2dfd0c7c.css"><meta property='og:title' content='Spectral sequences and multicomplexes - Part I'>
+<link rel="stylesheet" href="/scss/style.min.abbd69b2908fdfcd5179898beaafd374514a86538d81639ddd2c58c06ae54e40.css"><meta property='og:title' content='Spectral sequences and multicomplexes - Part I'>
 <meta property='og:description' content='We start the blog by diving into a mini-series on spectral sequences, aiming to understand a master thesis on the topic.'>
 <meta property='og:url' content='https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-i/'>
 <meta property='og:site_name' content='Exploring mathematics'>
@@ -15,8 +16,8 @@
     <meta name="twitter:image" content='https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqds2.png' />
     </head>
     <body class="
-    article-page has-toc
-">
+    article-page
+    ">
     <script>
         (function() {
             const colorSchemeKey = 'StackColorScheme';
@@ -39,26 +40,258 @@
         }
     })();
 </script>
-<div class="container main-container flex 
-    
-        extended
-    
-">
-    
-        <div id="article-toolbar">
-            <a href="/" class="back-home">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <polyline points="15 6 9 12 15 18" />
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/elias_hub0d9435e8577a337feea68e993245839_12081_300x0_resize_q75_box.jpg" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">🍥</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Exploring mathematics</a></h1>
+            <h2 class="site-description">Elias Klakken Angelsen</h2>
+        </div>
+    </header><ol class="social-menu">
+            
+                <li>
+                    <a 
+                        href='https://github.com/eka2499'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
 </svg>
 
 
 
-                <span>Back</span>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://www.linkedin.com/in/elias-klakken-angelsen-196675152/'
+                        target="_blank"
+                        title="Linkedin"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <rect x="4" y="4" width="16" height="16" rx="2" />
+  <line x1="8" y1="11" x2="8" y2="16" />
+  <line x1="8" y1="8" x2="8" y2="8.01" />
+  <line x1="12" y1="16" x2="12" y2="11" />
+  <path d="M16 16v-3a2 2 0 0 0 -4 0" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://www.researchgate.net/profile/Elias-Angelsen-2'
+                        target="_blank"
+                        title="Researchgate"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-flask-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M6.1 15h11.8" />
+  <path d="M14 3v7.342a6.002 6.002 0 0 1 1.318 10.658h-6.635a6.002 6.002 0 0 1 1.317 -10.66v-7.34h4z" />
+  <path d="M9 3h6" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' target="_blank">
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
             </a>
+        </li>
+        
+        
+        <li >
+            <a href='/about-me/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About me</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/documents/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-notebook" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M6 4h11a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-11a1 1 0 0 1 -1 -1v-14a1 1 0 0 1 1 -1m3 0v18" />
+  <line x1="13" y1="8" x2="15" y2="8" />
+  <line x1="13" y1="12" x2="15" y2="12" />
+</svg>
+
+
+
+                
+                <span>Documents</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/links/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>Links</span>
+            </a>
+        </li>
+        
+
+        <div class="menu-bottom-section">
+            
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>Dark Mode</span>
+                </li>
+            
         </div>
+    </ol>
+</aside>
+
     
-<main class="main full-width">
+
+            <main class="main full-width">
     <article class="has-image main-article">
     <header class="article-header">
         <div class="article-image">
@@ -89,16 +322,21 @@
     </header>
     
 
-    <h2 class="article-title">
-        <a href="/p/spectral-sequences-and-multicomplexes-part-i/">Spectral sequences and multicomplexes - Part I</a>
-    </h2>
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/spectral-sequences-and-multicomplexes-part-i/">Spectral sequences and multicomplexes - Part I</a>
+        </h2>
+    
+        
+        <h3 class="article-subtitle">
+            We start the blog by diving into a mini-series on spectral sequences, aiming to understand a master thesis on the topic.
+        </h3>
+        
+    </div>
 
     
-    <h3 class="article-subtitle">
-        We start the blog by diving into a mini-series on spectral sequences, aiming to understand a master thesis on the topic.
-    </h3>
     
-
+    
     
     <footer class="article-time">
         
@@ -127,13 +365,16 @@
 
 
                 <time class="article-time--reading">
-                    15 minute read
+                    14 minute read
                 </time>
             </div>
         
     </footer>
     
+
+    
 </div>
+
 </header>
 
     <section class="article-content">
@@ -154,87 +395,67 @@ Information of the homology of what from what, you may ask? We&rsquo;ll come to 
 <p>To reveal some of the notation before we derive the ideas ourselves, it is common (up to convention) to write $(E^r_{**}, d^r_{* *}).$ This indicates that we would have abelian groups $E^r_{p,q}$ in a grid and differentials $d^r_{p,q} : E^r_{p,q} \to E^r_{p-r,q+r-1}$ squaring to zero on the $r$&lsquo;th page.</p>
 <p>Let&rsquo;s try to visualise what this is supposed to look like if we try to work with a spectral sequence.
 First of all, we have abelian groups in a grid, indexed by which page $r$ we are working on.</p>
-<p><figure 
+<p><img src="/p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqd0.png"
+	width="1595"
+	height="960"
+	srcset="/p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqd0_hu408ddf8673b1a9ecb205e0cf9cdc75d5_131489_480x0_resize_box_3.png 480w, /p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqd0_hu408ddf8673b1a9ecb205e0cf9cdc75d5_131489_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+		alt="Grid of abelian groups on page $r=0$ in a first quadrant spectral sequence with the $0$-differentials between them"
+	
 	
 		class="gallery-image" 
-		style="
-			flex-grow: 166; 
-			flex-basis: 398px"
-	>
-	<a href="/p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqd0.png" data-size="1595x960">
-		<img src="/p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqd0.png"
-			width="1595"
-			height="960"
-			srcset="/p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqd0_hu408ddf8673b1a9ecb205e0cf9cdc75d5_131489_480x0_resize_box_3.png 480w, /p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqd0_hu408ddf8673b1a9ecb205e0cf9cdc75d5_131489_1024x0_resize_box_3.png 1024w"
-			loading="lazy"
-			alt="Grid of abelian groups on page $r=0$ in a first quadrant spectral sequence with the $0$-differentials between them">
-	</a>
+		data-flex-grow="166"
+		data-flex-basis="398px"
 	
-	<figcaption>Grid of abelian groups on page $r=0$ in a first quadrant spectral sequence with the $0$-differentials between them</figcaption>
-	
-</figure></p>
+></p>
 <p>Between these groups, we are supposed to have differentials moving left and up, depending on which page we are working on.
 Let&rsquo;s try to visualise what the $d_1, d_2$ and $d_3$ differentials look like on this page.</p>
-<p><figure 
+<p><img src="/p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqd1.png"
+	width="1575"
+	height="927"
+	srcset="/p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqd1_hubab8bbb150063d76cdd3b00c7d16d630_127977_480x0_resize_box_3.png 480w, /p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqd1_hubab8bbb150063d76cdd3b00c7d16d630_127977_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+		alt="On the first page we see some of the $d_1$ differentials. Note that the differentials go one to the left. One example of a vanishing differential is the map $E_{0,0}^1 \to E_{-1,0}^1$, which vanishes as $E_{-1,0}^1$ is zero in this first quadrant spectral sequence."
+	
 	
 		class="gallery-image" 
-		style="
-			flex-grow: 169; 
-			flex-basis: 407px"
-	>
-	<a href="/p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqd1.png" data-size="1575x927">
-		<img src="/p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqd1.png"
-			width="1575"
-			height="927"
-			srcset="/p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqd1_hubab8bbb150063d76cdd3b00c7d16d630_127977_480x0_resize_box_3.png 480w, /p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqd1_hubab8bbb150063d76cdd3b00c7d16d630_127977_1024x0_resize_box_3.png 1024w"
-			loading="lazy"
-			alt="On the first page we see some of the $d_1$ differentials. Note that the differentials go one to the left. One example of a vanishing differential is the map $E_{0,0}^1 \to E_{-1,0}^1$, which vanishes as $E_{-1,0}^1$ is zero in this first quadrant spectral sequence.">
-	</a>
+		data-flex-grow="169"
+		data-flex-basis="407px"
 	
-	<figcaption>On the first page we see some of the $d_1$ differentials. Note that the differentials go one to the left. One example of a vanishing differential is the map $E_{0,0}^1 \to E_{-1,0}^1$, which vanishes as $E_{-1,0}^1$ is zero in this first quadrant spectral sequence.</figcaption>
-	
-</figure></p>
+></p>
 <p>When we move to the later pages (e.g. $r=2$ or $r=3$), the differentials change. Keep in mind that the groups also change, as we move through the pages by taking homology with respect to the differentials we just worked with.
 For $r=2$, the page could look like the following:
-<figure 
+<img src="/p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqd22.png"
+	width="1584"
+	height="926"
+	srcset="/p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqd22_hucba43d7f9b848f50873e0e3eafb314cf_171324_480x0_resize_box_3.png 480w, /p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqd22_hucba43d7f9b848f50873e0e3eafb314cf_171324_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+		alt="For $r=2$, we can look at the selected differentials to see that the differentials change their directions slightly. On the second page they go two to the left and one up, instead of one to the left. Do not forget that the groups in each entry may have changed since the previous page."
+	
 	
 		class="gallery-image" 
-		style="
-			flex-grow: 171; 
-			flex-basis: 410px"
-	>
-	<a href="/p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqd22.png" data-size="1584x926">
-		<img src="/p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqd22.png"
-			width="1584"
-			height="926"
-			srcset="/p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqd22_hucba43d7f9b848f50873e0e3eafb314cf_171324_480x0_resize_box_3.png 480w, /p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqd22_hucba43d7f9b848f50873e0e3eafb314cf_171324_1024x0_resize_box_3.png 1024w"
-			loading="lazy"
-			alt="For $r=2$, we can look at the selected differentials to see that the differentials change their directions slightly. On the second page they go two to the left and one up, instead of one to the left. Do not forget that the groups in each entry may have changed since the previous page.">
-	</a>
+		data-flex-grow="171"
+		data-flex-basis="410px"
 	
-	<figcaption>For $r=2$, we can look at the selected differentials to see that the differentials change their directions slightly. On the second page they go two to the left and one up, instead of one to the left. Do not forget that the groups in each entry may have changed since the previous page.</figcaption>
-	
-</figure></p>
+></p>
 <p>How does this look for $r=3$ then? Let&rsquo;s take a look!</p>
-<p><figure 
+<p><img src="/p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqd32.png"
+	width="1578"
+	height="936"
+	srcset="/p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqd32_huaad426baa9dacbc531132ac646693c04_172855_480x0_resize_box_3.png 480w, /p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqd32_huaad426baa9dacbc531132ac646693c04_172855_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+		alt="Some (selected) differentials on the third page. Compared to the previous page, these go one more to the left and one more up before landing in an abelian group."
+	
 	
 		class="gallery-image" 
-		style="
-			flex-grow: 168; 
-			flex-basis: 404px"
-	>
-	<a href="/p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqd32.png" data-size="1578x936">
-		<img src="/p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqd32.png"
-			width="1578"
-			height="936"
-			srcset="/p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqd32_huaad426baa9dacbc531132ac646693c04_172855_480x0_resize_box_3.png 480w, /p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqd32_huaad426baa9dacbc531132ac646693c04_172855_1024x0_resize_box_3.png 1024w"
-			loading="lazy"
-			alt="Some (selected) differentials on the third page. Compared to the previous page, these go one more to the left and one more up before landing in an abelian group.">
-	</a>
+		data-flex-grow="168"
+		data-flex-basis="404px"
 	
-	<figcaption>Some (selected) differentials on the third page. Compared to the previous page, these go one more to the left and one more up before landing in an abelian group.</figcaption>
-	
-</figure></p>
+></p>
 <p>Ok. What we can see now, is that as we progress through the pages, the differentials more and more often end up left of the first quadrant, and hence vanish, as all the abelian groups outside the first quadrant is zero in this <em>first quadrant spectral sequence</em>.
 This would mean that for a sufficiently large $r$, all the differentials end up outside of the first quadrant and vanish. When taking homology with zero as the differentials, we just end up with the same thing.
 Therefore, for a sufficiently large $r$, we have</p>
@@ -258,25 +479,20 @@ We would need the categorical notion of a model category, which is specified by 
 <p><strong>Definition: (Homotopy Lifting Property)</strong></p>
 <p>Given a map of topological spaces $p: E \to B$, we say $p$ has the <em>homotopy lifting property</em> with respect to a space $X$ if, given a homotopy $g_t: X \to B$ and a lift $\tilde{g_0}:X \to E$ of the starting map $g_0$ in the homotopy,
 there exists a homotopy $\tilde{g_t}:X \to E$ lifting $g_t$ and extending $\tilde{g_0}$. Phrased as a diagram:</p>
-<p><figure 
+<p><img src="/p/spectral-sequences-and-multicomplexes-part-i/images/HLP.png"
+	width="513"
+	height="157"
+	srcset="/p/spectral-sequences-and-multicomplexes-part-i/images/HLP_huf91ed1880f9d62ab8ff1c6d1516b17ca_7428_480x0_resize_box_3.png 480w, /p/spectral-sequences-and-multicomplexes-part-i/images/HLP_huf91ed1880f9d62ab8ff1c6d1516b17ca_7428_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+		alt="Homotopy Lifting Property"
+	
 	
 		class="gallery-image" 
-		style="
-			flex-grow: 326; 
-			flex-basis: 784px"
-	>
-	<a href="/p/spectral-sequences-and-multicomplexes-part-i/images/HLP.png" data-size="513x157">
-		<img src="/p/spectral-sequences-and-multicomplexes-part-i/images/HLP.png"
-			width="513"
-			height="157"
-			srcset="/p/spectral-sequences-and-multicomplexes-part-i/images/HLP_huf91ed1880f9d62ab8ff1c6d1516b17ca_7428_480x0_resize_box_3.png 480w, /p/spectral-sequences-and-multicomplexes-part-i/images/HLP_huf91ed1880f9d62ab8ff1c6d1516b17ca_7428_1024x0_resize_box_3.png 1024w"
-			loading="lazy"
-			alt="Homotopy Lifting Property">
-	</a>
+		data-flex-grow="326"
+		data-flex-basis="784px"
 	
-	<figcaption>Homotopy Lifting Property</figcaption>
-	
-</figure></p>
+></p>
 <p><strong>Definition: (Fibration)</strong></p>
 <p>A <em>fibration</em> $p: E \to X$ is a map having this homotopy lifting property with respect to all topological spaces $X$.</p>
 <p>We call $F_x := p^{-1}(x)$ the fiber at $x$. If the base space $B$ is path connected, the different fibers are all homotopy equivalent.
@@ -302,45 +518,35 @@ If we want, we can apply homology to get a sequence looking quite similar.
 A natural question to ask is whether or not we can try to utilize this sort of filtration to compute homology levelwise and make it &ldquo;converge&rdquo; to the homology of $X$.</p>
 <p>If we have $A \subset B \subset X$ or even $A \subset B \subset C \subset X$, what info do we need about the homologies related to the subspaces of $X$ before we can compute the homology of $X$?
 To be intentionally vague, we can set up the homologies after each other, with the respective homologies of the quotient spaces.</p>
-<p><figure 
+<p><img src="/p/spectral-sequences-and-multicomplexes-part-i/images/Homology-of-short-filtration.png"
+	width="748"
+	height="202"
+	srcset="/p/spectral-sequences-and-multicomplexes-part-i/images/Homology-of-short-filtration_hude2cb37ee7a987275999e25f07da3c49_10447_480x0_resize_box_3.png 480w, /p/spectral-sequences-and-multicomplexes-part-i/images/Homology-of-short-filtration_hude2cb37ee7a987275999e25f07da3c49_10447_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+		alt="If we know the homologies $H(A), H(B/A)$ and $H(X/B)$, which we think of as the homology of the new information in each &ldquo;level&rdquo; of the filtration, then we can puzzle them together to find the homology $H(B)$ and then $H(X)$, at least up to some extension problems."
+	
 	
 		class="gallery-image" 
-		style="
-			flex-grow: 370; 
-			flex-basis: 888px"
-	>
-	<a href="/p/spectral-sequences-and-multicomplexes-part-i/images/Homology-of-short-filtration.png" data-size="748x202">
-		<img src="/p/spectral-sequences-and-multicomplexes-part-i/images/Homology-of-short-filtration.png"
-			width="748"
-			height="202"
-			srcset="/p/spectral-sequences-and-multicomplexes-part-i/images/Homology-of-short-filtration_hude2cb37ee7a987275999e25f07da3c49_10447_480x0_resize_box_3.png 480w, /p/spectral-sequences-and-multicomplexes-part-i/images/Homology-of-short-filtration_hude2cb37ee7a987275999e25f07da3c49_10447_1024x0_resize_box_3.png 1024w"
-			loading="lazy"
-			alt="If we know the homologies $H(A), H(B/A)$ and $H(X/B)$, which we think of as the homology of the new information in each &ldquo;level&rdquo; of the filtration, then we can puzzle them together to find the homology $H(B)$ and then $H(X)$, at least up to some extension problems.">
-	</a>
+		data-flex-grow="370"
+		data-flex-basis="888px"
 	
-	<figcaption>If we know the homologies $H(A), H(B/A)$ and $H(X/B)$, which we think of as the homology of the new information in each “level” of the filtration, then we can puzzle them together to find the homology $H(B)$ and then $H(X)$, at least up to some extension problems.</figcaption>
-	
-</figure></p>
+></p>
 <p>A similar story can be told for the longer filtrations.</p>
-<p><figure 
+<p><img src="/p/spectral-sequences-and-multicomplexes-part-i/images/homology-of-longer-filtration.png"
+	width="763"
+	height="207"
+	srcset="/p/spectral-sequences-and-multicomplexes-part-i/images/homology-of-longer-filtration_hud6a9c850567d81b47698bb7d94e19061_13648_480x0_resize_box_3.png 480w, /p/spectral-sequences-and-multicomplexes-part-i/images/homology-of-longer-filtration_hud6a9c850567d81b47698bb7d94e19061_13648_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+		alt="Up to extensions, we can even do this with longer chains, such as $A\subset B \subset C \subset X$."
+	
 	
 		class="gallery-image" 
-		style="
-			flex-grow: 368; 
-			flex-basis: 884px"
-	>
-	<a href="/p/spectral-sequences-and-multicomplexes-part-i/images/homology-of-longer-filtration.png" data-size="763x207">
-		<img src="/p/spectral-sequences-and-multicomplexes-part-i/images/homology-of-longer-filtration.png"
-			width="763"
-			height="207"
-			srcset="/p/spectral-sequences-and-multicomplexes-part-i/images/homology-of-longer-filtration_hud6a9c850567d81b47698bb7d94e19061_13648_480x0_resize_box_3.png 480w, /p/spectral-sequences-and-multicomplexes-part-i/images/homology-of-longer-filtration_hud6a9c850567d81b47698bb7d94e19061_13648_1024x0_resize_box_3.png 1024w"
-			loading="lazy"
-			alt="Up to extensions, we can even do this with longer chains, such as $A\subset B \subset C \subset X$.">
-	</a>
+		data-flex-grow="368"
+		data-flex-basis="884px"
 	
-	<figcaption>Up to extensions, we can even do this with longer chains, such as $A\subset B \subset C \subset X$.</figcaption>
-	
-</figure></p>
+></p>
 <p>It looks like we &ldquo;only&rdquo; need the homologies of the subspaces with their respective quotients to compute the homologies upwards in this chain.
 If we can properly define what a filtration is supposed to mean, and actually work out whow this &ldquo;levelwise&rdquo; construction is supposed to work, then we are possibly onto some sort of idea of &ldquo;approximating the homology of $X$ with finer and finer information&rdquo;.</p>
 <p><strong>Definition: (Filtration of a module)</strong></p>
@@ -378,94 +584,74 @@ We are close to the answer.</p>
 <p>It is (almost) natural to take $E_{p,q}^0$ to be $G_pC_{p+q}$. The most natural choice would be to consider $G_pC_q$, but it turns out that everything gets hard if we do that.
 The differential $d_0$ can only be chosen to be the boundary map $E_{p,q}^0 = G_pC_{p+q} \to G_pC_{p+q-1} = E_{p,q-1}^0$.
 Just to see what this would look like, let&rsquo;s bring up the grid again.</p>
-<p><figure 
+<p><img src="/p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqd0.png"
+	width="1595"
+	height="960"
+	srcset="/p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqd0_hu408ddf8673b1a9ecb205e0cf9cdc75d5_131489_480x0_resize_box_3.png 480w, /p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqd0_hu408ddf8673b1a9ecb205e0cf9cdc75d5_131489_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+		alt="The differentials just takes one leap down."
+	
 	
 		class="gallery-image" 
-		style="
-			flex-grow: 166; 
-			flex-basis: 398px"
-	>
-	<a href="/p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqd0.png" data-size="1595x960">
-		<img src="/p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqd0.png"
-			width="1595"
-			height="960"
-			srcset="/p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqd0_hu408ddf8673b1a9ecb205e0cf9cdc75d5_131489_480x0_resize_box_3.png 480w, /p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqd0_hu408ddf8673b1a9ecb205e0cf9cdc75d5_131489_1024x0_resize_box_3.png 1024w"
-			loading="lazy"
-			alt="The differentials just takes one leap down.">
-	</a>
+		data-flex-grow="166"
+		data-flex-basis="398px"
 	
-	<figcaption>The differentials just takes one leap down.</figcaption>
-	
-</figure></p>
+></p>
 <p>Now, if we take homology with respect to $d_0$, what happens? We define the $E^1$-page!</p>
 <p>The $E^1$-page becomes $E^1_{p,q} = H_{p+q}(G_pC_ * )$. If we want to find the differential $d_1$, we couldn&rsquo;t base it on $d_0$, as we already killed off every single image of $d_0$ when taking homology. Nevertheless, there is a way!
-Recall that we want to have a map from one of the $E^1_{p,q} = H_{p+q}(G_pC_ * )$ to a $E^1_{p&rsquo;,q'} = H_{p'+q'}(G_{p'}C_ * )$.</p>
+Recall that we want to have a map from one of the $E^1_{p,q} = H_{p+q}(G_pC_ * )$ to a $E^1_{p&rsquo;,q&rsquo;} = H_{p&rsquo;+q&rsquo;}(G_{p&rsquo;}C_ * )$.</p>
 <p>If we consider the filtrations we have worked with earlier, we may find something interesting. For example, we can consider the short exact sequences</p>
 <p>$$0 \to F_{p-1}C_ * \to F_pC_ * \to G_pC_ * \to 0$$</p>
 <p>and</p>
 <p>$$0 \to F_{p-2}C_ * \to F_{p-1}C_ * \to G_{p-1}C_ * \to 0.$$</p>
 <p>Since we have $F_{p-1}C_ * $ in both of them, we may be able to link $G_pC_ * $ to $ G_{p-1}C_ * $.
 We want to link them in homology, so by taking the long exact sequences in homology, we can just trace the following web of arrows to define $d_1$ as the composition of the crossing arrows from both of the long exact sequences.</p>
-<p><figure 
+<p><img src="/p/spectral-sequences-and-multicomplexes-part-i/images/d1.png"
+	width="688"
+	height="402"
+	srcset="/p/spectral-sequences-and-multicomplexes-part-i/images/d1_hub8298c7b882c595ffa5a908b99dfd1ec_18181_480x0_resize_box_3.png 480w, /p/spectral-sequences-and-multicomplexes-part-i/images/d1_hub8298c7b882c595ffa5a908b99dfd1ec_18181_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+		alt="By analysing which pair of long exact sequences we can staple together, we can define $d_1: E_{p,q}^1 \to E_{p-1,q}^1$ as the composition."
+	
 	
 		class="gallery-image" 
-		style="
-			flex-grow: 171; 
-			flex-basis: 410px"
-	>
-	<a href="/p/spectral-sequences-and-multicomplexes-part-i/images/d1.png" data-size="688x402">
-		<img src="/p/spectral-sequences-and-multicomplexes-part-i/images/d1.png"
-			width="688"
-			height="402"
-			srcset="/p/spectral-sequences-and-multicomplexes-part-i/images/d1_hub8298c7b882c595ffa5a908b99dfd1ec_18181_480x0_resize_box_3.png 480w, /p/spectral-sequences-and-multicomplexes-part-i/images/d1_hub8298c7b882c595ffa5a908b99dfd1ec_18181_1024x0_resize_box_3.png 1024w"
-			loading="lazy"
-			alt="By analysing which pair of long exact sequences we can staple together, we can define $d_1: E_{p,q}^1 \to E_{p-1,q}^1$ as the composition.">
-	</a>
+		data-flex-grow="171"
+		data-flex-basis="410px"
 	
-	<figcaption>By analysing which pair of long exact sequences we can staple together, we can define $d_1: E_{p,q}^1 \to E_{p-1,q}^1$ as the composition.</figcaption>
-	
-</figure></p>
+></p>
 <p>This arrow goes straight to the left and gives us in fact a new differential, as $d_1 ^2 = 0$, which could be seen by tracing out what $d_1^2$ would look like.</p>
-<p><figure 
+<p><img src="/p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqd1.png"
+	width="1575"
+	height="927"
+	srcset="/p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqd1_hubab8bbb150063d76cdd3b00c7d16d630_127977_480x0_resize_box_3.png 480w, /p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqd1_hubab8bbb150063d76cdd3b00c7d16d630_127977_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+		alt="The differentials $d_1$ differ from the $d_0$-differentials in the sense that their target is one to the left and one up, compared to the $d_0$-differentials"
+	
 	
 		class="gallery-image" 
-		style="
-			flex-grow: 169; 
-			flex-basis: 407px"
-	>
-	<a href="/p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqd1.png" data-size="1575x927">
-		<img src="/p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqd1.png"
-			width="1575"
-			height="927"
-			srcset="/p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqd1_hubab8bbb150063d76cdd3b00c7d16d630_127977_480x0_resize_box_3.png 480w, /p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqd1_hubab8bbb150063d76cdd3b00c7d16d630_127977_1024x0_resize_box_3.png 1024w"
-			loading="lazy"
-			alt="The differentials $d_1$ differ from the $d_0$-differentials in the sense that their target is one to the left and one up, compared to the $d_0$-differentials">
-	</a>
+		data-flex-grow="169"
+		data-flex-basis="407px"
 	
-	<figcaption>The differentials $d_1$ differ from the $d_0$-differentials in the sense that their target is one to the left and one up, compared to the $d_0$-differentials</figcaption>
-	
-</figure></p>
+></p>
 <p>With this, we could take homology again, yielding the $E^2$ page and the respective $E_{p,q}^2$-groups.
 The differential is a little bit more involved, but through a similar prosedure as for $d_1$, with some lifting of homology classes to representatives, one can make a well-defined differential $d_2: E_{p,q}^2 \to E_{p-2,q+1}^2$.
-<figure 
+<img src="/p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqd22.png"
+	width="1584"
+	height="926"
+	srcset="/p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqd22_hucba43d7f9b848f50873e0e3eafb314cf_171324_480x0_resize_box_3.png 480w, /p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqd22_hucba43d7f9b848f50873e0e3eafb314cf_171324_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+		alt="The shift in the $d_2$-differentials comes from lifting some homology classes and mapping further, yielding the &ldquo;one to the left, one up&rdquo;-shift."
+	
 	
 		class="gallery-image" 
-		style="
-			flex-grow: 171; 
-			flex-basis: 410px"
-	>
-	<a href="/p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqd22.png" data-size="1584x926">
-		<img src="/p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqd22.png"
-			width="1584"
-			height="926"
-			srcset="/p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqd22_hucba43d7f9b848f50873e0e3eafb314cf_171324_480x0_resize_box_3.png 480w, /p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqd22_hucba43d7f9b848f50873e0e3eafb314cf_171324_1024x0_resize_box_3.png 1024w"
-			loading="lazy"
-			alt="The shift in the $d_2$-differentials comes from lifting some homology classes and mapping further, yielding the &ldquo;one to the left, one up&rdquo;-shift.">
-	</a>
+		data-flex-grow="171"
+		data-flex-basis="410px"
 	
-	<figcaption>The shift in the $d_2$-differentials comes from lifting some homology classes and mapping further, yielding the “one to the left, one up”-shift.</figcaption>
-	
-</figure></p>
+></p>
 <p>After this point, one can continue in a similar fashion to produce all the pages that will determine the filtration of the yet unknown homology of $C_* $.
 There are of course a lot of details to be checked, so we refer interested readers to <a class="link" href="https://r0hilp.github.io/assets/docs/serre_spectral_sequence.pdf"  target="_blank" rel="noopener"
     >this writeup</a> for the details.</p>
@@ -514,13 +700,13 @@ Until next time, check out <a class="link" href="https://www.youtube.com/watch?v
     
         <link 
                 rel="stylesheet" 
-                href="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.css"integrity="sha384-RZU/ijkSsFbcmivfdRBQDtwuwVqK7GMOw6IMvKyeWL2K5UAlyp6WonmB8m7Jd0Hn"crossorigin="anonymous"
+                href="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/katex.min.css"integrity="sha256-J&#43;iAE0sgH8QSz9hpcDxXIftnj65JEZgNhGcgReTTK9s="crossorigin="anonymous"
             ><script 
-                src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.js"integrity="sha384-pK1WpvzWVBQiP0/GjnvRxV4mOb0oxFuyRxJlk6vVw146n3egcN5C925NCP7a7BY8"crossorigin="anonymous"
+                src="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/katex.min.js"integrity="sha256-InsNdER1b2xUewP&#43;pKCUJpkhiqwHgqiPXDlIk7GzBu4="crossorigin="anonymous"
                 defer
                 >
             </script><script 
-                src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/contrib/auto-render.min.js"integrity="sha384-vZTG03m&#43;2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl"crossorigin="anonymous"
+                src="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/contrib/auto-render.min.js"integrity="sha256-y39Mpg7V3D4lhBX4x6O0bUqTV4pSrfgwEfGKfxkOdgI="crossorigin="anonymous"
                 defer
                 >
             </script><script>
@@ -531,7 +717,8 @@ Until next time, check out <a class="link" href="https://www.youtube.com/watch?v
                 { left: "$", right: "$", display: false },
                 { left: "\\(", right: "\\)", display: false },
                 { left: "\\[", right: "\\]", display: true }
-            ]
+            ],
+            ignoredClasses: ["gist"]
         });})
 </script>
     
@@ -539,14 +726,14 @@ Until next time, check out <a class="link" href="https://www.youtube.com/watch?v
 
     
 
-    <aside class="related-contents--wrapper">
     
-    
-        <h2 class="section-title">Related contents</h2>
-        <div class="related-contents">
-            <div class="flex article-list--tile">
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">Related content</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
                 
-                    
 <article class="has-image">
     <a href="/p/spectral-sequences-and-multicomplexes-part-ii/">
         
@@ -568,8 +755,9 @@ Until next time, check out <a class="link" href="https://www.youtube.com/watch?v
         </div>
     </a>
 </article>
+
+            
                 
-                    
 <article class="has-image">
     <a href="/p/spectral-sequences-and-multicomplexes-part-iii/">
         
@@ -591,8 +779,9 @@ Until next time, check out <a class="link" href="https://www.youtube.com/watch?v
         </div>
     </a>
 </article>
+
+            
                 
-                    
 <article class="has-image">
     <a href="/p/galois-theory-of-commutative-ring-spectra/">
         
@@ -614,8 +803,9 @@ Until next time, check out <a class="link" href="https://www.youtube.com/watch?v
         </div>
     </a>
 </article>
+
+            
                 
-                    
 <article class="has-image">
     <a href="/p/secondary-characteristic-classes/">
         
@@ -637,10 +827,10 @@ Until next time, check out <a class="link" href="https://www.youtube.com/watch?v
         </div>
     </a>
 </article>
-                
-            </div>
+
+            
         </div>
-    
+    </div>
 </aside>
 
      
@@ -659,7 +849,7 @@ Until next time, check out <a class="link" href="https://www.youtube.com/watch?v
     
     <section class="powerby">
         Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
-        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.7.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.21.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
     </section>
 </footer>
 
@@ -736,50 +926,16 @@ Until next time, check out <a class="link" href="https://www.youtube.com/watch?v
                 >
             </script><link 
                 rel="stylesheet" 
-                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css"integrity="sha256-c0uckgykQ9v5k&#43;IqViZOZKc47Jn7KQil4/MP3ySA3F8="crossorigin="anonymous"
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
             ><link 
                 rel="stylesheet" 
-                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css"integrity="sha256-SBLU4vv6CA6lHsZ1XyTdhyjJxCjPif/TRkjnsyGAGnE="crossorigin="anonymous"
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
             >
 
             </main>
-    
-        <aside class="sidebar right-sidebar sticky">
-            <section class="widget archives">
-                <div class="widget-icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <line x1="5" y1="9" x2="19" y2="9" />
-  <line x1="5" y1="15" x2="19" y2="15" />
-  <line x1="11" y1="4" x2="7" y2="20" />
-  <line x1="17" y1="4" x2="13" y2="20" />
-</svg>
-
-
-
-                </div>
-                <h2 class="widget-title section-title">Table of contents</h2>
-                
-                <div class="widget--toc">
-                    <nav id="TableOfContents">
-  <ol>
-    <li><a href="#what-is-a-spectral-sequence">What is a spectral sequence?</a></li>
-    <li><a href="#a-detour-to-homotopy-theory">A detour to homotopy theory</a></li>
-    <li><a href="#spectral-sequences-from-filtered-complexes">Spectral sequences from filtered complexes</a>
-      <ol>
-        <li><a href="#the-main-idea">The main idea</a></li>
-      </ol>
-    </li>
-  </ol>
-</nav>
-                </div>
-            </section>
-        </aside>
-    
-
         </div>
         <script 
-                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js"integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g="crossorigin="anonymous"
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
             </script><script type="text/javascript" src="/ts/main.js" defer></script>

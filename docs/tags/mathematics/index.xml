@@ -1,57 +1,1175 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Mathematics on Exploring mathematics</title>
-    <link>https://eka2499.github.io/tags/mathematics/</link>
-    <description>Recent content in Mathematics on Exploring mathematics</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 21 Jan 2024 13:02:49 +0100</lastBuildDate><atom:link href="https://eka2499.github.io/tags/mathematics/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Galois Theory of Commutative Ring Spectra</title>
-      <link>https://eka2499.github.io/p/galois-theory-of-commutative-ring-spectra/</link>
-      <pubDate>Sun, 21 Jan 2024 13:02:49 +0100</pubDate>
-      
-      <guid>https://eka2499.github.io/p/galois-theory-of-commutative-ring-spectra/</guid>
-      <description>This is a tentatively empty post as I am migriting to another computer and need to test if it works!</description>
-    </item>
-    
-    <item>
-      <title>Secondary characteristic classes</title>
-      <link>https://eka2499.github.io/p/secondary-characteristic-classes/</link>
-      <pubDate>Tue, 13 Dec 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://eka2499.github.io/p/secondary-characteristic-classes/</guid>
-      <description>The last semester I have been thinking very little about this blog. The reason is that I had not developed any &amp;ldquo;writing habits&amp;rdquo;, and as I started on my master thesis this semester, there have been plenty of topics to learn about. Of course, I made this blog as a tool of learning, as explaining difficult topics forces me to learn them myself, but as the learning has been more about getting an overview, I have not prioritized writing a lot.</description>
-    </item>
-    
-    <item>
-      <title>Spectral sequences and multicomplexes - Part III</title>
-      <link>https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-iii/</link>
-      <pubDate>Tue, 05 Apr 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-iii/</guid>
-      <description>As promised when we started the series on spectral sequences and multicomplexes, we aimed at understanding the main results of a master thesis. Finally, I&amp;rsquo;ve had the time to finish this post. I enjoyed writing it quite a lot, but I have been busy with other things, such as acting for Realfagsrevyen and doing project work for other courses. Now that these things are more-or-less out of the way (for now), I finally managed to finish this post.</description>
-    </item>
-    
-    <item>
-      <title>Spectral sequences and multicomplexes - Part II</title>
-      <link>https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-ii/</link>
-      <pubDate>Wed, 23 Feb 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-ii/</guid>
-      <description>Welcome back! In the previous post, we took a brief look at spectral sequences and how we could get them from filtered complexes. In this post, we will sketch the main ideas in a proof of the convergence of the Leray-Serre (LS) spectral sequence using techiques from homotopy theory, explore spectral sequences through exact couples and compute an example.
-Originally, I planned to spend more time understanding exact couples and head towards the Adams spectral sequence, but as my friend Torgeir recently wrote a great post on this for his dive into (stable) homotopy theory, we&amp;rsquo;ll just briefly touch on the topic.</description>
-    </item>
-    
-    <item>
-      <title>Spectral sequences and multicomplexes - Part I</title>
-      <link>https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-i/</link>
-      <pubDate>Thu, 03 Feb 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-i/</guid>
-      <description>A year ago, I took a course on algebraic topology at NTNU where we covered some homotopy theory, spectral sequences, bundle theory and characteristic classes. Most of the topics stuck with me, and I have been exploring them a bit after the course. The part on spectral sequences grew on me, and at the end of the course, that part fascinated me the most, as they give a puzzle-style way of computing homology and cohomology.</description>
-    </item>
-    
-  </channel>
+    <channel>
+        <title>Mathematics on Exploring mathematics</title>
+        <link>https://eka2499.github.io/tags/mathematics/</link>
+        <description>Recent content in Mathematics on Exploring mathematics</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Sun, 21 Jan 2024 13:02:49 +0100</lastBuildDate><atom:link href="https://eka2499.github.io/tags/mathematics/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Galois Theory of Commutative Ring Spectra</title>
+        <link>https://eka2499.github.io/p/galois-theory-of-commutative-ring-spectra/</link>
+        <pubDate>Sun, 21 Jan 2024 13:02:49 +0100</pubDate>
+        
+        <guid>https://eka2499.github.io/p/galois-theory-of-commutative-ring-spectra/</guid>
+        <description>&lt;img src="https://eka2499.github.io/p/galois-theory-of-commutative-ring-spectra/splasher.jpg" alt="Featured image of post Galois Theory of Commutative Ring Spectra" /&gt;&lt;p&gt;This is a tentatively empty post as I am migriting to another computer and need to test if it works!&lt;/p&gt;
+&lt;h2 id=&#34;updated-now&#34;&gt;Updated now!&lt;/h2&gt;
+</description>
+        </item>
+        <item>
+        <title>Secondary characteristic classes</title>
+        <link>https://eka2499.github.io/p/secondary-characteristic-classes/</link>
+        <pubDate>Tue, 13 Dec 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://eka2499.github.io/p/secondary-characteristic-classes/</guid>
+        <description>&lt;img src="https://eka2499.github.io/p/secondary-characteristic-classes/images/charforms.png" alt="Featured image of post Secondary characteristic classes" /&gt;&lt;p&gt;The last semester I have been thinking very little about this blog. The reason is that I had not developed any &amp;ldquo;writing habits&amp;rdquo;, and as I started on my master thesis this semester, there have been plenty of topics to learn about. Of course, I made this blog as a tool of learning, as explaining difficult topics forces me to learn them myself, but as the learning has been more about getting an overview, I have not prioritized writing a lot. Now I have some articles I want to understand, and as I miss explaining things a bit unformally, I am reviving the blog (at least for one post)!&lt;/p&gt;
+&lt;p&gt;This post we will meet an interesting topic, namely secondary geometric invariants, which explain some of the geometric information lost in the topological invariants called characteristic classes.
+We will loosely base this blog post on the article &lt;a class=&#34;link&#34; href=&#34;https://math.mit.edu/juvitop/pastseminars/notes_2019_Fall/Chern-Simons.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;characteristic forms and geometric invariants&lt;/a&gt; by Chern and Simons.
+The cover image is generated by the AI Midjourney, using the prompt &amp;ldquo;geometric invariants, characteristic forms, - - chaos 60&amp;rdquo;. In some sense, the picture represents the philosophy of characteristic classes quite well. If there is more fog, we won&amp;rsquo;t be able to see the mountains raging in the back, which is analogue to ignoring some of the secondary geometry lying behind the first mountains of topolgoy when putting on our foggy topology glasses.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://eka2499.github.io/p/secondary-characteristic-classes/images/charforms.png&#34;
+	width=&#34;252&#34;
+	height=&#34;250&#34;
+	srcset=&#34;https://eka2499.github.io/p/secondary-characteristic-classes/images/charforms_hu38b9b51e48b1191b37474c6957d0d89a_107088_480x0_resize_box_3.png 480w, https://eka2499.github.io/p/secondary-characteristic-classes/images/charforms_hu38b9b51e48b1191b37474c6957d0d89a_107088_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Secondary geometric invariants are raging above the characteristic classes, but are ignored by foggy topology.&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;100&#34;
+		data-flex-basis=&#34;241px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;We will first meet the Chern-Weil homomorphism, eating an &amp;ldquo;invariant&amp;rdquo; polynomial and geometric information in form of the curvature a connection, but spitting out a cohomology class independent of the connectiong.&lt;/p&gt;
+&lt;p&gt;After we have set the stage for refining this story, we will study the &amp;ldquo;lifted&amp;rdquo; secondary geometric invariants, or more specifically, the Chern-Simons forms.&lt;/p&gt;
+&lt;p&gt;Lastly, we will meet two applications of the constructed forms, first as obstructions to more refined immersion questions, and later we will see that the nature of Chern-Simons forms lets us integrate these forms to obtain a surprisingly intuitive topological quantum field theory.&lt;/p&gt;
+&lt;h2 id=&#34;preliminaries-on-connection-theory&#34;&gt;Preliminaries on connection theory&lt;/h2&gt;
+&lt;p&gt;If we want to understand secondary characteristic classes, we establish the preliminaries in differential geometry that we need to understand Chern-Weil theory.
+The vital piece is connection theory.&lt;/p&gt;
+&lt;p&gt;Now, there are many ways of viewing connections. I think of them as &amp;ldquo;the geometric data you need in order to make directional derivatives, and hence curvature and other interesting things&amp;rdquo;. This is indeed a valid way of thinking about it, but if one reads about connection theory, it is easy to get lost, as there are many equivalent definitions.&lt;/p&gt;
+&lt;p&gt;Following the philosopy of smooth manifolds, at least in the real case, we define things locally, use the local definitions as a motivation for the global definitions. We let $M$ be a smooth manifold throughout.&lt;/p&gt;
+&lt;p&gt;In $\mathbb{R}^n$, one has a canonical basis for the tangent space, but on an arbitrary manifold, this is not the case.
+Therefore, there is no longer a canonical way of defining a directional derivative, even locally.
+Nevertheless, any definition we have of a connection, should indeed satisfy the same properties as &amp;ldquo;the classical one&amp;rdquo;.
+It should eat two vector fields, one to determine &amp;ldquo;the direction of differentiation&amp;rdquo; and one to &amp;ldquo;be differentiated&amp;rdquo;, and it should spit out a new vector field.&lt;/p&gt;
+&lt;p&gt;We thus make the following definition.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Definition: (An affine connection)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;An affine connection on a manifold is an $\mathbb{R}$-bilinear map
+$$
+\nabla : \mathfrak{X}(M) \times \mathfrak{X}(M) \to \mathfrak{X}(M)
+$$
+denoted $\nabla_X Y$ for $\nabla(X,Y)$.
+This should be $C^{\infty}(M)$-linear in $X$ and satisfy the Leibniz-rule in $Y$ under the action of $C^{\infty}(M)$.&lt;/p&gt;
+&lt;p&gt;This indeed generalizes the known notion of an Euclidean directional derivative.&lt;/p&gt;
+&lt;p&gt;To define the curvature, remember that composition of vector fields (since they are derivations) induces a Lie-bracket on $\mathfrak{X}(M)$.
+This can be used to define the curvature, which measures &amp;ldquo;how much the manifold causes the non-commutation of directional derivatives&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Definition: (Curvature of an affine connection)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;If $X, Y \in \mathfrak{X}(M)$, we define the curvature as
+$$
+R(X, Y) =\left[\nabla_X, \nabla_Y\right]-\nabla_{[X, Y]} =\nabla_X \nabla_Y-\nabla_Y \nabla_X-\nabla_{[X, Y]} \in \operatorname{End}(\mathfrak{X}(M)) .
+$$&lt;/p&gt;
+&lt;p&gt;Locally on a manifold, the curvature can be written out using curvature forms, which we denote $\Omega$.
+Notation might be a bit ambiguous in this post, but we ignore it as there are a lot pain-like technicialities in differential geometry.&lt;/p&gt;
+&lt;p&gt;Since we can locally choose an Euclidean connection, we can patch together these local connections to a connection on any smooth manifold, using a partition of unity. The same argument can be made about a Riemannian structure.
+If one is interested in complex geometry, one will indeed cry a bit about this, as the identity theorem for analytic functions ensures that &amp;ldquo;any functions that agree locally, must agree globally&amp;rdquo;. This kills much of the power obtained by partitions of unity in complex geometry.&lt;/p&gt;
+&lt;p&gt;If one has tried to read papers or texts about differential geometry, one often meets the term &amp;ldquo;Levi-Cevita connection&amp;rdquo;.
+This is just a (unique) connection that is torsion-free and compatible with the Riemannian metric given on a manifold.&lt;/p&gt;
+&lt;p&gt;Now, we have a definition, and indeed, this turns out to be the correct definition of a connection.
+There are other, maybe more intuitive, definitions that give equivalent results.&lt;/p&gt;
+&lt;p&gt;For example, if we work on a surface $M$ in $\mathbb{R}^3$ and consider a vector field on $\mathbb{R}^3$ restricted to the surface, the directional derivative $D_X Y$ may not be horizontal, i.e. it may not actually be a tangent vector.
+Luckily, one may consider at each point $p \in M$ the normal vector $v_p$, which gives a decomposition
+$$
+T_p \mathbb{R}^3 \simeq T_p M \oplus v_p.
+$$
+This lets us project the vector field down to $M$, by defining a connection $\nabla$ by
+$$
+\nabla_X Y=\operatorname{pr}\left(D_X Y\right).
+$$&lt;/p&gt;
+&lt;p&gt;The idea of &amp;ldquo;horizontal decomposition&amp;rdquo; is quite important. In fact, the data of a connection (at every level we meet in this post) can be shown to be equivalent to a type of horizontal decomposition with suitable structure. This is particularily useful when defining connections on principal $G$-bundles.&lt;/p&gt;
+&lt;p&gt;If we want to generalize the definition of a connection to vector bundles, it is important to note that a vector field on $M$ is a section of its tangent bundle.&lt;/p&gt;
+&lt;p&gt;The intuition where a connection eats two vector fields is kinda faulty. It needs a vector field indicating the direction of differentiation, and after that it eats a section of the bundle, which is indeed the notion of a function we want to take the directional derivative of. It should also spit out a section of the bundle, as this is the differentiated section in the direction of the vector field. This subtle change leads to the following definition. We let $\pi: E \to M$ be a smooth vector bundle.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Definition: (A connection on a vector bundle)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A connection on $E$ is a map
+$$
+\nabla: \mathfrak{X}(M) \times \Gamma(E) \to \Gamma(E)
+$$
+such that $\nabla_X s$ is $C^{\infty}(M)$-linear and $\mathbb{R}$-linear in $s$, and it satisfies the Leibniz-rule
+$$
+\nabla_X(f s)=(X f) s+f \nabla_X s
+$$
+when $f$ is a smooth function.&lt;/p&gt;
+&lt;p&gt;We say a section is flat if $\nabla_Xs = 0$ for all $X \in \mathfrak{X}(M)$.&lt;/p&gt;
+&lt;p&gt;As mentioned before, connections exist as we can patch them together from local components using partitions of unity.
+Indeed, we define the curvature as expected.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Definition: (Curvature of a connection)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;We define the curvature as
+$$
+R(X, Y) s=\nabla_X \nabla_Y s-\nabla_Y \nabla_X s-\nabla_{[X, Y]} s \in \Gamma(E).
+$$&lt;/p&gt;
+&lt;p&gt;Again, we will misuse notation and denote the curvature by $\Omega$, even though this denotes the vector curvature forms in a given basis. The ideas in the post still holds, even though the notation might be confusing.&lt;/p&gt;
+&lt;p&gt;By adjunction, one may note that the connection is an $\operatorname{End}(\Gamma(E))$-valued $1$-form on $M$. The same can be said about the curvature, but this is a $2$-form. A natural question arises: How is the exterior derivative of the connection (which then becomes a $2$-form) related to the curvature?&lt;/p&gt;
+&lt;p&gt;The answer is beautiful, and is usually called the second structural equation. The first structural equation exists, as the name suggests, and answers a similar question, just with torsion instead of curvature. Here, $\omega$ will denote the connection forms, which again is the ambiguous notation for &amp;ldquo;the coefficient forms exhibiting the connection in a given basis&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Theorem: (Second structural equation)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;We have the relation
+$$
+\Omega=d \omega+\omega \wedge \omega.
+$$&lt;/p&gt;
+&lt;p&gt;This is a vital relation, and it can indeed be used to express the curvature just from the connection.
+As we will see, we can therefore use this to define the curvature of a connection in principal $G$-bundles.&lt;/p&gt;
+&lt;p&gt;Okok, great. We kind of understand what a connection is. Indeed, as mentioned earlier, we can rephrase the data of a connection on the bundle with the equivalent data of a decomposition of the tangent bundle of the total space, i.e.
+$$TE \simeq HE \oplus VE,$$
+where $HE$ denotes the horizontal part of $TE$ (which can be given by $\operatorname{ker}(\pi_* $) and $VE$ denotes the vertical part. A choice of such a splitting can be shown to be equivalent to a connection, as long as we assume the horizontal distribution (as it is called) is linear in some suitable sense.&lt;/p&gt;
+&lt;p&gt;The &amp;ldquo;last&amp;rdquo; layer we need to understand is how to define a connection on principal $G$-bundles.
+We let $\pi : P \to M$ be a principal $G$-bundle, and we take the &amp;ldquo;horizontal decomposition&amp;rdquo;-approach to the topic.&lt;/p&gt;
+&lt;p&gt;If we have a decomposition $TP \simeq HE \oplus VE$, we can cosinder the map $j_p: G \to P$ that sends $g \mapsto p \cdot g$ for $p \in P$.
+Differentiating this map yields a map $(j_p)_ * : \mathfrak{g} \to VE_p$, and in fact, it turns out that this is an isomorphism.
+By letting $v : TE \to VE$ be the projection onto the vertical distribution, we can form
+$$
+\omega_p := ((j_p)_* )^{-1} \circ v : T_pE \to VE_p \to \mathfrak{g}.
+$$&lt;/p&gt;
+&lt;p&gt;The ensemble of these maps amount to a $\mathfrak{g}$-valued $1$-form $\omega$, and this $\omega$ can be shown to satisfy some properties telling us how it interacts with the fundamental concepts in principal $G$-bundles.
+These properties is exactly what we take as the definition of a connection, as we want any other choice of connection (or equivalently horizontal decomposition) to satisfy the same properties.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Definition: (Connection on a principal $G$-bundle)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A connection on a principal $G$-bundle, often called an Ehresmann-connection, is a smooth $\mathfrak{g}$-valued $1$-form on the total space $P$ that maps fundamental vector fields to the underlying vector fields, and satisfies the following relation, called $G$-equivariance:
+$$
+r_g^* \omega=\left(\operatorname{Ad} g^{-1}\right) \omega.
+$$&lt;/p&gt;
+&lt;p&gt;It is fair to acknowledge that this definition may seem a bit strange, and it is. A thorough motiviaton would take a bit more writing than we have room for here. We took the &amp;ldquo;connections as directional derivatives&amp;rdquo;-approach, and that comes back to us now, even though the less intuitive &amp;ldquo;connection as a horizontal splitting&amp;rdquo;-approach is more powerful.
+OH well, we move on.&lt;/p&gt;
+&lt;p&gt;What can we say about the curvature of such a connection?
+As hinted before, the second structural equation can be taken as a definition, and this is exactly what we do, as the explicit definition using the connection is funky to work out when the definition of a connection is more abstract.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Definition: (Curvature of an Ehresmann connection)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;We define the curvature as the $\mathfrak{g}$-valued $2$-form
+$$
+\Omega=d \omega+\frac{1}{2}[\omega, \omega].
+$$&lt;/p&gt;
+&lt;p&gt;We could have spent more time on properties and other identities, but we don&amp;rsquo;t want to do that.
+Instead, we move on to Chern-Weil-theory, which is the last piece of preliminaries we need to study secondary characteristic classes.&lt;/p&gt;
+&lt;h2 id=&#34;preliminaries-on-chern-weil-theory&#34;&gt;Preliminaries on Chern-Weil theory&lt;/h2&gt;
+&lt;p&gt;If we want to make a topological invariant from a geometric invariants, we should first try to make it independent of which local choice of basis we can have. Let&amp;rsquo;s see how we can do that.&lt;/p&gt;
+&lt;p&gt;What happens if we consider a local basis $(e_i)$ where we define $\Omega$ to be the curvature form, and then use a matrix $A$ to change basis to $(e_i&amp;rsquo;)$?
+We can show that the curvature form in the new basis is expressed as $$\Omega&amp;rsquo; = A^{-1}\Omega A.$$
+The proof consists of figuring out what happens for the connection by using the Leibniz rule, and then putting the result into the structural equation.&lt;/p&gt;
+&lt;p&gt;To eliminate the choice of basis, assume we can put the curvature form into some $G$-invariant thingy, where $G$ is the matrix Lie-group in which $A$ lives, such as $\operatorname{GL}(r, \mathbb{C})$.
+We show how to do this for an arbitrary principal $G$-bundle.&lt;/p&gt;
+&lt;p&gt;We say a polynomial $f: \mathfrak{g} \to \mathbb{R}$ is $G$-invariant if
+$$
+f((\operatorname{Ad} g ) X) = f(X).
+$$&lt;/p&gt;
+&lt;p&gt;If we can make sense of this when we plug in our curvature forms, we will obtain something independent of choice of basis.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Construction: (Chern-Weil form)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Assume that we have an $\operatorname{Ad}(G)$-invariant polynomial $f$ of degree $k$ given by
+$$
+\sum a_I \alpha^{i_1} \cdots \alpha^{i_k}
+$$
+and that the curvature form $\Omega$ coming from the connection $\omega$ is given in a basis by
+$$\Omega = \sum \Omega^ie_i.$$&lt;/p&gt;
+&lt;p&gt;We then define the form of degree $2k$ by
+$$
+f(\Omega)=\sum a_I \Omega^{i_1} \wedge \cdots \wedge \Omega^{i_k}.
+$$&lt;/p&gt;
+&lt;p&gt;Now, it is not clear that we have made a topological invariant, but in fact, we have!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Theorem: (Properties of the Chern-Weil-form)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;If we assume the setup as above, where $\pi: P \to M$ still is a principal $G$-bundle, the following holds:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$f(\Omega)$ is a basic form on $P$, which means that there exists a $2k$-form $\Lambda$ on $M$ such that $f(\Omega) = \pi^* \Lambda$.&lt;/li&gt;
+&lt;li&gt;The associated form $\Lambda$ is closed.&lt;/li&gt;
+&lt;li&gt;The cohomology class of $\Lambda$ is independent on the starting choice of connection.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Wow! Ok, we set out to make a topological invariant based on geometric info, and in a creative attempt at getting rid of choosing a basis, we constructed a cohomology class.&lt;/p&gt;
+&lt;p&gt;The magic in this is that we can assign a cohomology class to an arbitrary principal $G$-bundle without even working a lot with the geometry lying behind it.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Definition: (Chern-Weil Homomorphism)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Fix a principal $G$-bundle $P \to M$ and a connection. Let $\Omega$ denote the curvature.
+Let $\operatorname{Inv}(\mathfrak{g})$ denote the $\operatorname{Ad}(G)$-invariant polynomials on $\mathfrak{g}$.
+Then define the map $\varphi: \operatorname{Inv}(\mathfrak{g}) \to H^* (M)$ by
+$$
+\varphi: f \mapsto [\Lambda], \qquad \text{such that } \quad f(\Omega) = \pi^* \Lambda.
+$$&lt;/p&gt;
+&lt;p&gt;This map is called the Chern-Weil Homomorphism, and yes, it is well-defined and a homomorphism since we can map products of polynomials to the class of the wedge of their associated forms.&lt;/p&gt;
+&lt;p&gt;What we obtain by this construction is a cohomology class $[\Lambda]$ that came from geometry, but where the topology washed away the geometrical aspects in the process. These classes are called &lt;em&gt;characteristic classes&lt;/em&gt;, as some may know.&lt;/p&gt;
+&lt;p&gt;Now, the &amp;ldquo;washing away&amp;rdquo;-procedure where the geometry disappeared is interesting. What would have happened if I chose a path of connections to begin with? Well, we would obtain the same class, that is kinda the jist here, but there may be a way, as we&amp;rsquo;ll see!
+The idea of &amp;ldquo;finding back to the geometry&amp;rdquo; is essential motivation in differential cohomology.&lt;/p&gt;
+&lt;h2 id=&#34;the-chern-simons-forms&#34;&gt;The Chern-Simons forms&lt;/h2&gt;
+&lt;p&gt;The forms we just made from geometry, gave rise to a class $[\Lambda]$ that works independently of the choice of connection.
+If we want to study some underlying phenomenon, it would have been interesting to study forms $\lambda$ such that $d\lambda  = \Lambda$, but this would imply that $[\Lambda] = 0$.&lt;/p&gt;
+&lt;p&gt;A solution is to utilize the $2k$-form $f(\Omega)$ and pull back the form $\Lambda$, which lives on $M$, to $P$, through the map $\pi: P \to M$.
+The induced form is then by definition $f(\Omega)$.
+As we pull back along $\pi$, we obtain a principal $G$-bundle $\pi^* P \to P$, which is the bundle $P \times P \to P$.
+It does indeed have a canonical global section given by the diagonal, and is thus trivial, which implies that its classifying map is trivial, which again yields trivial characteristic classes, and hence exact characteristic forms.&lt;/p&gt;
+&lt;p&gt;The form is indeed $f(\Omega)$, and we hence have $f(\Omega) = dTf(\theta)$.
+Here, $\theta$ is a pre-made choice of connection that yield $\Omega$ as its curvature.
+In $dTf(\theta)$, we should read $Tf(\theta)$ as a &amp;ldquo;trivialization&amp;rdquo; functor $T$ applied to the $f$ in $f(\Omega)$, and we use $\theta$ instead of $\Omega$ to hope that the underlying connection matters.
+Of course, there are choices of trivializations, but we ignore that for now.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Proposition: (Explicit form of $Tf(\theta)$)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;If we set $\varphi_t = t\Omega + 1/2(t^2-t)[\theta, \theta]$, where $\theta$ is a pre-made choice of connection yielding curvature $\Omega$, and we set
+$$
+Tf(\theta) = k\int_0^1f(\theta \wedge \varphi_t^{k-1}),
+$$
+then we obtain that $dTf(\theta) = f(\Omega)$.&lt;/p&gt;
+&lt;p&gt;Ask Chern and Simons (and not me!) how they motivate this, apart from choosing the thing that work, letting $\varphi_t$ look like an integrated version of the structural equation and simply compute that it works.&lt;/p&gt;
+&lt;p&gt;Ok, we did indeed find a form that trivializes the Chern-Weil form, but is this the only one?
+Well, we continue to ignore the question about the choice of connection for a bit, and we ask &amp;ldquo;what if we had another functor S that picks out another trivialization?&amp;rdquo;. We obtain the following answer.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Proposition: (The choice of trivialization is unique up to an exact term)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Assume $S$ is another functor that assigns to a $f \in \operatorname{Inv}(G)$ and a principal $G$-bundle $P \to M$ with connection $\theta$ a $(2k-1)$-form $Sf(\theta)$ such that $dSf(\theta) = f(\Omega)$. Then
+$$
+Tf(\theta) - Sf(\theta) = exact.
+$$&lt;/p&gt;
+&lt;p&gt;This should mean that we obtain some information in cohomology.
+What Chern and Simons spends some time showing in their article, is the following:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Theorem: (Dependence on the choice of connection)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Assume the dimension of the base space is $\operatorname{dim}M = n$.
+Then the $(2k-1)$-form $Tf(\theta)$ is closed for $2k-1 \geq n$, meaning it determines a cohomology class in the total space.
+The cohomology class depends on the connection when $2k-1 = n$ and is independent of the connection if $2k-1 &amp;gt; n$.&lt;/p&gt;
+&lt;p&gt;The reason is a bit technical, but for the latter case, it is mostly computations. They pick a $1$-parameter family of connections $\theta(s)$ for $s \in [0,1]$ and show in a lemma that
+$$
+\frac{d}{ds}(Tf(\theta(s)))\Big|_{s=0} = k f(\frac{d}{ds}(\theta(s))\Big| _{s=0}  \wedge \Omega^{k-1})) + exact.
+$$
+If $2k-1 &amp;gt; n$, we are only left with an exact term, yielding a cohomology class independent of choice of connection.
+Even better, the cohomology classes are in the image of integral cohomology, which makes the theory even nicer.&lt;/p&gt;
+&lt;p&gt;In the next bit of the article, they spend some time connecting these Chern-Simons forms to the theory of differential characters on the base space, which is a technical, although interesting theory. Differential characters is one of the original models for differential cohomology, and the secondary classes of Chern-Simons ends up living here, after doing some proper technicalities.&lt;/p&gt;
+&lt;p&gt;They finish up the article with some applications of these forms. We&amp;rsquo;ll briefly explain an example.&lt;/p&gt;
+&lt;h2 id=&#34;an-application-of-chern-simons-forms-conformal-invariants&#34;&gt;An application of Chern-Simons forms: Conformal invariants&lt;/h2&gt;
+&lt;p&gt;Just as ordinary characteristic classes can be used to construct obstrictions to embeddings, e.g. by using Stiefel-Whitney classes to show that $\mathbb{R}P^9$ can&amp;rsquo;t be embedded into $\mathbb{R}^{14}$, we can use Chern-Simons classes to say something with more geometric structure.&lt;/p&gt;
+&lt;p&gt;Assume we have Riemannian metrics $h$ and $g$ on $M$. We say $h$ and $g$ are equivalent if there exists a real-valued function $\lambda$ on $M$ such that $h = \lambda^2 g$.
+The intuition is that conformally equivalent metrics are the same metrics up to scale.
+A conformal manifold is a manifold with a choice of equivalence class of conformally equivalent Riemannian metrics.
+It is said to be conformally flat if the equivalence class can be represented by a flat metric (in the regular sense).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Theorem: (Chern-Simons forms for conformally related Riemannian metrics)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Assume we have two conformally related Riemannian metrics on $M$ with corresponding Levi-Cevita connections and curvature forms.
+Then&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Their Chern-Simons forms only differ by an exact term.&lt;/li&gt;
+&lt;li&gt;Their Chern-Weil forms are equal.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The magic can be made explicit for $3$-manifolds, although the next definition may not make a lot of sense without developing the above theory (and differential characters, which motivates the mod $\mathbb{Z}$-reduction) properly.&lt;/p&gt;
+&lt;p&gt;We let $\Phi(M)$ be the integral
+$$
+\Phi(M) = \int_X \frac{1}{2}Tf_1(\theta) \operatorname{mod} \mathbb{Z},
+$$
+where we integrate (fiber integrate, really) over some section $X : M \to F(M)$, where $F(M)$ is the frame bundle of $M$. This is well-defined.
+The index $i = 1$ on $f_i$ is just there to ensure that we chose the cohomology class in degree $4i - 1$, which is $3$.
+We can ignore the index really, as we only consider $3$-manifolds at this point, but it acts as a pointer towards the fact that there is a more general theory.&lt;/p&gt;
+&lt;p&gt;We obtain the following theorems, highlighting the power of Chern-Simons forms to include geometric information, compared to the primary characteristic classes.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Theorem: (Conformal invariance)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;$\Phi(M)$ is a conformal invariant of $M$.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Theorem: (Obstructions to conformal immersions)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Let $g$ and $h$ be Riemannian metrics on $M$ and $\mathbb{R}^4$, respectively.
+If $M$ admits a conformal immersion in $\mathbb{R}^4$, i.e. a smooth immersion $\iota: (M,g) \to (\mathbb{R}^4,h)$ such that $\iota^* (h)$ is conformally equivalent to $g$, we must have $\Phi(M) = 0$.&lt;/p&gt;
+&lt;p&gt;We&amp;rsquo;ll briefly take an example, but for that, we&amp;rsquo;ll need a computational formula for $Tf(\theta)$.
+Chern and Simons showed the following:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Lemma: (Computational formula for $Tf(\theta)$)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;If we set
+$$
+A_i = (-1)^i\frac{k!(k-1)!}{2^i(k+i)!(k-1-i)!},
+$$
+we can compute $Tf(\theta)$ as
+$$
+Tf(\theta) = \sum_{i=0}^{k-1}A_if(\theta \wedge [\theta,\theta]^i \wedge \Omega^{k-i-1}).
+$$
+Please do not ask me where this formula is coming from, as I can&amp;rsquo;t even comprehend the computational stubbornness of the old-school topologists.&lt;/p&gt;
+&lt;p&gt;The key take-away is that we &lt;em&gt;can&lt;/em&gt; compute $Tf(\theta)$, and we do that by including a variating number of connections and curvature forms, keeping the total degree fixed.
+I think of this as &amp;ldquo;we want to hit all dimensions with connection-info and curvature-info to obtain geometric info&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Example: (Non-existence of a global conformal immersion $SO(3) \to \mathbb{R}^4$)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;We must black-box some things here, as there are too much geometry uncovered to understand whats going on.
+If we set $M = SO(3)$, which is a compact, oriented Riemannian $3$-manifold diffeomorphic to $\mathbb{R}P^3$, then we can consider its frame bundle $F(M) \to M$.
+Due to some explicit formulas for the connections and the computational formula above,
+they show that
+$$
+X^* (\frac{1}{2}Tf_1(\theta)) = \frac{-1}{2\pi^2}\omega,
+$$
+where $\omega$ is the volume form on $SO(3)$.
+This yields
+$$
+\Phi(SO(3)) = \frac{1}{2\pi^2}\operatorname{Vol}(SO(3)) \operatorname{mod} \mathbb{Z}= \frac{1}{2\pi^2}\operatorname{Vol}(SO(3)) \operatorname{mod} \mathbb{Z}.$$
+Since $SO(3)$ is diffeomorphic to $\mathbb{R}P^3$ and $\mathbb{R}P^3$ is &amp;ldquo;a collapsed half of $S^3$&amp;rdquo;, we obtain
+$$
+\Phi(SO(3))= \frac{1}{2\pi^2}\frac{1}{2}\operatorname{Vol}(S^3) \operatorname{mod} \mathbb{Z} = 1/2 \in \mathbb{R}/\mathbb{Z}.
+$$&lt;/p&gt;
+&lt;p&gt;This shows that $SO(3)$ cannot be conformally immersed into $\mathbb{R^4}$, which is quite weird, since $\mathbb{R}P^3$ admits a smooth immersion into $\mathbb{R}^4$ and can locally even be isometrically embedded into $\mathbb{R}^4$.&lt;/p&gt;
+&lt;p&gt;This certainly tells us that the secondary characteristic forms have an interesting amount of specialized geometric information, which is quite amazing!
+It is indeed beautiful in theory, even though the explicit computations and formulas may be ugly.&lt;/p&gt;
+&lt;p&gt;Before we end the post, we detour to explain the beautiful connections to theoretical physics and topological quantum field theory.&lt;/p&gt;
+&lt;h2 id=&#34;what-does-this-have-to-do-with-theoretical-physics&#34;&gt;What does this have to do with theoretical physics?&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Warning:&lt;/strong&gt; We will blackbox things here, as there are details and computations to be written out that we won&amp;rsquo;t bother working with. The post is already long enough, so we focus on explaining the overarching ideas.&lt;/p&gt;
+&lt;p&gt;Geometry is fundamental in theoretical physics, although it may not be evident why every formula we meet include forms, curvature, Christoffel symbols and whatnot.
+The idea is simple, and can be illustrated by answering a few simple questions.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;What is the main property of a force?
+&lt;ul&gt;
+&lt;li&gt;It changes how stuff moves.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;What happens if no force acts on an object?
+&lt;ul&gt;
+&lt;li&gt;It moves in a straight line at constant speed (which differential geometers call geodesics).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;If this is a concept from geometry, how do geodesics change in differential geometry?
+&lt;ul&gt;
+&lt;li&gt;Their equations &lt;strong&gt;only&lt;/strong&gt; depend on curvature!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This means that the notion of a force, which is the thing that changes movements along straight lines at constant speeds, corresponds to the notion of curvature, which changes how geodesics (the diff.geom. straight lines) act!&lt;/p&gt;
+&lt;p&gt;What does this have to do with the Chern-Simons forms, you may ask? Patience!&lt;/p&gt;
+&lt;p&gt;Well, in classical dynamics, one often defines an action functional $S$ as the integral of something.
+My intuition for this is that &amp;ldquo;this is a functional measuring the landscape of potentials for forces that may disturbe our movement&amp;rdquo;, and what we want as our classical equations of motion is of course the &amp;ldquo;path of least resistance&amp;rdquo;, which is then given by minimizing $S$, or more generally, by the extrema of $S$.&lt;/p&gt;
+&lt;p&gt;In physics, one often uses $F$ for force, or the curvature $2$-form of interest, and $A$ for the underlying potential, which must satisfy $dA = F$. In our case, $A$ is just the connection $\theta$, and $F$ is the curvature $\Omega$.
+In Chern-Simons theory, the $3$-dimensional topological quantum field theory of interest, they exploit the computational formula menioned earlier.&lt;/p&gt;
+&lt;p&gt;They set
+$$
+S = \frac{k}{4\pi}\int_M tr(A \wedge dA + \frac{2}{3}A \wedge A \wedge A) = \int_M CS-\text{$3$-form},
+$$
+where they call $k$ the &amp;ldquo;level of the theory&amp;rdquo;, whatever that means.&lt;/p&gt;
+&lt;p&gt;The field equations are then given by
+$$
+0 = \frac{dS}{dA} = \frac{k}{2\pi}F,
+$$
+due to the curvature-trivializing nature of the Chern-Simons forms.&lt;/p&gt;
+&lt;p&gt;This is intuitive, as the only thing required for moving around in a chill way, is the vanishing of forces/curvature.
+We have not explained anything in depth here, but due to the nature of Chern-Simons forms as conformal invariants, Chern-Simons theory is a quite fundamental model when working with conformal quantum field theories.&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s it for this post!
+Hopefully I won&amp;rsquo;t wait half a year before posting again. Tentatively, the plan is to meet Karoubi $K$-theory (also called multiplicative $K$-theory), which was created by Karoubi as a general framework for secondary characteristic classes.&lt;/p&gt;
+&lt;p&gt;As a final statement, remember that below the topological invariants (or perhaps above, in the total space), there are secondary classes containing more geometric information!&lt;/p&gt;
+&lt;p&gt;Given the right setup, we obtain the simple formula
+$$
+dTf(\theta) = f(\Omega).
+$$&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Spectral sequences and multicomplexes - Part III</title>
+        <link>https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-iii/</link>
+        <pubDate>Tue, 05 Apr 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-iii/</guid>
+        <description>&lt;img src="https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-iii/images/3rdfront.jpg" alt="Featured image of post Spectral sequences and multicomplexes - Part III" /&gt;&lt;p&gt;As promised when we started the series on spectral sequences and multicomplexes, we aimed at understanding the main results of a master thesis.
+Finally, I&amp;rsquo;ve had the time to finish this post. I enjoyed writing it quite a lot, but I have been busy with other things, such as acting for &lt;a class=&#34;link&#34; href=&#34;https://www.facebook.com/realfagsrevyen&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Realfagsrevyen&lt;/a&gt; and doing project work for other courses. Now that these things are more-or-less out of the way (for now), I finally managed to finish this post.
+This is the final post in this short series on spectral sequences and multicomplexes, and in this post, we are trying to understand my friend &lt;a class=&#34;link&#34; href=&#34;https://fagkom.github.io/posts/gardaa-odin-hoff-2/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Odins thesis&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;After explaining the construction of a spectral sequence from a filtered complex and meeting the Leray-Serre sequence in the &lt;a class=&#34;link&#34; href=&#34;https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-i/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;first post&lt;/a&gt;,
+we moved on to study the proof of the form of the $E_2$-page of this sequence, briefly touch on exact couples and compute the homology of $\Omega S^n$ in the &lt;a class=&#34;link&#34; href=&#34;https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-ii/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;second post&lt;/a&gt;.
+With these topics covered, we hopefully have enough background to cover some of the key points in &lt;a class=&#34;link&#34; href=&#34;https://fagkom.github.io/posts/gardaa-odin-hoff-2/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Odins thesis&lt;/a&gt; on multicomplexes and their spectral sequences.&lt;/p&gt;
+&lt;p&gt;If you do not know about these topics yet, I suggest you read at least the &lt;a class=&#34;link&#34; href=&#34;https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-i/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;first post&lt;/a&gt; to get a hang of it.
+Feel free to use any other (possibly more reliable) source for catching up!
+I&amp;rsquo;ll not pretend that I understand everything going on, but hopefully we can make sense of the main statements and questions in the thesis.
+For a more cohesive and correct treatise, take a look at &lt;a class=&#34;link&#34; href=&#34;https://fagkom.github.io/posts/gardaa-odin-hoff-2/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Odins thesis&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We&amp;rsquo;ll try to keep it brief and conceptual. First we try to understand multicomplexes, why they exist &amp;ldquo;in the wild&amp;rdquo;, how their spectral sequences are made and why the differentials may be tricky.
+After realising the higher differentials may be problematic to study, we aim towards &amp;ldquo;shifting&amp;rdquo; through the pages to obtain the higher differentials as differentials on lower pages of a shifted spectral sequence.
+The ninja trick we will be using, is the Homotopy Transfer Theorem. After this, we explain how to shift the sequence in the correct way, yielding manageable access to the higher differentials.
+By this point, we should be ready to understand the main theorems of the thesis.&lt;/p&gt;
+&lt;h2 id=&#34;multicomplexes-and-their-associated-spectral-sequences&#34;&gt;Multicomplexes and their associated spectral sequences&lt;/h2&gt;
+&lt;p&gt;Multicomplexes can be thought of as a bicomplex with a lot of extra differentials.
+The degrees of these differentials may remind us a bit about how the differentials in spectral sequences shift, and indeed, there is a connection here.
+We will meet this result later, but first, we should have a clear definition to work with.&lt;/p&gt;
+&lt;h3 id=&#34;what-is-a-multicomplex&#34;&gt;What is a multicomplex?&lt;/h3&gt;
+&lt;p&gt;We let $k$ be a field (of characteristic $0$). To avoid extension problems, this is whats assumed throughout the entire thesis.
+Therefore, we will certainly assume the same thing.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Definition: (Multicomplex)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A multicomplex $(M, D_{\bullet})$ over the fixed field $k$ is a bigraded vector space $M$ over $k$, such that we have a family of linear maps $D_r : M \to M$ indexed over $r \geq 0$.
+These maps shifts similarly to the differentials in a spectral sequence, as they have bidigrees $|D_r | = (r,1-r)$. To justify the name multicomplex for this definition, we also require&lt;/p&gt;
+&lt;p&gt;$$ \sum_{p+q = n} D_pD_q = 0$$&lt;/p&gt;
+&lt;p&gt;for all $n \geq 0$.&lt;/p&gt;
+&lt;p&gt;Before visualising what this looks like, we remark that we do not need the $D_r$&amp;rsquo;s to square to zero. If we use the name &amp;ldquo;differentials&amp;rdquo; for these maps, that will certainly be an abuse of terminology.
+Nevertheless, we can always find an underlying cochain complex of graded vector spaces by considering $(M, D_0)$.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-iii/images/Multicomplex.png&#34;
+	width=&#34;778&#34;
+	height=&#34;327&#34;
+	srcset=&#34;https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-iii/images/Multicomplex_hub430ca0a160d49bc9be4961ef9a36b55_32450_480x0_resize_box_3.png 480w, https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-iii/images/Multicomplex_hub430ca0a160d49bc9be4961ef9a36b55_32450_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;A multicomplex with vertical maps, $D_0$, horisontal maps, $D_1$, and dotted diagonal maps, $D_2$. We omit the name of the $D_2$-maps in the diagram and the higher differentials $D_r$ for simplicity.&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;237&#34;
+		data-flex-basis=&#34;571px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;When we have an object, such as a multicomplex, we should always try to figure out how to map between them.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Definition: (Morphisms of multicomplexes)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;If $(M,D_{\bullet})$ and $(N,\tilde{D}_{\bullet})$ are multicomplexes, a morphism&lt;/p&gt;
+&lt;p&gt;$$f:(M,D_{\bullet}) \to (N,\tilde{D}_{\bullet})$$&lt;/p&gt;
+&lt;p&gt;should be a series of linear maps respecting the differentials. Since we have several differentials, we should have several maps such that it commutes with the sum we saw before.
+Therefore, we define such a map $f$ to consist of linear maps $f_n: M \to N$ such that $f_n(M^{p,q}) \subseteq N^{p+n, q-n}$
+and&lt;/p&gt;
+&lt;p&gt;$$ \sum_{p+q = n} f_pD_q = \sum_{p+q = n} \tilde{D}_pf_q.$$&lt;/p&gt;
+&lt;p&gt;Indeed, in the special cases where our multicomplex is a single cochain complex and a double complex, this becomes the requirements for being cochain maps and morphisms of double complexes, respectively.&lt;/p&gt;
+&lt;p&gt;One can show that such morphisms of multicomplexes are invertible if and only if the map $f_0$ on the underlying cochain complex is an isomorphism of cochain complexes.
+Therefore, one can take as a definition that $f$ is an isomorphism if $f_0$ is an isomorphism. The same thing can be said for quasi-isomorphisms, as the underlying cochain complex gives us a way of studying the cohomology in degree $(p,q)$.&lt;/p&gt;
+&lt;h3 id=&#34;where-do-we-meet-them-in-the-wild&#34;&gt;Where do we meet them in the wild?&lt;/h3&gt;
+&lt;p&gt;The most obvious way we meet multicomplexes, is through the special cases; cochain complexes and double complexes.
+Of course, generalising these to multicomplexes is a good idea, but one should ask if we can find any interesting examples of multicomplexes &amp;ldquo;in the wild&amp;rdquo;.
+Most examples I could dig up were algebraic constructions, and indeed, by constructing such bigraded modules and constructing maps satisfying the requirements, we can make ourselves a lot of multicomplexes.
+Readers more familiar with operads than myself, may also find several examples of multicomplexes that I do not yet understand.&lt;/p&gt;
+&lt;p&gt;There are also examples of topological multicomplexes. The great geometric analyst, Gromov, came up with a theory on multicomplexes to apply in &lt;a class=&#34;link&#34; href=&#34;https://dec41.user.srcf.net/notes/IV_E/bounded_cohomology.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;bounded cohomology&lt;/a&gt;.
+His work, as explored in &lt;a class=&#34;link&#34; href=&#34;https://arxiv.org/pdf/1808.07307.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;this paper&lt;/a&gt;, explores a multicomplex analogue of the singular cochain complex, called the singular multicomplex.
+This singular multicomplex, denoted $\mathcal{K}(X)$, can be thought of as &amp;ldquo;a multicomplex version of the singular complex&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;We will not cover these topics in this post, but we encourage readers to go on a web-spree in search of cool multicomplexes.&lt;/p&gt;
+&lt;h3 id=&#34;how-do-we-construct-spectral-sequences-for-multicomplexes&#34;&gt;How do we construct spectral sequences for multicomplexes?&lt;/h3&gt;
+&lt;p&gt;We follow Odin and assume the following boundedness condition on our multicomplexes. A multicomplex, which we will continue to denote $(M,D_{\bullet})$, is said to be &lt;em&gt;bounded below&lt;/em&gt; if for all $n$, there exists an integer $s(n)$ s.t. $M^{p,n-p} = 0$ if $p \geq s(n)$.
+The reason we use this &amp;ldquo;vanishing down to the right&amp;rdquo; condition is that we want to consider the total complex, $\operatorname{Tot}M$.
+This total complex $\operatorname{Tot}M$ is defined as $\operatorname{Tot}M^n = \oplus_{p+q = n}M^{p,q}$ with differential $D = \sum_{r\geq 0}D_r : \operatorname{Tot}M^n \to \operatorname{Tot}M^{n+1}$, which actually becomes a cochain complex.&lt;/p&gt;
+&lt;p&gt;As illustrated in the &lt;a class=&#34;link&#34; href=&#34;https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-i/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;first post&lt;/a&gt; of this series, we have an idea of how to find spectral sequences for cochain complexes, if we can find a suitable filtration.&lt;/p&gt;
+&lt;p&gt;Define now the filtration $F^s\operatorname{Tot}M^n = \oplus_{p+q = n}M^{p,q}$ for $p \geq s$.
+If we equip the total complex with this filtration, we get a filtered complex that inherets the boundedness condition from $(M,D_{\bullet})$, and in fact, the spectral sequence associated to this cochain complex converges to the cohomology of $\operatorname{Tot}M$.&lt;/p&gt;
+&lt;p&gt;The above mentioned spectral sequence is what we define to be the spectral sequence associated to the multicomplex, which can neatly be made by utilizing the bounded, filtered cochain structure on $\operatorname{Tot}M$.&lt;/p&gt;
+&lt;h3 id=&#34;beware-the-differentials&#34;&gt;Beware the differentials&lt;/h3&gt;
+&lt;p&gt;With a spectral sequence associated to multicomplexes in our hands, we can start to analyze the differentials.
+I honestly didn&amp;rsquo;t think that I&amp;rsquo;d follow Odins thesis so closely, but he writes quite clearly and structured, with illustrative examples to showcase key points or problems.
+One of the things he mentiones is that we should keep an eye on the differentials, because spooky things may happen.
+Let&amp;rsquo;s understand what he is talking about.&lt;/p&gt;
+&lt;p&gt;The zeroth page of the spectral sequence is quite simple, as $$E_0^{p,q} = F^pM^{p+q}/F^{p+1}M^{p+q} = M^{p,q}.$$
+For this page, the differential is just $\delta_0 = D_0$. The zeroth page does therefore just describe the underlying chain complex.
+By considering the first page $E_1^{p,q} = H^q(M^{p, \bullet}, D_0)$, we can show that the differential on this page, $\delta_1$, is induced from $D_1$ in cohomology.
+As Odin (and Hurbubise) explains in the following example, this is not the case in general.&lt;/p&gt;
+&lt;p&gt;Consider the following multicomplex, where the nonzero entries are $kx$, the one-dimensional vector spaces over $k$ with generator $x$.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-iii/images/beware-diffs-cplx.png&#34;
+	width=&#34;511&#34;
+	height=&#34;210&#34;
+	srcset=&#34;https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-iii/images/beware-diffs-cplx_hu209e9fcdfe4d30a049378672c8436e55_8173_480x0_resize_box_3.png 480w, https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-iii/images/beware-diffs-cplx_hu209e9fcdfe4d30a049378672c8436e55_8173_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;A multicomplex where the labeled maps are isomorphisms and $D_r = 0$ for all $r\geq 2$. &#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;243&#34;
+		data-flex-basis=&#34;584px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;One would not think that such a cute little multicomplex would create problems, but indeed it does.
+It turns out that all entries on the final page are $0$ by considering the total complex. If we consider the homology $H^q(M^{p, \bullet}, D_0)$ giving the $E_1$-page, we get the following.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-iii/images/beware-diffs-cplx-2.png&#34;
+	width=&#34;460&#34;
+	height=&#34;211&#34;
+	srcset=&#34;https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-iii/images/beware-diffs-cplx-2_hu9b673c3fcb4f1b44527d8513b645c16b_7416_480x0_resize_box_3.png 480w, https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-iii/images/beware-diffs-cplx-2_hu9b673c3fcb4f1b44527d8513b645c16b_7416_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;The $E_1$-page given by considering $E_1^{p,q} = H^q(M^{p, \bullet}, D_0)$. $\delta_1$ is induced from $D_1$.&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;218&#34;
+		data-flex-basis=&#34;523px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Since the $E_3$-page must be the final page (by considering the degrees of the potential differentials), we know that all entries must be killed off before we arrive at this page.
+The only differentials that may influence the nonzero entries, are the differentials on the $E_2 = E_1$-page.
+This means that there must be a nonzero $\delta_2: ka \to kd$, but this cannot be induced from $D_2$, as $D_2 = 0$.&lt;/p&gt;
+&lt;p&gt;It would be nice if $\delta_r$ was induced from $D_r$, but this is not the case.
+Fortunately, as we will see, we can utilise cohomology a bit to amend this completely for bicomplexes and for $D_2$ in the general case, but the higher differentials become quite complex (pun intended) to study in the general case.&lt;/p&gt;
+&lt;h2 id=&#34;transferring-homotopy&#34;&gt;Transferring homotopy&lt;/h2&gt;
+&lt;p&gt;In this next section, Odin explains how we can transfer multicomplex structures (i.e. compatible higher differentials) to a cochain complex isomorphic to the underlying cochain complex of our multicomplex.
+Before we see the magic, we&amp;rsquo;ll quickly recall some notions from the homotopy theory of cochain complexes.&lt;/p&gt;
+&lt;h3 id=&#34;preliminary-definitions-on-homotopy-of-cochain-complexes&#34;&gt;Preliminary definitions on homotopy of cochain complexes&lt;/h3&gt;
+&lt;p&gt;Given cochain complexes $M$ and $N$, recall that a &lt;em&gt;homotopy retract&lt;/em&gt; from $M$ to $N$, $(\pi, i, h)$, consists of cochain maps $\pi: M \leftrightarrow N: i$ and a homotopy $h:M \to M$, which is a map of degree $-1$ such that $i\pi - id_M = Dh+hD$ and either $i$ or $\pi$ are quasi-isomorphisms. To upgrade a homotopy retract to a &lt;em&gt;deformation retract&lt;/em&gt;, we also require $\pi i = id_N$.
+Indeed, a deformation retract extends to a homotopy equivalence.&lt;/p&gt;
+&lt;p&gt;An important result is the following theorem.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Theorem: (Deformation retract to cohomology)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;If $(M,D)$ is a cochain complex over $k$, then this cochain complex admits a deformation retract $(\pi, i, h)$ to its cohomology, which can be pictured like this, which is stolen directly from &lt;a class=&#34;link&#34; href=&#34;https://fagkom.github.io/posts/gardaa-odin-hoff-2/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Odins thesis&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-iii/images/def-retract-cohomology.png&#34;
+	width=&#34;517&#34;
+	height=&#34;142&#34;
+	srcset=&#34;https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-iii/images/def-retract-cohomology_hueff73f3c05928fea1b9f0b84d983780c_11424_480x0_resize_box_3.png 480w, https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-iii/images/def-retract-cohomology_hueff73f3c05928fea1b9f0b84d983780c_11424_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;All cochain complexes admits a deformation retract to its homology.&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;364&#34;
+		data-flex-basis=&#34;873px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;transferring-multicomplex-structures&#34;&gt;Transferring multicomplex structures&lt;/h3&gt;
+&lt;p&gt;The idea from here on is that we can use the previous theorem to &amp;ldquo;skip a page&amp;rdquo; in the spectral sequence. The problems we encountered with the differetials first came on the $E_2$-page (at least in our example), so maybe it is possible to iterate this deformation retract to the homology-idea to skip pages from $E_i$ to $E_{i+1}$ and &amp;ldquo;only induce $D_1$&amp;rsquo;s&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;To try to apply this idea, we need higher differentials on the cohomology.
+The way we are going to induce the higher differentials from our multicomplex over to the cohomology, is through the Homotopy Transfer Theorem (also called HTT).&lt;/p&gt;
+&lt;p&gt;The theorem is a mouthful, but the idea is that by throwing differentials back and forth through the homotopy of an underlying homotopy retract, we can induce higher differentials.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Theorem: (Homotopy Transfer Theorem)&lt;/strong&gt;
+If we have a multicomplex $(M, D_{\bullet})$ and a cochain complex $(N,D_0&amp;rsquo;)$ with a homotopy retract $(\pi, i, h)$ from the underlying cochain complex $(M, D_0)$ to $(N, D_0&amp;rsquo;)$, we can define maps $D_n&amp;rsquo; : N \to N$ for $n \geq 1$ as
+$$D_n&amp;rsquo; = \sum_{|J| = n}\pi D_{j_1 }hD_{j_2 }h\ldots hD_{j_k}i.$$
+These maps does in fact induce a multicomplex structure on $N$, and the maps $i$ and $\pi$ can be made into morphisms of multicomplexes by defining $i_n = \sum_{|J| = n}hD_{j_1}hD_{j_2}h\ldots hD_{j_k}i$ and $\pi_n = \sum_{|J| = n}\pi D_{j_1}hD_{j_2}h\ldots hD_{j_k}h,$ respectively.&lt;/p&gt;
+&lt;p&gt;One can in fact show that this is well-defined with respect to different choices of homotopy retracts.&lt;/p&gt;
+&lt;p&gt;Idea: Use htpy retracts (HTT) to move multicomplex structure from M to H(M) (with fckdup indeces) to fly through the pages.&lt;/p&gt;
+&lt;h3 id=&#34;a-small-detour&#34;&gt;A small detour&lt;/h3&gt;
+&lt;p&gt;The idea of transferring homotopy through deformation retracts is quite useful!
+We&amp;rsquo;ll not go into details right now, but my friend &lt;a class=&#34;link&#34; href=&#34;https://torgeiraamboe.github.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Torgeir&lt;/a&gt; wrote his &lt;a class=&#34;link&#34; href=&#34;https://fagkom.github.io/posts/aamboe-torgeir-2/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;master thesis&lt;/a&gt; on formal dg-algebras, which (to my understanding) are dg-algebras where the (co)homology contains all/most of the homotopical information we care about.&lt;/p&gt;
+&lt;p&gt;He used the idea of transferring homotopies through deformation retracts and an $A_{\infty}$-algebraic version of the above result ensuring a deformation retract to the cohomology to show several results.
+It is for example known that formal dg-algebras have vanishing &lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Massey_product&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Massey products&lt;/a&gt;, but using the above (and several other results), he showed that having vanishing Massey products (with some extra requirements) implies that the dg-algebra in question is formal.&lt;/p&gt;
+&lt;p&gt;We will not dive deeply into this, but you may consult his &lt;a class=&#34;link&#34; href=&#34;https://torgeiraamboe.github.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;blog&lt;/a&gt; for a &lt;a class=&#34;link&#34; href=&#34;https://torgeiraamboe.github.io/posts/2021/on-formal-dg-algebras/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;summary&lt;/a&gt;.
+Maybe, if we are lucky, we&amp;rsquo;ll meet Massey products in a later post on this blog.&lt;/p&gt;
+&lt;h2 id=&#34;does-htt-help&#34;&gt;Does HTT help?&lt;/h2&gt;
+&lt;p&gt;Ok, we now have the Homotopy Transfer Theorem, and we know we can find a deformation retract from $M$ to the cohomology of $M$.
+If we now consider the higher differentials given by the Homotopy Transfer Theorem induced on the cohomology of $M$ through the deformation retract from $M$ to the cohomology, we can in fact show that $$D_2&amp;rsquo; = \pi(D_1hD_1 + D_2)i$$ actually induces the second differential on the $E_2$-page in the associated spectral sequence.
+Unfortunately, the pattern stops here in general, but Odin studies the differentials further in the later chapters.
+We will soon state the main results, but first, let&amp;rsquo;s specialize to double complexes and see if the HTT can help.&lt;/p&gt;
+&lt;h3 id=&#34;the-case-for-double-complexes&#34;&gt;The case for double complexes&lt;/h3&gt;
+&lt;p&gt;Assume that we have a double complex $(M,D_0,D_1)$, let $(\pi, i, h)$ be a deformation retract of $M$ to $H(M,D_0)$ and let $D_{\bullet}&amp;rsquo;$ be the transferred differentials on $H(M)$.
+Since we have $D_r = 0$ for $r \geq 2$, the transferred differentials look like
+$$D_1&amp;rsquo; = \pi D_1 i, \qquad  D_2&amp;rsquo; = \pi D_1hD_1 i, \quad \ldots \quad D_r&amp;rsquo; = \pi D_1hD_1h\ldots hD_1 i.$$&lt;/p&gt;
+&lt;p&gt;We won&amp;rsquo;t show it, as this post is going to be long enough, but we get the following result.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Theorem: (Induced differentials)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The maps induced by $D_r&amp;rsquo;$ on the $E_r$-page is exactly $d_r$.&lt;/p&gt;
+&lt;p&gt;Wow! It worked! The general case is more complicated, but this tells us that we can study the differentials in spectral sequences associated to bicomplexes by studying the transferred differentials from $M$ to the cohomology of $M$, e.g. by concluding that $d_r$ vanishes if $D_r&amp;rsquo;$ vanishes.&lt;/p&gt;
+&lt;h3 id=&#34;shifting-the-sequences-to-obtain-the-main-results-the-general-case&#34;&gt;Shifting the sequences to obtain the main results (the general case)&lt;/h3&gt;
+&lt;p&gt;Even though the case for special complexes is &amp;ldquo;simple&amp;rdquo;, the general case may be messy.
+First page differentials are not that different from the bicomplex case, as seen by the following theorem.
+To avoid repeating ourselves, we $M$ is still a multicomplex and &lt;em&gt;the associated spectral sequence&lt;/em&gt; refers to the spectral sequence associated to $M$, unless otherwise specified.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Theorem: (First page degeneration)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The associated spectral sequence degenerates at the $E_1$-page if and only if all transferred differentials $D_r&amp;rsquo;$ vanish.&lt;/p&gt;
+&lt;p&gt;For the higher pages, on the other hand, the differentials may be more complicated.&lt;/p&gt;
+&lt;p&gt;As we saw earlier, the differentials on the $E_2$-page are induced by $D_2&amp;rsquo;$.
+The problem therefore lies with inducing the differentials from $D_r&amp;rsquo;$ where $r \geq 3$.&lt;/p&gt;
+&lt;p&gt;Odin illustrates an example similar to the one we had earlier, showing the problems with using $D_2$ instead of $D_2&amp;rsquo;$.
+The differential on the $E_2$-page could be nonzero even though the $D_2$-differential vanished.
+The same problem can be shown to happen for the $D_3$-differential by jazzing up the example for $D_2$.&lt;/p&gt;
+&lt;p&gt;Even though it seems complicated, the following construction actually solves our problems.
+The idea is pushing the differentials a page to obtain new (shifted) differentials, giving a multicomplex in which the new $2$-differentials were the old $3$-differentials.
+This allows us to find transferred differentials that induce the differentials on the $E_3$-page and iterate to do this for the $E_r$-page. We are getting ahead of ourselves.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Construction: (Shifted multicomplex)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Given $(M, D_{\bullet})$, define $(^1M, ^1D_{\bullet})$ by setting $$^1D_r := D_{r+1}&amp;rsquo; \quad \text{and} \quad ^1M^{p,q} := H^{2p+q, -p}(M).$$
+This is a new multicomplex, and indeed, we can iterate this construction to obtain a collection of multicomplexes, $(^sM, ^sD_{\bullet})$.
+Define $$^sD_{r} := ^{s-1}D_{r+1} \quad \text{and} \quad ^sM :=  H^{2p+q, -p}(M, ^{s-1}D_0).$$&lt;/p&gt;
+&lt;p&gt;Indeed, this construction actually works!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Theorem: (Shifted spectral sequence)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The associated spectral sequence to $^1M$ is the spectral sequence associated to $M$, but shifted.
+More concretely,
+$$^1d_r = d_{r+1} \quad \text{and} \quad E_r^{p,q}(^1M) = E_{r+1}^{2p+q, -q}(M).$$&lt;/p&gt;
+&lt;p&gt;The iteration can be written more explicit than this.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Corollary:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;For $r \geq 1$ and $n=p+q$, we have $$d_r = ^rD_0 \quad \text{and} \quad E_r^{p,q} = ^rM^{p-rn, q+rn}.$$&lt;/p&gt;
+&lt;p&gt;An easy corollary from the theorem above tells us that the transferred differentials actually contain all the information we are after, if we shift them appropriately.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Corollary: (Degeneration of the $k$&amp;lsquo;th page)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The associated spectral sequence to $M$ degenerates on the $k$&amp;lsquo;th page if and only if for all $r \geq 0$, the transferred and shifted differentials vanish, i.e. $^kD_r = 0$.&lt;/p&gt;
+&lt;h2 id=&#34;closing-remarks&#34;&gt;Closing remarks&lt;/h2&gt;
+&lt;p&gt;It should be said that this blog post follows Odins thesis closely, so close to all of the underlying work here is his (or work of the people he refers to).
+Nevertheless, I quite enjoyed reading his thesis, and as mentioned at the &lt;a class=&#34;link&#34; href=&#34;https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-i/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;start&lt;/a&gt; of this series on spectral sequences, I felt like it was about time to actually understand spectral sequences properly.
+This tour has certainly helped with that quest.&lt;/p&gt;
+&lt;p&gt;Odin also spends some time in the appendices explaining how operads enter the game and how they describe double complexes and multicomplexes. He continues to explain that multicomplexes are actually &amp;ldquo;homotopy double complexes&amp;rdquo;, whatever that means.
+Even though we have not talked about it here (or even understood it), we can see that this gives some vague pointers to the fact that the transferred differentials that &amp;ldquo;fixed&amp;rdquo; double complexes also should be able to &amp;ldquo;fix&amp;rdquo; multicomplexes, if tweaked correctly.
+I cannot guarantee that we will encounter operads soon, but I have promised my friend Thomas to proofread his soon-to-be-finished master thesis, so there may be more posts related to this topic in the foreseeable future.&lt;/p&gt;
+&lt;p&gt;This concludes the post. Hopefully, I have more time now that I am done acting with &lt;a class=&#34;link&#34; href=&#34;https://www.facebook.com/realfagsrevyen&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Realfagsrevyen&lt;/a&gt; for the season and making an outdoor &lt;a class=&#34;link&#34; href=&#34;https://biodivgame.github.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;biodiversity game&lt;/a&gt; for the mandatory course &amp;ldquo;Experts in Teamwork&amp;rdquo; that we have here at NTNU.
+This may result in more frequent posting here on the blog, as I crave to write about my &lt;a class=&#34;link&#34; href=&#34;https://folk.ntnu.no/runegha/seminar.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;seminar on $\infty$-categories&lt;/a&gt; and &lt;a class=&#34;link&#34; href=&#34;https://arxiv.org/abs/2109.12250&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Differential Cohomology&lt;/a&gt;, which will be the topic of my master thesis next year.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Spectral sequences and multicomplexes - Part II</title>
+        <link>https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-ii/</link>
+        <pubDate>Wed, 23 Feb 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-ii/</guid>
+        <description>&lt;img src="https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-ii/images/Front_2.png" alt="Featured image of post Spectral sequences and multicomplexes - Part II" /&gt;&lt;p&gt;Welcome back! In the previous post, we took a brief look at spectral sequences and how we could get them from filtered complexes.
+In this post, we will sketch the main ideas in a proof of the convergence of the Leray-Serre (LS) spectral sequence using techiques from homotopy theory, explore spectral sequences through exact couples and compute an example.&lt;/p&gt;
+&lt;p&gt;Originally, I planned to spend more time understanding exact couples and head towards the Adams spectral sequence, but as my friend Torgeir recently wrote &lt;a class=&#34;link&#34; href=&#34;https://torgeiraamboe.github.io/posts/2022/the-adams-spectral-sequence/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;a great post&lt;/a&gt;
+on this for his dive into (stable) homotopy theory, we&amp;rsquo;ll just briefly touch on the topic. If you just want to see the computation, feel free to skip to the last chapter.&lt;/p&gt;
+&lt;h2 id=&#34;proving-the-convergence-of-the-leray-serre-spectral-sequence-using-homotopy-theory&#34;&gt;Proving the convergence of the Leray-Serre spectral sequence using homotopy theory&lt;/h2&gt;
+&lt;p&gt;The statement of the Leray-Serre spectral sequence is quite daunting. How would we go about proving such a thing? It may seem hard.
+We start the post by proving the theorem that we stated in the &lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/p/spectral-sequences-and-multicomplexes-part-i/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;previous post&lt;/a&gt; using the method of constructing a spectral sequence from a filtered complex.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Theorem: (The Leray-Serre Spectral Sequence)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Assume $F \hookrightarrow E \to B$ is a fibration where $\pi_0(E) = 0$ and $\pi_1(B)=0$ (even better, just assume that $\pi_1(B)$ acts trivially on $H_*(F)$ and the result still holds).&lt;/p&gt;
+&lt;p&gt;Then there is a convergent first quadrant spectral sequence with $E^2$-page given by
+$$ E^2_{p,q} = H_p(B;H_q(F)) \Rightarrow H_{p+q}(E).$$&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Sketch of proof:&lt;/strong&gt; (Following &lt;a class=&#34;link&#34; href=&#34;https://r0hilp.github.io/assets/docs/serre_spectral_sequence.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;this&lt;/a&gt; article)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;We are given a fibration $p: E \to B$ with fiber $F$. For simplicity&amp;rsquo;s sake, assume $B$ is a CW-complex. Strictly speaking, this &lt;a class=&#34;link&#34; href=&#34;https://pi.math.cornell.edu/~hatcher/AT/AT-CWapprox.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;can be done&lt;/a&gt; as every space we are interested in at the moment can be considered to be weakly equivalent to a CW-complex.
+Let $B^p$ denote the $p$-skeleton of $B$. Then we take the singular chain complex, $C_* (E)$, of $E$ and define a filtration on this complex.&lt;/p&gt;
+&lt;p&gt;How? Well, we want to understand how it changes &lt;em&gt;levelwise&lt;/em&gt;, that is, how it changes when going between the cells.
+Now, the only cells we are explicitly moving between are including the $B^{p-1}$&amp;rsquo;s  into the $B^{p}&amp;rsquo;s$.
+Intuitively, we could have taken the chains $F_pC_* (E) = C_* (B^p)$ to yield the filtration, but $B^p$ does not live in $E$, so this doesn&amp;rsquo;t make sense.
+We would not be working with $C_* (E)$.&lt;/p&gt;
+&lt;p&gt;If we remember that we have the fibration $p: E \to B$, we can just pull these skeleta back through $p$.
+This leads us to defining $F_pC_* (E) = C_* (p^{-1}(B^p))$ as our filtration on $C_* (E)$.
+Finding the associated graded, we obtain $G_pC_* (E) = C_* (p^{-1}(B^p),p^{-1}(B^{p-1}))$.&lt;/p&gt;
+&lt;p&gt;By computing homology, we achieve the entries in the $E^1$-page as&lt;/p&gt;
+&lt;p&gt;$$E_{p, q}^{1}=H_{p+q}\left(p^{-1}\left(B^p\right), p^{-1}\left(B^{p-1}\right)\right).$$&lt;/p&gt;
+&lt;p&gt;The differential is achieved the same way as last time, where we composed two maps coming from different long exact sequences in homology. That is, $d_1$ is the composition&lt;/p&gt;
+&lt;p&gt;$$H_{p+q}\left(p^{-1}\left(B^{p}\right), p^{-1}\left(B^{p-1}\right)\right) \rightarrow H_{p+q-1}\left(p^{-1}\left(B^{p-1}\right)\right)$$
+$$ \rightarrow H_{p+q-1}\left(p^{-1}\left(B^{p-1}\right), p^{-1}\left(B^{p-2}\right)\right).$$&lt;/p&gt;
+&lt;p&gt;We can of course just continue finding the rest of the pages and their differentials, as this will converge to $H_{p+q}(C_* (E)) =: H_{p+q}(E)$ due to the fact that we built our filtration on $p^{-1}(B^p)$, which will increase to $E$ as $p$ increases.
+The problem is that this does not reference the explicit construction of the $E^2$-page that should be quite easy to compute.
+Hence, we are going to show that the $E^2$-page can be written quite explicitely as $E^2_{p,q} = H_p(B;H_q(F))$.&lt;/p&gt;
+&lt;p&gt;This is defintitely the &lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Crux_%28climbing%29&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;crux&lt;/a&gt; of the proof (for us), as we would need to show that the $E^1$-page consists of the cellular chain group $C_{p}^{C W}\left(B ; H_{q}(F)\right)$.
+If this is the case, we would have the wanted $E^2$-page by taking homology and the fact that cellular homology coincides with singular homology.&lt;/p&gt;
+&lt;p&gt;Note that we have&lt;/p&gt;
+&lt;p&gt;$$C_p^{CW}(B;H_q(F)) \cong H_p(B^p, B^{p-1}) \otimes H_q(F) $$&lt;/p&gt;
+&lt;p&gt;by the &lt;a class=&#34;link&#34; href=&#34;https://topospaces.subwiki.org/wiki/Cellular_chain_complex&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;definition&lt;/a&gt; of the cellular chains with coefficients.&lt;/p&gt;
+&lt;p&gt;It is known to the barely &lt;a class=&#34;link&#34; href=&#34;https://www.dictionary.com/browse/cognoscenti&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;cognoscenti&lt;/a&gt; that $H_p(B^p, B^{p-1})$ is freely generated by the $p$-cells of $B$, meaning it is isomorphic to copies of a direct sum of $\mathbb{Z}$, indexed over some $\alpha$&amp;rsquo;s.
+Therefore, we have $C_p^{CW}(B;H_q(F)) \cong \oplus_{\alpha}H_q(F)$.&lt;/p&gt;
+&lt;p&gt;Now, to analyse this further, consider the characteristic map $\phi_{\alpha}$ of $D_{\alpha}$, that is, the map indicating how to glue the $p$-disk $D_{\alpha}$ to $B^{p-1}$.&lt;/p&gt;
+&lt;p&gt;We can use this, along with the fibration, to consider the following pullback diagram.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-ii/images/pb-diag.png&#34;
+	width=&#34;391&#34;
+	height=&#34;153&#34;
+	srcset=&#34;https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-ii/images/pb-diag_hu47bff0af36e733b9c8382cdd3179c987_6932_480x0_resize_box_3.png 480w, https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-ii/images/pb-diag_hu47bff0af36e733b9c8382cdd3179c987_6932_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Pullback diagram along the fibration and the characteristic map of the $p$-cell in question.&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;255&#34;
+		data-flex-basis=&#34;613px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Why is this fun to do? Well, we want to connect the $p$-cells generating the cellular chain groups with $(p^{-1}(B^p), p^{-1}(B^{p-1}))$, and pullbacking may yield some &amp;ldquo;middle ground&amp;rdquo; that we can utilise towards this purpose.
+To keep notation consistent and remember &lt;em&gt;how&lt;/em&gt; we glued on $D_{\alpha}$, the preimage $\xi_{\alpha}^{-1}(S_{\alpha}) = \xi_{\alpha}^{-1}(\partial D_{\alpha})$ is denoted by $\tilde{S_{\alpha}}$.&lt;/p&gt;
+&lt;p&gt;If we consider all the pairs $(\tilde{D_{\alpha}}, \tilde{S_{\alpha}})$, we can map them over to $(p^{-1}(B^p), p^{-1}(B^{p-1}))$ using the $\phi_{\alpha}$&amp;rsquo;s.
+That is, we combine them to one map&lt;/p&gt;
+&lt;p&gt;$$\phi^* : \coprod_{\alpha}(\tilde{D_{\alpha}}, \tilde{S_{\alpha}}) \to (p^{-1}(B^p), p^{-1}(B^{p-1})).$$&lt;/p&gt;
+&lt;p&gt;In fact, this map of pairs of spaces is actually an isomorphism when passed through $H_{p+q}$. To me, this is not clear from what we have done so far.
+Trying to study the cells we are gluing and pullbacking to obtain middle ground seems fair, but the fact that this works out, is kind of magical to me.&lt;/p&gt;
+&lt;p&gt;The &amp;ldquo;reason&amp;rdquo; this is true is because we can do some ninja-tricks and apply excision to the right hand side.
+This would not change the homology groups, but it could certainly yield a different way of viewing this map.
+We won&amp;rsquo;t go into the details as it is a messy procedure, which means that the crux (of what we actually show) is behind us.&lt;/p&gt;
+&lt;p&gt;The last step involves showing&lt;/p&gt;
+&lt;p&gt;$$\oplus_{\alpha}  H_{p+q}(\tilde{D_{\alpha}}, \tilde{S_{\alpha}}) \cong \oplus_{\alpha} H_{q}(F).$$&lt;/p&gt;
+&lt;p&gt;To briefly explain why this is true, one can do some tricks making an upper and lower hemisphere of the $\tilde{D_{\alpha}}$&amp;rsquo;s by using the $\xi_{\alpha}$&amp;rsquo;s. They are denoted by subscripted signs, such as $\tilde{D_{\alpha,-}}$ for the lower hemisphere.
+Playing with the boundary maps and induced inclusions, we get the following picture, stolen from &lt;a class=&#34;link&#34; href=&#34;https://pi.math.cornell.edu/~hatcher/AT/ATch5.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hatchers chapter on spectral sequences&lt;/a&gt;.
+It shows a zig-zag tracing down simpler versions of the homology groups we are after.
+We omit the index $\alpha$, but to log which dimension we are working with, we include superscripts.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-ii/images/ZigZagHatcher.png&#34;
+	width=&#34;1206&#34;
+	height=&#34;145&#34;
+	srcset=&#34;https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-ii/images/ZigZagHatcher_hub6fa9008148993e30a5e58506bbe797a_32778_480x0_resize_box_3.png 480w, https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-ii/images/ZigZagHatcher_hub6fa9008148993e30a5e58506bbe797a_32778_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;The boundary maps yield isomorphisms as $H_{t}(\tilde{D}, \tilde{D_-}) = 0$ for all $t$. The $i_* $&amp;rsquo;s are isomorphisms by excision.&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;831&#34;
+		data-flex-basis=&#34;1996px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;The space $H_q(\tilde{D_+^0})$ can be shown to be exactly $H_q(F)$ by utilising the maps $\phi_{\alpha}$, as well as the assumption that $\pi_1(B)$ is trivial, or at least acts trivially on the homology $H_* (F)$.
+We won&amp;rsquo;t delve into it any more, but we refer to &lt;a class=&#34;link&#34; href=&#34;https://pi.math.cornell.edu/~hatcher/AT/ATch5.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hatcher&lt;/a&gt; for the details.&lt;/p&gt;
+&lt;p&gt;With all of these technical parts behind us (which we did/did not prove to some extent), we can combine the isomorphisms to get&lt;/p&gt;
+&lt;p&gt;$$C_p^{CW}(B;H_q(F)) \cong H_p(B^p, B^{p-1}) \otimes H_q(F) \cong \oplus_{\alpha}H_q(F)$$
+$$\cong \oplus_{\alpha} H_{q}(F) \cong \oplus_{\alpha}  H_{p+q}(\tilde{D_{\alpha}}, \tilde{S_{\alpha}}) \cong  H_{p+q}(\coprod_{\alpha}(\tilde{D_{\alpha}}, \tilde{S_{\alpha}}))$$
+$$ \cong H_{p+q}(p^{-1}(B^p), p^{-1}(B^{p-1})) \cong E_{p,q}^1.$$&lt;/p&gt;
+&lt;p&gt;The differential $d_1$ coincides with the cellular boundary map $\partial$ as well, yielding the same homology, hence giving the wanted $E^2$-page!
+We won&amp;rsquo;t show this, as it is quite technical, but it can be found in &lt;a class=&#34;link&#34; href=&#34;https://pi.math.cornell.edu/~hatcher/AT/ATch5.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hatchers chapter&lt;/a&gt;.
+The same can be said about showing this construction is well-defined with respect to choosing a different CW-approximations to $B$.&lt;/p&gt;
+&lt;p&gt;Recall that we got the $E^1$-page from a filtration of $C_ * (E)$ specifying the $E^0$-page.
+As mentioned, this means that we will certainly have a spectral sequence converging to the homology of $E$.
+Luckily for us, we were able to show that the $E^2$-page took such a computable form, which we will use later to compute a toy example.&lt;/p&gt;
+&lt;h2 id=&#34;spectral-sequences-from-exact-couples---a-more-general-approach&#34;&gt;Spectral sequences from exact couples - A more general approach&lt;/h2&gt;
+&lt;p&gt;As we just saw, the previous method of finding the Leray-Serre spectral sequence involved some technical homotopy theory, and that is after we referenced most parts to Hatcher!
+There are a vast spectrum (pun intended) of (co)homology theories out there, and the technical homotopy theory can be difficult to do in general scenarios. If we want something easily computable, we would probably need to do such technical work.
+For other theories, we may need to be happy with the mere existence of the spectral sequence before we find explicit formulae.
+It is interesting to know if we can find these sequences at all!
+Are there other ways to find spectral sequences? Yes, indeed, there is an alternative way through &lt;em&gt;exact couples&lt;/em&gt;.
+It turns out that we can derive all interesting spectral sequences this way.&lt;/p&gt;
+&lt;p&gt;The method is based on the following staircase diagram, which we borrow from &lt;a class=&#34;link&#34; href=&#34;https://pi.math.cornell.edu/~hatcher/AT/ATch5.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hatcher&lt;/a&gt;.
+For this section, let $X$ be a finite dimensional CW-complex.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-ii/images/StaircaseHatcher.png&#34;
+	width=&#34;1204&#34;
+	height=&#34;285&#34;
+	srcset=&#34;https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-ii/images/StaircaseHatcher_hu3dc15627659668697a845075969662f5_52207_480x0_resize_box_3.png 480w, https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-ii/images/StaircaseHatcher_hu3dc15627659668697a845075969662f5_52207_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;The long exact sequences of the pair $(X_p, X_{p-1})$ is visualised as a set of staircase diagrams.&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;422&#34;
+		data-flex-basis=&#34;1013px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;If we denote $M = \oplus_{p,q} H_{p+q}(X_p)$ and $N = \oplus_{p,q} H_{p+q}(X_p,X_{p-1})$, we can put these staircases together into one diagram, where the arrows are the ones coming from the staircase drawing.
+Since there are only two objects involved and the diagram is exact in every object, this is called an exact couple.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-ii/images/ExactCouple.png&#34;
+	width=&#34;496&#34;
+	height=&#34;159&#34;
+	srcset=&#34;https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-ii/images/ExactCouple_hu1cec9706de0e9da67d242169c627a5db_6258_480x0_resize_box_3.png 480w, https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-ii/images/ExactCouple_hu1cec9706de0e9da67d242169c627a5db_6258_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;An exact couple.&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;311&#34;
+		data-flex-basis=&#34;748px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Note that the vertical composition of maps in the drawing of the staircase diagram correspond to the cellular differentials for $p=n$, that is, the boundary maps $H_{n+1}\left(X_{n+1}, X_{n}\right) \to H_{n}\left(X_{n}, X_{n-1}\right)$.
+Hence, studying $d=jk$ in the exact couple, could be quite interesting, as this encapsulates all &amp;ldquo;levels&amp;rdquo; of these cellular groups.
+Indeed, since $kj=0$, we obtain $d^2=jkjk=j0k=0$. We have a differential, meaning we can form the homology group.
+This yields a sequence $\cdots \to N \to N \to N \to \cdots$, where each map is the differential $d=jk$.&lt;/p&gt;
+&lt;p&gt;Forming the homology groups, we obtain what we call a &lt;em&gt;derived couple&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-ii/images/DerivedExactCouple.png&#34;
+	width=&#34;454&#34;
+	height=&#34;154&#34;
+	srcset=&#34;https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-ii/images/DerivedExactCouple_hu2896ec7e9391c84b83d8f7a932e9fa45_6865_480x0_resize_box_3.png 480w, https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-ii/images/DerivedExactCouple_hu2896ec7e9391c84b83d8f7a932e9fa45_6865_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;The derived couple obtained through homology of the exact couple with differential $d=jk$.&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;294&#34;
+		data-flex-basis=&#34;707px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;In the derived couple, we try to define things in the &amp;ldquo;only way&amp;rdquo; we can, namely as,&lt;/p&gt;
+&lt;p&gt;$N&amp;rsquo; = \frac{Ker d_0}{Im d_0}, \quad M&amp;rsquo; = Im(i)=Ker(j), \quad i&amp;rsquo; = i |_{M&amp;rsquo;}, \quad j&amp;rsquo;=ji^{-1}, \quad k&amp;rsquo; = \bar{k},$&lt;/p&gt;
+&lt;p&gt;where $\bar{k}$ is $k$, but just on homology classes and $i^{-1}$ means picking an element in the preimage.
+These constructions turns out to be well-defined with respect to choosing representatives for the homology classes and preimages,
+simply by writing out what they should mean and applying exactness.&lt;/p&gt;
+&lt;p&gt;By some diagram chasing, it turns out that the derived couple is exact! Hence, homology takes in an exact couple and spits out an exact couple!
+Doing the same procedure with $d&amp;rsquo;=j&amp;rsquo;k&amp;rsquo;$, we can make a new derived couple with entries $M&amp;rsquo;&amp;rsquo;, N&amp;rsquo;&amp;rsquo;$ and maps $i&amp;rsquo;&amp;rsquo;, j&amp;rsquo;&amp;rsquo;, k&amp;rsquo;&amp;rsquo;$, yielding an exact sequence!&lt;/p&gt;
+&lt;p&gt;By taking the $r$&amp;lsquo;th iteration of this process as the layout for the $E^r$-page, we get a spectral sequence with differentials as above.
+The only reasonable choice we can make, is to take $E_{n, p}^{1}=H_{n}\left(X_{p}, X_{p-1}\right)$.
+By doing the &amp;ldquo;same procedure&amp;rdquo; as before, we get a spectral sequence when iterating through these exact- and derived couples.
+Indeed, it can be shown that this converges to $H_ * (X)$.&lt;/p&gt;
+&lt;p&gt;This approach is extremely powerful, as Torgeir explains in his &lt;a class=&#34;link&#34; href=&#34;https://torgeiraamboe.github.io/posts/2022/the-adams-spectral-sequence/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;recent post&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;a-detour-to-more-general-cohomology-theories&#34;&gt;A detour to more general cohomology theories.&lt;/h3&gt;
+&lt;p&gt;To explain some of the power of this construction, we have really only used that $H^* $ has a long exact sequence for pairs.
+Hence, we can actually take any cohomology theory $\mathcal{E}^ * $ and do a similar thing. Strictly speaking, this would give us a &lt;em&gt;cohomological&lt;/em&gt; spectral sequence looking like&lt;/p&gt;
+&lt;p&gt;$$E_2^{p, q}=H^p\left(X ; \pi_{-q} \mathcal{E}\right) \Rightarrow \mathcal{E}^{p+q}(X),$$&lt;/p&gt;
+&lt;p&gt;where $\mathcal{E}$ is the spectra representing the cohomology theory, and the coefficients are given by the homotopy groups of spectra, where we have defined&lt;/p&gt;
+&lt;p&gt;$$\pi_k(\mathcal{E})=\operatorname{colim}_{n \rightarrow \infty} \pi _ {n+k} (\mathcal{E}_n)$$&lt;/p&gt;
+&lt;p&gt;for all $k \in \mathbb{Z}$.&lt;/p&gt;
+&lt;p&gt;We won&amp;rsquo;t jump into the homotopy theory going on here, but the idea still holds if we ignore working with the coefficients and the convergence.&lt;/p&gt;
+&lt;p&gt;By defining&lt;/p&gt;
+&lt;p&gt;$$M = \oplus_{p, q}\mathcal{E}^ {p+q}(X_ p ), \quad N = \oplus_{p, q}\mathcal{E}^{p+q}(X_p,X _ {p-1} ),$$&lt;/p&gt;
+&lt;p&gt;and letting the maps come from the setup of a cohomological staircase diagrams.&lt;/p&gt;
+&lt;p&gt;In fact, letting $E^{p,q}_1 = \mathcal{E}^ {p+q} (X_p,X _ {p-1}) $ be the first page of the spectral sequence, we can just iterate the construction as mentioned earlier to retrieve a spectral sequence
+in the cohomology theory $ \mathcal{E}^* $!&lt;/p&gt;
+&lt;h2 id=&#34;computing-the-homology-of-omega-sn&#34;&gt;Computing the homology of $\Omega S^n$.&lt;/h2&gt;
+&lt;p&gt;To use the Leray-Serre sequence to compute the homology of $\Omega S^n$, we need a fibration where this space is one of the main players.
+The fibration we will use is the path space fibration, namely $\Omega X \to PX \to X$, for a based space $X$.
+$PX$ is given by continuous maps from $[0,1]$ to $X$ sending $0$ to the base point of $X$. This space is contractible, which is going to be important for our computation.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-ii/images/PX.jpg&#34;
+	width=&#34;1031&#34;
+	height=&#34;620&#34;
+	srcset=&#34;https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-ii/images/PX_hu74c53bc188a1cfe82fe01cd8e4b5950d_291584_480x0_resize_q75_box.jpg 480w, https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-ii/images/PX_hu74c53bc188a1cfe82fe01cd8e4b5950d_291584_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;The path space considers all paths starting in the basepoint $x_0$. It is contractible by following each path back to $x_0$.&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;166&#34;
+		data-flex-basis=&#34;399px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;The last map in the fibration is then given by evaluating the path in $1$. The fibers can be shown to be homotopy equivlent. We can therefore just pick the preimage at the basepoint to be the fiber, which is what we do!
+The loop space is exactly the fiber of this map at the basepoint, and is therefore defined as continuous (based) maps $S^1 \to X$.&lt;/p&gt;
+&lt;p&gt;If we choose $X$ to be an arbitrary sphere $S^n$, we want to try to compute the homology of $\Omega S^n$.&lt;/p&gt;
+&lt;p&gt;Ok, what do we need to do? Well, if we want to use the Leray-Serre spectral sequence, we know that it is given by
+$$ E^2_{p,q} = H_p(B;H_q(F)) \Rightarrow H_{p+q}(E).$$&lt;/p&gt;
+&lt;p&gt;For this fibration, this would look like&lt;/p&gt;
+&lt;p&gt;$$ E^2_{p,q} = H_p(S^n;H_q(\Omega S^n)) \Rightarrow H_{p+q}(PS^n) = H_{p+q}( * ).$$&lt;/p&gt;
+&lt;p&gt;We certainly know the homology of the sphere and the path space, as the path space has the same homology as the point, so we would need to utilise the differentials
+in order to say anything about the homology of $\Omega S^n$.&lt;/p&gt;
+&lt;p&gt;Now, what does the second page look like? By the universal coefficient theorem, we can find the $E^2$-page.
+The entries on the page is given by $H_q(\Omega S^n)$ if $p=0$ or $p = n$ and $q \geq 0$, and $0$ elsewhere.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-ii/images/E2.jpg&#34;
+	width=&#34;1230&#34;
+	height=&#34;708&#34;
+	srcset=&#34;https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-ii/images/E2_hu686d6f750603af7e3b402185a30127a8_87021_480x0_resize_q75_box.jpg 480w, https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-ii/images/E2_hu686d6f750603af7e3b402185a30127a8_87021_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;A bad drawing showing the structure of the $E^2$-page. No differentials hit anything (unless $n=2$).&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;173&#34;
+		data-flex-basis=&#34;416px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Since this is the $E^2$-page, some magic would need to happen before arriving at the $E^{\infty}$-page.
+The magic that should happen, would need to &amp;ldquo;remove&amp;rdquo; or &amp;ldquo;kill off&amp;rdquo; all the entries outside of $(p,q) = (0,0)$, as the only nontrivial homology of $PX$ is for $n = p+q = 0$.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-ii/images/E_infty.jpg&#34;
+	width=&#34;1176&#34;
+	height=&#34;615&#34;
+	srcset=&#34;https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-ii/images/E_infty_hu85e1cb93f5224675f83e94df2459a5d4_38243_480x0_resize_q75_box.jpg 480w, https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-ii/images/E_infty_hu85e1cb93f5224675f83e94df2459a5d4_38243_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;The final page should look like this, as the diagonals $n=p&amp;#43;q$ give the homologies $H_n(PX)$ up to extension.&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;191&#34;
+		data-flex-basis=&#34;458px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;To end at the page above, we would need to change the entries a bit.
+The way the entries on a page change is that they are hit by, or send out, a nontrivial differential, as this would change the entries when moving to the next page through homology.
+Observe that due to the structure of the $E^2$-page, no differentials will hit anything, unless $n=2$.
+Hence, the $E^2$-page will be similar to the $E^3$-page, and so on.
+We get these results up to the $E^n$-page, i.e. $E^2 \cong E^3 \cong \ldots \cong E^n$.
+On the $E^n$-page, something (finally) happens. We know the differentials would need to go from an entry where $p=n$ and $n$ steps to the left to be able to hit anything.&lt;/p&gt;
+&lt;p&gt;Since the entries at $(n,t)$ for $t &amp;lt; 0$ are all $0$, we know that the differentials on the $n$&amp;lsquo;th page will go from $E^n_{n,t}$ for $-(n-1)&amp;lt;t&amp;lt;0$ and hit the corresponding entries $E^n_{0,s}$ for $0&amp;lt;s&amp;lt;n-1$.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-ii/images/E_n.jpg&#34;
+	width=&#34;1214&#34;
+	height=&#34;585&#34;
+	srcset=&#34;https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-ii/images/E_n_hu499b27b8499758e897b95df4c2bb7c75_84552_480x0_resize_q75_box.jpg 480w, https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-ii/images/E_n_hu499b27b8499758e897b95df4c2bb7c75_84552_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;The first page which allows nonzero differentials is the $E^n$-page.&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;207&#34;
+		data-flex-basis=&#34;498px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Since the latter collection of entries all need to disappear before reaching the final page, these differentials must be isomorphisms $0 \to E^n_{0,s}$.
+The reason is that the $E^n$-page is the final page where we can have nonzero differentials, due to degree reasons.
+Hence, we get that $E^{n+1}$ is the final page, so $E^{n+1} \cong \ldots \cong E^{\infty}$, and at that page we must have only the coefficient ring for $p+q=0$, as it is the homology of $PX$.&lt;/p&gt;
+&lt;p&gt;The mentioned isomorphism yields that the entries $E^n_{0,s}$ are $0$, and since they are the same entries as $E^n_{n,s}$, we get columns of zeros both for $p=0$ and for $p=n$.
+Doing this again with the maps going from an $E^n_{n,s}$ for $0&amp;lt;s&amp;lt;n-1$ to the corresponding $E^n_{0,k}$ for $n-1&amp;lt;k&amp;lt;2(n-1)$, we also get zeros.
+This can be iterated to see that we get zeros in these columns, only interrupted by the coefficient ring when $q = m(n-1)$ for $m = 0,1,\ldots$.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-ii/images/E_n_2.jpg&#34;
+	width=&#34;1212&#34;
+	height=&#34;483&#34;
+	srcset=&#34;https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-ii/images/E_n_2_hu835945a24407440df2e5482dc5205843_71751_480x0_resize_q75_box.jpg 480w, https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-ii/images/E_n_2_hu835945a24407440df2e5482dc5205843_71751_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;$E^n$-page with zeros inserted yielding all $H_k(\Omega S^n)$ when $k \neq m(n-1)$ and differentials yielding isomorphisms $H_{m(n-1)}(\Omega S^n) \cong H_0(\Omega S^n)$.&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;250&#34;
+		data-flex-basis=&#34;602px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Since we know the homology of the point, we must have that all entries that have survived so far must also be killed, except for the entry in $(0,0)$.
+This entry can&amp;rsquo;t be killed, and as the homology of the point is the coefficent ring at $p+q=0$, we can fill in that this must be $\mathbb{Z}$ for $(0,0)$.
+Since this entry is the same at the entry $(n,0)$, we can place a $\mathbb{Z}$ there as well..
+The differential that will kill off the $\mathbb{Z}$ in $(n,0)$ must be an isomorphism, as it can leave only $0$ when taking homology.
+This yields two new $\mathbb{Z}$&amp;rsquo;s, which can then be used to argue that all the remaining entries must be $\mathbb{Z}$ by observing that the remaining differentials must be isomorphisms.&lt;/p&gt;
+&lt;p&gt;We now know the homology of $\Omega S^n$!
+Take a look at what the entries were, and you&amp;rsquo;ll find that we have&lt;/p&gt;
+&lt;p&gt;$$H_k( \Omega S^n) = \mathbb{Z} \quad \text{for} \quad k = m(n-1), \quad m=0,1,\ldots \quad \text{and} \quad 0 \quad \text{elsewhere}.$$&lt;/p&gt;
+&lt;p&gt;With this (hopefully) illustrative example, we finish up the post. For the next post, I expect us to dive into spectral sequences from multicomplexes, which is what my friend Odin wrote his master thesis about.
+I can&amp;rsquo;t guarantee that, as I recently held a talk on Joyals lifting theorem and $\infty$-categories. I&amp;rsquo;d like to dedicate a post to that, or maybe some homotopy theory, spatial statistics or differential cohomology.
+Time will tell!&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Spectral sequences and multicomplexes - Part I</title>
+        <link>https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-i/</link>
+        <pubDate>Thu, 03 Feb 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-i/</guid>
+        <description>&lt;img src="https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqds2.png" alt="Featured image of post Spectral sequences and multicomplexes - Part I" /&gt;&lt;p&gt;A year ago, I took a course on algebraic topology at NTNU where we covered some homotopy theory, spectral sequences, bundle theory and characteristic classes.
+Most of the topics stuck with me, and I have been exploring them a bit after the course. The part on spectral sequences grew on me, and at the end of the course, that part fascinated me the most, as they give a puzzle-style way of computing homology and cohomology.
+Even though I realised that they were powerful tools, there were a lot of technicalities that I just &amp;ldquo;accepted&amp;rdquo; when it came to spectral sequences.
+I have not been using them, or even thinking about them, for a while now, and I thought it would be nice to &amp;ldquo;open the blackbox&amp;rdquo; to understand them properly.&lt;/p&gt;
+&lt;p&gt;A fellow student of mine, Odin, recently handed in his master thesis in algebraic topology where he explored the spectral sequence associated to a multicomplex over a field.
+Trying to understand the main essence of the results in his thesis is what lead me to writing this post.
+We will start the mathematical exploration of this blog with an introduction to spectral sequences before we delve into the main results in Odins master thesis in some later post.&lt;/p&gt;
+&lt;h2 id=&#34;what-is-a-spectral-sequence&#34;&gt;What is a spectral sequence?&lt;/h2&gt;
+&lt;p&gt;Loosely speaking, a (co)homological spectral sequence consists several &lt;em&gt;pages&lt;/em&gt; of chain complexes of abelian groups such that the pages are connected by (co)homology.
+The idea we will try to capsule into the spectral sequence is that we will make a finer and finer approximation to the homology of a space.
+Between the abelian groups, we have differentials that &amp;ldquo;shift&amp;rdquo; their angle for each page we iterate through, allowing us to gather up some new (finer) info in homology for each page.
+Information of the homology of what from what, you may ask? We&amp;rsquo;ll come to that. First we explore the mechanisms of a spectral sequence, so that we can more easily grasp the technicalities they originated from.&lt;/p&gt;
+&lt;p&gt;To reveal some of the notation before we derive the ideas ourselves, it is common (up to convention) to write $(E^r_{**}, d^r_{* *}).$ This indicates that we would have abelian groups $E^r_{p,q}$ in a grid and differentials $d^r_{p,q} : E^r_{p,q} \to E^r_{p-r,q+r-1}$ squaring to zero on the $r$&amp;lsquo;th page.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s try to visualise what this is supposed to look like if we try to work with a spectral sequence.
+First of all, we have abelian groups in a grid, indexed by which page $r$ we are working on.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqd0.png&#34;
+	width=&#34;1595&#34;
+	height=&#34;960&#34;
+	srcset=&#34;https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqd0_hu408ddf8673b1a9ecb205e0cf9cdc75d5_131489_480x0_resize_box_3.png 480w, https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqd0_hu408ddf8673b1a9ecb205e0cf9cdc75d5_131489_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Grid of abelian groups on page $r=0$ in a first quadrant spectral sequence with the $0$-differentials between them&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;166&#34;
+		data-flex-basis=&#34;398px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Between these groups, we are supposed to have differentials moving left and up, depending on which page we are working on.
+Let&amp;rsquo;s try to visualise what the $d_1, d_2$ and $d_3$ differentials look like on this page.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqd1.png&#34;
+	width=&#34;1575&#34;
+	height=&#34;927&#34;
+	srcset=&#34;https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqd1_hubab8bbb150063d76cdd3b00c7d16d630_127977_480x0_resize_box_3.png 480w, https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqd1_hubab8bbb150063d76cdd3b00c7d16d630_127977_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;On the first page we see some of the $d_1$ differentials. Note that the differentials go one to the left. One example of a vanishing differential is the map $E_{0,0}^1 \to E_{-1,0}^1$, which vanishes as $E_{-1,0}^1$ is zero in this first quadrant spectral sequence.&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;169&#34;
+		data-flex-basis=&#34;407px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;When we move to the later pages (e.g. $r=2$ or $r=3$), the differentials change. Keep in mind that the groups also change, as we move through the pages by taking homology with respect to the differentials we just worked with.
+For $r=2$, the page could look like the following:
+&lt;img src=&#34;https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqd22.png&#34;
+	width=&#34;1584&#34;
+	height=&#34;926&#34;
+	srcset=&#34;https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqd22_hucba43d7f9b848f50873e0e3eafb314cf_171324_480x0_resize_box_3.png 480w, https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqd22_hucba43d7f9b848f50873e0e3eafb314cf_171324_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;For $r=2$, we can look at the selected differentials to see that the differentials change their directions slightly. On the second page they go two to the left and one up, instead of one to the left. Do not forget that the groups in each entry may have changed since the previous page.&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;171&#34;
+		data-flex-basis=&#34;410px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;How does this look for $r=3$ then? Let&amp;rsquo;s take a look!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqd32.png&#34;
+	width=&#34;1578&#34;
+	height=&#34;936&#34;
+	srcset=&#34;https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqd32_huaad426baa9dacbc531132ac646693c04_172855_480x0_resize_box_3.png 480w, https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqd32_huaad426baa9dacbc531132ac646693c04_172855_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Some (selected) differentials on the third page. Compared to the previous page, these go one more to the left and one more up before landing in an abelian group.&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;168&#34;
+		data-flex-basis=&#34;404px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Ok. What we can see now, is that as we progress through the pages, the differentials more and more often end up left of the first quadrant, and hence vanish, as all the abelian groups outside the first quadrant is zero in this &lt;em&gt;first quadrant spectral sequence&lt;/em&gt;.
+This would mean that for a sufficiently large $r$, all the differentials end up outside of the first quadrant and vanish. When taking homology with zero as the differentials, we just end up with the same thing.
+Therefore, for a sufficiently large $r$, we have&lt;/p&gt;
+&lt;p&gt;$$E_{p,q}^r = E_{p,q}^{r+1}=\cdots=E_{p,q}^{\infty},$$&lt;/p&gt;
+&lt;p&gt;and we say that the sequence &lt;em&gt;degenerates&lt;/em&gt; at page $r$.&lt;/p&gt;
+&lt;p&gt;This terminal page is where the magic happens. As we have (in some sense that will become clear later) included finer and finer homological data, we may actually find some sort of homological information here. Exactly why this is a good idea to do, is yet to be explained.
+Before we answer the question on where these ideas come from, we ask whether or not there are any interesting spectral sequences we can consider.
+The example we will come back to and try out a bit, is the Leray-Serre spectral sequence. This may often be stated as a theorem, as its convergence is certainly not to take for granted.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Theorem: (The Leray-Serre Spectral Sequence)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Assume $F \hookrightarrow E \to B$ is a fibration where $\pi_0(E) = 0$ and $\pi_1(B)=0$ (even better, assume that $\pi_1(B)$ acts trivially on $H_*(F)$ and the result still holds).&lt;/p&gt;
+&lt;p&gt;Then there is a convergent first quadrant spectral sequence with $E^2$-page given by
+$$ E^2_{p,q} = H_p(B;H_q(F)) \Rightarrow H_{p+q}(E).$$&lt;/p&gt;
+&lt;p&gt;How can we think of this? Well, we just visualised a grid of abelian groups, and this theorem says that we can choose the entries in the grid on the second page to contain information about the homology of the base space and the fiber in a fibration to retrieve information about the homology of the total space when iterating through the pages.&lt;/p&gt;
+&lt;p&gt;Ok, we have some words to clarify before we understand this.
+What is a fibration and how would such a weird mix-up of homology groups converge to anything, let alone the homology of $E$? There are a lot of questions to be answered, but we&amp;rsquo;ll come back to them. We will take a detour to homotopy theory to understand fibrations.&lt;/p&gt;
+&lt;h2 id=&#34;a-detour-to-homotopy-theory&#34;&gt;A detour to homotopy theory&lt;/h2&gt;
+&lt;p&gt;Even though you can do a post about spectral sequences without touching that much topology, we visit homotopy theory.
+Fibrations come from homotopy theory, and along with the notions of weak equivalences and cofibrations (the dual notion of fibrations), they make up the stepping stones for the theory.
+In fact, if we would want to do homotopy theory in other contexts (that is, in other categories), we couldn&amp;rsquo;t necessarily just &amp;ldquo;continuously deform&amp;rdquo; or &amp;ldquo;draw a continuous path&amp;rdquo; between homotopic functions.
+We would need the categorical notion of a model category, which is specified by fibrations, cofibrations and weak equivalences. We may encounter them in later posts, but for now, we won&amp;rsquo;t dwell on these ideas before we have worked a bit with fibrations. Fibrations are maps with a special property, namely the &lt;em&gt;homotopy lifting property&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Definition: (Homotopy Lifting Property)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Given a map of topological spaces $p: E \to B$, we say $p$ has the &lt;em&gt;homotopy lifting property&lt;/em&gt; with respect to a space $X$ if, given a homotopy $g_t: X \to B$ and a lift $\tilde{g_0}:X \to E$ of the starting map $g_0$ in the homotopy,
+there exists a homotopy $\tilde{g_t}:X \to E$ lifting $g_t$ and extending $\tilde{g_0}$. Phrased as a diagram:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-i/images/HLP.png&#34;
+	width=&#34;513&#34;
+	height=&#34;157&#34;
+	srcset=&#34;https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-i/images/HLP_huf91ed1880f9d62ab8ff1c6d1516b17ca_7428_480x0_resize_box_3.png 480w, https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-i/images/HLP_huf91ed1880f9d62ab8ff1c6d1516b17ca_7428_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Homotopy Lifting Property&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;326&#34;
+		data-flex-basis=&#34;784px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Definition: (Fibration)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A &lt;em&gt;fibration&lt;/em&gt; $p: E \to X$ is a map having this homotopy lifting property with respect to all topological spaces $X$.&lt;/p&gt;
+&lt;p&gt;We call $F_x := p^{-1}(x)$ the fiber at $x$. If the base space $B$ is path connected, the different fibers are all homotopy equivalent.
+This leads us to talk about just &lt;em&gt;the&lt;/em&gt; fiber $F$ and this justifies the notation $F \hookrightarrow E \to B$ for fibrations.&lt;/p&gt;
+&lt;p&gt;One of the most known fibrations is the Hopf fibration,
+$S^1 \hookrightarrow S^3 \to S^2$,
+where the last morphism can be given explicitly, if we wanted to.&lt;/p&gt;
+&lt;p&gt;The idea of spectral sequences is now that we can utilize the homology of $B$ and $F$ to find the homology of $E$, or even reverse-engineer it to find the homology of one of them, given that we know the homology of the two others.
+This is exactly what we will do when we compute the homology of the loop space $\Omega S^n = Hom_{Top_*}(S^1,S^n)$ in a later post.&lt;/p&gt;
+&lt;p&gt;To try to visualise this idea, think of a fiber bundle $p: E \to B$. If you do not know what a fiber bundle is, think about a manifold $B$ where the total space $E$ is the space $B$, but now every point has a fiber $F$ glued on.
+The map $p$ then takes a point $(b,F_b)$ and projects down to $b$. Throw in some localising conditions (to make sure we locally glue them on in (close to) the same direction), and tada, you basically have the definition of a fiber bundle.
+If the fibers are vector spaces, we call them vector bundles. Think about them as the collection of all (co)tangent spaces on your manifold, where all these spaces are glued onto the points to which they belong. This construction is quite important, so we will meet it again later, for sure.&lt;/p&gt;
+&lt;p&gt;One can show that all fiber bundle maps over paracompact base spaces are fibrations.
+The lifting condition now says that if we have a homotopy $g_t$ on our base space $B$, and a way to start the homotopy in the total space $E$, we can lift the homotopy to $E$.
+Even though the homotopy is between functions, I like to think of them as paths. This would then mean that if we knew &amp;ldquo;a path&amp;rdquo; in $B$ and where it starts in $E$, we can transfer the entire &amp;ldquo;path&amp;rdquo; up to $E$ through the fibration $p$.
+Now, enough with the hand waving and the homotopy theory for now. Let&amp;rsquo;s get back to spectral sequences.&lt;/p&gt;
+&lt;h2 id=&#34;spectral-sequences-from-filtered-complexes&#34;&gt;Spectral sequences from filtered complexes&lt;/h2&gt;
+&lt;p&gt;In the first part of this post, we drew some grids of abelian groups and had some differentials going weird directions. For now, we start from scratch, kind of forgetting what we did in the earlier sections.&lt;/p&gt;
+&lt;p&gt;Recall that we often find ourselves in situations where we have a space $X$ and a subspace $A$. Often, we also can consider triplets of spaces $A \subset B \subset X$.
+These will both yield long exact sequences in homology that relate the homology of these spaces. Note that if we consider the singular $n$-chains, we will get a sequence of inclusions
+$C_n(A) \hookrightarrow C_n(B) \hookrightarrow C_n(X)$, and indeed, if we avoid choosing an $n$, we get a sequence of chain complexes $C_ * (A) \hookrightarrow C_ * (B) \hookrightarrow C_*(X)$ that contain a lot of the homological information relating these.
+If we want, we can apply homology to get a sequence looking quite similar.
+A natural question to ask is whether or not we can try to utilize this sort of filtration to compute homology levelwise and make it &amp;ldquo;converge&amp;rdquo; to the homology of $X$.&lt;/p&gt;
+&lt;p&gt;If we have $A \subset B \subset X$ or even $A \subset B \subset C \subset X$, what info do we need about the homologies related to the subspaces of $X$ before we can compute the homology of $X$?
+To be intentionally vague, we can set up the homologies after each other, with the respective homologies of the quotient spaces.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-i/images/Homology-of-short-filtration.png&#34;
+	width=&#34;748&#34;
+	height=&#34;202&#34;
+	srcset=&#34;https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-i/images/Homology-of-short-filtration_hude2cb37ee7a987275999e25f07da3c49_10447_480x0_resize_box_3.png 480w, https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-i/images/Homology-of-short-filtration_hude2cb37ee7a987275999e25f07da3c49_10447_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;If we know the homologies $H(A), H(B/A)$ and $H(X/B)$, which we think of as the homology of the new information in each &amp;ldquo;level&amp;rdquo; of the filtration, then we can puzzle them together to find the homology $H(B)$ and then $H(X)$, at least up to some extension problems.&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;370&#34;
+		data-flex-basis=&#34;888px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;A similar story can be told for the longer filtrations.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-i/images/homology-of-longer-filtration.png&#34;
+	width=&#34;763&#34;
+	height=&#34;207&#34;
+	srcset=&#34;https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-i/images/homology-of-longer-filtration_hud6a9c850567d81b47698bb7d94e19061_13648_480x0_resize_box_3.png 480w, https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-i/images/homology-of-longer-filtration_hud6a9c850567d81b47698bb7d94e19061_13648_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Up to extensions, we can even do this with longer chains, such as $A\subset B \subset C \subset X$.&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;368&#34;
+		data-flex-basis=&#34;884px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;It looks like we &amp;ldquo;only&amp;rdquo; need the homologies of the subspaces with their respective quotients to compute the homologies upwards in this chain.
+If we can properly define what a filtration is supposed to mean, and actually work out whow this &amp;ldquo;levelwise&amp;rdquo; construction is supposed to work, then we are possibly onto some sort of idea of &amp;ldquo;approximating the homology of $X$ with finer and finer information&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Definition: (Filtration of a module)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A &lt;em&gt;filtration&lt;/em&gt; of a module $M$ is a sequence of subspaces&lt;/p&gt;
+&lt;p&gt;$$\cdots \subset F_{-1}M \subset F_0M \subset F_1M \subset \cdots$$&lt;/p&gt;
+&lt;p&gt;such that their union is $M$ and their intersection is $\empty$.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Definition: (Filtered complex)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A filtered complex is a chain complex $(C,\partial)$  such that we have a filtration on each entry preserving the boundary map, i.e. each $C_i$ has a filtration such that $\partial F_jC_i \subset F_jC_{i-1}$.&lt;/p&gt;
+&lt;p&gt;One should note that $F_pC_ * $ is a subcomplex of $C_*$, so we have basically just filtered the entire complex at the same time.&lt;/p&gt;
+&lt;p&gt;We can try to utilise the idea from earlier about finding the information about the quotient spaces, and construct the associated graded module from a filtered module.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Definition: (Associated graded module)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Given a filtration on a module $M$, we can define the &lt;em&gt;associated graded module&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;$$GM = \bigoplus_{i \in \mathbb{Z}}G_iM,$$&lt;/p&gt;
+&lt;p&gt;where $G_iM = F_iM/F_{i-1}M$.&lt;/p&gt;
+&lt;p&gt;As in the previous case, we can do the same thing for complexes.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Definition: (Associated graded complex)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Given a filtered complex $C_*$, we can define the &lt;em&gt;associated graded complex&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;$$G_pC_* = F_pC_* / F_{p-1}C_* , $$&lt;/p&gt;
+&lt;p&gt;where the quotient is taken as chain complexes.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Remark:&lt;/strong&gt; The filtration on $C_ * $ induces a filtration on its homology, so we can in fact talk about the graded structures on the homology of $C_* $ as well.&lt;/p&gt;
+&lt;p&gt;Recall that if we consider a (good) pair of spaces $A \subset X$, we can in fact compute $H(X)$ from $H(A)$ and $H(X/A)$ up to some extension problem, as illustrated above.
+If we can pick a filtration of $C_ * $ with easily computeable homology, maybe we can compute the homology of $C_ *$ itself, in nice enough contexts!&lt;/p&gt;
+&lt;p&gt;Ok, now you can again recall what we did in the first section.
+A spectral sequence is supposed to consist of a grid of abelian groups (or modules) $E^r_{p,q}$ with differentials $d^r_{p,q} : E^r_{p,q} \to E^r_{p-r,q+r-1}$, whatever that means.
+Since the differentials shift and move further and further away as we progress towards the pages, a suitable boundedness condition may ensure that all of these differentials vanish, at some point, meaning that the sequence &lt;em&gt;degenerates&lt;/em&gt;.
+For example, this happens in the Leray-Serre sequence, as that spectral sequence is a first quadrant sequence.&lt;/p&gt;
+&lt;p&gt;A natural question, following what we just did, is whether or not we can just plug the groups $H_* (G_pC_ * )$ into some spectral sequence and hope that this spits out information about $H_* (C_ * )$ on the $E^{\infty}$-page.
+We are close to the answer.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Theorem: (Existence of a spectral sequence)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;If we are given a filtered complex $C_ * $ with some filtration $F$ as in the above definitions, there exists a spectral sequence $E$ such that $E_{p,q}^{\infty}$ is equal to $G_pH_{p+q}(C_ * )$.&lt;/p&gt;
+&lt;p&gt;Wow! On the final page, we can actually find all the steps in the filtration of the homology of $C_ * $!&lt;/p&gt;
+&lt;p&gt;In this situation, we say that $E$ &lt;em&gt;abuts&lt;/em&gt; or &lt;em&gt;converges&lt;/em&gt; to $H_{p+q}(C_ * )$, as in the case of the Leray-Serre spectral sequence.&lt;/p&gt;
+&lt;p&gt;We will not prove this, as the post is already long enough, but we will try to understand a bit where this comes from.&lt;/p&gt;
+&lt;h3 id=&#34;the-main-idea&#34;&gt;The main idea&lt;/h3&gt;
+&lt;p&gt;It is (almost) natural to take $E_{p,q}^0$ to be $G_pC_{p+q}$. The most natural choice would be to consider $G_pC_q$, but it turns out that everything gets hard if we do that.
+The differential $d_0$ can only be chosen to be the boundary map $E_{p,q}^0 = G_pC_{p+q} \to G_pC_{p+q-1} = E_{p,q-1}^0$.
+Just to see what this would look like, let&amp;rsquo;s bring up the grid again.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqd0.png&#34;
+	width=&#34;1595&#34;
+	height=&#34;960&#34;
+	srcset=&#34;https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqd0_hu408ddf8673b1a9ecb205e0cf9cdc75d5_131489_480x0_resize_box_3.png 480w, https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqd0_hu408ddf8673b1a9ecb205e0cf9cdc75d5_131489_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;The differentials just takes one leap down.&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;166&#34;
+		data-flex-basis=&#34;398px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Now, if we take homology with respect to $d_0$, what happens? We define the $E^1$-page!&lt;/p&gt;
+&lt;p&gt;The $E^1$-page becomes $E^1_{p,q} = H_{p+q}(G_pC_ * )$. If we want to find the differential $d_1$, we couldn&amp;rsquo;t base it on $d_0$, as we already killed off every single image of $d_0$ when taking homology. Nevertheless, there is a way!
+Recall that we want to have a map from one of the $E^1_{p,q} = H_{p+q}(G_pC_ * )$ to a $E^1_{p&amp;rsquo;,q&amp;rsquo;} = H_{p&amp;rsquo;+q&amp;rsquo;}(G_{p&amp;rsquo;}C_ * )$.&lt;/p&gt;
+&lt;p&gt;If we consider the filtrations we have worked with earlier, we may find something interesting. For example, we can consider the short exact sequences&lt;/p&gt;
+&lt;p&gt;$$0 \to F_{p-1}C_ * \to F_pC_ * \to G_pC_ * \to 0$$&lt;/p&gt;
+&lt;p&gt;and&lt;/p&gt;
+&lt;p&gt;$$0 \to F_{p-2}C_ * \to F_{p-1}C_ * \to G_{p-1}C_ * \to 0.$$&lt;/p&gt;
+&lt;p&gt;Since we have $F_{p-1}C_ * $ in both of them, we may be able to link $G_pC_ * $ to $ G_{p-1}C_ * $.
+We want to link them in homology, so by taking the long exact sequences in homology, we can just trace the following web of arrows to define $d_1$ as the composition of the crossing arrows from both of the long exact sequences.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-i/images/d1.png&#34;
+	width=&#34;688&#34;
+	height=&#34;402&#34;
+	srcset=&#34;https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-i/images/d1_hub8298c7b882c595ffa5a908b99dfd1ec_18181_480x0_resize_box_3.png 480w, https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-i/images/d1_hub8298c7b882c595ffa5a908b99dfd1ec_18181_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;By analysing which pair of long exact sequences we can staple together, we can define $d_1: E_{p,q}^1 \to E_{p-1,q}^1$ as the composition.&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;171&#34;
+		data-flex-basis=&#34;410px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;This arrow goes straight to the left and gives us in fact a new differential, as $d_1 ^2 = 0$, which could be seen by tracing out what $d_1^2$ would look like.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqd1.png&#34;
+	width=&#34;1575&#34;
+	height=&#34;927&#34;
+	srcset=&#34;https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqd1_hubab8bbb150063d76cdd3b00c7d16d630_127977_480x0_resize_box_3.png 480w, https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqd1_hubab8bbb150063d76cdd3b00c7d16d630_127977_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;The differentials $d_1$ differ from the $d_0$-differentials in the sense that their target is one to the left and one up, compared to the $d_0$-differentials&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;169&#34;
+		data-flex-basis=&#34;407px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;With this, we could take homology again, yielding the $E^2$ page and the respective $E_{p,q}^2$-groups.
+The differential is a little bit more involved, but through a similar prosedure as for $d_1$, with some lifting of homology classes to representatives, one can make a well-defined differential $d_2: E_{p,q}^2 \to E_{p-2,q+1}^2$.
+&lt;img src=&#34;https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqd22.png&#34;
+	width=&#34;1584&#34;
+	height=&#34;926&#34;
+	srcset=&#34;https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqd22_hucba43d7f9b848f50873e0e3eafb314cf_171324_480x0_resize_box_3.png 480w, https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqd22_hucba43d7f9b848f50873e0e3eafb314cf_171324_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;The shift in the $d_2$-differentials comes from lifting some homology classes and mapping further, yielding the &amp;ldquo;one to the left, one up&amp;rdquo;-shift.&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;171&#34;
+		data-flex-basis=&#34;410px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;After this point, one can continue in a similar fashion to produce all the pages that will determine the filtration of the yet unknown homology of $C_* $.
+There are of course a lot of details to be checked, so we refer interested readers to &lt;a class=&#34;link&#34; href=&#34;https://r0hilp.github.io/assets/docs/serre_spectral_sequence.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;this writeup&lt;/a&gt; for the details.&lt;/p&gt;
+&lt;p&gt;In this post, we have done a lot of the &amp;ldquo;dirty work&amp;rdquo; when it comes to understanding spectral sequences.
+We will probably see some applications of this in the next post, using the Leray-Serre Spectral Sequence to compute the homology of $\Omega S^n$, illustrating the beautiful methods of computing homology we have developed.&lt;br&gt;
+Until next time, check out &lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/watch?v=OnvQggy3Ezw&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;this amazing video&lt;/a&gt; on freediving!&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
 </rss>

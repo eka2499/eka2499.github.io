@@ -1,57 +1,323 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Pages on Exploring mathematics</title>
-    <link>https://eka2499.github.io/page/</link>
-    <description>Recent content in Pages on Exploring mathematics</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 25 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://eka2499.github.io/page/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>About me</title>
-      <link>https://eka2499.github.io/about-me/</link>
-      <pubDate>Tue, 25 Jan 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://eka2499.github.io/about-me/</guid>
-      <description>Hey! Welcome to the blog! I&amp;rsquo;ll tell you a bit about myself. My name is Elias. I study mathematics at NTNU in Trondheim, and I have been doing that for the last couple of years. I expect to finish my master&amp;rsquo;s degree in 2023. My main interests (at least during my master studies) are within algebraic topology, but honestly I am interested in a lot of topics ranging from mathematical physics to spatial statistics to stable homotopy theory.</description>
-    </item>
-    
-    <item>
-      <title>Archives</title>
-      <link>https://eka2499.github.io/archives/</link>
-      <pubDate>Tue, 25 Jan 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://eka2499.github.io/archives/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Documents</title>
-      <link>https://eka2499.github.io/documents/</link>
-      <pubDate>Tue, 25 Jan 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://eka2499.github.io/documents/</guid>
-      <description>Here I include (some) stuff I have been writing. The probability is high that many things are forgotten!
-Write-ups and lecture notes    Title Remarks Link     Equivariant $K$-theory and representation rings Unfinished notes expanding on topics from the Bergen 2021 talk Link    $\Delta t$ articles $\Delta t$ is the newspaper of the student association Delta, which is the association for students in mathematics and/or physics at NTNU.</description>
-    </item>
-    
-    <item>
-      <title>Links</title>
-      <link>https://eka2499.github.io/links/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://eka2499.github.io/links/</guid>
-      <description>[THIS PAGE IS UNDER CONSTRUCTION]</description>
-    </item>
-    
-    <item>
-      <title>Search</title>
-      <link>https://eka2499.github.io/search/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://eka2499.github.io/search/</guid>
-      <description></description>
-    </item>
-    
-  </channel>
+    <channel>
+        <title>Pages on Exploring mathematics</title>
+        <link>https://eka2499.github.io/page/</link>
+        <description>Recent content in Pages on Exploring mathematics</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Tue, 25 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://eka2499.github.io/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>About me</title>
+        <link>https://eka2499.github.io/about-me/</link>
+        <pubDate>Tue, 25 Jan 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://eka2499.github.io/about-me/</guid>
+        <description>&lt;h2 id=&#34;hey-welcome-to-the-blog&#34;&gt;Hey! Welcome to the blog!&lt;/h2&gt;
+&lt;h3 id=&#34;ill-tell-you-a-bit-about-myself&#34;&gt;I&amp;rsquo;ll tell you a bit about myself.&lt;/h3&gt;
+&lt;p&gt;My name is Elias. I study mathematics at NTNU in Trondheim, and I have been doing that for the last couple of years.
+I expect to finish my master&amp;rsquo;s degree in 2023.
+My main interests (at least during my master studies) are within algebraic topology, but honestly I am interested in a lot of topics ranging from mathematical physics to spatial statistics to stable homotopy theory.&lt;/p&gt;
+&lt;p&gt;During my first years, I were mostly interested in operator algebras, and my passion for topology and algebra at the time drove me to write a bachelor thesis about
+the operator K-theory and Morita theory of certain structures from time-frequency analysis called noncommutative tori.
+This thesis was supervised by Franz Luef and can be found under the &amp;lsquo;documents &amp;rsquo; page &lt;a class=&#34;link&#34; href=&#34;https://eka2499.github.io/documents/&#34;  title=&#34;Documents&#34;
+    &gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;During my masters, I mostly focused on algebraic topology. I&amp;rsquo;ve taken courses and followed seminars on tensor-triangulated geometry, topological data analysis, infinity categories, differential forms, and even representation theory of finite groups, and spatial statistics. Apart from coursework, I am interested (e.g. a part of thesis work) in stable (chromatic) homotopy theory, differential cohomology, secondary characteristic classes and Hodge-filtered cohomology theories.
+My master thesis is supervised by Gereon Quick, and will be on differential cohomology, probably either turned toward chromatic homotopy theory, primary operations and spectral sequences, or Hodge-filtered theories on complex manifolds.&lt;/p&gt;
+&lt;p&gt;Apart from studying mathematics, I have been working a lot at the university, both as a teaching assistant and as a student representative at the programme, institute and faculty level.
+If I am not doing anything &amp;ldquo;productive&amp;rdquo;, I am usually bouldering, acting or sailing (/working on) the best sailboat in the Trondheim area, which is a 34 foot Sweden Yatch C34 called &amp;ldquo;SY MARLEN&amp;rdquo; that I bought with a friend.&lt;/p&gt;
+&lt;h3 id=&#34;what-is-this-blog-for&#34;&gt;What is this blog for?&lt;/h3&gt;
+&lt;p&gt;This website/blog was set up by a friend of mine, Torgeir Aambø, who is doing a PhD in tensor-triangulated geometry and also runs a blog on mathematics. I recommend you to check it out. A link can be found on the &lt;a class=&#34;link&#34; href=&#34;https://eka2499.github.io/links/&#34;  title=&#34;Links&#34;
+    &gt;links&lt;/a&gt; page.&lt;/p&gt;
+&lt;p&gt;The aim of the blog is to explore mathematics. For more information on what you can expect from the posts and the mathematical content, please see the initial post on the &lt;a class=&#34;link&#34; href=&#34;https://eka2499.github.io/&#34;  title=&#34;Home&#34;
+    &gt;home page&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;a-small-curriculum-vitae&#34;&gt;A small &amp;ldquo;curriculum vitae&amp;rdquo;&lt;/h2&gt;
+&lt;p&gt;Here I have included some variant of an outline of what I&amp;rsquo;ve been doing earlier.
+There are definitely things I have forgotten or omitted, but I am merely trying to make a coarse outline.&lt;/p&gt;
+&lt;h3 id=&#34;education&#34;&gt;Education&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Bachelors degree - Mathematical sciences, NTNU (Aug. 2018 - Jun. 2021)&lt;/li&gt;
+&lt;li&gt;Masters degree - Mathematical sciences, NTNU (Aug. 2021 - )&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;academic-work-experience&#34;&gt;Academic work experience&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Learning assistant at IMF, NTNU&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;MA1301 - Number theory - Fall 2019, 2020, 2021, 2022&lt;/li&gt;
+&lt;li&gt;MA6301 - Number theory (for remote students) - Fall 2020, 2021, 2022&lt;/li&gt;
+&lt;li&gt;MA1102 - Basic calculus 2 - Spring 2020, 2021, 2022, 2023&lt;/li&gt;
+&lt;li&gt;MA6102 - Basic calculus 2 (for remote students) - Spring 2020, 2021, 2022, 2023&lt;/li&gt;
+&lt;li&gt;MA1103 - Vector calculus - Spring 2022&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Mathematical outreach&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Representative for IMF at &lt;a class=&#34;link&#34; href=&#34;https://www.ntnu.no/forskningsdagene/torget&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Forskningstorget 2022&lt;/a&gt; - We won second place (in an unofficial competition) for our stands, posters and engaging explanations!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Student representative at NTNU&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Institute representative at IMF (Jan. 2020 - Jan. 2021)&lt;/li&gt;
+&lt;li&gt;Faculty representative at IE (Aug. 2021 - Jul. 2022)&lt;/li&gt;
+&lt;li&gt;Member of the faculty board at IE (Aug. 2021 - Jul. 2022)&lt;/li&gt;
+&lt;li&gt;Program representative for mathematical sciences at IMF (Jan. 2019 - Jul. 2023)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;other-work&#34;&gt;Other work&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Beach cleaner and boat driver for Sunnmøre Friluftsråd, Ålesund (Summer 2021)&lt;/li&gt;
+&lt;li&gt;Team leader and host at Barnas Lekeland, Ålesund (2013 - 2017), (holiday call-in until 2019/2020)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;voluntary-activities-and-organizational-work&#34;&gt;Voluntary activities and organizational work&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Linjeforeningen Delta - The student association for mathematics and physics at NTNU&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Board member and finance manager (Jan. 2020 - Jan, 2021)&lt;/li&gt;
+&lt;li&gt;Member of honor (since Mar. 2021)&lt;/li&gt;
+&lt;li&gt;Various comitee work (Aug. 2018 - Jan. 2022)&lt;/li&gt;
+&lt;li&gt;Delda fund leader and member (Jan. 2021 - Jan. 2023)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Trondheim Science Week&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Leader (Feb. 2020 - Apr. 2021)&lt;/li&gt;
+&lt;li&gt;Business manager (Feb. 2019 - Apr. 2020)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Realfagsrevyen&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Finance manager and general administrative help-monkey for the new organization (Sept. 2019 - Sept 2020)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;attended-conferences&#34;&gt;Attended conferences&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://folk.ntnu.no/drewkh/nordic.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Nordic topology conference&lt;/a&gt;, Aug.2022 at NTNU&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://iwoat.github.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;IWOAT - Summer School on Chromatic Homotopy Theory and Higher (Infinity-Categorical) Algebra&lt;/a&gt;, Aug.2022 - Online&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;small-adventures-and-larger-trips-i-love-to-rant-about&#34;&gt;Small adventures and larger trips I love to rant about&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Sailing from Trondheim to the Arctic circle (around Selsøyvik) and back (jun. 2022 - jul. 2022)&lt;/li&gt;
+&lt;li&gt;Sailing from Kristiansand to Trondheim (summer 2021)&lt;/li&gt;
+&lt;li&gt;Van-tour climbing and mountaineering from Ålesund to Lofoten (summer 2020)&lt;/li&gt;
+&lt;li&gt;Yearly trip to Reinheimen (ish a week each september since 2012)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;acting-and-whatnot&#34;&gt;Acting and whatnot&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Actor and writer for &lt;a class=&#34;link&#34; href=&#34;https://www.facebook.com/glosrevyteater/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Gløshaugen Revy- og Teaterlag&lt;/a&gt; (May. 2021 - )
+&lt;ul&gt;
+&lt;li&gt;For det første - (Nov. 2022)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Actor and writer for Realfagsrevyen (Sept. 2020 - Sept. 2022)
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://underdusken.no/anmeldelse-revy/verdens-mest-joviale-oscarutdeling/302545&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Åsskar&lt;/a&gt; (Mar. 2022)&lt;/li&gt;
+&lt;li&gt;Cancelled show (2021)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>Archives</title>
+        <link>https://eka2499.github.io/archives/</link>
+        <pubDate>Tue, 25 Jan 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://eka2499.github.io/archives/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Documents</title>
+        <link>https://eka2499.github.io/documents/</link>
+        <pubDate>Tue, 25 Jan 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://eka2499.github.io/documents/</guid>
+        <description>&lt;p&gt;Here I include (some) stuff I have been writing. The probability is high that many things are forgotten!&lt;/p&gt;
+&lt;h2 id=&#34;write-ups-and-lecture-notes&#34;&gt;Write-ups and lecture notes&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Title&lt;/th&gt;
+&lt;th&gt;Remarks&lt;/th&gt;
+&lt;th&gt;Link&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Equivariant $K$-theory and representation rings&lt;/td&gt;
+&lt;td&gt;Unfinished notes expanding on topics from the Bergen 2021 &lt;a class=&#34;link&#34; href=&#34;https://drive.google.com/file/d/1BeTJZbsee2I8fXUUh9Ugm0tAZRrONPTW/view?usp=sharing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;talk&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://drive.google.com/file/d/117cQV8MW43susCcki_1LBLCA7MGWWeUd/view?usp=sharing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Link&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;delta-t-articles&#34;&gt;$\Delta t$ articles&lt;/h2&gt;
+&lt;p&gt;$\Delta t$ is the newspaper of the student association Delta, which is the association for students in mathematics and/or physics at NTNU. We mostly write in quite unformal articles in Norwegian, and hence most of the articles below are in Norwegian.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Title&lt;/th&gt;
+&lt;th&gt;Remarks&lt;/th&gt;
+&lt;th&gt;Link&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;En fot på innsiden - Et intervju med prorektor Berit Kjeldstad&lt;/td&gt;
+&lt;td&gt;Edition 25 - Joint with Michelle and Torgeir&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://drive.google.com/file/d/1Qf9LttkvLmDbQrUE5gr-nRFCEGY08HKl/view?usp=sharing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Link&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Kan MedKom tjene penger?&lt;/td&gt;
+&lt;td&gt;Edition 31 - Joint with Nora&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://drive.google.com/file/d/1ci7GnOiU0OGnmGFusghkrYDxOyhMkukd/view?usp=sharing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Link&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Hva vil det si å studere?&lt;/td&gt;
+&lt;td&gt;Fadderspesialen/Buddy Week Special 2020 - Joint with Mathias&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://drive.google.com/file/d/1TAk1K5J_kVFmnAMHnoIrqn4c6HKFd8L0/view?usp=sharing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Link&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Eit eksamensliv - $\Delta \text{poe}\psi$ (poem)&lt;/td&gt;
+&lt;td&gt;Edition 32&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://drive.google.com/file/d/14QBT30CaywpYLfg4ae0-L5luA36eDez4/view?usp=sharing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Link&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Hva vil det si å studere?&lt;/td&gt;
+&lt;td&gt;Fadderspesialen/Buddy Week Special 2021 - Joint with Mathias (updated from 2020)&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://drive.google.com/file/d/1g1PdVtbzmFsNe4weuIi1Fc55Hv0cGm28/view?usp=sharing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Link&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Tensor som tensor&lt;/td&gt;
+&lt;td&gt;Edition 34&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://drive.google.com/file/d/147jefQdaTde6OR2OocHDFHyCOGcdcVpu/view?usp=sharing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Link&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;other-writing&#34;&gt;Other writing&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Title&lt;/th&gt;
+&lt;th&gt;Remarks&lt;/th&gt;
+&lt;th&gt;Link&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;The $K$-theory and Morita equivalence classes of noncommutative tori&lt;/td&gt;
+&lt;td&gt;Bachelor thesis&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://fagkom.github.io/posts/angelsen-elias/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Link&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;talks-about-mathematics&#34;&gt;Talks about mathematics&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Where&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;th&gt;When&lt;/th&gt;
+&lt;th&gt;Extra&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://folk.ntnu.no/torgeaam/speaking/student-seminar-2021/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Student seminar 2021&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Presentatation of my unfinished bachelor thesis at the end of a master thesis presentation seminar&lt;/td&gt;
+&lt;td&gt;21.04.2021&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://drive.google.com/file/d/1SvGab_Dnc_XDoFzaRTwB11z08MUjgzja/view?usp=sharing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Link (slides may be shitty)&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;NTNU&lt;/td&gt;
+&lt;td&gt;Presentation of bachelor thesis&lt;/td&gt;
+&lt;td&gt;04.06.2021&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://drive.google.com/file/d/13SZ47KYI06hO3U1xckEreqX1eAlwZbvj/view?usp=sharing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Link to slides&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://wiki.math.ntnu.no/ma3001/2021h/ttg/start&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Master/PhD-seminar on tensor-triangulated geometry&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;On the classification of tensor-triangulated ideals&lt;/td&gt;
+&lt;td&gt;24.09.2021&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://drive.google.com/file/d/1gW7770jIVcdsUgZJRkAFFs4srygaiHig/view?usp=sharing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Link to shitty handwritten notes&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://wiki.math.ntnu.no/ma3001/2021h/tda/start&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Master seminar on topological data analysis&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Persistent cohomology and circular parameterisation&lt;/td&gt;
+&lt;td&gt;20.10.2021&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://drive.google.com/file/d/1D3kZb1VEz3ceih1cBODSmlEl2EU_COa5/view?usp=sharing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Link to shitty handwritten notes&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Uni. of Bergen through a rep theory course at Uni. of Tromsø&lt;/td&gt;
+&lt;td&gt;Equivariant $K$-theory and representation rings - Joint with Anders, Erlend, Olai and Thomas&lt;/td&gt;
+&lt;td&gt;24.11.2021&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://drive.google.com/file/d/1BeTJZbsee2I8fXUUh9Ugm0tAZRrONPTW/view?usp=sharing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Link to slides&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://folk.ntnu.no/runegha/seminar.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Master/PhD-seminar on $\infty$-categories&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Joyals lifting theorem, consequences and model structures on sSet&lt;/td&gt;
+&lt;td&gt;18.02.2022&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://drive.google.com/file/d/1iYs5sNWjlHCP9yWfX_bxyr4RgF7s_mc6/view?usp=sharing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Link to shitty handwritten notes&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://folk.ntnu.no/runegha/seminar.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Master/PhD-seminar on $\infty$-categories&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Adjunctions and localizations - Joint with Thomas&lt;/td&gt;
+&lt;td&gt;11.03.2022&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://drive.google.com/file/d/1CXGy-UpaRN9A5KEY4QDXax1G_QRnnUbG/view?usp=sharing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Link to extremely shitty (unfinished) notes&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;other-talks&#34;&gt;Other talks&lt;/h2&gt;
+&lt;p&gt;I have also held a number of different non-mathematical talks, but I do not have a complete list. The list of the coolest talks the last years would include motivational talks about studying mathematics at my local high school in 2019, hosting webinars on studying mathematics for high schoolers in 2020 and giving an &amp;ldquo;experience based&amp;rdquo; course on how to study mathematics at the 2021 entry week for new students.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Links</title>
+        <link>https://eka2499.github.io/links/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://eka2499.github.io/links/</guid>
+        <description>&lt;p&gt;[THIS PAGE IS UNDER CONSTRUCTION]&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Search</title>
+        <link>https://eka2499.github.io/search/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://eka2499.github.io/search/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
 </rss>

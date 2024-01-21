@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en-us" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='We continue our exposition of spectral sequences by proving the convergence of the Leray-Serre spectral sequence, exploring exact couples and computing an example.'><title>Spectral sequences and multicomplexes - Part II</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='We continue our exposition of spectral sequences by proving the convergence of the Leray-Serre spectral sequence, exploring exact couples and computing an example.'>
+<title>Spectral sequences and multicomplexes - Part II</title>
 
 <link rel='canonical' href='https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-ii/'>
 
-<link rel="stylesheet" href="/scss/style.min.1b3ac667198cb83edcc9c45e606a6f4dd6910b8ada6b74d7fd988f1b2dfd0c7c.css"><meta property='og:title' content='Spectral sequences and multicomplexes - Part II'>
+<link rel="stylesheet" href="/scss/style.min.abbd69b2908fdfcd5179898beaafd374514a86538d81639ddd2c58c06ae54e40.css"><meta property='og:title' content='Spectral sequences and multicomplexes - Part II'>
 <meta property='og:description' content='We continue our exposition of spectral sequences by proving the convergence of the Leray-Serre spectral sequence, exploring exact couples and computing an example.'>
 <meta property='og:url' content='https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-ii/'>
 <meta property='og:site_name' content='Exploring mathematics'>
@@ -15,8 +16,8 @@
     <meta name="twitter:image" content='https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-ii/images/Front_2.png' />
     </head>
     <body class="
-    article-page has-toc
-">
+    article-page
+    ">
     <script>
         (function() {
             const colorSchemeKey = 'StackColorScheme';
@@ -39,26 +40,258 @@
         }
     })();
 </script>
-<div class="container main-container flex 
-    
-        extended
-    
-">
-    
-        <div id="article-toolbar">
-            <a href="/" class="back-home">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <polyline points="15 6 9 12 15 18" />
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/elias_hub0d9435e8577a337feea68e993245839_12081_300x0_resize_q75_box.jpg" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">🍥</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Exploring mathematics</a></h1>
+            <h2 class="site-description">Elias Klakken Angelsen</h2>
+        </div>
+    </header><ol class="social-menu">
+            
+                <li>
+                    <a 
+                        href='https://github.com/eka2499'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
 </svg>
 
 
 
-                <span>Back</span>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://www.linkedin.com/in/elias-klakken-angelsen-196675152/'
+                        target="_blank"
+                        title="Linkedin"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <rect x="4" y="4" width="16" height="16" rx="2" />
+  <line x1="8" y1="11" x2="8" y2="16" />
+  <line x1="8" y1="8" x2="8" y2="8.01" />
+  <line x1="12" y1="16" x2="12" y2="11" />
+  <path d="M16 16v-3a2 2 0 0 0 -4 0" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://www.researchgate.net/profile/Elias-Angelsen-2'
+                        target="_blank"
+                        title="Researchgate"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-flask-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M6.1 15h11.8" />
+  <path d="M14 3v7.342a6.002 6.002 0 0 1 1.318 10.658h-6.635a6.002 6.002 0 0 1 1.317 -10.66v-7.34h4z" />
+  <path d="M9 3h6" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' target="_blank">
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
             </a>
+        </li>
+        
+        
+        <li >
+            <a href='/about-me/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About me</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/documents/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-notebook" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M6 4h11a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-11a1 1 0 0 1 -1 -1v-14a1 1 0 0 1 1 -1m3 0v18" />
+  <line x1="13" y1="8" x2="15" y2="8" />
+  <line x1="13" y1="12" x2="15" y2="12" />
+</svg>
+
+
+
+                
+                <span>Documents</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/links/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>Links</span>
+            </a>
+        </li>
+        
+
+        <div class="menu-bottom-section">
+            
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>Dark Mode</span>
+                </li>
+            
         </div>
+    </ol>
+</aside>
+
     
-<main class="main full-width">
+
+            <main class="main full-width">
     <article class="has-image main-article">
     <header class="article-header">
         <div class="article-image">
@@ -89,16 +322,21 @@
     </header>
     
 
-    <h2 class="article-title">
-        <a href="/p/spectral-sequences-and-multicomplexes-part-ii/">Spectral sequences and multicomplexes - Part II</a>
-    </h2>
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/spectral-sequences-and-multicomplexes-part-ii/">Spectral sequences and multicomplexes - Part II</a>
+        </h2>
+    
+        
+        <h3 class="article-subtitle">
+            We continue our exposition of spectral sequences by proving the convergence of the Leray-Serre spectral sequence, exploring exact couples and computing an example.
+        </h3>
+        
+    </div>
 
     
-    <h3 class="article-subtitle">
-        We continue our exposition of spectral sequences by proving the convergence of the Leray-Serre spectral sequence, exploring exact couples and computing an example.
-    </h3>
     
-
+    
     
     <footer class="article-time">
         
@@ -127,13 +365,16 @@
 
 
                 <time class="article-time--reading">
-                    15 minute read
+                    14 minute read
                 </time>
             </div>
         
     </footer>
     
+
+    
 </div>
+
 </header>
 
     <section class="article-content">
@@ -184,25 +425,20 @@ If this is the case, we would have the wanted $E^2$-page by taking homology and 
 Therefore, we have $C_p^{CW}(B;H_q(F)) \cong \oplus_{\alpha}H_q(F)$.</p>
 <p>Now, to analyse this further, consider the characteristic map $\phi_{\alpha}$ of $D_{\alpha}$, that is, the map indicating how to glue the $p$-disk $D_{\alpha}$ to $B^{p-1}$.</p>
 <p>We can use this, along with the fibration, to consider the following pullback diagram.</p>
-<p><figure 
+<p><img src="/p/spectral-sequences-and-multicomplexes-part-ii/images/pb-diag.png"
+	width="391"
+	height="153"
+	srcset="/p/spectral-sequences-and-multicomplexes-part-ii/images/pb-diag_hu47bff0af36e733b9c8382cdd3179c987_6932_480x0_resize_box_3.png 480w, /p/spectral-sequences-and-multicomplexes-part-ii/images/pb-diag_hu47bff0af36e733b9c8382cdd3179c987_6932_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+		alt="Pullback diagram along the fibration and the characteristic map of the $p$-cell in question."
+	
 	
 		class="gallery-image" 
-		style="
-			flex-grow: 255; 
-			flex-basis: 613px"
-	>
-	<a href="/p/spectral-sequences-and-multicomplexes-part-ii/images/pb-diag.png" data-size="391x153">
-		<img src="/p/spectral-sequences-and-multicomplexes-part-ii/images/pb-diag.png"
-			width="391"
-			height="153"
-			srcset="/p/spectral-sequences-and-multicomplexes-part-ii/images/pb-diag_hu47bff0af36e733b9c8382cdd3179c987_6932_480x0_resize_box_3.png 480w, /p/spectral-sequences-and-multicomplexes-part-ii/images/pb-diag_hu47bff0af36e733b9c8382cdd3179c987_6932_1024x0_resize_box_3.png 1024w"
-			loading="lazy"
-			alt="Pullback diagram along the fibration and the characteristic map of the $p$-cell in question.">
-	</a>
+		data-flex-grow="255"
+		data-flex-basis="613px"
 	
-	<figcaption>Pullback diagram along the fibration and the characteristic map of the $p$-cell in question.</figcaption>
-	
-</figure></p>
+></p>
 <p>Why is this fun to do? Well, we want to connect the $p$-cells generating the cellular chain groups with $(p^{-1}(B^p), p^{-1}(B^{p-1}))$, and pullbacking may yield some &ldquo;middle ground&rdquo; that we can utilise towards this purpose.
 To keep notation consistent and remember <em>how</em> we glued on $D_{\alpha}$, the preimage $\xi_{\alpha}^{-1}(S_{\alpha}) = \xi_{\alpha}^{-1}(\partial D_{\alpha})$ is denoted by $\tilde{S_{\alpha}}$.</p>
 <p>If we consider all the pairs $(\tilde{D_{\alpha}}, \tilde{S_{\alpha}})$, we can map them over to $(p^{-1}(B^p), p^{-1}(B^{p-1}))$ using the $\phi_{\alpha}$&rsquo;s.
@@ -220,25 +456,20 @@ Playing with the boundary maps and induced inclusions, we get the following pict
     >Hatchers chapter on spectral sequences</a>.
 It shows a zig-zag tracing down simpler versions of the homology groups we are after.
 We omit the index $\alpha$, but to log which dimension we are working with, we include superscripts.</p>
-<p><figure 
+<p><img src="/p/spectral-sequences-and-multicomplexes-part-ii/images/ZigZagHatcher.png"
+	width="1206"
+	height="145"
+	srcset="/p/spectral-sequences-and-multicomplexes-part-ii/images/ZigZagHatcher_hub6fa9008148993e30a5e58506bbe797a_32778_480x0_resize_box_3.png 480w, /p/spectral-sequences-and-multicomplexes-part-ii/images/ZigZagHatcher_hub6fa9008148993e30a5e58506bbe797a_32778_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+		alt="The boundary maps yield isomorphisms as $H_{t}(\tilde{D}, \tilde{D_-}) = 0$ for all $t$. The $i_* $&rsquo;s are isomorphisms by excision."
+	
 	
 		class="gallery-image" 
-		style="
-			flex-grow: 831; 
-			flex-basis: 1996px"
-	>
-	<a href="/p/spectral-sequences-and-multicomplexes-part-ii/images/ZigZagHatcher.png" data-size="1206x145">
-		<img src="/p/spectral-sequences-and-multicomplexes-part-ii/images/ZigZagHatcher.png"
-			width="1206"
-			height="145"
-			srcset="/p/spectral-sequences-and-multicomplexes-part-ii/images/ZigZagHatcher_hub6fa9008148993e30a5e58506bbe797a_32778_480x0_resize_box_3.png 480w, /p/spectral-sequences-and-multicomplexes-part-ii/images/ZigZagHatcher_hub6fa9008148993e30a5e58506bbe797a_32778_1024x0_resize_box_3.png 1024w"
-			loading="lazy"
-			alt="The boundary maps yield isomorphisms as $H_{t}(\tilde{D}, \tilde{D_-}) = 0$ for all $t$. The $i_* $&rsquo;s are isomorphisms by excision.">
-	</a>
+		data-flex-grow="831"
+		data-flex-basis="1996px"
 	
-	<figcaption>The boundary maps yield isomorphisms as $H_{t}(\tilde{D}, \tilde{D_-}) = 0$ for all $t$. The $i_* $’s are isomorphisms by excision.</figcaption>
-	
-</figure></p>
+></p>
 <p>The space $H_q(\tilde{D_+^0})$ can be shown to be exactly $H_q(F)$ by utilising the maps $\phi_{\alpha}$, as well as the assumption that $\pi_1(B)$ is trivial, or at least acts trivially on the homology $H_* (F)$.
 We won&rsquo;t delve into it any more, but we refer to <a class="link" href="https://pi.math.cornell.edu/~hatcher/AT/ATch5.pdf"  target="_blank" rel="noopener"
     >Hatcher</a> for the details.</p>
@@ -263,77 +494,62 @@ It turns out that we can derive all interesting spectral sequences this way.</p>
 <p>The method is based on the following staircase diagram, which we borrow from <a class="link" href="https://pi.math.cornell.edu/~hatcher/AT/ATch5.pdf"  target="_blank" rel="noopener"
     >Hatcher</a>.
 For this section, let $X$ be a finite dimensional CW-complex.</p>
-<p><figure 
+<p><img src="/p/spectral-sequences-and-multicomplexes-part-ii/images/StaircaseHatcher.png"
+	width="1204"
+	height="285"
+	srcset="/p/spectral-sequences-and-multicomplexes-part-ii/images/StaircaseHatcher_hu3dc15627659668697a845075969662f5_52207_480x0_resize_box_3.png 480w, /p/spectral-sequences-and-multicomplexes-part-ii/images/StaircaseHatcher_hu3dc15627659668697a845075969662f5_52207_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+		alt="The long exact sequences of the pair $(X_p, X_{p-1})$ is visualised as a set of staircase diagrams."
+	
 	
 		class="gallery-image" 
-		style="
-			flex-grow: 422; 
-			flex-basis: 1013px"
-	>
-	<a href="/p/spectral-sequences-and-multicomplexes-part-ii/images/StaircaseHatcher.png" data-size="1204x285">
-		<img src="/p/spectral-sequences-and-multicomplexes-part-ii/images/StaircaseHatcher.png"
-			width="1204"
-			height="285"
-			srcset="/p/spectral-sequences-and-multicomplexes-part-ii/images/StaircaseHatcher_hu3dc15627659668697a845075969662f5_52207_480x0_resize_box_3.png 480w, /p/spectral-sequences-and-multicomplexes-part-ii/images/StaircaseHatcher_hu3dc15627659668697a845075969662f5_52207_1024x0_resize_box_3.png 1024w"
-			loading="lazy"
-			alt="The long exact sequences of the pair $(X_p, X_{p-1})$ is visualised as a set of staircase diagrams.">
-	</a>
+		data-flex-grow="422"
+		data-flex-basis="1013px"
 	
-	<figcaption>The long exact sequences of the pair $(X_p, X_{p-1})$ is visualised as a set of staircase diagrams.</figcaption>
-	
-</figure></p>
+></p>
 <p>If we denote $M = \oplus_{p,q} H_{p+q}(X_p)$ and $N = \oplus_{p,q} H_{p+q}(X_p,X_{p-1})$, we can put these staircases together into one diagram, where the arrows are the ones coming from the staircase drawing.
 Since there are only two objects involved and the diagram is exact in every object, this is called an exact couple.</p>
-<p><figure 
+<p><img src="/p/spectral-sequences-and-multicomplexes-part-ii/images/ExactCouple.png"
+	width="496"
+	height="159"
+	srcset="/p/spectral-sequences-and-multicomplexes-part-ii/images/ExactCouple_hu1cec9706de0e9da67d242169c627a5db_6258_480x0_resize_box_3.png 480w, /p/spectral-sequences-and-multicomplexes-part-ii/images/ExactCouple_hu1cec9706de0e9da67d242169c627a5db_6258_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+		alt="An exact couple."
+	
 	
 		class="gallery-image" 
-		style="
-			flex-grow: 311; 
-			flex-basis: 748px"
-	>
-	<a href="/p/spectral-sequences-and-multicomplexes-part-ii/images/ExactCouple.png" data-size="496x159">
-		<img src="/p/spectral-sequences-and-multicomplexes-part-ii/images/ExactCouple.png"
-			width="496"
-			height="159"
-			srcset="/p/spectral-sequences-and-multicomplexes-part-ii/images/ExactCouple_hu1cec9706de0e9da67d242169c627a5db_6258_480x0_resize_box_3.png 480w, /p/spectral-sequences-and-multicomplexes-part-ii/images/ExactCouple_hu1cec9706de0e9da67d242169c627a5db_6258_1024x0_resize_box_3.png 1024w"
-			loading="lazy"
-			alt="An exact couple.">
-	</a>
+		data-flex-grow="311"
+		data-flex-basis="748px"
 	
-	<figcaption>An exact couple.</figcaption>
-	
-</figure></p>
+></p>
 <p>Note that the vertical composition of maps in the drawing of the staircase diagram correspond to the cellular differentials for $p=n$, that is, the boundary maps $H_{n+1}\left(X_{n+1}, X_{n}\right) \to H_{n}\left(X_{n}, X_{n-1}\right)$.
 Hence, studying $d=jk$ in the exact couple, could be quite interesting, as this encapsulates all &ldquo;levels&rdquo; of these cellular groups.
 Indeed, since $kj=0$, we obtain $d^2=jkjk=j0k=0$. We have a differential, meaning we can form the homology group.
 This yields a sequence $\cdots \to N \to N \to N \to \cdots$, where each map is the differential $d=jk$.</p>
 <p>Forming the homology groups, we obtain what we call a <em>derived couple</em>.</p>
-<p><figure 
+<p><img src="/p/spectral-sequences-and-multicomplexes-part-ii/images/DerivedExactCouple.png"
+	width="454"
+	height="154"
+	srcset="/p/spectral-sequences-and-multicomplexes-part-ii/images/DerivedExactCouple_hu2896ec7e9391c84b83d8f7a932e9fa45_6865_480x0_resize_box_3.png 480w, /p/spectral-sequences-and-multicomplexes-part-ii/images/DerivedExactCouple_hu2896ec7e9391c84b83d8f7a932e9fa45_6865_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+		alt="The derived couple obtained through homology of the exact couple with differential $d=jk$."
+	
 	
 		class="gallery-image" 
-		style="
-			flex-grow: 294; 
-			flex-basis: 707px"
-	>
-	<a href="/p/spectral-sequences-and-multicomplexes-part-ii/images/DerivedExactCouple.png" data-size="454x154">
-		<img src="/p/spectral-sequences-and-multicomplexes-part-ii/images/DerivedExactCouple.png"
-			width="454"
-			height="154"
-			srcset="/p/spectral-sequences-and-multicomplexes-part-ii/images/DerivedExactCouple_hu2896ec7e9391c84b83d8f7a932e9fa45_6865_480x0_resize_box_3.png 480w, /p/spectral-sequences-and-multicomplexes-part-ii/images/DerivedExactCouple_hu2896ec7e9391c84b83d8f7a932e9fa45_6865_1024x0_resize_box_3.png 1024w"
-			loading="lazy"
-			alt="The derived couple obtained through homology of the exact couple with differential $d=jk$.">
-	</a>
+		data-flex-grow="294"
+		data-flex-basis="707px"
 	
-	<figcaption>The derived couple obtained through homology of the exact couple with differential $d=jk$.</figcaption>
-	
-</figure></p>
+></p>
 <p>In the derived couple, we try to define things in the &ldquo;only way&rdquo; we can, namely as,</p>
-<p>$N' = \frac{Ker d_0}{Im d_0}, \quad M' = Im(i)=Ker(j), \quad i' = i |_{M'}, \quad j'=ji^{-1}, \quad k' = \bar{k},$</p>
+<p>$N&rsquo; = \frac{Ker d_0}{Im d_0}, \quad M&rsquo; = Im(i)=Ker(j), \quad i&rsquo; = i |_{M&rsquo;}, \quad j&rsquo;=ji^{-1}, \quad k&rsquo; = \bar{k},$</p>
 <p>where $\bar{k}$ is $k$, but just on homology classes and $i^{-1}$ means picking an element in the preimage.
 These constructions turns out to be well-defined with respect to choosing representatives for the homology classes and preimages,
 simply by writing out what they should mean and applying exactness.</p>
 <p>By some diagram chasing, it turns out that the derived couple is exact! Hence, homology takes in an exact couple and spits out an exact couple!
-Doing the same procedure with $d'=j&rsquo;k'$, we can make a new derived couple with entries $M'', N''$ and maps $i'', j'', k''$, yielding an exact sequence!</p>
+Doing the same procedure with $d&rsquo;=j&rsquo;k&rsquo;$, we can make a new derived couple with entries $M&rsquo;&rsquo;, N&rsquo;&rsquo;$ and maps $i&rsquo;&rsquo;, j&rsquo;&rsquo;, k&rsquo;&rsquo;$, yielding an exact sequence!</p>
 <p>By taking the $r$&lsquo;th iteration of this process as the layout for the $E^r$-page, we get a spectral sequence with differentials as above.
 The only reasonable choice we can make, is to take $E_{n, p}^{1}=H_{n}\left(X_{p}, X_{p-1}\right)$.
 By doing the &ldquo;same procedure&rdquo; as before, we get a spectral sequence when iterating through these exact- and derived couples.
@@ -357,25 +573,20 @@ in the cohomology theory $ \mathcal{E}^* $!</p>
 <p>To use the Leray-Serre sequence to compute the homology of $\Omega S^n$, we need a fibration where this space is one of the main players.
 The fibration we will use is the path space fibration, namely $\Omega X \to PX \to X$, for a based space $X$.
 $PX$ is given by continuous maps from $[0,1]$ to $X$ sending $0$ to the base point of $X$. This space is contractible, which is going to be important for our computation.</p>
-<p><figure 
+<p><img src="/p/spectral-sequences-and-multicomplexes-part-ii/images/PX.jpg"
+	width="1031"
+	height="620"
+	srcset="/p/spectral-sequences-and-multicomplexes-part-ii/images/PX_hu74c53bc188a1cfe82fe01cd8e4b5950d_291584_480x0_resize_q75_box.jpg 480w, /p/spectral-sequences-and-multicomplexes-part-ii/images/PX_hu74c53bc188a1cfe82fe01cd8e4b5950d_291584_1024x0_resize_q75_box.jpg 1024w"
+	loading="lazy"
+	
+		alt="The path space considers all paths starting in the basepoint $x_0$. It is contractible by following each path back to $x_0$."
+	
 	
 		class="gallery-image" 
-		style="
-			flex-grow: 166; 
-			flex-basis: 399px"
-	>
-	<a href="/p/spectral-sequences-and-multicomplexes-part-ii/images/PX.jpg" data-size="1031x620">
-		<img src="/p/spectral-sequences-and-multicomplexes-part-ii/images/PX.jpg"
-			width="1031"
-			height="620"
-			srcset="/p/spectral-sequences-and-multicomplexes-part-ii/images/PX_hu74c53bc188a1cfe82fe01cd8e4b5950d_291584_480x0_resize_q75_box.jpg 480w, /p/spectral-sequences-and-multicomplexes-part-ii/images/PX_hu74c53bc188a1cfe82fe01cd8e4b5950d_291584_1024x0_resize_q75_box.jpg 1024w"
-			loading="lazy"
-			alt="The path space considers all paths starting in the basepoint $x_0$. It is contractible by following each path back to $x_0$.">
-	</a>
+		data-flex-grow="166"
+		data-flex-basis="399px"
 	
-	<figcaption>The path space considers all paths starting in the basepoint $x_0$. It is contractible by following each path back to $x_0$.</figcaption>
-	
-</figure></p>
+></p>
 <p>The last map in the fibration is then given by evaluating the path in $1$. The fibers can be shown to be homotopy equivlent. We can therefore just pick the preimage at the basepoint to be the fiber, which is what we do!
 The loop space is exactly the fiber of this map at the basepoint, and is therefore defined as continuous (based) maps $S^1 \to X$.</p>
 <p>If we choose $X$ to be an arbitrary sphere $S^n$, we want to try to compute the homology of $\Omega S^n$.</p>
@@ -387,46 +598,36 @@ $$ E^2_{p,q} = H_p(B;H_q(F)) \Rightarrow H_{p+q}(E).$$</p>
 in order to say anything about the homology of $\Omega S^n$.</p>
 <p>Now, what does the second page look like? By the universal coefficient theorem, we can find the $E^2$-page.
 The entries on the page is given by $H_q(\Omega S^n)$ if $p=0$ or $p = n$ and $q \geq 0$, and $0$ elsewhere.</p>
-<p><figure 
+<p><img src="/p/spectral-sequences-and-multicomplexes-part-ii/images/E2.jpg"
+	width="1230"
+	height="708"
+	srcset="/p/spectral-sequences-and-multicomplexes-part-ii/images/E2_hu686d6f750603af7e3b402185a30127a8_87021_480x0_resize_q75_box.jpg 480w, /p/spectral-sequences-and-multicomplexes-part-ii/images/E2_hu686d6f750603af7e3b402185a30127a8_87021_1024x0_resize_q75_box.jpg 1024w"
+	loading="lazy"
+	
+		alt="A bad drawing showing the structure of the $E^2$-page. No differentials hit anything (unless $n=2$)."
+	
 	
 		class="gallery-image" 
-		style="
-			flex-grow: 173; 
-			flex-basis: 416px"
-	>
-	<a href="/p/spectral-sequences-and-multicomplexes-part-ii/images/E2.jpg" data-size="1230x708">
-		<img src="/p/spectral-sequences-and-multicomplexes-part-ii/images/E2.jpg"
-			width="1230"
-			height="708"
-			srcset="/p/spectral-sequences-and-multicomplexes-part-ii/images/E2_hu686d6f750603af7e3b402185a30127a8_87021_480x0_resize_q75_box.jpg 480w, /p/spectral-sequences-and-multicomplexes-part-ii/images/E2_hu686d6f750603af7e3b402185a30127a8_87021_1024x0_resize_q75_box.jpg 1024w"
-			loading="lazy"
-			alt="A bad drawing showing the structure of the $E^2$-page. No differentials hit anything (unless $n=2$).">
-	</a>
+		data-flex-grow="173"
+		data-flex-basis="416px"
 	
-	<figcaption>A bad drawing showing the structure of the $E^2$-page. No differentials hit anything (unless $n=2$).</figcaption>
-	
-</figure></p>
+></p>
 <p>Since this is the $E^2$-page, some magic would need to happen before arriving at the $E^{\infty}$-page.
 The magic that should happen, would need to &ldquo;remove&rdquo; or &ldquo;kill off&rdquo; all the entries outside of $(p,q) = (0,0)$, as the only nontrivial homology of $PX$ is for $n = p+q = 0$.</p>
-<p><figure 
+<p><img src="/p/spectral-sequences-and-multicomplexes-part-ii/images/E_infty.jpg"
+	width="1176"
+	height="615"
+	srcset="/p/spectral-sequences-and-multicomplexes-part-ii/images/E_infty_hu85e1cb93f5224675f83e94df2459a5d4_38243_480x0_resize_q75_box.jpg 480w, /p/spectral-sequences-and-multicomplexes-part-ii/images/E_infty_hu85e1cb93f5224675f83e94df2459a5d4_38243_1024x0_resize_q75_box.jpg 1024w"
+	loading="lazy"
+	
+		alt="The final page should look like this, as the diagonals $n=p&#43;q$ give the homologies $H_n(PX)$ up to extension."
+	
 	
 		class="gallery-image" 
-		style="
-			flex-grow: 191; 
-			flex-basis: 458px"
-	>
-	<a href="/p/spectral-sequences-and-multicomplexes-part-ii/images/E_infty.jpg" data-size="1176x615">
-		<img src="/p/spectral-sequences-and-multicomplexes-part-ii/images/E_infty.jpg"
-			width="1176"
-			height="615"
-			srcset="/p/spectral-sequences-and-multicomplexes-part-ii/images/E_infty_hu85e1cb93f5224675f83e94df2459a5d4_38243_480x0_resize_q75_box.jpg 480w, /p/spectral-sequences-and-multicomplexes-part-ii/images/E_infty_hu85e1cb93f5224675f83e94df2459a5d4_38243_1024x0_resize_q75_box.jpg 1024w"
-			loading="lazy"
-			alt="The final page should look like this, as the diagonals $n=p&#43;q$ give the homologies $H_n(PX)$ up to extension.">
-	</a>
+		data-flex-grow="191"
+		data-flex-basis="458px"
 	
-	<figcaption>The final page should look like this, as the diagonals $n=p+q$ give the homologies $H_n(PX)$ up to extension.</figcaption>
-	
-</figure></p>
+></p>
 <p>To end at the page above, we would need to change the entries a bit.
 The way the entries on a page change is that they are hit by, or send out, a nontrivial differential, as this would change the entries when moving to the next page through homology.
 Observe that due to the structure of the $E^2$-page, no differentials will hit anything, unless $n=2$.
@@ -434,50 +635,40 @@ Hence, the $E^2$-page will be similar to the $E^3$-page, and so on.
 We get these results up to the $E^n$-page, i.e. $E^2 \cong E^3 \cong \ldots \cong E^n$.
 On the $E^n$-page, something (finally) happens. We know the differentials would need to go from an entry where $p=n$ and $n$ steps to the left to be able to hit anything.</p>
 <p>Since the entries at $(n,t)$ for $t &lt; 0$ are all $0$, we know that the differentials on the $n$&lsquo;th page will go from $E^n_{n,t}$ for $-(n-1)&lt;t&lt;0$ and hit the corresponding entries $E^n_{0,s}$ for $0&lt;s&lt;n-1$.</p>
-<p><figure 
+<p><img src="/p/spectral-sequences-and-multicomplexes-part-ii/images/E_n.jpg"
+	width="1214"
+	height="585"
+	srcset="/p/spectral-sequences-and-multicomplexes-part-ii/images/E_n_hu499b27b8499758e897b95df4c2bb7c75_84552_480x0_resize_q75_box.jpg 480w, /p/spectral-sequences-and-multicomplexes-part-ii/images/E_n_hu499b27b8499758e897b95df4c2bb7c75_84552_1024x0_resize_q75_box.jpg 1024w"
+	loading="lazy"
+	
+		alt="The first page which allows nonzero differentials is the $E^n$-page."
+	
 	
 		class="gallery-image" 
-		style="
-			flex-grow: 207; 
-			flex-basis: 498px"
-	>
-	<a href="/p/spectral-sequences-and-multicomplexes-part-ii/images/E_n.jpg" data-size="1214x585">
-		<img src="/p/spectral-sequences-and-multicomplexes-part-ii/images/E_n.jpg"
-			width="1214"
-			height="585"
-			srcset="/p/spectral-sequences-and-multicomplexes-part-ii/images/E_n_hu499b27b8499758e897b95df4c2bb7c75_84552_480x0_resize_q75_box.jpg 480w, /p/spectral-sequences-and-multicomplexes-part-ii/images/E_n_hu499b27b8499758e897b95df4c2bb7c75_84552_1024x0_resize_q75_box.jpg 1024w"
-			loading="lazy"
-			alt="The first page which allows nonzero differentials is the $E^n$-page.">
-	</a>
+		data-flex-grow="207"
+		data-flex-basis="498px"
 	
-	<figcaption>The first page which allows nonzero differentials is the $E^n$-page.</figcaption>
-	
-</figure></p>
+></p>
 <p>Since the latter collection of entries all need to disappear before reaching the final page, these differentials must be isomorphisms $0 \to E^n_{0,s}$.
 The reason is that the $E^n$-page is the final page where we can have nonzero differentials, due to degree reasons.
 Hence, we get that $E^{n+1}$ is the final page, so $E^{n+1} \cong \ldots \cong E^{\infty}$, and at that page we must have only the coefficient ring for $p+q=0$, as it is the homology of $PX$.</p>
 <p>The mentioned isomorphism yields that the entries $E^n_{0,s}$ are $0$, and since they are the same entries as $E^n_{n,s}$, we get columns of zeros both for $p=0$ and for $p=n$.
 Doing this again with the maps going from an $E^n_{n,s}$ for $0&lt;s&lt;n-1$ to the corresponding $E^n_{0,k}$ for $n-1&lt;k&lt;2(n-1)$, we also get zeros.
 This can be iterated to see that we get zeros in these columns, only interrupted by the coefficient ring when $q = m(n-1)$ for $m = 0,1,\ldots$.</p>
-<p><figure 
+<p><img src="/p/spectral-sequences-and-multicomplexes-part-ii/images/E_n_2.jpg"
+	width="1212"
+	height="483"
+	srcset="/p/spectral-sequences-and-multicomplexes-part-ii/images/E_n_2_hu835945a24407440df2e5482dc5205843_71751_480x0_resize_q75_box.jpg 480w, /p/spectral-sequences-and-multicomplexes-part-ii/images/E_n_2_hu835945a24407440df2e5482dc5205843_71751_1024x0_resize_q75_box.jpg 1024w"
+	loading="lazy"
+	
+		alt="$E^n$-page with zeros inserted yielding all $H_k(\Omega S^n)$ when $k \neq m(n-1)$ and differentials yielding isomorphisms $H_{m(n-1)}(\Omega S^n) \cong H_0(\Omega S^n)$."
+	
 	
 		class="gallery-image" 
-		style="
-			flex-grow: 250; 
-			flex-basis: 602px"
-	>
-	<a href="/p/spectral-sequences-and-multicomplexes-part-ii/images/E_n_2.jpg" data-size="1212x483">
-		<img src="/p/spectral-sequences-and-multicomplexes-part-ii/images/E_n_2.jpg"
-			width="1212"
-			height="483"
-			srcset="/p/spectral-sequences-and-multicomplexes-part-ii/images/E_n_2_hu835945a24407440df2e5482dc5205843_71751_480x0_resize_q75_box.jpg 480w, /p/spectral-sequences-and-multicomplexes-part-ii/images/E_n_2_hu835945a24407440df2e5482dc5205843_71751_1024x0_resize_q75_box.jpg 1024w"
-			loading="lazy"
-			alt="$E^n$-page with zeros inserted yielding all $H_k(\Omega S^n)$ when $k \neq m(n-1)$ and differentials yielding isomorphisms $H_{m(n-1)}(\Omega S^n) \cong H_0(\Omega S^n)$.">
-	</a>
+		data-flex-grow="250"
+		data-flex-basis="602px"
 	
-	<figcaption>$E^n$-page with zeros inserted yielding all $H_k(\Omega S^n)$ when $k \neq m(n-1)$ and differentials yielding isomorphisms $H_{m(n-1)}(\Omega S^n) \cong H_0(\Omega S^n)$.</figcaption>
-	
-</figure></p>
+></p>
 <p>Since we know the homology of the point, we must have that all entries that have survived so far must also be killed, except for the entry in $(0,0)$.
 This entry can&rsquo;t be killed, and as the homology of the point is the coefficent ring at $p+q=0$, we can fill in that this must be $\mathbb{Z}$ for $(0,0)$.
 Since this entry is the same at the entry $(n,0)$, we can place a $\mathbb{Z}$ there as well..
@@ -530,13 +721,13 @@ Time will tell!</p>
     
         <link 
                 rel="stylesheet" 
-                href="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.css"integrity="sha384-RZU/ijkSsFbcmivfdRBQDtwuwVqK7GMOw6IMvKyeWL2K5UAlyp6WonmB8m7Jd0Hn"crossorigin="anonymous"
+                href="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/katex.min.css"integrity="sha256-J&#43;iAE0sgH8QSz9hpcDxXIftnj65JEZgNhGcgReTTK9s="crossorigin="anonymous"
             ><script 
-                src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.js"integrity="sha384-pK1WpvzWVBQiP0/GjnvRxV4mOb0oxFuyRxJlk6vVw146n3egcN5C925NCP7a7BY8"crossorigin="anonymous"
+                src="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/katex.min.js"integrity="sha256-InsNdER1b2xUewP&#43;pKCUJpkhiqwHgqiPXDlIk7GzBu4="crossorigin="anonymous"
                 defer
                 >
             </script><script 
-                src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/contrib/auto-render.min.js"integrity="sha384-vZTG03m&#43;2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl"crossorigin="anonymous"
+                src="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/contrib/auto-render.min.js"integrity="sha256-y39Mpg7V3D4lhBX4x6O0bUqTV4pSrfgwEfGKfxkOdgI="crossorigin="anonymous"
                 defer
                 >
             </script><script>
@@ -547,7 +738,8 @@ Time will tell!</p>
                 { left: "$", right: "$", display: false },
                 { left: "\\(", right: "\\)", display: false },
                 { left: "\\[", right: "\\]", display: true }
-            ]
+            ],
+            ignoredClasses: ["gist"]
         });})
 </script>
     
@@ -555,14 +747,14 @@ Time will tell!</p>
 
     
 
-    <aside class="related-contents--wrapper">
     
-    
-        <h2 class="section-title">Related contents</h2>
-        <div class="related-contents">
-            <div class="flex article-list--tile">
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">Related content</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
                 
-                    
 <article class="has-image">
     <a href="/p/spectral-sequences-and-multicomplexes-part-iii/">
         
@@ -584,8 +776,9 @@ Time will tell!</p>
         </div>
     </a>
 </article>
+
+            
                 
-                    
 <article class="has-image">
     <a href="/p/spectral-sequences-and-multicomplexes-part-i/">
         
@@ -607,8 +800,9 @@ Time will tell!</p>
         </div>
     </a>
 </article>
+
+            
                 
-                    
 <article class="has-image">
     <a href="/p/galois-theory-of-commutative-ring-spectra/">
         
@@ -630,8 +824,9 @@ Time will tell!</p>
         </div>
     </a>
 </article>
+
+            
                 
-                    
 <article class="has-image">
     <a href="/p/secondary-characteristic-classes/">
         
@@ -653,10 +848,10 @@ Time will tell!</p>
         </div>
     </a>
 </article>
-                
-            </div>
+
+            
         </div>
-    
+    </div>
 </aside>
 
      
@@ -675,7 +870,7 @@ Time will tell!</p>
     
     <section class="powerby">
         Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
-        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.7.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.21.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
     </section>
 </footer>
 
@@ -752,50 +947,16 @@ Time will tell!</p>
                 >
             </script><link 
                 rel="stylesheet" 
-                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css"integrity="sha256-c0uckgykQ9v5k&#43;IqViZOZKc47Jn7KQil4/MP3ySA3F8="crossorigin="anonymous"
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
             ><link 
                 rel="stylesheet" 
-                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css"integrity="sha256-SBLU4vv6CA6lHsZ1XyTdhyjJxCjPif/TRkjnsyGAGnE="crossorigin="anonymous"
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
             >
 
             </main>
-    
-        <aside class="sidebar right-sidebar sticky">
-            <section class="widget archives">
-                <div class="widget-icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <line x1="5" y1="9" x2="19" y2="9" />
-  <line x1="5" y1="15" x2="19" y2="15" />
-  <line x1="11" y1="4" x2="7" y2="20" />
-  <line x1="17" y1="4" x2="13" y2="20" />
-</svg>
-
-
-
-                </div>
-                <h2 class="widget-title section-title">Table of contents</h2>
-                
-                <div class="widget--toc">
-                    <nav id="TableOfContents">
-  <ol>
-    <li><a href="#proving-the-convergence-of-the-leray-serre-spectral-sequence-using-homotopy-theory">Proving the convergence of the Leray-Serre spectral sequence using homotopy theory</a></li>
-    <li><a href="#spectral-sequences-from-exact-couples---a-more-general-approach">Spectral sequences from exact couples - A more general approach</a>
-      <ol>
-        <li><a href="#a-detour-to-more-general-cohomology-theories">A detour to more general cohomology theories.</a></li>
-      </ol>
-    </li>
-    <li><a href="#computing-the-homology-of-omega-sn">Computing the homology of $\Omega S^n$.</a></li>
-  </ol>
-</nav>
-                </div>
-            </section>
-        </aside>
-    
-
         </div>
         <script 
-                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js"integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g="crossorigin="anonymous"
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
             </script><script type="text/javascript" src="/ts/main.js" defer></script>
