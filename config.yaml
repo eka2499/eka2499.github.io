@@ -1,7 +1,7 @@
 baseurl: "https://eka2499.github.io/"
 languageCode: en-us
 theme: hugo-theme-stack-master
-paginate: 5
+paginate: 10
 title: Exploring mathematics
 publishDir: docs
 
@@ -9,7 +9,7 @@ publishDir: docs
 disqusShortname: hugo-theme-stack
 
 # GA Tracking ID
-googleAnalytics:
+googleAnalytics: G-5JMXYLWVLG
 
 # Theme i18n support
 # Available values: en, fr, id, ja, ko, pt-br, zh-cn, zh-tw, es, de, nl, it, th, el, uk
@@ -181,7 +181,7 @@ menu:
           weight: -100
           params:
               ### For demonstration purpose, the home link will be open in a new tab
-              newTab: true
+              newTab: false
               icon: home
     
     social:

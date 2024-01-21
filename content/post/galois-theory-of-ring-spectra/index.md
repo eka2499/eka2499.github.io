@@ -17,6 +17,7 @@ categories: [
 series: ["Brave-New-Rings"]
 aliases: ["splasher"]
 image: "splasher.jpg"
+toc: true
 math: true
 draft: false
 ---
@@ -25,3 +26,7 @@ draft: false
 This is a tentatively empty post as I am migriting to another computer and need to test if it works!
 
 ## Updated now!
+
+## Inserted new header!
+
+# Big header
