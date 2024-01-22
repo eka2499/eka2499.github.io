@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='A short post on Galois theory in the context of commutative ring spectra'>
+<title>Galois Theory of Commutative Ring Spectra: An introduction</title>
+
+<link rel='canonical' href='https://eka2499.github.io/p/galois-theory-of-commutative-ring-spectra-an-introduction/'>
+
+<link rel="stylesheet" href="/scss/style.min.abbd69b2908fdfcd5179898beaafd374514a86538d81639ddd2c58c06ae54e40.css"><meta property='og:title' content='Galois Theory of Commutative Ring Spectra: An introduction'>
+<meta property='og:description' content='A short post on Galois theory in the context of commutative ring spectra'>
+<meta property='og:url' content='https://eka2499.github.io/p/galois-theory-of-commutative-ring-spectra-an-introduction/'>
+<meta property='og:site_name' content='Exploring mathematics'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Algebraic Topology' /><meta property='article:tag' content='Homotopy Theory' /><meta property='article:tag' content='Ring spectra' /><meta property='article:tag' content='Galois Theory' /><meta property='article:tag' content='Mathematics' /><meta property='article:published_time' content='2024-01-21T13:02:49&#43;01:00'/><meta property='article:modified_time' content='2024-01-21T13:02:49&#43;01:00'/><meta property='og:image' content='https://eka2499.github.io/p/galois-theory-of-commutative-ring-spectra-an-introduction/splasher.jpg' />
+<meta name="twitter:title" content="Galois Theory of Commutative Ring Spectra: An introduction">
+<meta name="twitter:description" content="A short post on Galois theory in the context of commutative ring spectra"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://eka2499.github.io/p/galois-theory-of-commutative-ring-spectra-an-introduction/splasher.jpg' />
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5JMXYLWVLG"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-5JMXYLWVLG', { 'anonymize_ip': false });
+}
+</script>
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/elias_hub0d9435e8577a337feea68e993245839_12081_300x0_resize_q75_box.jpg" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">🍥</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Exploring mathematics</a></h1>
+            <h2 class="site-description">Elias Klakken Angelsen</h2>
+        </div>
+    </header><ol class="social-menu">
+            
+                <li>
+                    <a 
+                        href='https://github.com/eka2499'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://www.linkedin.com/in/elias-klakken-angelsen-196675152/'
+                        target="_blank"
+                        title="Linkedin"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <rect x="4" y="4" width="16" height="16" rx="2" />
+  <line x1="8" y1="11" x2="8" y2="16" />
+  <line x1="8" y1="8" x2="8" y2="8.01" />
+  <line x1="12" y1="16" x2="12" y2="11" />
+  <path d="M16 16v-3a2 2 0 0 0 -4 0" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://www.researchgate.net/profile/Elias-Angelsen-2'
+                        target="_blank"
+                        title="Researchgate"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-flask-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M6.1 15h11.8" />
+  <path d="M14 3v7.342a6.002 6.002 0 0 1 1.318 10.658h-6.635a6.002 6.002 0 0 1 1.317 -10.66v-7.34h4z" />
+  <path d="M9 3h6" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/about-me/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About me</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/documents/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-notebook" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M6 4h11a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-11a1 1 0 0 1 -1 -1v-14a1 1 0 0 1 1 -1m3 0v18" />
+  <line x1="13" y1="8" x2="15" y2="8" />
+  <line x1="13" y1="12" x2="15" y2="12" />
+</svg>
+
+
+
+                
+                <span>Documents</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/links/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>Links</span>
+            </a>
+        </li>
+        
+
+        <div class="menu-bottom-section">
+            
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>Dark Mode</span>
+                </li>
+            
+        </div>
+    </ol>
+</aside>
+
+    
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/p/galois-theory-of-commutative-ring-spectra-an-introduction/">
+                <img src="/p/galois-theory-of-commutative-ring-spectra-an-introduction/splasher_hud7e36f7e20e71be184458283bdae4646_55974_800x0_resize_q75_box.jpg"
+                        srcset="/p/galois-theory-of-commutative-ring-spectra-an-introduction/splasher_hud7e36f7e20e71be184458283bdae4646_55974_800x0_resize_q75_box.jpg 800w, /p/galois-theory-of-commutative-ring-spectra-an-introduction/splasher_hud7e36f7e20e71be184458283bdae4646_55974_1600x0_resize_q75_box.jpg 1600w"
+                        width="800" 
+                        height="534" 
+                        loading="lazy"
+                        alt="Featured image of post Galois Theory of Commutative Ring Spectra: An introduction" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/homotopy-theory/" >
+                Homotopy Theory
+            </a>
+        
+            <a href="/categories/math/" >
+                Math
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/galois-theory-of-commutative-ring-spectra-an-introduction/">Galois Theory of Commutative Ring Spectra: An introduction</a>
+        </h2>
+    
+        
+        <h3 class="article-subtitle">
+            A short post on Galois theory in the context of commutative ring spectra
+        </h3>
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Jan 21, 2024</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    10 minute read
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p>This short blog post is dedicated to Galois theory of commutetive ring spectra, based on the paper of <a class="link" href="https://www.mn.uio.no/math/personer/vit/rognes/papers/galois.pdf"  target="_blank" rel="noopener"
+    >John Rognes</a>, also found explained in the master thesis of <a class="link" href="http://www.diva-portal.se/smash/get/diva2:919111/FULLTEXT01.pdf"  target="_blank" rel="noopener"
+    >Alice Hedenlund</a>.
+It is merely meant as an introduction to the topic, and will therefore not investigate consequences too deeply.</p>
+<h2 id="classical-galois-theory">Classical Galois Theory</h2>
+<p>Classically, Galois Theory studies the symmetries found in roots of polynomials, which is intimately connected to field extensions.</p>
+<p>For example, consider the polynomial $f(x) = x^2+1$ to make some fundamental observations about polynomials and field extensions.
+It has roots $x_1 = i$ and $x_2 = -i$ when considered over $\mathbb{C}$.
+Over $\mathbb{R}$, the polynomial $f(x)$ is irreducible.
+In fact, it is the minimal polynomial of $i \in \mathbb{C}$ over $\mathbb{R}$, which means that $f(x)$ is the polynomial of least degree with coefficients in $\mathbb{R}$ such that $i$ is a solution.<br>
+It is clear that $\mathbb{C}$ is two-dimensional as a vector space over $\mathbb{R}$, and this corresponds perfectly to the degree of the minimal polynomial.</p>
+<p>Furthermore, the roots of $f(x)$ allow for a symmetry given by permuting the roots sending $i \mapsto -i$ and $-i \mapsto i$.
+Note that this can be extended to an automorphism of $\mathbb{C}$ that keeps $\mathbb{R}$ fixed.
+In nice cases, such as this one, the group $Aut(\mathbb{C}/\mathbb{R})$ will be called the Galois group $Gal(\mathbb{C}/\mathbb{R})$.</p>
+<p>Note also that all irreducible polynomials in $\mathbb{R}[x]$ that has one root in $\mathbb{C}$, splits into linear factors in $\mathbb{C}$.
+A field extension $E / F$ with this property is called <strong>normal</strong>.
+Furthermore, the number of distinct roots in the example above is equal to the degree of the the minimal polynomial.
+In this case, we call the polynomial separable, and a field extension $E / F$ where all elements $\alpha \in E$ have separable minimal polynomials over $F$ is called a separable extension.</p>
+<p>Now, with some definitions aside, we can note a curious connection.
+The degree $[\mathbb{C}:\mathbb{E}]$ of the field extension $\mathbb{R} \to \mathbb{C}$ is equal to $\operatorname{deg} f$, which is again equal to the order of $Gal(\mathbb{C}/\mathbb{R})$.</p>
+<p>This can be formulated more generally for field extensions $F \to E$, but the case where $[E:F] = |Aut(E/F)|$ is special.
+In fact, it is equivalent to the following by a <a class="link" href="https://en.wikipedia.org/wiki/Galois_extension#Characterization_of_Galois_extensions"  target="_blank" rel="noopener"
+    >theorem of Artin</a>.</p>
+<p>Note also that</p>
+<p><strong>Theorition-Definem: Characterization of Galois extensions</strong></p>
+<p>Let $E / F$ be a finite field extension. Then the following statements are equivalent:</p>
+<ul>
+<li>$E / F$ is a <em>Galois extension</em></li>
+<li>$[E:F] = |Aut(E/F)|$</li>
+<li>$E / F$ is a normal and separable extension</li>
+<li>$E$ is a splitting field of a separable polynomial with coefficients in $F$.</li>
+</ul>
+<p>In these cases, we denote $Gal(E/F)=Aut(E/F)$, and if we call a field extension <em>$G$-Galois</em>, we simply mean that it is a Galois extension with Galois group $G$.</p>
+<p>There is a more generalizable approach to Galois extensions which turns out to be equivalent, phrased through certain algebra homomorphisms (see e.g. <a class="link" href="http://www.diva-portal.se/smash/get/diva2:919111/FULLTEXT01.pdf"  target="_blank" rel="noopener"
+    >AH</a>).
+If we consider $G$ to be a finite group acting on $E$, having a subfield $F$ of $E$ as the fixed field of the $G$-action, we can define the <em>twisted group ring</em> $E(G)$ to be the $E$-algebra generated by $G$ with twisted multiplication
+$$(xg) \cdot (yh) = xg(y)gh,$$
+where $x,y \in E$ and $g, h \in G$</p>
+<p>This has a canonical map of $F$-algebras $E(G) \to \operatorname{Hom}_F(E,E)$ given by $xg \mapsto (y \mapsto xg(y))$.</p>
+<p>Similarly, we can construct a map $E \otimes_F E \to \prod_G E = \operatorname{Map}(G,E)$ given by $x \otimes y \mapsto (xg(y))_{g \in G}$.</p>
+<p>Then, a field extension $E / F$ is Galois $\iff$ the map $E(G) \to \operatorname{Hom}_F(E,E)$ is a bijection $\iff$ the map $E \otimes_F E \to \prod_G E = \operatorname{Map}(G,E)$ is a bijection.</p>
+<p>Before we delve into Galois theory for rings, let&rsquo;s consider some examples!
+There are two simple ways of constructing Galois extensions. If we start with a field $E$, we can take any subgroup of $Aut(E)$ and let $F$ be its fixed field, or if we start with a field $F$, we can take any seperable polynomial in $F[x]$ and consider $E$ to be its splitting field.
+Both of these will construct Galois extensions.</p>
+<p>Another example could be to consider the extension $\mathbb{Q}(\sqrt{2},\sqrt{3}) / \mathbb{Q}$.
+This is a Galois extension, and by further studies, one finds that there is an inclusion-reversing correspondence between intermediate fields $K$ such that
+$$F = \mathbb{Q} \subset K \subset \mathbb{Q}(\sqrt{2},\sqrt{3}) = E$$
+and subgroups of the Galois group $Gal(\mathbb{Q}(\sqrt{2},\sqrt{3})/\mathbb{Q})$.
+The latter group is generated by an $f$ mapping $\sqrt{2}$ to $-\sqrt{2}$ and a $g$ mapping $\sqrt{3}$ to $-\sqrt{3}$, and is the Klein four-group.
+We get the following relationships, where brackets indicate the field generated by the elements within the bracket.</p>
+<ul>
+<li>$(1,f) \leftrightarrow \mathbb{Q}(\sqrt{3})$ .</li>
+<li>$(1,g) \leftrightarrow \mathbb{Q}(\sqrt{2})$ .</li>
+<li>$(1,fg) \leftrightarrow \mathbb{Q}(\sqrt{6})$ .</li>
+<li>$(1,f,g,fg) \leftrightarrow \mathbb{Q}$ .</li>
+<li>$(1) \leftrightarrow \mathbb{Q}(\sqrt{2},\sqrt{3})$ .</li>
+</ul>
+<p>This relationship between intermediate fields and subgroups of the Galois group is called the <strong>fundamental theorem of Galois theory</strong>, and has beautiful consequences.
+One of the most known consequences is the <strong>Abel-Ruffini theorem</strong>, stating that there are no general formula for the roots of a polynomial of degree $n$ if $n \geq 5$.
+Why?
+The solvability of such an equation by radicals is equivalent to being able append radicals of elements $\alpha \in F = \mathbb{Q}$ to gradually build a field $E = \mathbb{Q}(a_1,a_2, \ldots, a_n)$ where this equation is solvable.
+This procedure would generate a chain of intermediate fields $F \subset F_1 \subset \ldots \subset E$, which by the Galois correspondence should correspond to a chain of subgroups of the Galois group.
+Depending on what the Galois group is, this may not be possible to construct.
+The Galois group obtained from degree $n$ polynomials as above is $S_n$, which has a somewhat limited subgroup structure for $n \geq 5$.
+How beautiful!</p>
+<p>It is also simple to construct field extensions that are not Galois.
+For example, consider $F = \mathbb{Q}$ and $E = \mathbb{Q}(\sqrt[3]{2})$. The minimal polynomial of $\sqrt[3]{2}$ is $x^3-2$, which has two roots that do not lie in $F$ (they are complex).</p>
+<h2 id="galois-theory-for-rings">Galois Theory for Rings</h2>
+<p>We now move on to study Galois theory for rings, which is a generalization of Galois theory for fields.
+Assume we have commutative rings $R$ and $S$ with a ring homomorphism $R \to S$. Then $S$ is a commutative $R$-algebra.
+If we think of this as &ldquo;an extension $R \to S$&rdquo;, we try to study $R$-algebra homomorphisms of $S$.
+Let $G$ be a group of such $R$-algebra homomorphisms of $S$.
+Note that $R$ is fixed by $G$, which means that we have an inclusion $i: R \to S^G$.</p>
+<p><strong>Definition: Galois extensions for rings</strong></p>
+<p>A ring homomorphism $R \to S$ is a $G$-Galois extension of rings if both $i: R \to S^G$ and $S \otimes_R S \to \prod_G S$ are isomorphisms, where the latter map is defined analogously to the field case.</p>
+<p>Equivalently, one can reformulate this as:</p>
+<ul>
+<li>$R \to S$ is a Galois extension of rings $\iff R \cong S^G, S(G) \cong \operatorname{Hom}_R(S,S)$ and $S$ is a finitely generated projective $R$-module.</li>
+</ul>
+<p>Note the last requirement of $S$ being a finitely generated projective $R$-module, which does not exist for fields!</p>
+<p>A Galois extension $R \to S$ has some properties worth mentioning:</p>
+<ul>
+<li>$S$ becomes a finitely generated projective $R$-module (as above).</li>
+<li>$S$ is faithfully flat as an $R$-module.</li>
+<li>The trace map $tr: S \to R$ given by $x \mapsto \sum_{g \in G} g(x)$ is surjective.</li>
+</ul>
+<p>In the philosophy of brave new rings, we may hope to generalize from commutative rings to commutative ring spectra.</p>
+<h2 id="a-brief-reminder-on-ring-spectra">A brief reminder on ring spectra</h2>
+<p>Recall that the category of symmetric spectra is a bicomplete and closed symmetric monoidal category that is Quillen equivalent to other models of the stable homotopy category, such as sequential spectra.
+The smash product of spectra can be constructed by making a monoidal product (a levelwise tensor product of symmetric sequences), which can be completed to a symmetric monoidal product by considering
+$$X \wedge Y = \operatorname{coeq}( X \otimes \mathbb{S} \otimes Y \rightrightarrows X \otimes Y ).$$</p>
+<p>A symmetric ring spectrum is a monoid object in the category of symmetric spectra, which means that it is a symmetric spectrum $R$ with a multiplication $\mu: R \wedge R \to R$, with $\mathbb{S} \to R$ as a unit map, and these satisfy certain diagram requirements.</p>
+<p>Examples include:</p>
+<ul>
+<li>The sphere spectrum $\mathbb{S}$, which is the unit and initial object of symmetric spectra. It is analoguous to the role of $\mathbb{Z}$ for rings.</li>
+<li>The Eilenberg-Maclane spectrum $HR$ for a ring $R$, with multiplication given by a collection of $\Sigma_n \times \Sigma_m$-equivariant maps
+$\mu_{n,m}: HR_n \wedge HR_m \to HR_{n+m}$, where $HR_n$ is viewed as formal sums of points in $S^n$ with coefficients in $R$, that is $HR_n = R \otimes \mathbb{Z}[S^n]$.</li>
+<li>The complex $K$-theory spectrum $KU$.</li>
+<li>The real $K$-theory spectrum $KO$.</li>
+<li>The complex cobordism spectrum $MU$.</li>
+</ul>
+<p>The last three spectra have multiplication induced by their explicit construction through bundles and Thom spaces.
+Recall also that there is a complexification map $c: KO \to KU$.</p>
+<p>Similarly, for a ring spectrum $R$, a left $R$-module $M$ is defined as a module object in the category of symmetric ring spectra.
+That is, we havea symmetric spectrum $M$ with an action $\alpha: R \wedge M \to M$ satisfying some relations.</p>
+<p>The category of symmetric ring spectra also has a model structure that ideally deserves to be mentioned, but we will omit it for the sake of keeping the post rather short.</p>
+<h2 id="galois-theory-for-ring-spectra">Galois Theory for ring spectra</h2>
+<p>Assume that $A$ and $B$ are commutative ring spectra, that we have a homomorphism $A \to B$ of commutative ring spectra, and for technical reasons (to assure the definition of Galois extensions is invariant under changes up to weak equivalences), assume that $A$ is cofibrant as a ring spectrum and that $B$ is cofibrant as a commutative $A$-algebra (where the $A$-algebra structure is induced by $A \to B$).
+Let $G$ be a finite discrete group that acts on $B$ by $A$-algebra homomorphisms. This assumption can probably be relaxed a bit, but to keep it simple (and to follow <a class="link" href="http://www.diva-portal.se/smash/get/diva2:919111/FULLTEXT01.pdf"  target="_blank" rel="noopener"
+    >AH</a>), we keep this assumption.</p>
+<p>As $EG_+$ is contractible, we have a map $A \wedge EG_+ \simeq A \to B$, which is left adjoint to the map
+$$i: A \to B^{hG} = F(EG_+,B).$$
+Using the $G$-module structure of $B$, we also have a morphism
+$$B \wedge_A B \wedge G_+ \to B \wedge_A B \to B,$$
+which has a right adjoint
+$$B \wedge_A B \to \prod_G B = F(G_+,B).$$</p>
+<p>Similarly to before, we can define Galois extensions of ring spectra.</p>
+<p><strong>Definition: Galois extension of commutative ring spectra</strong></p>
+<p>A map $A \to B$ of commutative ring spectra is a $G$-Galois extension if both maps $A \to B^{hG}$ and $B \wedge_A B \to \prod_G B$ are weak equivalences.</p>
+<p>There is a trivial Galois extension of ring spectra for each $G$ given by considering the map
+$$\Delta: A \to \prod_G A = F(G_+,A).$$
+See <a class="link" href="http://www.diva-portal.se/smash/get/diva2:919111/FULLTEXT01.pdf"  target="_blank" rel="noopener"
+    >AH</a> for a proof of it being a $G$-Galois extension.</p>
+<p>For more complicated examples, the homotopy fixed-point spectral sequence is of good help.
+It has $E^2$-page given by
+$$ E^2_{p,q} = H^{-p}(G;\pi_q(X)) \Rightarrow \pi_{p+q}(X^{hG}).$$</p>
+<p>Using this spectral sequence, one can obtain the following results:</p>
+<p><strong>Theorems: Examples of Galois extensions of ring spectra</strong></p>
+<ul>
+<li>A map $R \to S$ of rings is a $G$-Galois extension $\iff$ the induced map $HR \to HS$ is a $G$-Galois extension of ring spectra.</li>
+<li>The claimed-to-exist complexification map $c: KO \to KU$ is a $\mathbb{Z}/2\mathbb{Z}$-Galois extension.</li>
+</ul>
+<p>With these mathemagical results, we end the blog post.
+There are indeed further topics to be discussed, such as faithful Galois extensions, Galois constructions in chromatic homotopy theory, or even if there is an analog of the fundamental theorem of Galois theory for ring spectra.
+These topics definitely deserve their own blog posts, whenever I finish reading the paper of <a class="link" href="https://www.mn.uio.no/math/personer/vit/rognes/papers/galois.pdf"  target="_blank" rel="noopener"
+    >John Rognes</a>.</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/algebraic-topology/">Algebraic Topology</a>
+        
+            <a href="/tags/homotopy-theory/">Homotopy Theory</a>
+        
+            <a href="/tags/ring-spectra/">Ring spectra</a>
+        
+            <a href="/tags/galois-theory/">Galois Theory</a>
+        
+            <a href="/tags/mathematics/">Mathematics</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+        <link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/katex.min.css"integrity="sha256-J&#43;iAE0sgH8QSz9hpcDxXIftnj65JEZgNhGcgReTTK9s="crossorigin="anonymous"
+            ><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/katex.min.js"integrity="sha256-InsNdER1b2xUewP&#43;pKCUJpkhiqwHgqiPXDlIk7GzBu4="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/contrib/auto-render.min.js"integrity="sha256-y39Mpg7V3D4lhBX4x6O0bUqTV4pSrfgwEfGKfxkOdgI="crossorigin="anonymous"
+                defer
+                >
+            </script><script>
+    window.addEventListener("DOMContentLoaded", () => {
+        renderMathInElement(document.querySelector(`.article-content`), {
+            delimiters: [
+                { left: "$$", right: "$$", display: true },
+                { left: "$", right: "$", display: false },
+                { left: "\\(", right: "\\)", display: false },
+                { left: "\\[", right: "\\]", display: true }
+            ],
+            ignoredClasses: ["gist"]
+        });})
+</script>
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">Related content</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/p/secondary-characteristic-classes/">
+        
+        
+            <div class="article-image">
+                <img src="/p/secondary-characteristic-classes/images/charforms.edb9a8a8c905937285d55340258c3007_hu38b9b51e48b1191b37474c6957d0d89a_107088_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post Secondary characteristic classes"
+                        
+                        data-hash="md5-7bmoqMkFk3KF1VNAJYwwBw==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Secondary characteristic classes</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/spectral-sequences-and-multicomplexes-part-iii/">
+        
+        
+            <div class="article-image">
+                <img src="/p/spectral-sequences-and-multicomplexes-part-iii/images/3rdfront.6cc9413b292959880535bc3461df1c42_hue1a36dd821dc897a813d246233c6aea3_148869_250x150_fill_q75_box_smart1.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post Spectral sequences and multicomplexes - Part III"
+                        
+                        data-hash="md5-bMlBOykpWYgFNbw0Yd8cQg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Spectral sequences and multicomplexes - Part III</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/spectral-sequences-and-multicomplexes-part-ii/">
+        
+        
+            <div class="article-image">
+                <img src="/p/spectral-sequences-and-multicomplexes-part-ii/images/Front_2.fc51d6db4ddeb55b3a66979e31950cdb_hud147fe321169f5a988bfa760efd4dec0_61727_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post Spectral sequences and multicomplexes - Part II"
+                        
+                        data-hash="md5-/FHW203etVs6ZpeeMZUM2w==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Spectral sequences and multicomplexes - Part II</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/spectral-sequences-and-multicomplexes-part-i/">
+        
+        
+            <div class="article-image">
+                <img src="/p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqds2.db73e2d226bb1bc51e88a9454a030e32_hue1e88880d5dd7b5523c442f095bb6ed2_263012_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post Spectral sequences and multicomplexes - Part I"
+                        
+                        data-hash="md5-23Pi0ia7G8UeiKlFSgMOMg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Spectral sequences and multicomplexes - Part I</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2020 - 
+        
+        2024 Exploring mathematics
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.21.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

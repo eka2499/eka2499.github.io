@@ -7,15 +7,147 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <lastBuildDate>Sun, 21 Jan 2024 13:02:49 +0100</lastBuildDate><atom:link href="https://eka2499.github.io/tags/ring-spectra/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Galois Theory of Commutative Ring Spectra</title>
-        <link>https://eka2499.github.io/p/galois-theory-of-commutative-ring-spectra/</link>
+        <title>Galois Theory of Commutative Ring Spectra: An introduction</title>
+        <link>https://eka2499.github.io/p/galois-theory-of-commutative-ring-spectra-an-introduction/</link>
         <pubDate>Sun, 21 Jan 2024 13:02:49 +0100</pubDate>
         
-        <guid>https://eka2499.github.io/p/galois-theory-of-commutative-ring-spectra/</guid>
-        <description>&lt;img src="https://eka2499.github.io/p/galois-theory-of-commutative-ring-spectra/splasher.jpg" alt="Featured image of post Galois Theory of Commutative Ring Spectra" /&gt;&lt;p&gt;This is a tentatively empty post as I am migriting to another computer and need to test if it works!&lt;/p&gt;
-&lt;h2 id=&#34;updated-now&#34;&gt;Updated now!&lt;/h2&gt;
-&lt;h2 id=&#34;inserted-new-header&#34;&gt;Inserted new header!&lt;/h2&gt;
-&lt;h1 id=&#34;big-header&#34;&gt;Big header&lt;/h1&gt;
+        <guid>https://eka2499.github.io/p/galois-theory-of-commutative-ring-spectra-an-introduction/</guid>
+        <description>&lt;img src="https://eka2499.github.io/p/galois-theory-of-commutative-ring-spectra-an-introduction/splasher.jpg" alt="Featured image of post Galois Theory of Commutative Ring Spectra: An introduction" /&gt;&lt;p&gt;This short blog post is dedicated to Galois theory of commutetive ring spectra, based on the paper of &lt;a class=&#34;link&#34; href=&#34;https://www.mn.uio.no/math/personer/vit/rognes/papers/galois.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;John Rognes&lt;/a&gt;, also found explained in the master thesis of &lt;a class=&#34;link&#34; href=&#34;http://www.diva-portal.se/smash/get/diva2:919111/FULLTEXT01.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Alice Hedenlund&lt;/a&gt;.
+It is merely meant as an introduction to the topic, and will therefore not investigate consequences too deeply.&lt;/p&gt;
+&lt;h2 id=&#34;classical-galois-theory&#34;&gt;Classical Galois Theory&lt;/h2&gt;
+&lt;p&gt;Classically, Galois Theory studies the symmetries found in roots of polynomials, which is intimately connected to field extensions.&lt;/p&gt;
+&lt;p&gt;For example, consider the polynomial $f(x) = x^2+1$ to make some fundamental observations about polynomials and field extensions.
+It has roots $x_1 = i$ and $x_2 = -i$ when considered over $\mathbb{C}$.
+Over $\mathbb{R}$, the polynomial $f(x)$ is irreducible.
+In fact, it is the minimal polynomial of $i \in \mathbb{C}$ over $\mathbb{R}$, which means that $f(x)$ is the polynomial of least degree with coefficients in $\mathbb{R}$ such that $i$ is a solution.&lt;br&gt;
+It is clear that $\mathbb{C}$ is two-dimensional as a vector space over $\mathbb{R}$, and this corresponds perfectly to the degree of the minimal polynomial.&lt;/p&gt;
+&lt;p&gt;Furthermore, the roots of $f(x)$ allow for a symmetry given by permuting the roots sending $i \mapsto -i$ and $-i \mapsto i$.
+Note that this can be extended to an automorphism of $\mathbb{C}$ that keeps $\mathbb{R}$ fixed.
+In nice cases, such as this one, the group $Aut(\mathbb{C}/\mathbb{R})$ will be called the Galois group $Gal(\mathbb{C}/\mathbb{R})$.&lt;/p&gt;
+&lt;p&gt;Note also that all irreducible polynomials in $\mathbb{R}[x]$ that has one root in $\mathbb{C}$, splits into linear factors in $\mathbb{C}$.
+A field extension $E / F$ with this property is called &lt;strong&gt;normal&lt;/strong&gt;.
+Furthermore, the number of distinct roots in the example above is equal to the degree of the the minimal polynomial.
+In this case, we call the polynomial separable, and a field extension $E / F$ where all elements $\alpha \in E$ have separable minimal polynomials over $F$ is called a separable extension.&lt;/p&gt;
+&lt;p&gt;Now, with some definitions aside, we can note a curious connection.
+The degree $[\mathbb{C}:\mathbb{E}]$ of the field extension $\mathbb{R} \to \mathbb{C}$ is equal to $\operatorname{deg} f$, which is again equal to the order of $Gal(\mathbb{C}/\mathbb{R})$.&lt;/p&gt;
+&lt;p&gt;This can be formulated more generally for field extensions $F \to E$, but the case where $[E:F] = |Aut(E/F)|$ is special.
+In fact, it is equivalent to the following by a &lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Galois_extension#Characterization_of_Galois_extensions&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;theorem of Artin&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Note also that&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Theorition-Definem: Characterization of Galois extensions&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Let $E / F$ be a finite field extension. Then the following statements are equivalent:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$E / F$ is a &lt;em&gt;Galois extension&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;$[E:F] = |Aut(E/F)|$&lt;/li&gt;
+&lt;li&gt;$E / F$ is a normal and separable extension&lt;/li&gt;
+&lt;li&gt;$E$ is a splitting field of a separable polynomial with coefficients in $F$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In these cases, we denote $Gal(E/F)=Aut(E/F)$, and if we call a field extension &lt;em&gt;$G$-Galois&lt;/em&gt;, we simply mean that it is a Galois extension with Galois group $G$.&lt;/p&gt;
+&lt;p&gt;There is a more generalizable approach to Galois extensions which turns out to be equivalent, phrased through certain algebra homomorphisms (see e.g. &lt;a class=&#34;link&#34; href=&#34;http://www.diva-portal.se/smash/get/diva2:919111/FULLTEXT01.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;AH&lt;/a&gt;).
+If we consider $G$ to be a finite group acting on $E$, having a subfield $F$ of $E$ as the fixed field of the $G$-action, we can define the &lt;em&gt;twisted group ring&lt;/em&gt; $E(G)$ to be the $E$-algebra generated by $G$ with twisted multiplication
+$$(xg) \cdot (yh) = xg(y)gh,$$
+where $x,y \in E$ and $g, h \in G$&lt;/p&gt;
+&lt;p&gt;This has a canonical map of $F$-algebras $E(G) \to \operatorname{Hom}_F(E,E)$ given by $xg \mapsto (y \mapsto xg(y))$.&lt;/p&gt;
+&lt;p&gt;Similarly, we can construct a map $E \otimes_F E \to \prod_G E = \operatorname{Map}(G,E)$ given by $x \otimes y \mapsto (xg(y))_{g \in G}$.&lt;/p&gt;
+&lt;p&gt;Then, a field extension $E / F$ is Galois $\iff$ the map $E(G) \to \operatorname{Hom}_F(E,E)$ is a bijection $\iff$ the map $E \otimes_F E \to \prod_G E = \operatorname{Map}(G,E)$ is a bijection.&lt;/p&gt;
+&lt;p&gt;Before we delve into Galois theory for rings, let&amp;rsquo;s consider some examples!
+There are two simple ways of constructing Galois extensions. If we start with a field $E$, we can take any subgroup of $Aut(E)$ and let $F$ be its fixed field, or if we start with a field $F$, we can take any seperable polynomial in $F[x]$ and consider $E$ to be its splitting field.
+Both of these will construct Galois extensions.&lt;/p&gt;
+&lt;p&gt;Another example could be to consider the extension $\mathbb{Q}(\sqrt{2},\sqrt{3}) / \mathbb{Q}$.
+This is a Galois extension, and by further studies, one finds that there is an inclusion-reversing correspondence between intermediate fields $K$ such that
+$$F = \mathbb{Q} \subset K \subset \mathbb{Q}(\sqrt{2},\sqrt{3}) = E$$
+and subgroups of the Galois group $Gal(\mathbb{Q}(\sqrt{2},\sqrt{3})/\mathbb{Q})$.
+The latter group is generated by an $f$ mapping $\sqrt{2}$ to $-\sqrt{2}$ and a $g$ mapping $\sqrt{3}$ to $-\sqrt{3}$, and is the Klein four-group.
+We get the following relationships, where brackets indicate the field generated by the elements within the bracket.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$(1,f) \leftrightarrow \mathbb{Q}(\sqrt{3})$ .&lt;/li&gt;
+&lt;li&gt;$(1,g) \leftrightarrow \mathbb{Q}(\sqrt{2})$ .&lt;/li&gt;
+&lt;li&gt;$(1,fg) \leftrightarrow \mathbb{Q}(\sqrt{6})$ .&lt;/li&gt;
+&lt;li&gt;$(1,f,g,fg) \leftrightarrow \mathbb{Q}$ .&lt;/li&gt;
+&lt;li&gt;$(1) \leftrightarrow \mathbb{Q}(\sqrt{2},\sqrt{3})$ .&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This relationship between intermediate fields and subgroups of the Galois group is called the &lt;strong&gt;fundamental theorem of Galois theory&lt;/strong&gt;, and has beautiful consequences.
+One of the most known consequences is the &lt;strong&gt;Abel-Ruffini theorem&lt;/strong&gt;, stating that there are no general formula for the roots of a polynomial of degree $n$ if $n \geq 5$.
+Why?
+The solvability of such an equation by radicals is equivalent to being able append radicals of elements $\alpha \in F = \mathbb{Q}$ to gradually build a field $E = \mathbb{Q}(a_1,a_2, \ldots, a_n)$ where this equation is solvable.
+This procedure would generate a chain of intermediate fields $F \subset F_1 \subset \ldots \subset E$, which by the Galois correspondence should correspond to a chain of subgroups of the Galois group.
+Depending on what the Galois group is, this may not be possible to construct.
+The Galois group obtained from degree $n$ polynomials as above is $S_n$, which has a somewhat limited subgroup structure for $n \geq 5$.
+How beautiful!&lt;/p&gt;
+&lt;p&gt;It is also simple to construct field extensions that are not Galois.
+For example, consider $F = \mathbb{Q}$ and $E = \mathbb{Q}(\sqrt[3]{2})$. The minimal polynomial of $\sqrt[3]{2}$ is $x^3-2$, which has two roots that do not lie in $F$ (they are complex).&lt;/p&gt;
+&lt;h2 id=&#34;galois-theory-for-rings&#34;&gt;Galois Theory for Rings&lt;/h2&gt;
+&lt;p&gt;We now move on to study Galois theory for rings, which is a generalization of Galois theory for fields.
+Assume we have commutative rings $R$ and $S$ with a ring homomorphism $R \to S$. Then $S$ is a commutative $R$-algebra.
+If we think of this as &amp;ldquo;an extension $R \to S$&amp;rdquo;, we try to study $R$-algebra homomorphisms of $S$.
+Let $G$ be a group of such $R$-algebra homomorphisms of $S$.
+Note that $R$ is fixed by $G$, which means that we have an inclusion $i: R \to S^G$.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Definition: Galois extensions for rings&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A ring homomorphism $R \to S$ is a $G$-Galois extension of rings if both $i: R \to S^G$ and $S \otimes_R S \to \prod_G S$ are isomorphisms, where the latter map is defined analogously to the field case.&lt;/p&gt;
+&lt;p&gt;Equivalently, one can reformulate this as:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$R \to S$ is a Galois extension of rings $\iff R \cong S^G, S(G) \cong \operatorname{Hom}_R(S,S)$ and $S$ is a finitely generated projective $R$-module.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Note the last requirement of $S$ being a finitely generated projective $R$-module, which does not exist for fields!&lt;/p&gt;
+&lt;p&gt;A Galois extension $R \to S$ has some properties worth mentioning:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$S$ becomes a finitely generated projective $R$-module (as above).&lt;/li&gt;
+&lt;li&gt;$S$ is faithfully flat as an $R$-module.&lt;/li&gt;
+&lt;li&gt;The trace map $tr: S \to R$ given by $x \mapsto \sum_{g \in G} g(x)$ is surjective.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In the philosophy of brave new rings, we may hope to generalize from commutative rings to commutative ring spectra.&lt;/p&gt;
+&lt;h2 id=&#34;a-brief-reminder-on-ring-spectra&#34;&gt;A brief reminder on ring spectra&lt;/h2&gt;
+&lt;p&gt;Recall that the category of symmetric spectra is a bicomplete and closed symmetric monoidal category that is Quillen equivalent to other models of the stable homotopy category, such as sequential spectra.
+The smash product of spectra can be constructed by making a monoidal product (a levelwise tensor product of symmetric sequences), which can be completed to a symmetric monoidal product by considering
+$$X \wedge Y = \operatorname{coeq}( X \otimes \mathbb{S} \otimes Y \rightrightarrows X \otimes Y ).$$&lt;/p&gt;
+&lt;p&gt;A symmetric ring spectrum is a monoid object in the category of symmetric spectra, which means that it is a symmetric spectrum $R$ with a multiplication $\mu: R \wedge R \to R$, with $\mathbb{S} \to R$ as a unit map, and these satisfy certain diagram requirements.&lt;/p&gt;
+&lt;p&gt;Examples include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The sphere spectrum $\mathbb{S}$, which is the unit and initial object of symmetric spectra. It is analoguous to the role of $\mathbb{Z}$ for rings.&lt;/li&gt;
+&lt;li&gt;The Eilenberg-Maclane spectrum $HR$ for a ring $R$, with multiplication given by a collection of $\Sigma_n \times \Sigma_m$-equivariant maps
+$\mu_{n,m}: HR_n \wedge HR_m \to HR_{n+m}$, where $HR_n$ is viewed as formal sums of points in $S^n$ with coefficients in $R$, that is $HR_n = R \otimes \mathbb{Z}[S^n]$.&lt;/li&gt;
+&lt;li&gt;The complex $K$-theory spectrum $KU$.&lt;/li&gt;
+&lt;li&gt;The real $K$-theory spectrum $KO$.&lt;/li&gt;
+&lt;li&gt;The complex cobordism spectrum $MU$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The last three spectra have multiplication induced by their explicit construction through bundles and Thom spaces.
+Recall also that there is a complexification map $c: KO \to KU$.&lt;/p&gt;
+&lt;p&gt;Similarly, for a ring spectrum $R$, a left $R$-module $M$ is defined as a module object in the category of symmetric ring spectra.
+That is, we havea symmetric spectrum $M$ with an action $\alpha: R \wedge M \to M$ satisfying some relations.&lt;/p&gt;
+&lt;p&gt;The category of symmetric ring spectra also has a model structure that ideally deserves to be mentioned, but we will omit it for the sake of keeping the post rather short.&lt;/p&gt;
+&lt;h2 id=&#34;galois-theory-for-ring-spectra&#34;&gt;Galois Theory for ring spectra&lt;/h2&gt;
+&lt;p&gt;Assume that $A$ and $B$ are commutative ring spectra, that we have a homomorphism $A \to B$ of commutative ring spectra, and for technical reasons (to assure the definition of Galois extensions is invariant under changes up to weak equivalences), assume that $A$ is cofibrant as a ring spectrum and that $B$ is cofibrant as a commutative $A$-algebra (where the $A$-algebra structure is induced by $A \to B$).
+Let $G$ be a finite discrete group that acts on $B$ by $A$-algebra homomorphisms. This assumption can probably be relaxed a bit, but to keep it simple (and to follow &lt;a class=&#34;link&#34; href=&#34;http://www.diva-portal.se/smash/get/diva2:919111/FULLTEXT01.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;AH&lt;/a&gt;), we keep this assumption.&lt;/p&gt;
+&lt;p&gt;As $EG_+$ is contractible, we have a map $A \wedge EG_+ \simeq A \to B$, which is left adjoint to the map
+$$i: A \to B^{hG} = F(EG_+,B).$$
+Using the $G$-module structure of $B$, we also have a morphism
+$$B \wedge_A B \wedge G_+ \to B \wedge_A B \to B,$$
+which has a right adjoint
+$$B \wedge_A B \to \prod_G B = F(G_+,B).$$&lt;/p&gt;
+&lt;p&gt;Similarly to before, we can define Galois extensions of ring spectra.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Definition: Galois extension of commutative ring spectra&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A map $A \to B$ of commutative ring spectra is a $G$-Galois extension if both maps $A \to B^{hG}$ and $B \wedge_A B \to \prod_G B$ are weak equivalences.&lt;/p&gt;
+&lt;p&gt;There is a trivial Galois extension of ring spectra for each $G$ given by considering the map
+$$\Delta: A \to \prod_G A = F(G_+,A).$$
+See &lt;a class=&#34;link&#34; href=&#34;http://www.diva-portal.se/smash/get/diva2:919111/FULLTEXT01.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;AH&lt;/a&gt; for a proof of it being a $G$-Galois extension.&lt;/p&gt;
+&lt;p&gt;For more complicated examples, the homotopy fixed-point spectral sequence is of good help.
+It has $E^2$-page given by
+$$ E^2_{p,q} = H^{-p}(G;\pi_q(X)) \Rightarrow \pi_{p+q}(X^{hG}).$$&lt;/p&gt;
+&lt;p&gt;Using this spectral sequence, one can obtain the following results:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Theorems: Examples of Galois extensions of ring spectra&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A map $R \to S$ of rings is a $G$-Galois extension $\iff$ the induced map $HR \to HS$ is a $G$-Galois extension of ring spectra.&lt;/li&gt;
+&lt;li&gt;The claimed-to-exist complexification map $c: KO \to KU$ is a $\mathbb{Z}/2\mathbb{Z}$-Galois extension.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;With these mathemagical results, we end the blog post.
+There are indeed further topics to be discussed, such as faithful Galois extensions, Galois constructions in chromatic homotopy theory, or even if there is an analog of the fundamental theorem of Galois theory for ring spectra.
+These topics definitely deserve their own blog posts, whenever I finish reading the paper of &lt;a class=&#34;link&#34; href=&#34;https://www.mn.uio.no/math/personer/vit/rognes/papers/galois.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;John Rognes&lt;/a&gt;.&lt;/p&gt;
 </description>
         </item>
         
