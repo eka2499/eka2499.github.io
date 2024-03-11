@@ -1,20 +1,49 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Mathematical Physics on Exploring mathematics</title>
-    <link>https://eka2499.github.io/tags/mathematical-physics/</link>
-    <description>Recent content in Mathematical Physics on Exploring mathematics</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 25 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://eka2499.github.io/tags/mathematical-physics/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Some introduction to bundles</title>
-      <link>https://eka2499.github.io/p/some-introduction-to-bundles/</link>
-      <pubDate>Tue, 25 Jan 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://eka2499.github.io/p/some-introduction-to-bundles/</guid>
-      <description>Return of the calculus Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc mattis enim ut tellus elementum sagittis vitae. Euismod lacinia at quis risus. Vitae auctor eu augue ut lectus arcu bibendum at varius. Venenatis urna cursus eget nunc scelerisque viverra. A scelerisque purus semper eget duis at. Tristique sollicitudin nibh sit amet commodo nulla. Arcu cursus vitae congue mauris rhoncus aenean vel.</description>
-    </item>
-    
-  </channel>
+    <channel>
+        <title>Mathematical Physics on Exploring mathematics</title>
+        <link>http://localhost:1313/tags/mathematical-physics/</link>
+        <description>Recent content in Mathematical Physics on Exploring mathematics</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Mon, 16 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/mathematical-physics/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Bundle what? Bundles of love, or any other fiber</title>
+        <link>http://localhost:1313/p/bundle-what-bundles-of-love-or-any-other-fiber/</link>
+        <pubDate>Mon, 16 May 2022 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/p/bundle-what-bundles-of-love-or-any-other-fiber/</guid>
+        <description>&lt;img src="http://localhost:1313/p/bundle-what-bundles-of-love-or-any-other-fiber/splasher.jpg" alt="Featured image of post Bundle what? Bundles of love, or any other fiber" /&gt;&lt;p&gt;I&amp;rsquo;ve considered for a while to write a post about bundles, just to have established what they are and why they are fun on this blog. Many posts we will meet in the future will consider stuff happening in (co)tangent bundles, other fiber bundles or even in principal $G$-bundles for a Lie group $G$.
+Now, after some travelling, project work and procrastination of blog posting, I figured I&amp;rsquo;d introduce bundles once and for all as a part of a series on Chern-Weil theory and characteristic classes.&lt;/p&gt;
+&lt;p&gt;As mentioned in the posts on &lt;a class=&#34;link&#34; href=&#34;https://eka2499.github.io/tags/spectral-sequences/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;spectral sequences and multicomplexes&lt;/a&gt;, I learned about spectral sequences when taking &lt;a class=&#34;link&#34; href=&#34;https://wiki.math.ntnu.no/ma3408/2021v/start&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;a course&lt;/a&gt; on algebraic topology at NTNU.
+Bundles and characteristic classes were also a part of this course. I&amp;rsquo;ve worked a bit with bundles since the course, but characteristic classes has been a bit absent from my life at times. Nevertheless, I felt like I understood them more thoroughly than spectral sequences.
+What I lacked was a geometric understanding of different classes. As I wanted to recap some things about Chern-Weil theory that I read a while ago, and (finally) learn the formal definition of a connection from differential geometry, we will now start a journey to understand (or recall) the theory of bundles, connections, curvature, Chern-Weil theory and characteristic classes.&lt;/p&gt;
+&lt;p&gt;We start the bundle post by considering maybe the two most important bundles in geometry, namely the tangent and cotangent bundles assigned to a manifold.&lt;/p&gt;
+&lt;h2 id=&#34;tangent-and-cotangent-bundles&#34;&gt;Tangent and cotangent bundles&lt;/h2&gt;
+&lt;p&gt;If we are given a smooth manifold $M$, one can consider the tangent vectors at each point $p \in M$. These tangent vectors are often defined to be point derivations, as this can be shown to give the wanted theory. If this is not familiar to you, just think of them as tangent vectors in &amp;ldquo;the regular sense&amp;rdquo;. The collection of all possible tangent vectors at a point $p$ is denoted $T_pM$, which is the tangent space to $M$ at $p$. Indeed, one can (and should) also consider the cotangent space $T_p^* M$ at $p$ to just be the dual space $(T_pM)^* $.&lt;/p&gt;
+&lt;p&gt;If we collect all of these tangent spaces, we get a space $TM = \coprod_{p \in M} T_pM$. An element of $TM$ can therefore be thought of as a pair $(p,v)$ where $p \in M$ and $v$ is a tangent vector to $M$ at $p$.
+As you may see, the tangent bundle contains much information about the geometry of $M$, as it contains all the possible ways of finding tangent vectors, and therefore contains information such as which types of vector fields we can find at $M$.&lt;/p&gt;
+&lt;p&gt;One should not that we have a canonical projection $\pi: TM \to M$ given by $\pi(p,v) = p$. This is quite an important feature of bundles!
+To continue the thought we had about vector fields, we can actually define a vector field to be a split to the surjection $\pi$.
+That is, a vector field $X$ is just a map $M \to TM$ such that $\pi X (p) = p$ for all $p \in M$. $X(p)$ is now on the form $X(p) = (p,v)$, as it lives in $TM$. As expected, it just assigns a tangent vector $v$ to each point $p$, which is exactly what vector fields do!
+Such a split to the tangent bundle is called a section, and the sections of &amp;ldquo;a general bundle $\pi: E \to B$ is exactly such maps $s : B \to E$ such that $\pi s (b) = b$.&lt;/p&gt;
+&lt;p&gt;Indeed, by gathering all of the cotangent spaces $T_p^* M$, we can form the cotangent bundle $T^* M$.
+The (smooth) sections of these are quite interesting, as they what we know as differential one-forms.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m quite sure we&amp;rsquo;ll meet both of these bundles at a later stage, so we&amp;rsquo;ll move on for now. Just to have it mentioned, we can use the topology of $M$ to induce the topology on these spaces, both at the (co)tangent space level and at the bundle level. One can even make both of them manifolds, giving them a lot of structure to exploit, if you want to!&lt;/p&gt;
+&lt;h2 id=&#34;fibre-bundles&#34;&gt;Fibre bundles&lt;/h2&gt;
+&lt;p&gt;I often think of (co)tangent bundles as &amp;ldquo;gluing on a (co)tangent space at each point $p \in M$&amp;rdquo;. This intuition of gluing on vector spaces actually gets us quite far. Natural questions to ask are if we can &amp;ldquo;glue on&amp;rdquo; other vector spaces, or maybe even if we can &amp;ldquo;glue on&amp;rdquo; other things than vector spaces at each point. The answers are yes and yes. The things we can glue on (to a point $p$), are called the fibers of the bundle (at the point $p$), and therefore much of this theory can be summarized by talking about fiber bundles.&lt;/p&gt;
+&lt;h3 id=&#34;vector-bundles&#34;&gt;Vector bundles&lt;/h3&gt;
+&lt;p&gt;If we consider the tangent bundle example we mentioned above, we had a manifold $M$, a new space $TM$, and a projection $\pi : TM \to M$ relating these spaces. The space $TM$ consisted of spaces $T_pM$ that we glued onto at a point $p$. This is the same as stating that $T_pM = \pi^{-1}(p)$ is the preimage (fiber) at the point $p$.
+Note that since the manifolds are loca&lt;/p&gt;
+&lt;h3 id=&#34;sphere-bundles&#34;&gt;Sphere bundles&lt;/h3&gt;
+&lt;h3 id=&#34;other-weird-things-to-glue-on&#34;&gt;Other weird things to glue on&lt;/h3&gt;
+&lt;h2 id=&#34;principal-g-bundles&#34;&gt;Principal $G$-bundles&lt;/h2&gt;
+&lt;h3 id=&#34;examples&#34;&gt;Examples!&lt;/h3&gt;
+&lt;h2 id=&#34;relation-between-principal-bundles-and-fibre-bundles&#34;&gt;Relation between principal bundles and fibre bundles?&lt;/h2&gt;
+&lt;h2 id=&#34;classification-by-grassmannians&#34;&gt;Classification by Grassmannians?&lt;/h2&gt;
+</description>
+        </item>
+        
+    </channel>
 </rss>
