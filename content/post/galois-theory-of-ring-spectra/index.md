@@ -22,7 +22,7 @@ math: true
 draft: false
 ---
 
-
+testline
 This short blog post is dedicated to Galois theory, as the image might indicate. 
 It is not about classical Galois theory, but rather Galois theory of commutetive ring spectra, based on the paper of [John Rognes](https://www.mn.uio.no/math/personer/vit/rognes/papers/galois.pdf), also found explained in the master thesis of [Alice Hedenlund](http://www.diva-portal.se/smash/get/diva2:919111/FULLTEXT01.pdf).
 It is merely meant as an introduction to the topic, and will therefore not investigate consequences too deeply. 
