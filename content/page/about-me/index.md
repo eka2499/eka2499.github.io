@@ -18,31 +18,32 @@ menu:
 ## Hey! Welcome to the blog!
 
 ### What is this blog for? 
-This website/blog was intially set up by the help of a friend of mine, Torgeir Aambø, who is doing a PhD in tensor-triangulated geometry and also runs a blog on mathematics. I recommend you to check it out. A link can be found on the [links]({{< ref "/page/links" >}} "Links") page.
+This website/blog was intially set up by the help of a friend of mine, Torgeir Aambø, who is doing a PhD on Chromatic stuff and also runs a blog on mathematics. I recommend you to check it out. A link can be found on the [links]({{< ref "/page/links" >}} "Links") page.
 
-The aim of the blog is to explore mathematics. For more information on what you can expect from the posts and the mathematical content, please see the initial post on the [home page]({{< ref "/" >}} "Home").
+The aim of the blog is to explore mathematics (and kinda serve as my personal webpage for math-related stuff). How often blog posts arrive, varies (a lot), and I'll assume my intentions of writing are stronger than my deliverances. 
 
 ### I'll tell you a bit about myself.
 
-My name is Elias. I studied mathematics at NTNU in Trondheim, and I finished my master's degree in 2023.
-My main interests are within algebraic topology and homotopy theory, but honestly I am interested in a lot of topics ranging from mathematical physics to spatial statistics to the homotopy theory of operator algebras.
+My name is Elias, and I am currently a PhD student in mathematics at the university of Oslo, supervised by Achim Krause.
 
-During my first years, I were mostly interested in operator algebras, and my passion for topology and algebra at the time drove me to write a bachelor thesis about 
+This blog was made when I studied mathematics at NTNU in Trondheim, where I finished my master's degree in 2023.
+My main interests are within algebraic topology and homotopy theory, but honestly I am interested in a lot of topics, and I'm always up to chat math. 
+
+Although I am mostly thinking about chromatic- and equivariant homotopy theory or algebraic $K$-theory, my main interests have not always been there.
+
+During my first years of studying math, I was mostly interested in operator algebras, and my passion for topology and algebra at the time drove me to write a bachelor thesis about 
 the operator K-theory and Morita theory of certain structures from time-frequency analysis called noncommutative tori. 
 This thesis was supervised by Franz Luef and can be found under the 'documents ' page [here]({{< ref "/page/documents" >}} "Documents").
 
-During my masters, I mostly focused on algebraic topology. I took courses and followed seminars on tensor-triangulated geometry, topological data analysis, infinity categories, differential forms, representation theory of finite groups, and even spatial statistics. Apart from coursework, I am mostly interested in chromatic homotopy theory, equivariant homotopy theory, as well as differential - and Hodge-filtered cohomology theories.
+During my masters, I mostly focused on algebraic topology. I took courses and followed seminars on tensor-triangulated geometry, topological data analysis, infinity categories, differential forms, representation theory of finite groups, and even spatial statistics. Apart from coursework, I was mostly interested in chromatic homotopy theory, equivariant homotopy theory, as well as differential - and Hodge-filtered cohomology theories.
 The latter was the topic of my master thesis, which can be found under the 'documents ' page [here]({{< ref "/page/documents" >}} "Documents").
 
-My master thesis was supervised by Gereon Quick "On Differential Cohomology and Geometric Hodge-filtered K-theory", and investigated exactly what the title says. It had two goals. The first was to showcase and give an overview of the field of differential cohomology, as there are many papers and great ideas out there, but relatively few textbooks or summarizing texts available. The second goal was to find a explicit geometric construction that satisified the axioms of a Hodge-filtered K-theory. This was done by utilising Multiplicative K-theory in the sense of Karoubi, and it provided an geometrically described example (which we postulate to be unique) of Hodge-filtered K-theory. 
+So, my master thesis was supervised by Gereon Quick "On Differential Cohomology and Geometric Hodge-filtered K-theory", and investigated exactly what the title says. It had two goals. The first was to showcase and give an overview of the field of differential cohomology, as there are many papers and great ideas out there, but relatively few textbooks or summarizing texts available. The second goal was to find a explicit geometric construction that satisified the axioms of a Hodge-filtered K-theory. This was done by utilising Multiplicative K-theory in the sense of Karoubi, and it provided an geometrically described example (which we postulate to be unique) of Hodge-filtered K-theory. 
 
-At the moment (2023/2024), I work as a Data Scientist in Oslo, and earlier I worked a lot at the university, both as a teaching assistant and as a student representative at the programme, institute and faculty level.
-If I am not doing anything "productive", I am usually bouldering, acting (earlier with Gløshaugen Revy- og Teaterlag), quizzing, running, or sailing (/working on) the best sailboat in the Trondheim area (or now in the Oslo area), which is a 34 foot Sweden Yatch C34 called "SY MARLEN".
+After my masters (2023/2024), I worked as a Data Scientist in Oslo for a time, before starting at the University of Oslo for my PhD.
+That brings us up to speed. As any working PhD-student, I am still confused about what I am doing, so the story ends here.
 
-
-
-
-
+And do I have a life outside of maths? Yes, I surely hope so. Earlier, I've enjoyed sailing along most of the Norwegian coast the last years and being in student-based theaters, while now I am mostly running and climbing, with an occasional pub-quiz interrupting my week. 
 
 
 <!-- COULD HAVE INCLUDED A CV HERE, BUT NAH
