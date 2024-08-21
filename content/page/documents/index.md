@@ -15,24 +15,13 @@ menu:
             icon: notebook
 math: true
 ---
-Here I include (some) stuff I have been writing. The probability is high that many things are forgotten!
+An arbitrary collection (only sporadically updated) of things I have written or talked about throughout the years.
 
 ## Write-ups and lecture notes
 | Title  | Remarks  | Link  |
 |--|--|--|
 | Equivariant $K$-theory and representation rings | Unfinished notes expanding on topics from the Bergen 2021 [talk](https://drive.google.com/file/d/1BeTJZbsee2I8fXUUh9Ugm0tAZRrONPTW/view?usp=sharing) | [Link](https://drive.google.com/file/d/117cQV8MW43susCcki_1LBLCA7MGWWeUd/view?usp=sharing)|
 
-## $\Delta t$ articles
-$\Delta t$ is the newspaper of the student association Delta, which is the association for students in mathematics and/or physics at NTNU. We mostly write in quite unformal articles in Norwegian, and hence most of the articles below are in Norwegian.
-
-| Title | Remarks | Link |
-|--|--|--|
-|En fot på innsiden - Et intervju med prorektor Berit Kjeldstad | Edition 25 - Joint with Michelle and Torgeir |[Link](https://drive.google.com/file/d/1Qf9LttkvLmDbQrUE5gr-nRFCEGY08HKl/view?usp=sharing)|
-|Kan MedKom tjene penger?|Edition 31 - Joint with Nora |[Link](https://drive.google.com/file/d/1ci7GnOiU0OGnmGFusghkrYDxOyhMkukd/view?usp=sharing)|
-|Hva vil det si å studere?|Fadderspesialen/Buddy Week Special 2020 - Joint with Mathias| [Link](https://drive.google.com/file/d/1TAk1K5J_kVFmnAMHnoIrqn4c6HKFd8L0/view?usp=sharing)|
-|Eit eksamensliv - $\Delta \text{poe}\psi$ (poem)|Edition 32 | [Link](https://drive.google.com/file/d/14QBT30CaywpYLfg4ae0-L5luA36eDez4/view?usp=sharing)|
-|Hva vil det si å studere?|Fadderspesialen/Buddy Week Special 2021 - Joint with Mathias (updated from 2020) | [Link](https://drive.google.com/file/d/1g1PdVtbzmFsNe4weuIi1Fc55Hv0cGm28/view?usp=sharing)|
-|Tensor som tensor|Edition 34|[Link](https://drive.google.com/file/d/147jefQdaTde6OR2OocHDFHyCOGcdcVpu/view?usp=sharing)|
 
 ## Academic theses
 
@@ -53,11 +42,26 @@ $\Delta t$ is the newspaper of the student association Delta, which is the assoc
 |Uni. of Bergen through a rep theory course at Uni. of Tromsø|Equivariant $K$-theory and representation rings - Joint with Anders, Erlend, Olai and Thomas|24.11.2021|[Link to slides](https://drive.google.com/file/d/1BeTJZbsee2I8fXUUh9Ugm0tAZRrONPTW/view?usp=sharing)|
 |[Master/PhD-seminar on $\infty$-categories](https://folk.ntnu.no/runegha/seminar.html)|Joyals lifting theorem, consequences and model structures on sSet |18.02.2022|[Link to shitty handwritten notes](https://drive.google.com/file/d/1iYs5sNWjlHCP9yWfX_bxyr4RgF7s_mc6/view?usp=sharing)|
 |[Master/PhD-seminar on $\infty$-categories](https://folk.ntnu.no/runegha/seminar.html)|Adjunctions and localizations - Joint with Thomas |11.03.2022|[Link to extremely shitty (unfinished) notes](https://drive.google.com/file/d/1CXGy-UpaRN9A5KEY4QDXax1G_QRnnUbG/view?usp=sharing)|
+|Course MA8107, NTNU | On InfoGram and fair machine learning (with Nora and Jonas) |Spring 2023|Slides probably exist, just ask|
+|Student seminar for master students, NTNU | Blending geometry and topology - A crash course in Differential Cohomology |Spring 2023|Slides probably exist, just ask|
+|Defence of master thesis, NTNU | On Differential Cohomology and Geometric Hodge-filtered $K$-theory |21.06.2023 | Slides exist somewhere, just ask |
 
 ## Other talks
 I have also held a number of different non-mathematical talks, but I do not have a complete list. The list of the coolest talks the last years would include motivational talks about studying mathematics at my local high school in 2019, hosting webinars on studying mathematics for high schoolers in 2020 and giving an "experience based" course on how to study mathematics at the 2021 entry week for new students.
 
 These include mathematical talks given to a non-mathematical audience, such as: 
-- A talk on topology given for Fagerlia/Ålesund Vgs in 2023.
+- A talk on "approaching algebraic topology" given for Fagerlia/Ålesund Vgs in 2023.
 - A talk on topological data analysis given at PwC Oslo in 2023. 
 
+
+## $\Delta t$ articles
+$\Delta t$ is the newspaper of the student association Delta, which is the association for students in mathematics and/or physics at NTNU. We mostly write in quite unformal articles in Norwegian, and hence most of the articles below are in Norwegian.
+
+| Title | Remarks | Link |
+|--|--|--|
+|En fot på innsiden - Et intervju med prorektor Berit Kjeldstad | Edition 25 - Joint with Michelle and Torgeir |[Link](https://drive.google.com/file/d/1Qf9LttkvLmDbQrUE5gr-nRFCEGY08HKl/view?usp=sharing)|
+|Kan MedKom tjene penger?|Edition 31 - Joint with Nora |[Link](https://drive.google.com/file/d/1ci7GnOiU0OGnmGFusghkrYDxOyhMkukd/view?usp=sharing)|
+|Hva vil det si å studere?|Fadderspesialen/Buddy Week Special 2020 - Joint with Mathias| [Link](https://drive.google.com/file/d/1TAk1K5J_kVFmnAMHnoIrqn4c6HKFd8L0/view?usp=sharing)|
+|Eit eksamensliv - $\Delta \text{poe}\psi$ (poem)|Edition 32 | [Link](https://drive.google.com/file/d/14QBT30CaywpYLfg4ae0-L5luA36eDez4/view?usp=sharing)|
+|Hva vil det si å studere?|Fadderspesialen/Buddy Week Special 2021 - Joint with Mathias (updated from 2020) | [Link](https://drive.google.com/file/d/1g1PdVtbzmFsNe4weuIi1Fc55Hv0cGm28/view?usp=sharing)|
+|Tensor som tensor|Edition 34|[Link](https://drive.google.com/file/d/147jefQdaTde6OR2OocHDFHyCOGcdcVpu/view?usp=sharing)|
