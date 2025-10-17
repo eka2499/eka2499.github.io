@@ -17,7 +17,7 @@ categories = [
 ]
 series = ["Differential Cohomology"]
 aliases = ["Differential Cohomology"]
-image = "images/charforms.png"
+#image = "images/charforms.png"
 math = true
 draft = false
 +++

@@ -199,9 +199,9 @@ menu:
           params:
             icon: linkedin
 
-        - identifier: researchgate
-          name: Researchgate
-          url: https://www.researchgate.net/profile/Elias-Angelsen-2
+        - identifier: UiO
+          name: University Webpage
+          url: https://www.mn.uio.no/math/english/people/aca/eliaskan/
           params:
             icon: flask2
 

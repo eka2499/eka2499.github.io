@@ -12,7 +12,7 @@
         <pubDate>Wed, 23 Feb 2022 00:00:00 +0000</pubDate>
         
         <guid>https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-ii/</guid>
-        <description>&lt;img src="https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-ii/images/Front_2.png" alt="Featured image of post Spectral sequences and multicomplexes - Part II" /&gt;&lt;p&gt;Welcome back! In the previous post, we took a brief look at spectral sequences and how we could get them from filtered complexes.
+        <description>&lt;p&gt;Welcome back! In the previous post, we took a brief look at spectral sequences and how we could get them from filtered complexes.
 In this post, we will sketch the main ideas in a proof of the convergence of the Leray-Serre (LS) spectral sequence using techiques from homotopy theory, explore spectral sequences through exact couples and compute an example.&lt;/p&gt;
 &lt;p&gt;Originally, I planned to spend more time understanding exact couples and head towards the Adams spectral sequence, but as my friend Torgeir recently wrote &lt;a class=&#34;link&#34; href=&#34;https://torgeiraamboe.github.io/posts/2022/the-adams-spectral-sequence/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;a great post&lt;/a&gt;
@@ -320,7 +320,7 @@ Time will tell!&lt;/p&gt;
         <pubDate>Thu, 03 Feb 2022 00:00:00 +0000</pubDate>
         
         <guid>https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-i/</guid>
-        <description>&lt;img src="https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqds2.png" alt="Featured image of post Spectral sequences and multicomplexes - Part I" /&gt;&lt;p&gt;A year ago, I took a course on algebraic topology at NTNU where we covered some homotopy theory, spectral sequences, bundle theory and characteristic classes.
+        <description>&lt;p&gt;A year ago, I took a course on algebraic topology at NTNU where we covered some homotopy theory, spectral sequences, bundle theory and characteristic classes.
 Most of the topics stuck with me, and I have been exploring them a bit after the course. The part on spectral sequences grew on me, and at the end of the course, that part fascinated me the most, as they give a puzzle-style way of computing homology and cohomology.
 Even though I realised that they were powerful tools, there were a lot of technicalities that I just &amp;ldquo;accepted&amp;rdquo; when it came to spectral sequences.
 I have not been using them, or even thinking about them, for a while now, and I thought it would be nice to &amp;ldquo;open the blackbox&amp;rdquo; to understand them properly.&lt;/p&gt;

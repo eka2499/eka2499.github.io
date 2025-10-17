@@ -17,7 +17,7 @@ categories = [
 ]
 series = ["Short series - Spectral sequences and multicomplexes"]
 aliases = ["Spectral sequences"]
-image = "images/3rdfront.jpg"
+#image = "images/3rdfront.jpg"
 math = true
 draft = false
 +++

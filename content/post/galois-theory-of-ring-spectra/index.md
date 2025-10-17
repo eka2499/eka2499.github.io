@@ -16,7 +16,7 @@ categories: [
 ]
 series: ["Brave-New-Rings"]
 aliases: ["splasher"]
-image: "Galois.jpeg"
+#image: "Galois.jpeg"
 toc: true
 math: true
 draft: false

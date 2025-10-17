@@ -12,7 +12,7 @@
         <pubDate>Sun, 21 Jan 2024 13:02:49 +0100</pubDate>
         
         <guid>https://eka2499.github.io/p/galois-theory-of-commutative-ring-spectra-an-introduction/</guid>
-        <description>&lt;img src="https://eka2499.github.io/p/galois-theory-of-commutative-ring-spectra-an-introduction/Galois.jpeg" alt="Featured image of post Galois Theory of Commutative Ring Spectra: An introduction" /&gt;&lt;p&gt;This short blog post is dedicated to Galois theory, as the image might indicate.
+        <description>&lt;p&gt;This short blog post is dedicated to Galois theory, as the image might indicate.
 It is not about classical Galois theory, but rather Galois theory of commutetive ring spectra, based on the paper of &lt;a class=&#34;link&#34; href=&#34;https://www.mn.uio.no/math/personer/vit/rognes/papers/galois.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;John Rognes&lt;/a&gt;, also found explained in the master thesis of &lt;a class=&#34;link&#34; href=&#34;http://www.diva-portal.se/smash/get/diva2:919111/FULLTEXT01.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Alice Hedenlund&lt;/a&gt;.
@@ -157,7 +157,7 @@ These topics definitely deserve their own blog posts, whenever I finish reading 
         <pubDate>Tue, 13 Dec 2022 00:00:00 +0000</pubDate>
         
         <guid>https://eka2499.github.io/p/secondary-characteristic-classes/</guid>
-        <description>&lt;img src="https://eka2499.github.io/p/secondary-characteristic-classes/images/charforms.png" alt="Featured image of post Secondary characteristic classes" /&gt;&lt;p&gt;The last semester I have been thinking very little about this blog. The reason is that I had not developed any &amp;ldquo;writing habits&amp;rdquo;, and as I started on my master thesis this semester, there have been plenty of topics to learn about. Of course, I made this blog as a tool of learning, as explaining difficult topics forces me to learn them myself, but as the learning has been more about getting an overview, I have not prioritized writing a lot. Now I have some articles I want to understand, and as I miss explaining things a bit unformally, I am reviving the blog (at least for one post)!&lt;/p&gt;
+        <description>&lt;p&gt;The last semester I have been thinking very little about this blog. The reason is that I had not developed any &amp;ldquo;writing habits&amp;rdquo;, and as I started on my master thesis this semester, there have been plenty of topics to learn about. Of course, I made this blog as a tool of learning, as explaining difficult topics forces me to learn them myself, but as the learning has been more about getting an overview, I have not prioritized writing a lot. Now I have some articles I want to understand, and as I miss explaining things a bit unformally, I am reviving the blog (at least for one post)!&lt;/p&gt;
 &lt;p&gt;This post we will meet an interesting topic, namely secondary geometric invariants, which explain some of the geometric information lost in the topological invariants called characteristic classes.
 We will loosely base this blog post on the article &lt;a class=&#34;link&#34; href=&#34;https://math.mit.edu/juvitop/pastseminars/notes_2019_Fall/Chern-Simons.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;characteristic forms and geometric invariants&lt;/a&gt; by Chern and Simons.
@@ -479,7 +479,7 @@ $$&lt;/p&gt;
         <pubDate>Tue, 05 Apr 2022 00:00:00 +0000</pubDate>
         
         <guid>https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-iii/</guid>
-        <description>&lt;img src="https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-iii/images/3rdfront.jpg" alt="Featured image of post Spectral sequences and multicomplexes - Part III" /&gt;&lt;p&gt;As promised when we started the series on spectral sequences and multicomplexes, we aimed at understanding the main results of a master thesis.
+        <description>&lt;p&gt;As promised when we started the series on spectral sequences and multicomplexes, we aimed at understanding the main results of a master thesis.
 Finally, I&amp;rsquo;ve had the time to finish this post. I enjoyed writing it quite a lot, but I have been busy with other things, such as acting for &lt;a class=&#34;link&#34; href=&#34;https://www.facebook.com/realfagsrevyen&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Realfagsrevyen&lt;/a&gt; and doing project work for other courses. Now that these things are more-or-less out of the way (for now), I finally managed to finish this post.
 This is the final post in this short series on spectral sequences and multicomplexes, and in this post, we are trying to understand my friend &lt;a class=&#34;link&#34; href=&#34;https://fagkom.github.io/posts/gardaa-odin-hoff-2/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -716,7 +716,7 @@ This may result in more frequent posting here on the blog, as I crave to write a
         <pubDate>Wed, 23 Feb 2022 00:00:00 +0000</pubDate>
         
         <guid>https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-ii/</guid>
-        <description>&lt;img src="https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-ii/images/Front_2.png" alt="Featured image of post Spectral sequences and multicomplexes - Part II" /&gt;&lt;p&gt;Welcome back! In the previous post, we took a brief look at spectral sequences and how we could get them from filtered complexes.
+        <description>&lt;p&gt;Welcome back! In the previous post, we took a brief look at spectral sequences and how we could get them from filtered complexes.
 In this post, we will sketch the main ideas in a proof of the convergence of the Leray-Serre (LS) spectral sequence using techiques from homotopy theory, explore spectral sequences through exact couples and compute an example.&lt;/p&gt;
 &lt;p&gt;Originally, I planned to spend more time understanding exact couples and head towards the Adams spectral sequence, but as my friend Torgeir recently wrote &lt;a class=&#34;link&#34; href=&#34;https://torgeiraamboe.github.io/posts/2022/the-adams-spectral-sequence/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;a great post&lt;/a&gt;
@@ -1024,7 +1024,7 @@ Time will tell!&lt;/p&gt;
         <pubDate>Thu, 03 Feb 2022 00:00:00 +0000</pubDate>
         
         <guid>https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-i/</guid>
-        <description>&lt;img src="https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqds2.png" alt="Featured image of post Spectral sequences and multicomplexes - Part I" /&gt;&lt;p&gt;A year ago, I took a course on algebraic topology at NTNU where we covered some homotopy theory, spectral sequences, bundle theory and characteristic classes.
+        <description>&lt;p&gt;A year ago, I took a course on algebraic topology at NTNU where we covered some homotopy theory, spectral sequences, bundle theory and characteristic classes.
 Most of the topics stuck with me, and I have been exploring them a bit after the course. The part on spectral sequences grew on me, and at the end of the course, that part fascinated me the most, as they give a puzzle-style way of computing homology and cohomology.
 Even though I realised that they were powerful tools, there were a lot of technicalities that I just &amp;ldquo;accepted&amp;rdquo; when it came to spectral sequences.
 I have not been using them, or even thinking about them, for a while now, and I thought it would be nice to &amp;ldquo;open the blackbox&amp;rdquo; to understand them properly.&lt;/p&gt;
@@ -1359,9 +1359,11 @@ For now, let&amp;rsquo;s part ways with some links to the other interesting thin
         <pubDate>Tue, 25 Jan 2022 00:00:00 +0000</pubDate>
         
         <guid>https://eka2499.github.io/about-me/</guid>
-        <description>&lt;h2 id=&#34;hey-welcome-to-the-blog&#34;&gt;Hey! Welcome to the blog!&lt;/h2&gt;
-&lt;h3 id=&#34;what-is-this-blog-for&#34;&gt;What is this blog for?&lt;/h3&gt;
-&lt;p&gt;This website/blog was intially set up by the help of a friend of mine, Torgeir Aambø, who is doing a PhD on Chromatic stuff and also runs a blog on mathematics. I recommend you to check it out. A link can be found on the &lt;a class=&#34;link&#34; href=&#34;https://eka2499.github.io/links/&#34;  title=&#34;Links&#34;
+        <description>&lt;h2 id=&#34;welcome&#34;&gt;Welcome!&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;If you are after more &amp;ldquo;professional&amp;rdquo; information about me, such as univeristy info, teaching, further conference or research visits, take a look at &lt;a class=&#34;link&#34; href=&#34;https://www.mn.uio.no/math/english/people/aca/eliaskan/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;my university webpage.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;what-is-this-website-for&#34;&gt;What is this website for?&lt;/h3&gt;
+&lt;p&gt;This website/blog was intially set up by the help of a friend of mine, Torgeir Aambø, who just finished his PhD on Chromatic stuff and also runs a blog on mathematics. I recommend you to check it out. A link can be found on the &lt;a class=&#34;link&#34; href=&#34;https://eka2499.github.io/links/&#34;  title=&#34;Links&#34;
     &gt;links&lt;/a&gt; page.&lt;/p&gt;
 &lt;p&gt;The aim of the blog is to explore mathematics (and kinda serve as my personal webpage for math-related stuff). How often blog posts arrive, varies (a lot), and I&amp;rsquo;ll assume my intentions of writing are stronger than my deliverances.&lt;/p&gt;
 &lt;h3 id=&#34;ill-tell-you-a-bit-about-myself&#34;&gt;I&amp;rsquo;ll tell you a bit about myself.&lt;/h3&gt;
@@ -1378,8 +1380,8 @@ The latter was the topic of my master thesis, which can be found under the &amp;
     &gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;So, my master thesis was supervised by Gereon Quick &amp;ldquo;On Differential Cohomology and Geometric Hodge-filtered K-theory&amp;rdquo;, and investigated exactly what the title says. It had two goals. The first was to showcase and give an overview of the field of differential cohomology, as there are many papers and great ideas out there, but relatively few textbooks or summarizing texts available. The second goal was to find a explicit geometric construction that satisified the axioms of a Hodge-filtered K-theory. This was done by utilising Multiplicative K-theory in the sense of Karoubi, and it provided an geometrically described example (which we postulate to be unique) of Hodge-filtered K-theory.&lt;/p&gt;
 &lt;p&gt;After my masters (2023/2024), I worked as a Data Scientist in Oslo for a time, before starting at the University of Oslo for my PhD.
-That brings us up to speed. As any working PhD-student, I am still confused about what I am doing, so the story ends here.&lt;/p&gt;
-&lt;p&gt;And do I have a life outside of maths? Yes, I surely hope so. Earlier, I&amp;rsquo;ve enjoyed sailing along most of the Norwegian coast the last years and being in student-based theaters, while now I am mostly running and climbing, with an occasional pub-quiz interrupting my week.&lt;/p&gt;
+That brings us up to speed. At the moment I am working on algebraic K-theory and homotopy theory. The goal of my PhD-thesis could possibly be summarized as &amp;ldquo;trying to approach the algebraic K-theory of certain integral group rings, where the group is an elementary abelian p-group, through tensor-triangulated geometry&amp;rdquo;. However, as any working PhD-student, I am still confused about what I am doing, so the story ends here.&lt;/p&gt;
+&lt;p&gt;And do I have a life outside of maths? Yes, I surely hope so. Earlier, I&amp;rsquo;ve enjoyed sailing along most of the Norwegian coast the last years and being in student-based theaters, while now I am mostly running and climbing, with an occasional pub-quiz (or other things) interrupting my week.&lt;/p&gt;
 &lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;
 </description>
@@ -1399,25 +1401,181 @@ That brings us up to speed. As any working PhD-student, I am still confused abou
         
         <guid>https://eka2499.github.io/documents/</guid>
         <description>&lt;p&gt;An arbitrary collection (only sporadically updated) of things I have written or talked about throughout the years.&lt;/p&gt;
-&lt;h2 id=&#34;write-ups-and-lecture-notes&#34;&gt;Write-ups and lecture notes&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;WARNING: Often when I write maths, it is for my own sake, and sometimes &amp;ldquo;just on vibes&amp;rdquo;. So therefore, notes from writeups or from talks I&amp;rsquo;ve held WILL contain a lot of erros!&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;talks-about-mathematics&#34;&gt;Talks about mathematics&lt;/h2&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
-&lt;th&gt;Title&lt;/th&gt;
-&lt;th&gt;Remarks&lt;/th&gt;
-&lt;th&gt;Link&lt;/th&gt;
+&lt;th&gt;Where&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;th&gt;When&lt;/th&gt;
+&lt;th&gt;Extra&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td&gt;Equivariant $K$-theory and representation rings&lt;/td&gt;
-&lt;td&gt;Unfinished notes expanding on topics from the Bergen 2021 &lt;a class=&#34;link&#34; href=&#34;https://drive.google.com/file/d/1BeTJZbsee2I8fXUUh9Ugm0tAZRrONPTW/view?usp=sharing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;talk&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://drive.google.com/file/d/117cQV8MW43susCcki_1LBLCA7MGWWeUd/view?usp=sharing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Link&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Topology seminar, UiO&lt;/td&gt;
+&lt;td&gt;Algebras over $\infty$-operads&lt;/td&gt;
+&lt;td&gt;17.10.2026&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://drive.google.com/file/d/1L758QZWD6q2J8kGye-YZuD4CQmLieGfQ/view?usp=sharing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Link to my shitty notes&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;EAST 2025, Utrecht&lt;/td&gt;
+&lt;td&gt;$K(\mathbb{Z}[C_p^{\times k}])$ - A GongShow-talk&lt;/td&gt;
+&lt;td&gt;17.09.2025&lt;/td&gt;
+&lt;td&gt;No notes, it is a GongShow&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;EAST 2025, Utrecht&lt;/td&gt;
+&lt;td&gt;Stable $\infty$-categories and spectra&lt;/td&gt;
+&lt;td&gt;16.09.2025&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://drive.google.com/file/d/1KN5JN8A0dpHHpjeNMyaD8dlayrz5G9kE/view?usp=sharing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Link to my shitty notes&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Étale reading seminar, UiO&lt;/td&gt;
+&lt;td&gt;Homological Algebra and Sheaf Cohomology&lt;/td&gt;
+&lt;td&gt;09.09.2025&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://drive.google.com/file/d/1AoWQ0sRd0DRwnBhtbfjdBtI5Dkyl5k47/view?usp=sharing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Link to my shitty notes&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;UiO&lt;/td&gt;
+&lt;td&gt;$K(\mathbb{Z}[C_p^{\times k}])$ - A GongShow-talk&lt;/td&gt;
+&lt;td&gt;06.06.2025&lt;/td&gt;
+&lt;td&gt;No notes, it is a GongShow&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.newton.ac.uk/event/eht/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;EHT&lt;/a&gt;, Isaac Newton Institute, Cambridge&lt;/td&gt;
+&lt;td&gt;$K(\mathbb{Z}[C_p^{\times k}])$ - A GongShow-talk&lt;/td&gt;
+&lt;td&gt;08.05.2025&lt;/td&gt;
+&lt;td&gt;No notes, it is a GongShow&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Topology seminar, UiO&lt;/td&gt;
+&lt;td&gt;$K$-Theory and localizing invariants&lt;/td&gt;
+&lt;td&gt;11.04.2025&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://drive.google.com/file/d/1cGjJmPmEKlq0HS_lRKRp4-xt4ODpD32l/view?usp=sharing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Link to my shitty notes&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Topology seminar, UiO&lt;/td&gt;
+&lt;td&gt;$K$-Theory and $\infty$-categories&lt;/td&gt;
+&lt;td&gt;04.04.2025&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://drive.google.com/file/d/1BWtUwEBEQ8hYmujDd9OuH2Pc6rGSRjh9/view?usp=sharing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Link to my shitty notes&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Matematikk fra unge forskere ved Matematisk Fagutvalg, UiO&lt;/td&gt;
+&lt;td&gt;Niklas and the picture - Hanging pictures with homotopy theory&lt;/td&gt;
+&lt;td&gt;27.03.2025&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://docs.google.com/presentation/d/1PcyUw2PvpvhyBzPbuqw0KE73A_7IuDNxlwC7b1k84yo/edit?usp=sharing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Link to my shitty drawings/slides&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Topology seminar, UiO&lt;/td&gt;
+&lt;td&gt;Rational homotopy theory through examples&lt;/td&gt;
+&lt;td&gt;28.02.2025&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://drive.google.com/file/d/1m4xq6t50cFZVNV8MvE8CkgpbfmSUpL84/view?usp=sharing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Link to my shitty notes&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;What is&amp;hellip; seminar, UiO&lt;/td&gt;
+&lt;td&gt;Dobble and projective geometry&lt;/td&gt;
+&lt;td&gt;04.12.2024&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://docs.google.com/presentation/d/1fWD1FoDE3prIpszw8lKUKOv6WZ0eALH7ojboXkqxwNo/edit?usp=sharing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Link to my shitty slides&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Topology seminar, UiO&lt;/td&gt;
+&lt;td&gt;Differential Cohomology and (Geometric) Hodge-filtered $K$-Theory&lt;/td&gt;
+&lt;td&gt;04.11.2025&lt;/td&gt;
+&lt;td&gt;Slides exist somewhere, just ask&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Defence of master thesis, NTNU&lt;/td&gt;
+&lt;td&gt;On Differential Cohomology and Geometric Hodge-filtered $K$-theory&lt;/td&gt;
+&lt;td&gt;21.06.2023&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://drive.google.com/file/d/1PAhsS7Vv4S0mvObfyYbOhAnRZJcZitrU/view?usp=sharing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Slides&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Student seminar for master students, NTNU&lt;/td&gt;
+&lt;td&gt;Blending geometry and topology - A crash course in Differential Cohomology&lt;/td&gt;
+&lt;td&gt;Spring 2023&lt;/td&gt;
+&lt;td&gt;Slides probably exist, just ask&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Course MA8107, NTNU&lt;/td&gt;
+&lt;td&gt;On InfoGram and fair machine learning (with Nora and Jonas)&lt;/td&gt;
+&lt;td&gt;Spring 2023&lt;/td&gt;
+&lt;td&gt;Slides probably exist, just ask&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://folk.ntnu.no/runegha/seminar.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Master/PhD-seminar on $\infty$-categories&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Adjunctions and localizations - Joint with Thomas&lt;/td&gt;
+&lt;td&gt;11.03.2022&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://drive.google.com/file/d/1CXGy-UpaRN9A5KEY4QDXax1G_QRnnUbG/view?usp=sharing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Link to extremely shitty (unfinished) notes&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://folk.ntnu.no/runegha/seminar.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Master/PhD-seminar on $\infty$-categories&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Joyals lifting theorem, consequences and model structures on sSet&lt;/td&gt;
+&lt;td&gt;18.02.2022&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://drive.google.com/file/d/1iYs5sNWjlHCP9yWfX_bxyr4RgF7s_mc6/view?usp=sharing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Link to shitty handwritten notes&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Uni. of Bergen through a rep theory course at Uni. of Tromsø&lt;/td&gt;
+&lt;td&gt;Equivariant $K$-theory and representation rings - Joint with Anders, Erlend, Olai and Thomas&lt;/td&gt;
+&lt;td&gt;24.11.2021&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://drive.google.com/file/d/1BeTJZbsee2I8fXUUh9Ugm0tAZRrONPTW/view?usp=sharing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Link to slides&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://wiki.math.ntnu.no/ma3001/2021h/tda/start&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Master seminar on topological data analysis&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Persistent cohomology and circular parameterisation&lt;/td&gt;
+&lt;td&gt;20.10.2021&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://drive.google.com/file/d/1D3kZb1VEz3ceih1cBODSmlEl2EU_COa5/view?usp=sharing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Link to shitty handwritten notes&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://wiki.math.ntnu.no/ma3001/2021h/ttg/start&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Master/PhD-seminar on tensor-triangulated geometry&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;On the classification of tensor-triangulated ideals&lt;/td&gt;
+&lt;td&gt;24.09.2021&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://drive.google.com/file/d/1gW7770jIVcdsUgZJRkAFFs4srygaiHig/view?usp=sharing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Link to shitty handwritten notes&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;NTNU&lt;/td&gt;
+&lt;td&gt;Presentation of bachelor thesis&lt;/td&gt;
+&lt;td&gt;04.06.2021&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://drive.google.com/file/d/13SZ47KYI06hO3U1xckEreqX1eAlwZbvj/view?usp=sharing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Link to slides&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://folk.ntnu.no/torgeaam/speaking/student-seminar-2021/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Student seminar 2021&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Presentatation of my unfinished bachelor thesis at the end of a master thesis presentation seminar&lt;/td&gt;
+&lt;td&gt;21.04.2021&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://drive.google.com/file/d/1SvGab_Dnc_XDoFzaRTwB11z08MUjgzja/view?usp=sharing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Link (slides may be shitty)&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;h2 id=&#34;other-talks&#34;&gt;Other talks&lt;/h2&gt;
+&lt;p&gt;I have also held a number of different non-mathematical talks, but I do not have a complete list. The list of the coolest talks the last years would include motivational talks about studying mathematics at my local high school in 2019, hosting webinars on studying mathematics for high schoolers in 2020 and giving an &amp;ldquo;experience based&amp;rdquo; course on how to study mathematics at the 2021 entry week for new students.&lt;/p&gt;
+&lt;p&gt;These include mathematical talks given to a non-mathematical audience, such as:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A talk on &amp;ldquo;approaching algebraic topology&amp;rdquo; given for Fagerlia/Ålesund Vgs in 2023.&lt;/li&gt;
+&lt;li&gt;A talk on topological data analysis given at PwC Oslo in 2023.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;academic-theses&#34;&gt;Academic theses&lt;/h2&gt;
 &lt;table&gt;
 &lt;thead&gt;
@@ -1442,98 +1600,31 @@ That brings us up to speed. As any working PhD-student, I am still confused abou
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h2 id=&#34;talks-about-mathematics&#34;&gt;Talks about mathematics&lt;/h2&gt;
+&lt;h2 id=&#34;write-ups-and-lecture-notes&#34;&gt;Write-ups and lecture notes&lt;/h2&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
-&lt;th&gt;Where&lt;/th&gt;
-&lt;th&gt;Description&lt;/th&gt;
-&lt;th&gt;When&lt;/th&gt;
-&lt;th&gt;Extra&lt;/th&gt;
+&lt;th&gt;Title&lt;/th&gt;
+&lt;th&gt;Remarks&lt;/th&gt;
+&lt;th&gt;Link&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://folk.ntnu.no/torgeaam/speaking/student-seminar-2021/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Student seminar 2021&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;Presentatation of my unfinished bachelor thesis at the end of a master thesis presentation seminar&lt;/td&gt;
-&lt;td&gt;21.04.2021&lt;/td&gt;
-&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://drive.google.com/file/d/1SvGab_Dnc_XDoFzaRTwB11z08MUjgzja/view?usp=sharing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Link (slides may be shitty)&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;The 24 days of mathematical lemmaricks&lt;/td&gt;
+&lt;td&gt;A lemmarick christmas calendar (math poems) I wrote for UiO in 2024. Compiled by Adélia Bernard-Patel.&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://drive.google.com/file/d/13vnWUHWk_u6iGQby5jh5-AifqCN-wNvN/view?usp=sharing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Link&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;NTNU&lt;/td&gt;
-&lt;td&gt;Presentation of bachelor thesis&lt;/td&gt;
-&lt;td&gt;04.06.2021&lt;/td&gt;
-&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://drive.google.com/file/d/13SZ47KYI06hO3U1xckEreqX1eAlwZbvj/view?usp=sharing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Link to slides&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://wiki.math.ntnu.no/ma3001/2021h/ttg/start&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Master/PhD-seminar on tensor-triangulated geometry&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;On the classification of tensor-triangulated ideals&lt;/td&gt;
-&lt;td&gt;24.09.2021&lt;/td&gt;
-&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://drive.google.com/file/d/1gW7770jIVcdsUgZJRkAFFs4srygaiHig/view?usp=sharing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Link to shitty handwritten notes&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://wiki.math.ntnu.no/ma3001/2021h/tda/start&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Master seminar on topological data analysis&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;Persistent cohomology and circular parameterisation&lt;/td&gt;
-&lt;td&gt;20.10.2021&lt;/td&gt;
-&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://drive.google.com/file/d/1D3kZb1VEz3ceih1cBODSmlEl2EU_COa5/view?usp=sharing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Link to shitty handwritten notes&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Uni. of Bergen through a rep theory course at Uni. of Tromsø&lt;/td&gt;
-&lt;td&gt;Equivariant $K$-theory and representation rings - Joint with Anders, Erlend, Olai and Thomas&lt;/td&gt;
-&lt;td&gt;24.11.2021&lt;/td&gt;
-&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://drive.google.com/file/d/1BeTJZbsee2I8fXUUh9Ugm0tAZRrONPTW/view?usp=sharing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Link to slides&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://folk.ntnu.no/runegha/seminar.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Master/PhD-seminar on $\infty$-categories&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;Joyals lifting theorem, consequences and model structures on sSet&lt;/td&gt;
-&lt;td&gt;18.02.2022&lt;/td&gt;
-&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://drive.google.com/file/d/1iYs5sNWjlHCP9yWfX_bxyr4RgF7s_mc6/view?usp=sharing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Link to shitty handwritten notes&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://folk.ntnu.no/runegha/seminar.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Master/PhD-seminar on $\infty$-categories&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;Adjunctions and localizations - Joint with Thomas&lt;/td&gt;
-&lt;td&gt;11.03.2022&lt;/td&gt;
-&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://drive.google.com/file/d/1CXGy-UpaRN9A5KEY4QDXax1G_QRnnUbG/view?usp=sharing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Link to extremely shitty (unfinished) notes&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Course MA8107, NTNU&lt;/td&gt;
-&lt;td&gt;On InfoGram and fair machine learning (with Nora and Jonas)&lt;/td&gt;
-&lt;td&gt;Spring 2023&lt;/td&gt;
-&lt;td&gt;Slides probably exist, just ask&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Student seminar for master students, NTNU&lt;/td&gt;
-&lt;td&gt;Blending geometry and topology - A crash course in Differential Cohomology&lt;/td&gt;
-&lt;td&gt;Spring 2023&lt;/td&gt;
-&lt;td&gt;Slides probably exist, just ask&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Defence of master thesis, NTNU&lt;/td&gt;
-&lt;td&gt;On Differential Cohomology and Geometric Hodge-filtered $K$-theory&lt;/td&gt;
-&lt;td&gt;21.06.2023&lt;/td&gt;
-&lt;td&gt;Slides exist somewhere, just ask&lt;/td&gt;
+&lt;td&gt;Equivariant $K$-theory and representation rings&lt;/td&gt;
+&lt;td&gt;Extremely unfinished notes expanding on topics from the Bergen 2021 &lt;a class=&#34;link&#34; href=&#34;https://drive.google.com/file/d/1BeTJZbsee2I8fXUUh9Ugm0tAZRrONPTW/view?usp=sharing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;talk&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://drive.google.com/file/d/117cQV8MW43susCcki_1LBLCA7MGWWeUd/view?usp=sharing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Link&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h2 id=&#34;other-talks&#34;&gt;Other talks&lt;/h2&gt;
-&lt;p&gt;I have also held a number of different non-mathematical talks, but I do not have a complete list. The list of the coolest talks the last years would include motivational talks about studying mathematics at my local high school in 2019, hosting webinars on studying mathematics for high schoolers in 2020 and giving an &amp;ldquo;experience based&amp;rdquo; course on how to study mathematics at the 2021 entry week for new students.&lt;/p&gt;
-&lt;p&gt;These include mathematical talks given to a non-mathematical audience, such as:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;A talk on &amp;ldquo;approaching algebraic topology&amp;rdquo; given for Fagerlia/Ålesund Vgs in 2023.&lt;/li&gt;
-&lt;li&gt;A talk on topological data analysis given at PwC Oslo in 2023.&lt;/li&gt;
-&lt;/ul&gt;
 &lt;h2 id=&#34;delta-t-articles&#34;&gt;$\Delta t$ articles&lt;/h2&gt;
 &lt;p&gt;$\Delta t$ is the newspaper of the student association Delta, which is the association for students in mathematics and/or physics at NTNU. We mostly write in quite unformal articles in Norwegian, and hence most of the articles below are in Norwegian.&lt;/p&gt;
 &lt;table&gt;
@@ -1546,21 +1637,15 @@ That brings us up to speed. As any working PhD-student, I am still confused abou
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td&gt;En fot på innsiden - Et intervju med prorektor Berit Kjeldstad&lt;/td&gt;
-&lt;td&gt;Edition 25 - Joint with Michelle and Torgeir&lt;/td&gt;
-&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://drive.google.com/file/d/1Qf9LttkvLmDbQrUE5gr-nRFCEGY08HKl/view?usp=sharing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Link&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Kan MedKom tjene penger?&lt;/td&gt;
-&lt;td&gt;Edition 31 - Joint with Nora&lt;/td&gt;
-&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://drive.google.com/file/d/1ci7GnOiU0OGnmGFusghkrYDxOyhMkukd/view?usp=sharing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;td&gt;Tensor som tensor&lt;/td&gt;
+&lt;td&gt;Edition 34&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://drive.google.com/file/d/147jefQdaTde6OR2OocHDFHyCOGcdcVpu/view?usp=sharing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Link&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Hva vil det si å studere?&lt;/td&gt;
-&lt;td&gt;Fadderspesialen/Buddy Week Special 2020 - Joint with Mathias&lt;/td&gt;
-&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://drive.google.com/file/d/1TAk1K5J_kVFmnAMHnoIrqn4c6HKFd8L0/view?usp=sharing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;td&gt;Fadderspesialen/Buddy Week Special 2021 - Joint with Mathias (updated from 2020)&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://drive.google.com/file/d/1g1PdVtbzmFsNe4weuIi1Fc55Hv0cGm28/view?usp=sharing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Link&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -1571,14 +1656,20 @@ That brings us up to speed. As any working PhD-student, I am still confused abou
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Hva vil det si å studere?&lt;/td&gt;
-&lt;td&gt;Fadderspesialen/Buddy Week Special 2021 - Joint with Mathias (updated from 2020)&lt;/td&gt;
-&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://drive.google.com/file/d/1g1PdVtbzmFsNe4weuIi1Fc55Hv0cGm28/view?usp=sharing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;td&gt;Fadderspesialen/Buddy Week Special 2020 - Joint with Mathias&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://drive.google.com/file/d/1TAk1K5J_kVFmnAMHnoIrqn4c6HKFd8L0/view?usp=sharing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Link&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;Tensor som tensor&lt;/td&gt;
-&lt;td&gt;Edition 34&lt;/td&gt;
-&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://drive.google.com/file/d/147jefQdaTde6OR2OocHDFHyCOGcdcVpu/view?usp=sharing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;td&gt;Kan MedKom tjene penger?&lt;/td&gt;
+&lt;td&gt;Edition 31 - Joint with Nora&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://drive.google.com/file/d/1ci7GnOiU0OGnmGFusghkrYDxOyhMkukd/view?usp=sharing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Link&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;En fot på innsiden - Et intervju med prorektor Berit Kjeldstad&lt;/td&gt;
+&lt;td&gt;Edition 25 - Joint with Michelle and Torgeir&lt;/td&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://drive.google.com/file/d/1Qf9LttkvLmDbQrUE5gr-nRFCEGY08HKl/view?usp=sharing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Link&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
@@ -1592,6 +1683,7 @@ That brings us up to speed. As any working PhD-student, I am still confused abou
         
         <guid>https://eka2499.github.io/links/</guid>
         <description>&lt;p&gt;[THIS PAGE IS UNDER CONSTRUCTION]&lt;/p&gt;
+&lt;p&gt;[Edit: This page has been under construction for multiple years, and I don&amp;rsquo;t expect that to change.]&lt;/p&gt;
 </description>
         </item>
         <item>

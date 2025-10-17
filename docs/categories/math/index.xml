@@ -12,7 +12,7 @@
         <pubDate>Sun, 21 Jan 2024 13:02:49 +0100</pubDate>
         
         <guid>https://eka2499.github.io/p/galois-theory-of-commutative-ring-spectra-an-introduction/</guid>
-        <description>&lt;img src="https://eka2499.github.io/p/galois-theory-of-commutative-ring-spectra-an-introduction/Galois.jpeg" alt="Featured image of post Galois Theory of Commutative Ring Spectra: An introduction" /&gt;&lt;p&gt;This short blog post is dedicated to Galois theory, as the image might indicate.
+        <description>&lt;p&gt;This short blog post is dedicated to Galois theory, as the image might indicate.
 It is not about classical Galois theory, but rather Galois theory of commutetive ring spectra, based on the paper of &lt;a class=&#34;link&#34; href=&#34;https://www.mn.uio.no/math/personer/vit/rognes/papers/galois.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;John Rognes&lt;/a&gt;, also found explained in the master thesis of &lt;a class=&#34;link&#34; href=&#34;http://www.diva-portal.se/smash/get/diva2:919111/FULLTEXT01.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Alice Hedenlund&lt;/a&gt;.
@@ -157,7 +157,7 @@ These topics definitely deserve their own blog posts, whenever I finish reading 
         <pubDate>Tue, 13 Dec 2022 00:00:00 +0000</pubDate>
         
         <guid>https://eka2499.github.io/p/secondary-characteristic-classes/</guid>
-        <description>&lt;img src="https://eka2499.github.io/p/secondary-characteristic-classes/images/charforms.png" alt="Featured image of post Secondary characteristic classes" /&gt;&lt;p&gt;The last semester I have been thinking very little about this blog. The reason is that I had not developed any &amp;ldquo;writing habits&amp;rdquo;, and as I started on my master thesis this semester, there have been plenty of topics to learn about. Of course, I made this blog as a tool of learning, as explaining difficult topics forces me to learn them myself, but as the learning has been more about getting an overview, I have not prioritized writing a lot. Now I have some articles I want to understand, and as I miss explaining things a bit unformally, I am reviving the blog (at least for one post)!&lt;/p&gt;
+        <description>&lt;p&gt;The last semester I have been thinking very little about this blog. The reason is that I had not developed any &amp;ldquo;writing habits&amp;rdquo;, and as I started on my master thesis this semester, there have been plenty of topics to learn about. Of course, I made this blog as a tool of learning, as explaining difficult topics forces me to learn them myself, but as the learning has been more about getting an overview, I have not prioritized writing a lot. Now I have some articles I want to understand, and as I miss explaining things a bit unformally, I am reviving the blog (at least for one post)!&lt;/p&gt;
 &lt;p&gt;This post we will meet an interesting topic, namely secondary geometric invariants, which explain some of the geometric information lost in the topological invariants called characteristic classes.
 We will loosely base this blog post on the article &lt;a class=&#34;link&#34; href=&#34;https://math.mit.edu/juvitop/pastseminars/notes_2019_Fall/Chern-Simons.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;characteristic forms and geometric invariants&lt;/a&gt; by Chern and Simons.
@@ -479,7 +479,7 @@ $$&lt;/p&gt;
         <pubDate>Tue, 05 Apr 2022 00:00:00 +0000</pubDate>
         
         <guid>https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-iii/</guid>
-        <description>&lt;img src="https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-iii/images/3rdfront.jpg" alt="Featured image of post Spectral sequences and multicomplexes - Part III" /&gt;&lt;p&gt;As promised when we started the series on spectral sequences and multicomplexes, we aimed at understanding the main results of a master thesis.
+        <description>&lt;p&gt;As promised when we started the series on spectral sequences and multicomplexes, we aimed at understanding the main results of a master thesis.
 Finally, I&amp;rsquo;ve had the time to finish this post. I enjoyed writing it quite a lot, but I have been busy with other things, such as acting for &lt;a class=&#34;link&#34; href=&#34;https://www.facebook.com/realfagsrevyen&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Realfagsrevyen&lt;/a&gt; and doing project work for other courses. Now that these things are more-or-less out of the way (for now), I finally managed to finish this post.
 This is the final post in this short series on spectral sequences and multicomplexes, and in this post, we are trying to understand my friend &lt;a class=&#34;link&#34; href=&#34;https://fagkom.github.io/posts/gardaa-odin-hoff-2/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -716,7 +716,7 @@ This may result in more frequent posting here on the blog, as I crave to write a
         <pubDate>Wed, 23 Feb 2022 00:00:00 +0000</pubDate>
         
         <guid>https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-ii/</guid>
-        <description>&lt;img src="https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-ii/images/Front_2.png" alt="Featured image of post Spectral sequences and multicomplexes - Part II" /&gt;&lt;p&gt;Welcome back! In the previous post, we took a brief look at spectral sequences and how we could get them from filtered complexes.
+        <description>&lt;p&gt;Welcome back! In the previous post, we took a brief look at spectral sequences and how we could get them from filtered complexes.
 In this post, we will sketch the main ideas in a proof of the convergence of the Leray-Serre (LS) spectral sequence using techiques from homotopy theory, explore spectral sequences through exact couples and compute an example.&lt;/p&gt;
 &lt;p&gt;Originally, I planned to spend more time understanding exact couples and head towards the Adams spectral sequence, but as my friend Torgeir recently wrote &lt;a class=&#34;link&#34; href=&#34;https://torgeiraamboe.github.io/posts/2022/the-adams-spectral-sequence/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;a great post&lt;/a&gt;
@@ -1024,7 +1024,7 @@ Time will tell!&lt;/p&gt;
         <pubDate>Thu, 03 Feb 2022 00:00:00 +0000</pubDate>
         
         <guid>https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-i/</guid>
-        <description>&lt;img src="https://eka2499.github.io/p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqds2.png" alt="Featured image of post Spectral sequences and multicomplexes - Part I" /&gt;&lt;p&gt;A year ago, I took a course on algebraic topology at NTNU where we covered some homotopy theory, spectral sequences, bundle theory and characteristic classes.
+        <description>&lt;p&gt;A year ago, I took a course on algebraic topology at NTNU where we covered some homotopy theory, spectral sequences, bundle theory and characteristic classes.
 Most of the topics stuck with me, and I have been exploring them a bit after the course. The part on spectral sequences grew on me, and at the end of the course, that part fascinated me the most, as they give a puzzle-style way of computing homology and cohomology.
 Even though I realised that they were powerful tools, there were a lot of technicalities that I just &amp;ldquo;accepted&amp;rdquo; when it came to spectral sequences.
 I have not been using them, or even thinking about them, for a while now, and I thought it would be nice to &amp;ldquo;open the blackbox&amp;rdquo; to understand them properly.&lt;/p&gt;

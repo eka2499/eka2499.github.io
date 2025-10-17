@@ -1,6 +1,6 @@
 ---
 title: About me
-description: A small overview of who I am!
+description: Who am I?
 date: '2022-01-25'
 aliases:
   - about-us
@@ -15,10 +15,12 @@ menu:
             icon: user
 ---
 
-## Hey! Welcome to the blog!
+## Welcome!
 
-### What is this blog for? 
-This website/blog was intially set up by the help of a friend of mine, Torgeir Aambø, who is doing a PhD on Chromatic stuff and also runs a blog on mathematics. I recommend you to check it out. A link can be found on the [links]({{< ref "/page/links" >}} "Links") page.
+**If you are after more "professional" information about me, such as univeristy info, teaching, further conference or research visits, take a look at [my university webpage.](https://www.mn.uio.no/math/english/people/aca/eliaskan/)**
+
+### What is this website for?
+This website/blog was intially set up by the help of a friend of mine, Torgeir Aambø, who just finished his PhD on Chromatic stuff and also runs a blog on mathematics. I recommend you to check it out. A link can be found on the [links]({{< ref "/page/links" >}} "Links") page.
 
 The aim of the blog is to explore mathematics (and kinda serve as my personal webpage for math-related stuff). How often blog posts arrive, varies (a lot), and I'll assume my intentions of writing are stronger than my deliverances. 
 
@@ -41,9 +43,9 @@ The latter was the topic of my master thesis, which can be found under the 'docu
 So, my master thesis was supervised by Gereon Quick "On Differential Cohomology and Geometric Hodge-filtered K-theory", and investigated exactly what the title says. It had two goals. The first was to showcase and give an overview of the field of differential cohomology, as there are many papers and great ideas out there, but relatively few textbooks or summarizing texts available. The second goal was to find a explicit geometric construction that satisified the axioms of a Hodge-filtered K-theory. This was done by utilising Multiplicative K-theory in the sense of Karoubi, and it provided an geometrically described example (which we postulate to be unique) of Hodge-filtered K-theory. 
 
 After my masters (2023/2024), I worked as a Data Scientist in Oslo for a time, before starting at the University of Oslo for my PhD.
-That brings us up to speed. As any working PhD-student, I am still confused about what I am doing, so the story ends here.
+That brings us up to speed. At the moment I am working on algebraic K-theory and homotopy theory. The goal of my PhD-thesis could possibly be summarized as "trying to approach the algebraic K-theory of certain integral group rings, where the group is an elementary abelian p-group, through tensor-triangulated geometry". However, as any working PhD-student, I am still confused about what I am doing, so the story ends here.
 
-And do I have a life outside of maths? Yes, I surely hope so. Earlier, I've enjoyed sailing along most of the Norwegian coast the last years and being in student-based theaters, while now I am mostly running and climbing, with an occasional pub-quiz interrupting my week. 
+And do I have a life outside of maths? Yes, I surely hope so. Earlier, I've enjoyed sailing along most of the Norwegian coast the last years and being in student-based theaters, while now I am mostly running and climbing, with an occasional pub-quiz (or other things) interrupting my week. 
 
 
 <!-- COULD HAVE INCLUDED A CV HERE, BUT NAH
