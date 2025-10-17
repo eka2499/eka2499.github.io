@@ -46,7 +46,7 @@ params:
             local: true
             src: img/elias.jpg
     article:
-        math: false
+        math: true
         toc: true
         readingTime: true
         license:
@@ -136,12 +136,14 @@ params:
             - search
             - archives
             - tag-cloud
+            - toc
 
         archives:
             limit: 5
 
         tagCloud:
             limit: 10
+
 
     opengraph:
         twitter:
@@ -222,6 +224,6 @@ markup:
     tableOfContents:
         endLevel: 4
         ordered: true
-        startLevel: 2
+        startLevel: 1
     highlight:
         noClasses: false

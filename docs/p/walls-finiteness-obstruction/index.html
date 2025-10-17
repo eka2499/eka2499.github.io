@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Algebraic K-theory is a big thing. We try to motivate why it is a natural thing to study, and why a topologist should care.'>
+<title>Wall&#39;s finiteness obstruction</title>
+
+<link rel='canonical' href='http://localhost:1313/p/walls-finiteness-obstruction/'>
+
+<link rel="stylesheet" href="/scss/style.min.d8118f156935b64eca93aca758476adca858d2c47354971654d9bd2933a0e45f.css"><meta property='og:title' content='Wall&#39;s finiteness obstruction'>
+<meta property='og:description' content='Algebraic K-theory is a big thing. We try to motivate why it is a natural thing to study, and why a topologist should care.'>
+<meta property='og:url' content='http://localhost:1313/p/walls-finiteness-obstruction/'>
+<meta property='og:site_name' content='Exploring mathematics'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Algebraic Topology' /><meta property='article:tag' content='Algebraic K-theory' /><meta property='article:tag' content='Wall&#39;s finiteness obstruction' /><meta property='article:tag' content='Whitehead groups' /><meta property='article:tag' content='Mathematics' /><meta property='article:published_time' content='2024-10-24T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-10-24T00:00:00&#43;00:00'/><meta property='og:image' content='http://localhost:1313/p/walls-finiteness-obstruction/images/Wall-finiteness.png' />
+<meta name="twitter:title" content="Wall&#39;s finiteness obstruction">
+<meta name="twitter:description" content="Algebraic K-theory is a big thing. We try to motivate why it is a natural thing to study, and why a topologist should care."><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='http://localhost:1313/p/walls-finiteness-obstruction/images/Wall-finiteness.png' />
+  
+    
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-5JMXYLWVLG"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-5JMXYLWVLG');
+        }
+      </script>
+    
+  
+
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/elias_hub0d9435e8577a337feea68e993245839_12071_300x0_resize_q75_box.jpg" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">🍥</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Exploring mathematics</a></h1>
+            <h2 class="site-description">Elias Klakken Angelsen</h2>
+        </div>
+    </header><ol class="social-menu">
+            
+                <li>
+                    <a 
+                        href='https://github.com/eka2499'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://www.linkedin.com/in/elias-klakken-angelsen-196675152/'
+                        target="_blank"
+                        title="Linkedin"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <rect x="4" y="4" width="16" height="16" rx="2" />
+  <line x1="8" y1="11" x2="8" y2="16" />
+  <line x1="8" y1="8" x2="8" y2="8.01" />
+  <line x1="12" y1="16" x2="12" y2="11" />
+  <path d="M16 16v-3a2 2 0 0 0 -4 0" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://www.researchgate.net/profile/Elias-Angelsen-2'
+                        target="_blank"
+                        title="Researchgate"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-flask-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M6.1 15h11.8" />
+  <path d="M14 3v7.342a6.002 6.002 0 0 1 1.318 10.658h-6.635a6.002 6.002 0 0 1 1.317 -10.66v-7.34h4z" />
+  <path d="M9 3h6" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/about-me/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About me</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/documents/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-notebook" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M6 4h11a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-11a1 1 0 0 1 -1 -1v-14a1 1 0 0 1 1 -1m3 0v18" />
+  <line x1="13" y1="8" x2="15" y2="8" />
+  <line x1="13" y1="12" x2="15" y2="12" />
+</svg>
+
+
+
+                
+                <span>Documents</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/links/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>Links</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>Dark Mode</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/p/walls-finiteness-obstruction/">
+                <img src="/p/walls-finiteness-obstruction/images/Wall-finiteness_hu8a8262248716e2115330c929e153e46f_201347_800x0_resize_box_3.png"
+                        srcset="/p/walls-finiteness-obstruction/images/Wall-finiteness_hu8a8262248716e2115330c929e153e46f_201347_800x0_resize_box_3.png 800w, /p/walls-finiteness-obstruction/images/Wall-finiteness_hu8a8262248716e2115330c929e153e46f_201347_1600x0_resize_box_3.png 1600w"
+                        width="800" 
+                        height="533" 
+                        loading="lazy"
+                        alt="Featured image of post Wall&#39;s finiteness obstruction" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/algebraic-k-theory/" >
+                Algebraic K-Theory
+            </a>
+        
+            <a href="/categories/math/" >
+                Math
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/walls-finiteness-obstruction/">Wall&#39;s finiteness obstruction</a>
+        </h2>
+    
+        
+        <h3 class="article-subtitle">
+            Algebraic K-theory is a big thing. We try to motivate why it is a natural thing to study, and why a topologist should care.
+        </h3>
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Oct 24, 2024</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    10 minute read
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p>For a long time, I have been interested in $K$-theory. I am no expert, and I have not really been focusing on &ldquo;learning all the hands-on K-theory there is&rdquo;. However, I think bundles are cool, and $K$-theory has been a recurring theme throughout my mathematical journey.</p>
+<p>For example, I read (and did not understand) some notes on topological $K$-theory in my second year, and when I wrote a bachelors thesis on $C^*$-algebras and non-commutative tori, it showed up as a topological tool, which is surprisingly useful in the world of operator algebras. During my master years, I was getting interested in stable and chromatic homotopy theory, and when I wrote my master thesis on differential- and Hodge-filtered cohomology theories, $K$-theory followed me to give cool examples of beautiful maths and ideas.</p>
+<p>Whether it was topological $K$-theory, operator $K$-theory, Karoubis Multiplicative $K$-theory, or even Morava $K$-theory, I felt $K$-theory was something I &ldquo;knew something about&rdquo;. However, algebraic $K$-theory is a beast I never dared to learn more about. Why? Well, it is immensly difficult to compute, all the &ldquo;basic theory&rdquo; (of $K_0, K_1, K_2$, for example) can become quite technical and algebraic, as well as extremely messy (yes, I am looking at you, $K_2$). I mean, operator and topological $K$-theory can also be hard, but then you only need to deal with two things, $K_0$ and $K_1$, due to Bott periodicity, which is not possible for algebraic $K$-theory.</p>
+<p>However, something has changed (probably starting a PhD, lol), and I just embarked on learning Algebraic $K$-theory.
+I will try to skim through some constructions, as well as some motivation in this blogpost.</p>
+<h1 id="the-serre-swan-theorem-and-k_0-theory">The Serre-Swan theorem and $K_0$-theory</h1>
+<p>One of the most beautiful theorems in math, at least in my opinion, is the Serre-Swan theorem.</p>
+<p><strong>Theorem: (Serre-Swan)</strong>
+Let $X$ be a compact Hausdorff space, and $C(X)$ the ring of continuous $\mathbb{R}$-valued functions.
+The globals sections functor $\Gamma: \operatorname{VBun}(X) \to \operatorname{fgproj}(C(X))$ from the category of vector bundles on $X$ to the category of finitely generated modules over $C(X)$ is an equivalence of categories.</p>
+<p>I mean, this theorem is amazing. It gives a bridge between geometry and topology, allowing us to define topological versions of $K$-theory on one side, and algebraic versions of $K$-theory on the other. Note for example that the objects $C(X)$ are precisely the <em>commutative</em> $C^* $-algebras. For an arbitrary $C^*$-algebra $A$, one can think of the category $\operatorname{fgproj}(A)$ as &ldquo;noncommutative vector bundles on $A$&rdquo;. This is precisely the idea that lets us define operator $K$-theory as well.</p>
+<p>One reasonable question however, is &ldquo;why finitely generated and projective&rdquo;?
+Intuitively, finitely generated comes from the fact that we work with finitely dimensional vector bundles, so the &ldquo;bases&rdquo; correspond to &ldquo;generators&rdquo;. The projective part is maybe more interesting.
+Over nice spaces, one can show that if $F \to X$ is a sub-bundle of $E \to X$, then $F$ is a direct summand in $E$. By certain lemmas, we can realize that all bundles $F$ are summands in the trivial bundles. This is a fact on the topological side of the Serre-Swan theorem. On the algebraic side, this amounts to bundles giving modules which are summands in free modules. Those are precisely the projectives.</p>
+<p>Anyways, let&rsquo;s get back to algebraic $K$-theory. Studying isomorphism classes of finitely projective modules only gives us a monoid under direct sum. If we want an abelian group, we have to group complete.</p>
+<p><strong>Definition: $K_0(R)$</strong></p>
+<p>Let $R$ be a ring and $\mathbf{P}(R)$ denote the monoid of isomorphism classes of finitely generated projective $R$-modules.
+Then we define the $K$-theory of $R$ as the group completion $K_0(R) = \mathbf{P}(R)^{grp}$.
+This is contravariantly functorial as a map $R \to S$ lets us define a $R$-module from an $S$-module, giving a map $K_0(S) \to K_0(R)$.</p>
+<p>It should be noted that we can define $K_0$ of not only rings, but other objects as well.
+For symmetric monoidal categories, this is essentally the same construction as above.
+$K$-theory of abelian (and more generally exact) categories amount to defining $K_0(\mathcal{A})$ to be the free abelian group on objects of $\mathcal{A}$ subject to the relations that $[A] = [A&rsquo;]+[A&rsquo;&rsquo;]$ if there exists a short exact sequences
+$$0 \to A&rsquo; \to A \to A&rsquo;&rsquo; \to 0.$$</p>
+<p>One can of course ask if we can take $K_0(Mod R)$ for some $R$, but there are size-issues regarding this. If we try, we will just obtain $K_0(Mod R) = 0$, by the Eilenberg Swindle. However, in nice situations (if R is noetherian, for example), we can consider the category of finitely generated modules, which under group completion yields what we call $G_0$-theory.
+If the ring $R$ is also regular, then $K_0(R) = G_0(R)$.</p>
+<h1 id="walls-finiteness-obstruction">Wall&rsquo;s finiteness obstruction</h1>
+<p>We will not try to write a textbook on $K$-theory here, but rather explore some interesting facts.
+To do that, let us first ask the following question:
+If $M$ is a nice space, say a compact manifold, does $M$ have the homotopy type of a finite CW-complex?</p>
+<p>In special cases, we can answer this question immediately. For example, if $M$ is smooth, it can be triangulated, and thus it is even homeomorphic to a finite CW-complex. In the general case, it is hard. We know that $M$ has the homotopy type of a CW-complex (call it $X$), so it is sufficient to figure out if $X$ has the homotopy type of a <em>finite</em> CW-complex.
+We do not a priori know any finiteness conditions, but we may hope that some information about this homotopical question can be found in the homotopy groups of $X$.</p>
+<p>In general, for a group $G$, we can consider the group ring $\mathbb{Z}[G]$. By the augmentation map, defined by sending all of $G$ to $1$, we get a surjective map $\varepsilon: \mathbb{Z}[G] \to \mathbb{Z}$, which splits as $\mathbb{Z}$ is a projective abelian group. On $K$-theory, we can consider the quotient of $K_0(\mathbb{Z}[G])$ by $K_0(\mathbb{Z}) = \mathbb{Z}$. This defines the zeroth Whitehead group, $Wh_0(G)$.
+If we apply this to $G = \pi_1(X)$ for some CW-complex $X$ as above, then we can, with some extra assumption, obtain an obstruction to $X$ being homotopy equivalent to a finite CW-complex!</p>
+<p><strong>Definition: (Finitely dominated CW-complexes)</strong></p>
+<p>A CW-complex $X$ is <em>dominated</em> by a CW-complex $K$ if $X$ is a retract of $K$.
+That is, there are maps
+$$X \to K \to X$$ that compose to the identity on $X$ (up to homotopy).
+We say $X$ is <em>finitely dominated</em> if there exist a finite CW-complex $K$ such that $X$ is dominated by $K$.</p>
+<p>Since finitely dominated complexes are retracts of the finite CW-complexes, we can note that the finitely dominated complexes correspond precisely to the compact objects in the $\infty$-category of spaces.</p>
+<p><strong>Theorem: (Wall&rsquo;s finiteness obstruction)</strong></p>
+<p>Assume a CW-complex $X$ is finitely dominated. Then, there exists an element $w(X) \in Wh_0(\pi_1(G))$ such that
+$w(X) = 0$ if and only if $X$ is homotopy equivalent to a finite CW-complex.</p>
+<p>Just the existence of it can be used to give a new class of spaces that have the homotopy type of a finite CW-complex.</p>
+<p><strong>Corollary:</strong>
+Let $X$ be a finitely dominated space which is simply connected. Then $X$ has the homotopy type of a finite CW-complex.</p>
+<p><em>Proof:</em>
+This boils down to
+$$w(X) \in Wh_0(\pi_1(X)) = Wh_0(pt) = K_0(\mathbb{Z}[pt])/K_0(\mathbb{Z}) = 0.$$</p>
+<h2 id="characterizing-finitely-dominated-spaces">Characterizing finitely dominated spaces</h2>
+<p>All the examples of fintely dominated spaces I can come up with on the spot, will certainly be finite CW-complexes, so I&rsquo;m tempted to ask how &ldquo;non-trivial&rdquo; $w(-)$ really is.
+This requires a better understanding of what finitely dominated spaces really are.</p>
+<p>Recall that a sheaf $\mathcal{L}$ of abelian groups is a local system of abelian groups if it is locally constant. That is, if each point has an open neighborhood $U$ such that $\mathcal{L}|_U$ is isomorphic to a sheafification of a constant presheaf. Sheaf cohomology yields a way to take cohomology with coefficients in a local system.
+The reason we care is the following theorem.</p>
+<p><strong>Theorem: (Representations of fundamental groups and local systems)</strong></p>
+<p>For a connected $X$, the category of representations of $\pi_1(X,x_0)$ is equivalent to the category of local systems on $X$.
+This is independent of basepoint for connected $X$, and can be extended to non-connected $X$ by the above equivalence on extended components.</p>
+<p>This gives us a way to characterize finitely dominated spaces.</p>
+<p><strong>Theorem: (Characterization of finitely dominated spaces)</strong></p>
+<p>A space $X$ is finitely dominated if and only if the following conditions hold:</p>
+<ol>
+<li>
+<p>$\pi_0(X)$ is a finite set.</p>
+</li>
+<li>
+<p>$\pi_1(X,x)$ is a finitely presented group for each $x \in X$.</p>
+</li>
+<li>
+<p>For each $x \in X$, let $X_x^o$ denote the path component of $x$, let $V$ be a representation of $\pi_1(X,x)$ (which corresponds to a local system). The assignment $V \mapsto H^k(X^o; V)$ commutes with filtered directed colimits.</p>
+</li>
+<li>
+<p>With the setup above, there exist an integer $n$ such that for any representation $V$ of $\pi_1(X,x)$, $H^k(X^o; V) = 0$ for $k &gt; n$.
+In this case, we say $X$ has homotopy dimension $\leq n$.</p>
+</li>
+</ol>
+<h2 id="the-image-of-w--in-wh_0pi_1x">The image of $w(-)$ in $Wh_0(\pi_1(X))$</h2>
+<p>We return to the question of understanding $w(X)$.
+That is, if we are given a group $G$ and a class $[P]$ in $Wh_0(G) = K_0(\mathbb{Z}[G])/K_0(\mathbb{Z})$, can we find a finitely dominated CW-complex $X$ such that $G = \pi_1(X)$ and $w(X) = [P]$? In particular, are there fintely dominated CW-complexes that are <em>not</em> finite CW-complexes?</p>
+<p>If $G$ is a finitely presented group, we can always build a finite (2-dimensional) CW-complex $X_0$ such that $G = \pi_1(X_0)$ using the generators of $G$ to determine $1$-cells and relations of $G$ to determine the $2$-cells of $X_0$.</p>
+<p>Let the class $[P]$ be represented by a finitely generated projective module $P$. Then $P$ is a retract of a free module, as it is projective. That is, $P$ is the image of an idempotent map $e: \mathbb{Z}[G]^r \to \mathbb{Z}[G]^r$.</p>
+<p>To pass this to spaces, note that
+$$\mathbb{Z}[G]^r = \bigoplus_r H_2(S^2;\mathbb{Z}[G]) = H_2(\bigvee_r S^2;\mathbb{Z}[G]) = H_2(\bigvee_r S^2) \otimes \mathbb{Z}[G] \oplus (\text{some Tor that vanishes as } H_1(S^2)=0).$$
+By the Hurewicz theorem, $H_2(S^2) = \pi_2(S^2) = [S^2, S^2]$.
+That is, we can realize the map $e$ as a wedge sum of maps, where each wedge summand is of the form
+$[S^2, S^2] \to [S^2, S^2].$ By the Yoneda lemma, this is essentially $ [ -, S^2] (S^2) = [S^2, S^2]$, which means that each summand of $e$ comes from a map $S^2 \to S^2$.</p>
+<p>Thus, we can see that the idempotent map $e$ must be induced from a map of spaces
+$$\varepsilon: \bigvee_r S^2 \to \bigvee_r S^2,$$
+which must idempotent in the homotopy category by functoriality of $H_2$, if it is supposed to induce an idempotent.</p>
+<p>Intuitively, the image of $\varepsilon$ will essentially yield the space that should have $P$ as homology. However, it is not a CW-complex always? But in htopycat, so ???</p>
+<h4 id="todo-show-lurie-remark-23-that-all-for-g-finitely-presented-all-of-wh_0zg-arises-as-wx-for-some-x">Todo Show (Lurie remark 23) that all for G finitely presented, all of Wh_0(ZG) arises as w(X) for some X.</h4>
+<h2 id="making-wx-more-explicit">Making $w(X)$ more explicit</h2>
+<p>Given some cohomological bound on $X$, which is automatic for finitely dominated spaces, then we can explicitly define $w(X)$ in terms of computable pieces.</p>
+<h4 id="explain-an-idea-for-computing-it">Explain an idea for computing it</h4>
+<p>We obtain the following explicit way to view $w(X)$.</p>
+<p><strong>Theorem: (Explicit formula for $w(X)$)</strong></p>
+<p>Let $X$ be a finitely dominated space, and make the following choices:</p>
+<ul>
+<li>Choose an integer $n \geq 2$ such that $X$ has homotopy dimension $\leq n$.</li>
+<li>Choose a CW-complex $Z$ of dimension $&lt;n$.</li>
+<li>Choose a $(n-1)$-connected map $f: Z \to X$.</li>
+</ul>
+<p>Then, $H_n(X,Z; \mathbb{Z}[G])$ is a finitely generated projective $\mathbb{Z}[G]$-module, and $w(X)$ is the class
+$$w(X) = (-1)^n [H_n(X,Z; \mathbb{Z}[G])] \in Wh_0(\mathbb{Z}[G]).$$</p>
+<h4 id="todo-and-what-is-this-rep-cohom-wrt-uct">TODO and what is this rep-cohom wrt. UCT?</h4>
+<h4 id="todo-do-an-explicit-computation-with-this-formula">TODO do an explicit computation with this formula</h4>
+<p><img src="/images/splasher.jpg"
+	
+	
+	
+	loading="lazy"
+	
+		alt="The subtitle?"
+	
+	
+>
+<em>text</em>
+<a class="link" href="https://www.youtube.com/watch?v=OnvQggy3Ezw"  target="_blank" rel="noopener"
+    >this amazing video</a> on freediving!</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/algebraic-topology/">Algebraic Topology</a>
+        
+            <a href="/tags/algebraic-k-theory/">Algebraic K-Theory</a>
+        
+            <a href="/tags/walls-finiteness-obstruction/">Wall&#39;s Finiteness Obstruction</a>
+        
+            <a href="/tags/whitehead-groups/">Whitehead Groups</a>
+        
+            <a href="/tags/mathematics/">Mathematics</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+        <link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI&#43;WdtXRGWt2kTvGFasHpSy3SV"crossorigin="anonymous"
+            ><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG&#43;vnGctmUb0ZY0l8"crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"integrity="sha384-&#43;VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4&#43;/RRE05"crossorigin="anonymous"
+                defer
+                >
+            </script><script>
+    window.addEventListener("DOMContentLoaded", () => {
+        renderMathInElement(document.querySelector(`.article-content`), {
+            delimiters: [
+                { left: "$$", right: "$$", display: true },
+                { left: "$", right: "$", display: false },
+                { left: "\\(", right: "\\)", display: false },
+                { left: "\\[", right: "\\]", display: true }
+            ],
+            ignoredClasses: ["gist"]
+        });})
+</script>
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">Related content</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/p/galois-theory-of-commutative-ring-spectra-an-introduction/">
+        
+        
+            <div class="article-image">
+                <img src="/p/galois-theory-of-commutative-ring-spectra-an-introduction/Galois.770fbeb34ce8e8064c43037aaf63e46e_hud6aa9aeba2ae4511d4595b5bdc9f0fdd_68071_250x150_fill_q75_box_smart1.jpeg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post Galois Theory of Commutative Ring Spectra: An introduction"
+                        
+                        data-hash="md5-dw&#43;&#43;s0zo6AZMQwN6r2Pkbg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Galois Theory of Commutative Ring Spectra: An introduction</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/secondary-characteristic-classes/">
+        
+        
+            <div class="article-image">
+                <img src="/p/secondary-characteristic-classes/images/charforms.edb9a8a8c905937285d55340258c3007_hu38b9b51e48b1191b37474c6957d0d89a_107088_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post Secondary characteristic classes"
+                        
+                        data-hash="md5-7bmoqMkFk3KF1VNAJYwwBw==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Secondary characteristic classes</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/spectral-sequences-and-multicomplexes-part-iii/">
+        
+        
+            <div class="article-image">
+                <img src="/p/spectral-sequences-and-multicomplexes-part-iii/images/3rdfront.6cc9413b292959880535bc3461df1c42_hue1a36dd821dc897a813d246233c6aea3_148869_250x150_fill_q75_box_smart1.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post Spectral sequences and multicomplexes - Part III"
+                        
+                        data-hash="md5-bMlBOykpWYgFNbw0Yd8cQg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Spectral sequences and multicomplexes - Part III</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/spectral-sequences-and-multicomplexes-part-ii/">
+        
+        
+            <div class="article-image">
+                <img src="/p/spectral-sequences-and-multicomplexes-part-ii/images/Front_2.fc51d6db4ddeb55b3a66979e31950cdb_hud147fe321169f5a988bfa760efd4dec0_61727_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post Spectral sequences and multicomplexes - Part II"
+                        
+                        data-hash="md5-/FHW203etVs6ZpeeMZUM2w==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Spectral sequences and multicomplexes - Part II</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/spectral-sequences-and-multicomplexes-part-i/">
+        
+        
+            <div class="article-image">
+                <img src="/p/spectral-sequences-and-multicomplexes-part-i/images/SpecSeqds2.db73e2d226bb1bc51e88a9454a030e32_hue1e88880d5dd7b5523c442f095bb6ed2_263012_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post Spectral sequences and multicomplexes - Part I"
+                        
+                        data-hash="md5-23Pi0ia7G8UeiKlFSgMOMg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Spectral sequences and multicomplexes - Part I</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2020 - 
+        
+        2024 Exploring mathematics
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.24.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
