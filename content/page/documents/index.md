@@ -23,6 +23,7 @@ An arbitrary collection (only sporadically updated) of things I have written or 
 ## Talks about mathematics
 | Where | Description | When  | Extra |
 |--|--|--|--|
+|Topology seminar, UiO| Tensor-triangulated geometry: An introduction |27.02.2026 | Notes might exist somewhere |
 |Topology seminar, UiO| Algebras over $\infty$-operads |17.10.2026 | [Link to my shitty notes](https://drive.google.com/file/d/1L758QZWD6q2J8kGye-YZuD4CQmLieGfQ/view?usp=sharing)|
 |EAST 2025, Utrecht| $K(\mathbb{Z}[C_p^{\times k}])$ - A GongShow-talk | 17.09.2025 | No notes, it is a GongShow|
 |EAST 2025, Utrecht| Stable $\infty$-categories and spectra |16.09.2025 | [Link to my shitty notes](https://drive.google.com/file/d/1KN5JN8A0dpHHpjeNMyaD8dlayrz5G9kE/view?usp=sharing)|
